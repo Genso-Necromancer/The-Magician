@@ -1,0 +1,164 @@
+//Magician On-Crit Effect
+effect: .name "Magician On-Crit" .target "performer" .chance 100% .duration 2 .buff_ids "magician_AP_Buff_2" .on_hit true .on_miss false .queue true .apply_once true
+
+
+//Stardust Reverie
+//SR Speed buff
+//effect: .name "Sonic Broom 1" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add 3 .on_hit true .on_miss true .queue true .apply_once true .has_description true
+//effect: .name "Sonic Broom 2" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add 3 .on_hit true .on_miss true .queue true .apply_once true .has_description true
+//effect: .name "Sonic Broom 3" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add 4 .on_hit true .on_miss true .queue true .apply_once true .has_description true
+//effect: .name "Sonic Broom 4" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add 4 .on_hit true .on_miss true .queue true .apply_once true .has_description true
+//effect: .name "Sonic Broom 5" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add 5 .on_hit true .on_miss true .queue true .apply_once true .has_description true
+
+//Power Gathering
+//TTs
+effect: .name "MG FA TT" .target "performer" .skill_instant true .buff_ids "mg_free_action_tooltip" .on_hit true
+effect: .name "MG AD TT" .target "performer" .skill_instant true .buff_ids "mg_actor_dot_tooltip" .on_hit true
+//Actor buff
+effect: .name "MG Gather Power 1" .target "performer" .chance 100% .actor_dot mg_blank1 .on_hit true .on_miss false
+//Buff From Kill
+effect: .name "MG Power Buff 1" .target "performer" .chance 100% .duration -1 .buff_ids "magician_gather_DMGH_1" "magician_gather_DMGL_1" .buff_source_type bsrc_item .buff_is_clear_debuff_valid true  .on_hit true .on_miss true .apply_once true .queue false .has_description true
+//Initial Buff
+effect: .name "MG PoG Buff 1" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "magician_AP_Buff_1" "magician_ACC_Buff_1" "magician_SPD_Debuff_3" "magician_DODGE_DeBuff_1" .on_hit true .on_miss false .queue false .has_description true
+effect: .name "MG PoG Buff 2" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "magician_AP_Buff_2" "magician_ACC_Buff_2" "magician_SPD_Debuff_3" "magician_DODGE_DeBuff_1" .on_hit true .on_miss false .queue false .has_description true
+effect: .name "MG PoG Buff 3" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "magician_AP_Buff_3" "magician_ACC_Buff_3" "magician_SPD_Debuff_3" "magician_DODGE_DeBuff_1" .on_hit true .on_miss false .queue false .has_description true
+effect: .name "MG PoG Buff 4" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "magician_AP_Buff_4" "magician_ACC_Buff_4" "magician_SPD_Debuff_3" "magician_DODGE_DeBuff_1" .on_hit true .on_miss false .queue false .has_description true
+effect: .name "MG PoG Buff 5" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "magician_AP_Buff_5" "magician_ACC_Buff_5" "magician_SPD_Debuff_3" "magician_DODGE_DeBuff_1" .on_hit true .on_miss false .queue false .has_description true
+
+//Magic Missle
+//MM Mark Buff
+effect: .name "Missile Mark 1"	.target "performer" .chance 100%	 .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 20%	.damage_high_multiply 20%	.on_hit true .on_miss false
+effect: .name "Missile Mark 2"	.target "performer" .chance 100%	 .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 25%	.damage_high_multiply 25%	.on_hit true .on_miss false
+effect: .name "Missile Mark 3"	.target "performer" .chance 100%	 .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 30%	.damage_high_multiply 30%	.on_hit true .on_miss false
+effect: .name "Missile Mark 4"	.target "performer" .chance 100%	 .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 35%	.damage_high_multiply 35%	.on_hit true .on_miss false
+effect: .name "Missile Mark 5"	.target "performer" .chance 100%	 .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 40%	.damage_high_multiply 40%	.on_hit true .on_miss false
+
+//Illusion Laser
+//Urn Buff "magician_ETERNAL_laserbuffL"
+effect: .name "Laser Urn Buff" .target "performer"  .chance 100% .skill_instant true  .buff_ids "magician_ETERNAL_laserbuffH" "magician_ETERNAL_laserbuffL" .on_hit true .on_miss false .can_apply_on_death false .has_description false
+
+//Ecological Bomb
+//Shuffle
+effect: .name "Eco Shuffle 1" .target "target" .shuffletarget	.chance 100% .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+effect: .name "Eco Shuffle 2" .target "target" .shuffletarget	.chance 110% .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+effect: .name "Eco Shuffle 3" .target "target" .shuffletarget	.chance 120% .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+effect: .name "Eco Shuffle 4" .target "target" .shuffletarget	.chance 130% .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+effect: .name "Eco Shuffle 5" .target "target" .shuffletarget	.chance 140% .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+
+//Blight
+effect: .name "Eco Toxin 1" .target "target"  .chance 100%  .dotPoison 2 .duration 3 .buff_ids "MG_blight_debuff_12"	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Eco Toxin 2" .target "target"  .chance 110%  .dotPoison 2 .duration 3 .buff_ids "MG_blight_debuff_12"	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Eco Toxin 3" .target "target"  .chance 120%  .dotPoison 3 .duration 3 .buff_ids "MG_blight_debuff_34"	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Eco Toxin 4" .target "target"  .chance 130%  .dotPoison 3 .duration 3 .buff_ids "MG_blight_debuff_34"	.on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "Eco Toxin 5" .target "target"  .chance 140%  .dotPoison 4 .duration 3 .buff_ids "MG_blight_debuff_5"		.on_hit true .on_miss false .can_apply_on_death true
+
+//Blight Debuff
+effect: .name "Eco Debuff 1" .target "target"  .chance 100%  .buff_ids "magician_eco_debuff1"	.on_hit true .on_miss false .can_apply_on_death false
+effect: .name "Eco Debuff 2" .target "target"  .chance 110%  .buff_ids "magician_eco_debuff1"	.on_hit true .on_miss false .can_apply_on_death false
+effect: .name "Eco Debuff 3" .target "target"  .chance 120%  .buff_ids "magician_eco_debuff2"	.on_hit true .on_miss false .can_apply_on_death false
+effect: .name "Eco Debuff 4" .target "target"  .chance 130%  .buff_ids "magician_eco_debuff2"	.on_hit true .on_miss false .can_apply_on_death false 
+effect: .name "Eco Debuff 5" .target "target"  .chance 140%  .buff_ids "magician_eco_debuff3"	.on_hit true .on_miss false .can_apply_on_death false
+
+//Urn Buff 
+effect: .name "Eco Urn Buff" .target "performer"  .chance 100% .skill_instant true  .buff_ids "magician_ETERNAL_blightbuff" .on_hit true .on_miss false .can_apply_on_death false .has_description false
+
+//Spellcards
+//Knock Back
+effect: .name "MG Overwhelm 1" .target "performer" .push 3 .chance 130% .on_hit true .on_miss false .apply_once true .can_apply_on_death true
+effect: .name "MG Overwhelm 2" .target "performer" .push 3 .chance 140% .on_hit true .on_miss false .apply_once true .can_apply_on_death true
+effect: .name "MG Overwhelm 3" .target "performer" .push 3 .chance 150% .on_hit true .on_miss false .apply_once true .can_apply_on_death true
+effect: .name "MG Overwhelm 4" .target "performer" .push 3 .chance 160% .on_hit true .on_miss false .apply_once true .can_apply_on_death true
+effect: .name "MG Overwhelm 5" .target "performer" .push 3 .chance 170% .on_hit true .on_miss false .apply_once true .can_apply_on_death true
+
+//Spell Card Self Mark
+effect: .name "MG Self Mark" .target "performer" .chance 100% .health_damage_blocks 1 .duration 3 .tag 1 .on_hit true .on_miss true .queue true .apply_once true
+
+//MS DMG Tool Tip
+effect: .name "MS DMG TT" .target "performer" .skill_instant true .buff_ids "magician_spark_damage_TT" .on_hit false .on_miss true .apply_once true
+
+///Bomb System
+//Bomb TT
+effect: .name "Is Bomb MG TT" .target "performer" .skill_instant true .buff_ids "magician_is_bomb_TT" .on_hit false .on_miss true .apply_once true .queue true
+//Cooldown debuff
+effect: .name "Cooldown MG" .target "performer"  .chance 100% .duration -1 .buff_ids "magician_bomb_use" .buff_source_type bsrc_item .buff_is_clear_debuff_valid false  .on_hit true .on_miss true .apply_once true .queue true .has_description false
+
+//MG Fake Guard
+effect: .name "MG Fake Guard" .target "performer" .chance 0% .guard 1 .on_hit true .on_miss false .apply_once true .queue true .has_description false
+
+//Bomb Item
+effect: .name "magician_bomb" .target "performer"  .item 1 .chance 100% .duration -1 .buff_ids "magician_bomb_elixer" "magician_bomb_count_elixir"  .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .queue true .has_description false
+
+
+effect: .name "mg_camp_0"  .target "target" .chance 100% .duration -1 .buff_ids "magician_bomb_tincture" "magician_bomb_count_tincture"  .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .has_description false
+
+effect: .name "mg_camp_1"  .target "target" .chance 100%  .duration -1 .buff_ids "magician_bomb_tincture" "magician_bomb_count_tincture" .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .has_description false
+
+effect: .name "mg_camp_2"  .target "target" .chance 100% .duration -1 .buff_ids "magician_bomb_tincture" "magician_bomb_count_tincture" .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .has_description false
+
+//Bomb Counter
+effect: .name "magician bomb count skill" .target "performer"  .chance 100% .duration -1 .buff_ids "magician_bomb_count_skill"  .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .queue true .has_description false
+
+//Funny Mushrooms
+
+effect: .name "magician_spd_mushroom" .target "performer" .item 1 .chance 100% .heal 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .speed_rating_add 2 .on_hit true .on_miss false .apply_once true
+
+effect: .name "magician_dmg_mushroom" .target "performer" .item 1 .chance 100% .heal 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .damage_high_multiply 0.05 .damage_low_multiply 0.05 .on_hit true .on_miss false .apply_once true
+
+effect: .name "magician_def_mushroom" .target "performer" .item 1 .chance 100% .heal 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 0.05 .on_hit true .on_miss false .apply_once true
+
+effect: .name "magician_prot_mushroom" .target "performer"	.item 1 .chance 100% .heal 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .crit_chance_add 0.05 .on_hit true .on_miss false .apply_once true
+
+effect: .name "magician_poison_spd_mushroom" .target "performer" .item 1 .chance 100% .health_damage 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .speed_rating_add -2 .on_hit true .on_miss false .apply_once true
+
+effect: .name "magician_poison_dmg_mushroom" .target "performer" .item 1 .chance 100% .health_damage 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .damage_high_multiply -0.05 .damage_low_multiply -0.05 .on_hit true .on_miss false .apply_once true
+
+effect: .name "magician_poison_def_mushroom" .target "performer" .item 1 .chance 100% .health_damage 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add -0.05 .on_hit true .on_miss false .apply_once true
+
+effect: .name "magician_poison_prot_mushroom" .target "performer"	.item 1 .chance 100% .health_damage 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .crit_chance_add -0.05 .on_hit true .on_miss false .apply_once true
+
+//Trinket On-Kill Effects
+effect: .name "Magician common DMG" .target "target" .chance 100% .duration 4 .combat_stat_buff 1  .damage_low_multiply 0.10 .damage_high_multiply 0.10 .on_hit true .on_miss false .queue true
+
+effect: .name "Magician Uncommon SH" .target "target" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "magician_UCtrinket_stress_heal" .on_hit true .on_miss false .queue true
+
+effect: .name "Magician Rare MR" .target "target" .chance 100% .duration 2 .buff_duration_type combat_end .buff_ids "magician_trinket_move_res"  .on_hit true .on_miss false .queue true
+
+effect: .name "Magician Rare BD" .target "target" .chance 100% .duration 2 .buff_duration_type combat_end .buff_ids "trinket_blight_duration"  .on_hit true .on_miss false .queue true
+
+effect: .name "Magician very rare DMG-Crit" .target "target" .chance 100% .duration 4 .buff_source_type bsrc_skill .buff_duration_type combat_end .buff_ids .combat_stat_buff 1  .damage_low_multiply 0.06 .damage_high_multiply 0.06 .crit_chance_add 0.01 .on_hit true .on_miss false .queue true
+
+//"Borrowed" provisionals
+
+///Class Mods
+effect: .name "magician_RUN_bomb" .target "performer" .item 1 .chance 100% .duration 1 .buff_ids "magician_RUN_dmgH" "magician_RUN_dmgL" "magician_RUN_targetchance"
+
+effect: .name "magician_APOS_book" .target "performer" .item 1 .chance 100% .health_damage 5 .duration 1 .buff_duration_type combat_end .buff_ids "magician_APOS_dmgH" "magician_APOS_dmgL" "magician_APOS_CRIT"
+
+effect: .name "magician_CAEN_food" .target "performer" .item 1 .chance 100% .heal 2 .duration 3 .combat_stat_buff 1 .defense_rating_add 0.15 .speed_rating_add 5
+
+effect: .name "magician_LIBRARIAN_notes" .target "performer" .item 1 .chance 100% .buff_ids "magician_LIB_EXP"
+
+effect: .name "magician_FISHLAD_oranges" .target "performer" .item 1 .chance 100% .heal 2 .duration -1 .buff_source_type bsrc_item .buff_ids "magician_FISHLAD_foodbuff"
+
+effect: .name "magician_ETERNAL_urn" .target "performer" .item 1 .chance 100% .cure_bleed 1 
+
+effect: .name "magician_HERALD_crystal" .target "performer" .item 1 .chance 100% .duration 3 .combat_stat_buff 1 .protection_rating_add 0.15 .dotHpHeal 1
+
+effect: .name "magician_MAID_watch" .target "performer" .item 1 .chance 100% .stress 50 .initiative_change 1
+
+effect: .name "magician_SWITCH_components" .target "performer" .item 1 .chance 100% .stress 4 .duration 1 .buff_duration_type combat_end .buff_ids "magician_SWITCH_CRIT" "magician_SWITCH_DeBR"
+
+effect: .name "magician_MINSTREL_plectra" .target "performer" .item 1 .chance 100%
+
+///Vanilla
+effect: .name "magician_JESTER_herbs" .target "performer" .item 1 .chance 100% .clear_debuff 1 .clearDotStress 1 .duration 3 .buff_ids "magician_JESTER_SR"
+
+effect: .name "magician_GRAVE_knife" .target "performer" .item 1 .chance 100% .duration 2 .stealth 1 .buff_ids "magician_GRAVE_CRIT" "magician_GRAVE_dmgH" "magician_GRAVE_dmgL"
+
+effect: .name "magician_CRUSADER_holywater" .target "performer" .item 1 .chance 100% .healstress 10 .duration 3 .buff_ids "holy_water_blight_resist" "holy_water_bleed_resist" "holy_water_disease_resist" "holy_water_debuff_resist"
+
+effect: .name "magician_HOUND_treats" .target "performer" .item 1 .chance 100% .duration 3 .buff_ids "magician_HOUND_dmgH" "magician_HOUND_dmgL" "magician_HOUND_ACC"
+
+effect: .name "magician_PLAGUE_antivenom" .target "performer" .item 1 .chance 100% .cure_poison 1 .duration 3 .buff_ids "magician_PLAGUE_PsR" "magician_PLAGUE_DeR"
+
+effect: .name "magician_ARB_bandage" .target "performer" .item 1 .chance 100% .heal 3 .cure_bleed 1 .duration 3 .buff_ids "magician_ARB_BlR" "magician_ARB_HealBuff"

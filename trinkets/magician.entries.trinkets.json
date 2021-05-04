@@ -1,0 +1,105 @@
+{
+   "entries":
+   [
+      {
+         "id" : "magician_dust",
+         "buffs" : 
+         [
+            "magician_trinket_dust_acc"
+         ],
+         "hero_class_requirements":
+         [
+            "magician"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : "",
+		 "kill_performer_additional_effects":
+		 [
+		  "Magician common DMG"
+		 ]
+      },
+	  {
+         "id" : "magician_herbal",
+         "buffs" : 
+         [
+            "magician_UC_trinket_dodge_buff",
+			"magician_UCtrinket_move_res_debuff"
+         ],
+         "hero_class_requirements":
+         [
+            "magician"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 0,
+         "origin_dungeon" : "",
+		 "kill_performer_additional_effects":
+		 [
+			"Magician Uncommon SH"
+		 ]
+      },
+	  {
+         "id" : "magician_broom",
+         "buffs" : 
+         [
+            "magician_trinket_move_chanceSR",
+			"magician_trinket_move_chanceUS",
+			"trinket_blight_chance_debuff"
+         ],
+         "hero_class_requirements":
+         [
+            "magician"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 0,
+         "origin_dungeon" : "",
+		 "kill_performer_additional_effects":
+		 [
+		  "Magician Rare MR"
+		 ]
+      },
+	  {
+         "id" : "magician_toxic",
+         "buffs" : 
+         [
+            "trinket_blight_chance"
+         ],
+         "hero_class_requirements":
+         [
+            "magician"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 0,
+         "origin_dungeon" : "",
+		 "kill_performer_additional_effects":
+		 [
+		  "Magician Rare BD"
+		 ]
+      },
+	  {
+         "id" : "magician_wand",
+         "buffs" : 
+         [
+			
+            "trinket_stress_debuff"
+         ],
+         "hero_class_requirements":
+         [
+            "magician"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : "",
+		 "kill_performer_additional_effects":
+		 [
+		  "Magician very rare DMG-Crit"
+		 ]
+      }
+
+   ]
+}

@@ -1,0 +1,20 @@
+
+magician.sprite.attack_reverie.png
+size: 561,452
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+attack_reverie
+  rotate: false
+  xy: 2, 2
+  size: 492, 448
+  orig: 492, 448
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 496, 93
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

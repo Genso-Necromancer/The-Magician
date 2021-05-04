@@ -1,0 +1,65 @@
+{
+   "loot_tables" :
+   [
+
+   
+	
+   {
+         "id" : "camp_bomb_mg",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_bomb_camp", "amount" : 1 }}
+           
+         ]
+      },
+      {
+         "id" : "MARI",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 7, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_spd_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_dmg_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_def_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_prot_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_poison_spd_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_poison_dmg_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_poison_def_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_poison_prot_mushroom", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MG_borrowed",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_JESTER_herbs", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_GRAVE_knife", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_CRUSADER_holywater", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_HOUND_treats", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_PLAGUE_antivenom", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_ARB_bandage", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_RUN_bomb", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_APOS_book", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_CAEN_food", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_MAID_watch", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "gem",    "id" : "magician_MIKO_donations", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_SWITCH_components", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_LIBRARIAN_notes", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_FISHLAD_oranges", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_HERALD_crystal", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_ETERNAL_urn", "amount" : 1 }}
+         ]
+      }
+	  
+     
+	  
+   ]
+}

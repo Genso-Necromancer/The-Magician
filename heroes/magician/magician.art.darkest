@@ -1,0 +1,25 @@
+commonfx: .deathfx death_touhou
+
+weapon: .name "magician_weapon_0" .icon "eqp_weapon_0.png"
+weapon: .name "magician_weapon_1" .icon "eqp_weapon_1.png"
+weapon: .name "magician_weapon_2" .icon "eqp_weapon_2.png"
+weapon: .name "magician_weapon_3" .icon "eqp_weapon_3.png"
+weapon: .name "magician_weapon_4" .icon "eqp_weapon_4.png"
+
+armour: .name "magician_armour_0" .icon "eqp_armour_0.png"
+armour: .name "magician_armour_1" .icon "eqp_armour_1.png"
+armour: .name "magician_armour_2" .icon "eqp_armour_2.png"
+armour: .name "magician_armour_3" .icon "eqp_armour_3.png"
+armour: .name "magician_armour_4" .icon "eqp_armour_4.png"
+
+combat_skill: .id "ecological_bomb" .icon "five" .anim "attack_ecological"
+combat_skill: .id "up_sweep" .icon "two" .anim "attack_sweep"
+combat_skill: .id "point_of_gathering" .icon "three" .anim "attack_sweep"
+combat_skill: .id "master_spark" .icon "four" .anim "attack_spark"
+combat_skill: .id "dragon_meteor" .icon "one" .anim "attack_missile"
+combat_skill: .id "magic_missile" .icon "six" .anim "attack_missile"
+combat_skill: .id "illusion_laser" .icon "seven" .anim "attack_missile"
+
+combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
+
+act_out_display: .attack_friendly_anim "attack_missile" .attack_friendly_sfx "/char/ally/bounty_hunter_uppercut"

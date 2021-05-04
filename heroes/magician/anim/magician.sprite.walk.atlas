@@ -1,0 +1,34 @@
+
+magician.sprite.walk.png
+size: 1570,572
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 2
+  size: 720, 568
+  orig: 720, 568
+  offset: 0, 0
+  index: -1
+left leg
+  rotate: true
+  xy: 1446, 379
+  size: 191, 122
+  orig: 191, 122
+  offset: 0, 0
+  index: -1
+right leg
+  rotate: true
+  xy: 1446, 186
+  size: 191, 122
+  orig: 191, 122
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 724, 2
+  size: 720, 568
+  orig: 720, 568
+  offset: 0, 0
+  index: -1

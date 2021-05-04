@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+    <language id="english">
+		<entry id="hero_class_name_magician"><![CDATA[Magician]]></entry>
+		<entry id="action_verbose_body_blacksmith_magician"><![CDATA[Replace Me.]]></entry>
+
+		<entry id="action_verbose_body_guild_magician"><![CDATA[Replace Me.]]></entry>
+
+
+		<entry id="action_verbose_body_camping_trainer_magician"><![CDATA[Replace Me.]]></entry>
+
+<!-- -->
+		<!-- Skills -->
+
+		<entry id="combat_skill_name_magician_ecological_bomb"><![CDATA[Ecological Bomb]]></entry>
+		<entry id="combat_skill_name_magician_up_sweep"><![CDATA[Up Sweep]]></entry>
+    	<entry id="combat_skill_name_magician_point_of_gathering"><![CDATA[Focus]]></entry>
+    	<entry id="combat_skill_name_magician_master_spark"><![CDATA[Master Spark]]></entry>
+    	<entry id="combat_skill_name_magician_dragon_meteor"><![CDATA[Blazing Star]]></entry>
+    	<entry id="combat_skill_name_magician_magic_missile"><![CDATA[Magic Missle]]></entry>
+		<entry id="combat_skill_name_magician_illusion_laser"><![CDATA[Illusion Laser]]></entry>
+    	<entry id="combat_skill_name_magician_move"><![CDATA[Move]]></entry>
+   		<entry id="upgrade_tree_name_magician.ecological_bomb"><![CDATA[Ecological Bomb]]></entry>
+		<entry id="upgrade_tree_name_magician.up_sweep"><![CDATA[Up Sweep]]></entry>
+    	<entry id="upgrade_tree_name_magician.point_of_gathering"><![CDATA[Focus]]></entry>
+    	<entry id="upgrade_tree_name_magician.master_spark"><![CDATA[Master Spark]]></entry>
+    	<entry id="upgrade_tree_name_magician.dragon_meteor"><![CDATA[Blazing Star]]></entry>
+    	<entry id="upgrade_tree_name_magician.magic_missile"><![CDATA[Magic Missle]]></entry>
+    	<entry id="upgrade_tree_name_magician.illusion_laser"><![CDATA[Illusion Laser]]></entry>
+			
+		<entry id="camping_skill_name_danmaku_mg"><![CDATA[DANMAKU PRACTICE]]></entry>
+		<entry id="camping_skill_name_witch_night"><![CDATA[WITCHES' NIGHT]]></entry>
+		<entry id="camping_skill_name_bomb_brew_mg"><![CDATA[BOMB BREW]]></entry>
+		<entry id="camping_skill_name_aggressive_borrowing"><![CDATA[AGGRESSIVE BORROWING]]></entry>
+		
+		<!-- Equipment -->
+
+		<entry id="magician_weapon_0"><![CDATA[Hakkero 1]]></entry>
+		<entry id="magician_weapon_1"><![CDATA[Hakkero 2]]></entry>
+    	<entry id="magician_weapon_2"><![CDATA[Hakkero 3]]></entry>
+    	<entry id="magician_weapon_3"><![CDATA[Hakkero 4]]></entry>
+    	<entry id="magician_weapon_4"><![CDATA["Point of Collection"]]></entry>
+    	<entry id="upgrade_tree_name_magician.weapon"><![CDATA[Hakkero]]></entry>
+    	<entry id="magician_armour_0"><![CDATA[Hat 1]]></entry>
+    	<entry id="magician_armour_1"><![CDATA[Hat 2]]></entry> 
+    	<entry id="magician_armour_2"><![CDATA[Hat 3]]></entry>
+    	<entry id="magician_armour_3"><![CDATA[Hat 4]]></entry>
+    	<entry id="magician_armour_4"><![CDATA["Hat"]]></entry>
+    	<entry id="upgrade_tree_name_magician.armour"><![CDATA[Hat]]></entry>
+		
+		<!-- Tool Tips -->
+		
+		<entry id="str_spellcard"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_ms_damage_tt"><![CDATA[DMG Mod: 0/-20/-40/-60%% vs rank 1/2/3/4]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_magician_is_bomb_tt"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_magician_bomb_count_limit"><![CDATA[{colour_start|attacktype}Spell Card{colour_end} Limit!: {colour_start|notable}%d{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_magician_bomb_count_used"><![CDATA[{colour_start|attacktype}Spell Card{colour_end} Used!: {colour_start|notable}%d{colour_end}]]></entry>
+		<entry id="camping_skill_effect_loot_camp_bomb_mg"><![CDATA[Brew 1 Magician Bomb Tincture.]]></entry>
+		<entry id="buff_rule_data_tooltip_up_sweep"><![CDATA[Upsweep]]></entry>
+		<entry id="buff_rule_data_tooltip_stardust_reverie"><![CDATA[Point of Gathering]]></entry>
+		<entry id="camping_skill_effect_loot_MG_borrowed"><![CDATA[Borrow 2 unique provisionals at random.]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_free_action"><![CDATA[{colour_start|notable}Free Action{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_actor_dot_TT"><![CDATA[Next 3 Kills: {colour_start|buff}Buff Self:{colour_end} +5%% DMG Until {colour_start|deathdoor}Death's Door{colour_end}]]></entry>
+		
+		<!-- Provisions -->
+		
+		<!-- Bombs -->
+		<entry id="str_inventory_title_supplymagician_bomb"><![CDATA[Magician Bomb Elixir]]></entry>
+		<entry id="str_inventory_description_supplymagician_bomb"><![CDATA[Drink to {colour_start|notable}set{colour_end} your {colour_start|attacktype}Spell Card{colour_end} limit to {colour_start|notable}3{colour_end}! {colour_start|skill_unselectable}Dislcaimer: Has no effect on non-spellcard users.{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_bomb_camp"><![CDATA[Magician Bomb Tincture]]></entry>
+		<entry id="str_inventory_description_supplymagician_bomb_camp"><![CDATA[{colour_start|notable}Increases{colour_end} your {colour_start|attacktype}Spell Card{colour_end} limit by {colour_start|notable}1{colour_end}! {colour_start|skill_unselectable}Dislcaimer: {colour_end} {colour_start|skill_unselectable}Dislcaimer: May purge the effects of mushrooms.{colour_end}]]></entry>
+		
+		<!-- Mushrooms -->
+		<entry id="str_inventory_title_supplymagician_spd_mushroom"><![CDATA[Celeritoletus]]></entry>
+		<entry id="str_inventory_description_supplymagician_spd_mushroom"><![CDATA[A brightly blue and aerodynamic mushroom, with a ring and crown. It's just as easy to throw as it is to cook.]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_dmg_mushroom"><![CDATA[Morsocybin]]></entry>
+		<entry id="str_inventory_description_supplymagician_dmg_mushroom"><![CDATA[This ghostly looking mushroom is both sickly and ethereal in it's appearance. Often attributed to a long forgotten deity of life after life.]]></entry>
+
+		<entry id="str_inventory_title_supplymagician_def_mushroom"><![CDATA[Apofykitas]]></entry>
+		<entry id="str_inventory_description_supplymagician_def_mushroom"><![CDATA[Sombre, pinkish and draped like a willow. It is surprisingly difficult to grasp and pluck.]]></entry>
+			
+		<entry id="str_inventory_title_supplymagician_prot_mushroom"><![CDATA[Chishinoko]]></entry>
+		<entry id="str_inventory_description_supplymagician_prot_mushroom"><![CDATA[Vibrant and imposing, this three horned fungus is a favorite of assassins.]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_poison_spd_mushroom"><![CDATA[Celeritoletus]]></entry>
+		<entry id="str_inventory_description_supplymagician_poison_spd_mushroom"><![CDATA[A brightly blue and aerodynamic mushroom, with a ring and crown. It's just as easy to throw as it is to cook.]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_poison_dmg_mushroom"><![CDATA[Morsocybin]]></entry>
+		<entry id="str_inventory_description_supplymagician_poison_dmg_mushroom"><![CDATA[This ghostly looking mushroom is both sickly and ethereal in it's appearance. Often attributed to a long forgotten deity of life after life.]]></entry>	
+
+		<entry id="str_inventory_title_supplymagician_poison_def_mushroom"><![CDATA[Apofykitas]]></entry>
+		<entry id="str_inventory_description_supplymagician_poison_def_mushroom"><![CDATA[Sombre, pinkish and draped like a willow. It is surprisingly difficult to grasp and pluck.]]></entry>	
+
+		<entry id="str_inventory_title_supplymagician_poison_prot_mushroom"><![CDATA[Chishinoko]]></entry>
+		<entry id="str_inventory_description_supplymagician_poison_prot_mushroom"><![CDATA[Vibrant and imposing, this three horned fungus is a favorite of assassins.]]></entry>
+
+		<!-- "Borrowed" Items -->
+		<entry id="str_inventory_title_supplymagician_RUN_bomb"><![CDATA[Short Fused Bomb]]></entry>
+		<entry id="str_inventory_description_supplymagician_RUN_bomb"><![CDATA[+40% DMG and +100% Random Target Chance for 1 rd.
+		{colour_start|skill_unselectable}"This is the real deal, 'aint it?"{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_APOS_book"><![CDATA[Curious Scripture]]></entry>
+		<entry id="str_inventory_description_supplymagician_APOS_book"><![CDATA[+15% DMG and +3% CRT if HP less than 50% for 1 battle.
+		{colour_start|skill_unselectable}"Pretty weird magic, if ya' ask me."{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_CAEN_food"><![CDATA[Haunting Snacks]]></entry>
+		<entry id="str_inventory_description_supplymagician_CAEN_food"><![CDATA[+15 Dodge and +5 SPD for 3 rds.
+		{colour_start|skill_unselectable}"These things make me uneasy, oh well."{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_MAID_knife"><![CDATA[Wound-up Watch]]></entry>
+		<entry id="str_inventory_description_supplymagician_MAID_knife"><![CDATA[Inflicts 50 stress, yet warps time for an additional action.
+		{colour_start|skill_unselectable}"Guess this makes me head maid now."{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_gemymagician_MIKO_donations"><![CDATA[Misplaced Donations]]></entry>
+		<entry id="str_inventory_description_gemmagician_MIKO_donations"><![CDATA[Mon from an unfortunate shrine.
+		{colour_start|skill_unselectable}"I'll pay her back... eventually."{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_SWITCH_components"><![CDATA[Lightly Used Components]]></entry>
+		<entry id="str_inventory_description_supplymagician_SWITCH_components"><![CDATA[Inflicts 4 stress; +6% CRT and +25% Debuff Resistance if torchlight is less than 50 for 1 battle.
+		{colour_start|skill_unselectable}"Witches oughta' share, right?"{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_LIBRARIAN_notes"><![CDATA[Intriguing Notes]]></entry>
+		<entry id="str_inventory_description_supplymagician_LIBRARIAN_notes"><![CDATA[+50% Resolve EXP at end of the dungeon.
+		{colour_start|skill_unselectable}"I gotta remember which library I took this from."{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_FISHLAD_oranges"><![CDATA[Discounted Orange]]></entry>
+		<entry id="str_inventory_description_supplymagician_FISHLAD_oranges"><![CDATA[Heals 2 HP and satiates hunger for the rest of the dungeon.
+		{colour_start|skill_unselectable}"How's he even gonna' eat this anyways?"{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_ETERNAL_urn"><![CDATA[Unusual Urn]]></entry>
+		<entry id="str_inventory_description_supplymagician_ETERNAL_urn"><![CDATA[Illusion Laser: +15% DMG, Ecological Bomb: +10% blight DMG while in inventory. Consuming cures bleed.
+		{colour_start|skill_unselectable}"I really shoulda' looked inside before taking this thing..."{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_HERALD_crystal"><![CDATA[Petite Crystal]]></entry>
+		<entry id="str_inventory_description_supplymagician_HERALD_crystal"><![CDATA[+15% PROT and 1 REGEN for 3 rnds.
+		{colour_start|skill_unselectable}"It was far too pretty to just leave it there."{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_JESTER_herbs"><![CDATA[Confusing Remedy]]></entry>
+		<entry id="str_inventory_description_supplymagician_JESTER_herbs"><![CDATA[Clear Horror/debuff; -33% Stress for 3rds.
+		{colour_start|skill_unselectable}"C'mon, he wasn't ever gonna use it!"{colour_end}]]></entry>	
+		
+		<entry id="str_inventory_title_supplymagician_GRAVE_knife"><![CDATA[Twice Taken Knife]]></entry>
+		<entry id="str_inventory_description_supplymagician_GRAVE_knife"><![CDATA[Stealths and gives +20% DMG and +4% CRT for 2 rounds.
+		{colour_start|skill_unselectable}"Taking her shovel would've been more trouble than it's worth, ze"{colour_end}]]></entry>	
+		
+		<entry id="str_inventory_title_supplymagician_CRUSADER_holywater"><![CDATA[Zealous Water]]></entry>
+		<entry id="str_inventory_description_supplymagician_CRUSADER_holywater"><![CDATA[Heal 10 Stress. +33% Bleed, Debuff, Blight; Disease Resistance for 3rds
+		{colour_start|skill_unselectable}"Never had a potion you threw on yourself instead'a drinkin'"{colour_end}]]></entry>	
+		
+		<entry id="str_inventory_title_supplymagician_HOUND_treats"><![CDATA[Leftover Treats]]></entry>
+		<entry id="str_inventory_description_supplymagician_HOUND_treats"><![CDATA[+25% DMG and +7% ACC for 3rds.
+		{colour_start|skill_unselectable}"Not for human consumption, but times are rough."{colour_end}]]></entry>	
+		
+		<entry id="str_inventory_title_supplymagician_PLAGUE_antivenom"><![CDATA[Experimental Cure]]></entry>
+		<entry id="str_inventory_description_supplymagician_PLAGUE_antivenom"><![CDATA[Cure Blight; +40% Blight and Disease Resistance for 3 rds.
+		{colour_start|skill_unselectable}"I'm probably dyin' already if I need to drink this, so bottoms up, ze"{colour_end}]]></entry>	
+		
+		<entry id="str_inventory_title_supplymagician_ARB_bandage"><![CDATA[Secondary Aid]]></entry>
+		<entry id="str_inventory_description_supplymagician_ARB_bandage"><![CDATA[Heal 2 HP, cure bleed; +40% Bleed Resistance and +10% Healing received for 3 rds.
+		{colour_start|skill_unselectable}"I aint in the wrong if she's the one keepin' all the bandages to herself, ze"{colour_end}]]></entry>
+			
+		<!-- Trinkets -->
+		<entry id="str_inventory_title_trinketmagician_dust"><![CDATA[Arcane Ash]]></entry>
+		<entry id="str_inventory_title_trinketmagician_herbal"><![CDATA[Herbal Remedy]]></entry>
+		<entry id="str_inventory_title_trinketmagician_broom"><![CDATA[Reinforced Broom]]></entry>
+		<entry id="str_inventory_title_trinketmagician_toxic"><![CDATA[Toxicology Manual]]></entry>
+		<entry id="str_inventory_title_trinketmagician_wand"><![CDATA[Power Gathering Wand]]></entry>
+		<entry id="str_inventory_set_title_cc_magician"><![CDATA[""]]></entry>
+		
+		<!-- Barks -->
+			<!-- COME FORTH -->
+		<entry id="str_ui_actor_dot_complete"><![CDATA[]]></entry>
+		
+			<!-- Camping Skills -->
+		<entry id="magician+str_bark_danmaku_mg"><![CDATA[You're facein' the best, ze]]></entry>
+		<entry id="magician+str_bark_aggressive_borrowing"><![CDATA[I was gonna' give it back later...]]></entry>
+		<entry id="magician+str_bark_aggressive_borrowing"><![CDATA[B O R R O W I N G. Not stealing...]]></entry>
+		<entry id="magician+str_bark_aggressive_borrowing"><![CDATA[Huh? How'd this get here?]]></entry>
+		<entry id="magician+str_bark_witch_night"><![CDATA[One batwing... one lizard... Now everyone hold still.]]></entry>
+		<entry id="magician+str_bark_bomb_brew_mg"><![CDATA[Hey, I don't judge what you drink.]]></entry>
+	
+		<entry id="magician+str_bark_encourage"><![CDATA[]]></entry>
+		<entry id="magician+str_bark_encourage"><![CDATA[]]></entry>
+		<entry id="magician+str_bark_encourage"><![CDATA[]]></entry>
+	
+		<entry id="magician+str_bark_first_aid"><![CDATA[]]></entry>
+		<entry id="magician+str_bark_first_aid"><![CDATA[]]></entry>
+		<entry id="magician+str_bark_first_aid"><![CDATA[]]></entry>
+	
+		<entry id="magician+str_bark_pep_talk"><![CDATA[]]></entry>
+		
+			<!-- Roster -->
+		<entry id="magician+str_stagecoach_idle"><![CDATA[Oh me? I'm the Miko!]]></entry>	
+	
+	
+	</language>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</root>

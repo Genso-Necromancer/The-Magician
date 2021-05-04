@@ -1,0 +1,27 @@
+
+magician.sprite.heroic.png
+size: 2542,1135
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 2, 2
+  size: 1308, 1131
+  orig: 1308, 1131
+  offset: 0, 0
+  index: -1
+maris
+  rotate: true
+  xy: 1312, 32
+  size: 1101, 915
+  orig: 1101, 915
+  offset: 0, 0
+  index: -1
+stress
+  rotate: false
+  xy: 2229, 802
+  size: 311, 331
+  orig: 311, 331
+  offset: 0, 0
+  index: -1

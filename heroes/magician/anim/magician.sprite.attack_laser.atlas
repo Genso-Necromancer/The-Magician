@@ -1,0 +1,20 @@
+
+magician.sprite.attack_laser.png
+size: 1446,572
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+attack_laser
+  rotate: false
+  xy: 2, 2
+  size: 720, 568
+  orig: 720, 568
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 724, 2
+  size: 720, 568
+  orig: 720, 568
+  offset: 0, 0
+  index: -1

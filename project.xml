@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<PreviewIconFile>preview_icon.png</PreviewIconFile>
+	<ItemDescriptionShort/>
+	<ModDataPath>C:\Program Files (x86)\Steam\steamapps\common\DarkestDungeon\mods\MarisaModWIP</ModDataPath>
+	<Title>(non-steam)Marisa - New Class Mod</Title>
+	<Language>english</Language>
+	<UpdateDetails/>
+	<Visibility>private</Visibility>
+	<UploadMode>dont_submit</UploadMode>
+	<VersionMajor>0</VersionMajor>
+	<VersionMinor>0</VersionMinor>
+	<TargetBuild>0</TargetBuild>
+	<Tags>
+		<Tags>Class Mod</Tags>
+		<Tags>Magician</Tags>
+	</Tags>
+	<ItemDescription>The Magician Class Mod by Ed "I love my wife very much." Boon.</ItemDescription>
+</project>
+

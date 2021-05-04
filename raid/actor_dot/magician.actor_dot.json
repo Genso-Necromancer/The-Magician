@@ -1,0 +1,42 @@
+{
+    "entries":
+    [
+        {
+            "id": "mg_blank1",
+            "update_duration_type": "after_turn_attack_kill",
+            "duration_elements": 
+            [
+                {
+                    "completion_chance": 0,
+                    "completion_effects":
+                    [],
+                    "increment_effects":
+                    ["MG Power Buff 1"]
+				},
+				{
+                    "completion_chance": 0,
+                    "completion_effects":
+                    [],
+                    "increment_effects":
+                    ["MG Power Buff 1"]
+				},
+				{
+                    "completion_chance": 0,
+                    "completion_effects":
+                    [],
+                    "increment_effects":
+                    ["MG Power Buff 1"]
+				},
+				{
+                    "completion_chance": 1,
+                    "completion_effects":
+                    ["MG Power Buff 1"],
+                    "increment_effects":
+                    []
+
+                }
+            ]
+        }
+		
+    ]
+}
