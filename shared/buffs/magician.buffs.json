@@ -3,113 +3,6 @@
    [
         
       {
-         "id" : "magician_spark_damage_TT",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ms_damage_tt",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_is_bomb_TT",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "miko_is_bomb_tt",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_bomb_count_skill",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "magician_bomb_count_used",
-         "amount" : -0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_bomb_count_elixir",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "magician_bomb_count_limit",
-         "amount" : -0.03,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_bomb_count_tincture",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "magician_bomb_count_limit",
-         "amount" : -0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-      {
-         "id" : "magician_no_bombs",
-         "stat_type" : "disable_combat_skill_attribute",
-         "stat_sub_type" : "guard",
-         "amount" : 1,
-         "remove_if_not_active" : false,
-         "rule_type" : "has_item_id",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "magician_bomb"
-         },
-		 "has_description": false
-      },
-      {
-         "id" : "magician_bomb_use",
-         "stat_type" : "disable_combat_skill_attribute",
-         "stat_sub_type" : "guard",
-         "amount" : 0.25,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		 "has_description": false
-      },
-      {
-         "id" : "magician_bomb_elixer",
-         "stat_type" : "disable_combat_skill_attribute",
-         "stat_sub_type" : "guard",
-         "amount" : -0.50,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		 "has_description": false
-      },
-      {
          "id" : "magician_camp_crit",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",
@@ -666,28 +559,78 @@
             "string" : ""
          }
 	  },
-	  {
-         "id" : "mg_free_action_tooltip",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_free_action",
-         "amount" : 1.0,
-		 "duration" : 0,
+      {
+         "id" : "magician_Power_Gather_BuffH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.05,
          "remove_if_not_active" : true,
-         "rule_type" : "always",
+         "rule_type" : "hpabove",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
          }
 	  },
-	  {
-         "id" : "mg_actor_dot_tooltip",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_actor_dot_TT",
-         "amount" : 1.0,
-		 "duration" : 0,
+      {
+         "id" : "magician_Power_Gather_BuffL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.05,
          "remove_if_not_active" : true,
-         "rule_type" : "always",
+         "rule_type" : "hpabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+      {
+         "id" : "magician_Power_Gather_AoE_BuffH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.02,
+         "remove_if_not_active" : true,
+         "rule_type" : "hpabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+      {
+         "id" : "magician_Power_Gather_AoE_BuffL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.02,
+         "remove_if_not_active" : true,
+         "rule_type" : "hpabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+      {
+         "id" : "magician_Power_Gather_CRIT_BuffH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.03,
+         "remove_if_not_active" : true,
+         "rule_type" : "hpabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+      {
+         "id" : "magician_Power_Gather_CRIT_BuffL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.03,
+         "remove_if_not_active" : true,
+         "rule_type" : "hpabove",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,

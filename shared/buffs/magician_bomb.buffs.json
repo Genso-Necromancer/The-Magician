@@ -1,0 +1,103 @@
+{
+   "buffs":
+   [
+        
+	  {
+         "id" : "magician_is_bomb_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_is_bomb_tt",
+         "amount" : 0.01,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+             "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_bomb_count_skill",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "magician_bomb_count_used",
+         "amount" : -0.01,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+             "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_bomb_count_elixir",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "magician_bomb_count_limit",
+         "amount" : -0.03,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+             "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_bomb_count_tincture",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "magician_bomb_count_limit",
+         "amount" : -0.01,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+             "string" : ""
+         }
+      },
+      {
+         "id" : "magician_no_bombs",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "has_item_id",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "magician_bomb"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "magician_bomb_use",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : 0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+             "string" : "mg_rule_mode"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "magician_bomb_elixer",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : -0.50,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+             "string" : "mg_rule_mode"
+         },
+		 "has_description": false
+      }
+	  
+	  
+	  
+   ]
+}  

@@ -1,5 +1,5 @@
 //Magician On-Crit Effect
-effect: .name "Magician On-Crit" .target "performer" .chance 100% .duration 2 .buff_ids "magician_AP_Buff_2" .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Magician On-Crit" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_source_type bsrc_crit .buff_ids "magician_Power_Gather_CRIT_BuffH" "magician_Power_Gather_CRIT_BuffL" .on_hit true .on_miss false .queue true .apply_once true
 
 
 //Stardust Reverie
@@ -12,63 +12,49 @@ effect: .name "Magician On-Crit" .target "performer" .chance 100% .duration 2 .b
 
 //Power Gathering
 //TTs
-effect: .name "MG FA TT" .target "performer" .skill_instant true .buff_ids "mg_free_action_tooltip" .on_hit true
-effect: .name "MG AD TT" .target "performer" .skill_instant true .buff_ids "mg_actor_dot_tooltip" .on_hit true
-//Actor buff
-effect: .name "MG Gather Power 1" .target "performer" .chance 100% .actor_dot mg_blank1 .on_hit true .on_miss false
-//Buff From Kill
-effect: .name "MG Power Buff 1" .target "performer" .chance 100% .duration -1 .buff_ids "magician_gather_DMGH_1" "magician_gather_DMGL_1" .buff_source_type bsrc_item .buff_is_clear_debuff_valid true  .on_hit true .on_miss true .apply_once true .queue false .has_description true
-//Initial Buff
-effect: .name "MG PoG Buff 1" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "magician_AP_Buff_1" "magician_ACC_Buff_1" "magician_SPD_Debuff_3" "magician_DODGE_DeBuff_1" .on_hit true .on_miss false .queue false .has_description true
-effect: .name "MG PoG Buff 2" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "magician_AP_Buff_2" "magician_ACC_Buff_2" "magician_SPD_Debuff_3" "magician_DODGE_DeBuff_1" .on_hit true .on_miss false .queue false .has_description true
-effect: .name "MG PoG Buff 3" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "magician_AP_Buff_3" "magician_ACC_Buff_3" "magician_SPD_Debuff_3" "magician_DODGE_DeBuff_1" .on_hit true .on_miss false .queue false .has_description true
-effect: .name "MG PoG Buff 4" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "magician_AP_Buff_4" "magician_ACC_Buff_4" "magician_SPD_Debuff_3" "magician_DODGE_DeBuff_1" .on_hit true .on_miss false .queue false .has_description true
-effect: .name "MG PoG Buff 5" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "magician_AP_Buff_5" "magician_ACC_Buff_5" "magician_SPD_Debuff_3" "magician_DODGE_DeBuff_1" .on_hit true .on_miss false .queue false .has_description true
 
-//Magic Missle
-//MM Mark Buff
-effect: .name "Missile Mark 1"	.target "performer" .chance 100%	 .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 20%	.damage_high_multiply 20%	.on_hit true .on_miss false
-effect: .name "Missile Mark 2"	.target "performer" .chance 100%	 .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 25%	.damage_high_multiply 25%	.on_hit true .on_miss false
-effect: .name "Missile Mark 3"	.target "performer" .chance 100%	 .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 30%	.damage_high_multiply 30%	.on_hit true .on_miss false
-effect: .name "Missile Mark 4"	.target "performer" .chance 100%	 .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 35%	.damage_high_multiply 35%	.on_hit true .on_miss false
-effect: .name "Missile Mark 5"	.target "performer" .chance 100%	 .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 40%	.damage_high_multiply 40%	.on_hit true .on_miss false
+//Buff
+effect: .name "MG Power Buff" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_source_type bsrc_crit .buff_ids "magician_Power_Gather_BuffH" "magician_Power_Gather_BuffL" .on_hit true .on_miss false .apply_once true .queue false .has_description true
+effect: .name "MG Power AoE Buff" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_source_type bsrc_crit .buff_ids "magician_Power_Gather_AoE_BuffH" "magician_Power_Gather_AoE_BuffL" .on_hit true .on_miss false .apply_once false .queue false .has_description true
+//Power Gathering FX goes here when asset is ready//
 
-//Illusion Laser
-//Urn Buff "magician_ETERNAL_laserbuffL"
+////Magic Missle
+
+////Illusion Laser
+//Urn Buff 
 effect: .name "Laser Urn Buff" .target "performer"  .chance 100% .skill_instant true  .buff_ids "magician_ETERNAL_laserbuffH" "magician_ETERNAL_laserbuffL" .on_hit true .on_miss false .can_apply_on_death false .has_description false
 
-//Ecological Bomb
-//Shuffle
-effect: .name "Eco Shuffle 1" .target "target" .shuffletarget	.chance 100% .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-effect: .name "Eco Shuffle 2" .target "target" .shuffletarget	.chance 110% .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-effect: .name "Eco Shuffle 3" .target "target" .shuffletarget	.chance 120% .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-effect: .name "Eco Shuffle 4" .target "target" .shuffletarget	.chance 130% .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-effect: .name "Eco Shuffle 5" .target "target" .shuffletarget	.chance 140% .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-
+////Ecological Bomb
 //Blight
-effect: .name "Eco Toxin 1" .target "target"  .chance 100%  .dotPoison 2 .duration 3 .buff_ids "MG_blight_debuff_12"	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Eco Toxin 2" .target "target"  .chance 110%  .dotPoison 2 .duration 3 .buff_ids "MG_blight_debuff_12"	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Eco Toxin 3" .target "target"  .chance 120%  .dotPoison 3 .duration 3 .buff_ids "MG_blight_debuff_34"	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Eco Toxin 4" .target "target"  .chance 130%  .dotPoison 3 .duration 3 .buff_ids "MG_blight_debuff_34"	.on_hit true .on_miss false .can_apply_on_death true 
-effect: .name "Eco Toxin 5" .target "target"  .chance 140%  .dotPoison 4 .duration 3 .buff_ids "MG_blight_debuff_5"		.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Eco Toxin 1" .target "target"  .chance 100%  .dotPoison 1 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Eco Toxin 2" .target "target"  .chance 110%  .dotPoison 1 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Eco Toxin 3" .target "target"  .chance 120%  .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Eco Toxin 4" .target "target"  .chance 130%  .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Eco Toxin 5" .target "target"  .chance 140%  .dotPoison 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
 
 //Blight Debuff
-effect: .name "Eco Debuff 1" .target "target"  .chance 100%  .buff_ids "magician_eco_debuff1"	.on_hit true .on_miss false .can_apply_on_death false
-effect: .name "Eco Debuff 2" .target "target"  .chance 110%  .buff_ids "magician_eco_debuff1"	.on_hit true .on_miss false .can_apply_on_death false
-effect: .name "Eco Debuff 3" .target "target"  .chance 120%  .buff_ids "magician_eco_debuff2"	.on_hit true .on_miss false .can_apply_on_death false
-effect: .name "Eco Debuff 4" .target "target"  .chance 130%  .buff_ids "magician_eco_debuff2"	.on_hit true .on_miss false .can_apply_on_death false 
-effect: .name "Eco Debuff 5" .target "target"  .chance 140%  .buff_ids "magician_eco_debuff3"	.on_hit true .on_miss false .can_apply_on_death false
+effect: .name "Eco Debuff 1" .target "target"  .chance 100% .duration 1 .buff_ids "MG_blight_debuff_12" .on_hit true .on_miss false .can_apply_on_death false
+effect: .name "Eco Debuff 2" .target "target"  .chance 110% .duration 1 .buff_ids "MG_blight_debuff_12" .on_hit true .on_miss false .can_apply_on_death false
+effect: .name "Eco Debuff 3" .target "target"  .chance 120% .duration 1 .buff_ids "MG_blight_debuff_34" .on_hit true .on_miss false .can_apply_on_death false
+effect: .name "Eco Debuff 4" .target "target"  .chance 130% .duration 1 .buff_ids "MG_blight_debuff_34" .on_hit true .on_miss false .can_apply_on_death false 
+effect: .name "Eco Debuff 5" .target "target"  .chance 140% .duration 1 .buff_ids "MG_blight_debuff_5"  .on_hit true .on_miss false .can_apply_on_death false
 
 //Urn Buff 
 effect: .name "Eco Urn Buff" .target "performer"  .chance 100% .skill_instant true  .buff_ids "magician_ETERNAL_blightbuff" .on_hit true .on_miss false .can_apply_on_death false .has_description false
 
+////Star Dust Reverie
+//Tool Tip
+effect: .name "MG SR DMG TT" .target "performer" .skill_instant true .buff_ids "magician_stardust_damage_TT1" "magician_stardust_damage_TT2" "magician_stardust_damage_TT3" .on_hit false .on_miss true .apply_once true
+//Distance Buff
+effect: .name "MG SR DMG BUFF" .target "performer" .skill_instant true .buff_ids "magician_SR_DMG_Buff_R4_H" "magician_SR_DMG_Buff_R4_L" "magician_SR_DMG_Buff_R3_H" "magician_SR_DMG_Buff_R3_L" "magician_SR_DMG_Buff_R2_H" "magician_SR_DMG_Buff_R2_L" "magician_SR_DMG_Buff_R1_H" "magician_SR_DMG_Buff_R1_L" .on_hit true .on_miss false .apply_once true .has_description false
+
 //Spellcards
 //Knock Back
-effect: .name "MG Overwhelm 1" .target "performer" .push 3 .chance 130% .on_hit true .on_miss false .apply_once true .can_apply_on_death true
-effect: .name "MG Overwhelm 2" .target "performer" .push 3 .chance 140% .on_hit true .on_miss false .apply_once true .can_apply_on_death true
-effect: .name "MG Overwhelm 3" .target "performer" .push 3 .chance 150% .on_hit true .on_miss false .apply_once true .can_apply_on_death true
-effect: .name "MG Overwhelm 4" .target "performer" .push 3 .chance 160% .on_hit true .on_miss false .apply_once true .can_apply_on_death true
-effect: .name "MG Overwhelm 5" .target "performer" .push 3 .chance 170% .on_hit true .on_miss false .apply_once true .can_apply_on_death true
+effect: .name "MG Overwhelm 1" .target "performer" .push 3 .chance 130% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
+effect: .name "MG Overwhelm 2" .target "performer" .push 3 .chance 140% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
+effect: .name "MG Overwhelm 3" .target "performer" .push 3 .chance 150% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
+effect: .name "MG Overwhelm 4" .target "performer" .push 3 .chance 160% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
+effect: .name "MG Overwhelm 5" .target "performer" .push 3 .chance 180% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
 
 //Spell Card Self Mark
 effect: .name "MG Self Mark" .target "performer" .chance 100% .health_damage_blocks 1 .duration 3 .tag 1 .on_hit true .on_miss true .queue true .apply_once true
@@ -82,8 +68,8 @@ effect: .name "Is Bomb MG TT" .target "performer" .skill_instant true .buff_ids 
 //Cooldown debuff
 effect: .name "Cooldown MG" .target "performer"  .chance 100% .duration -1 .buff_ids "magician_bomb_use" .buff_source_type bsrc_item .buff_is_clear_debuff_valid false  .on_hit true .on_miss true .apply_once true .queue true .has_description false
 
-//MG Fake Guard
-effect: .name "MG Fake Guard" .target "performer" .chance 0% .guard 1 .on_hit true .on_miss false .apply_once true .queue true .has_description false
+//MG Fake Daze
+effect: .name "MG Fake Daze" .target "performer" .chance 0% .daze 1 .on_hit false .on_miss false .apply_once true .queue true .has_description false
 
 //Bomb Item
 effect: .name "magician_bomb" .target "performer"  .item 1 .chance 100% .duration -1 .buff_ids "magician_bomb_elixer" "magician_bomb_count_elixir"  .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .queue true .has_description false

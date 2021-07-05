@@ -15,17 +15,17 @@
 
 		<entry id="combat_skill_name_magician_ecological_bomb"><![CDATA[Ecological Bomb]]></entry>
 		<entry id="combat_skill_name_magician_up_sweep"><![CDATA[Up Sweep]]></entry>
-    	<entry id="combat_skill_name_magician_point_of_gathering"><![CDATA[Focus]]></entry>
+    	<entry id="combat_skill_name_magician_stardust_reverie"><![CDATA[Stardust Reverie]]></entry>
     	<entry id="combat_skill_name_magician_master_spark"><![CDATA[Master Spark]]></entry>
-    	<entry id="combat_skill_name_magician_dragon_meteor"><![CDATA[Blazing Star]]></entry>
+    	<entry id="combat_skill_name_magician_blazing_star"><![CDATA[Blazing Star]]></entry>
     	<entry id="combat_skill_name_magician_magic_missile"><![CDATA[Magic Missle]]></entry>
 		<entry id="combat_skill_name_magician_illusion_laser"><![CDATA[Illusion Laser]]></entry>
     	<entry id="combat_skill_name_magician_move"><![CDATA[Move]]></entry>
    		<entry id="upgrade_tree_name_magician.ecological_bomb"><![CDATA[Ecological Bomb]]></entry>
 		<entry id="upgrade_tree_name_magician.up_sweep"><![CDATA[Up Sweep]]></entry>
-    	<entry id="upgrade_tree_name_magician.point_of_gathering"><![CDATA[Focus]]></entry>
+    	<entry id="upgrade_tree_name_magician.stardust_reverie"><![CDATA[Stardust Reverie]]></entry>
     	<entry id="upgrade_tree_name_magician.master_spark"><![CDATA[Master Spark]]></entry>
-    	<entry id="upgrade_tree_name_magician.dragon_meteor"><![CDATA[Blazing Star]]></entry>
+    	<entry id="upgrade_tree_name_magician.blazing_star"><![CDATA[Blazing Star]]></entry>
     	<entry id="upgrade_tree_name_magician.magic_missile"><![CDATA[Magic Missle]]></entry>
     	<entry id="upgrade_tree_name_magician.illusion_laser"><![CDATA[Illusion Laser]]></entry>
 			
@@ -33,6 +33,7 @@
 		<entry id="camping_skill_name_witch_night"><![CDATA[WITCHES' NIGHT]]></entry>
 		<entry id="camping_skill_name_bomb_brew_mg"><![CDATA[BOMB BREW]]></entry>
 		<entry id="camping_skill_name_aggressive_borrowing"><![CDATA[AGGRESSIVE BORROWING]]></entry>
+		<entry id="camping_skill_name_mg_forage"><![CDATA[MUSHROOM FORAGE]]></entry>
 		
 		<!-- Equipment -->
 
@@ -51,26 +52,30 @@
 		
 		<!-- Tool Tips -->
 		
+		<entry id="str_skill_mode_info_mg_rule_mode"><![CDATA[]]></entry>
 		<entry id="str_spellcard"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_ms_damage_tt"><![CDATA[DMG Mod: 0/-20/-40/-60%% vs rank 1/2/3/4]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt1"><![CDATA[DMG based on distance from target]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt2"><![CDATA[-10/0/10/20%% vs rank 1/2/3/4]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt3"><![CDATA[20/10/0/-10%% in rank 4/3/2/1]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt3"><![CDATA[20/10/0/-10%% in rank 4/3/2/1]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_is_bomb_tt"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_bomb_count_limit"><![CDATA[{colour_start|attacktype}Spell Card{colour_end} Limit!: {colour_start|notable}%d{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_bomb_count_used"><![CDATA[{colour_start|attacktype}Spell Card{colour_end} Used!: {colour_start|notable}%d{colour_end}]]></entry>
 		<entry id="camping_skill_effect_loot_camp_bomb_mg"><![CDATA[Brew 1 Magician Bomb Tincture.]]></entry>
 		<entry id="buff_rule_data_tooltip_up_sweep"><![CDATA[Upsweep]]></entry>
-		<entry id="buff_rule_data_tooltip_stardust_reverie"><![CDATA[Point of Gathering]]></entry>
+		<entry id="buff_rule_data_tooltip_stardust_reverie"><![CDATA[Stardust Reverie]]></entry>
 		<entry id="camping_skill_effect_loot_MG_borrowed"><![CDATA[Borrow 2 unique provisionals at random.]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_free_action"><![CDATA[{colour_start|notable}Free Action{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_actor_dot_TT"><![CDATA[Next 3 Kills: {colour_start|buff}Buff Self:{colour_end} +5%% DMG Until {colour_start|deathdoor}Death's Door{colour_end}]]></entry>
+		<entry id="camping_skill_effect_loot_MG_FORAGE"><![CDATA[Forage 2 random mushrooms.]]></entry>
 		
 		<!-- Provisions -->
 		
 		<!-- Bombs -->
 		<entry id="str_inventory_title_supplymagician_bomb"><![CDATA[Magician Bomb Elixir]]></entry>
-		<entry id="str_inventory_description_supplymagician_bomb"><![CDATA[Drink to {colour_start|notable}set{colour_end} your {colour_start|attacktype}Spell Card{colour_end} limit to {colour_start|notable}3{colour_end}! {colour_start|skill_unselectable}Dislcaimer: Has no effect on non-spellcard users.{colour_end}]]></entry>
+		<entry id="str_inventory_description_supplymagician_bomb"><![CDATA[Drink to {colour_start|notable}set{colour_end} your {colour_start|attacktype}Spell Card{colour_end} limit to {colour_start|notable}3{colour_end}! {colour_start|skill_unselectable}Dislcaimer: Has no effect on non-magicians.{colour_end}]]></entry>
 		
 		<entry id="str_inventory_title_supplymagician_bomb_camp"><![CDATA[Magician Bomb Tincture]]></entry>
-		<entry id="str_inventory_description_supplymagician_bomb_camp"><![CDATA[{colour_start|notable}Increases{colour_end} your {colour_start|attacktype}Spell Card{colour_end} limit by {colour_start|notable}1{colour_end}! {colour_start|skill_unselectable}Dislcaimer: {colour_end} {colour_start|skill_unselectable}Dislcaimer: May purge the effects of mushrooms.{colour_end}]]></entry>
+		<entry id="str_inventory_description_supplymagician_bomb_camp"><![CDATA[{colour_start|notable}Increases{colour_end} your {colour_start|attacktype}Spell Card{colour_end} limit by {colour_start|notable}1{colour_end}! {colour_start|skill_unselectable}Dislcaimer: Has no effect on non-magicians.{colour_end}]]></entry>
 		
 		<!-- Mushrooms -->
 		<entry id="str_inventory_title_supplymagician_spd_mushroom"><![CDATA[Celeritoletus]]></entry>
@@ -162,6 +167,11 @@
 		<entry id="str_inventory_description_supplymagician_ARB_bandage"><![CDATA[Heal 2 HP, cure bleed; +40% Bleed Resistance and +10% Healing received for 3 rds.
 		{colour_start|skill_unselectable}"I aint in the wrong if she's the one keepin' all the bandages to herself, ze"{colour_end}]]></entry>
 			
+			
+		<!-- Events -->
+		<entry id="town_event_title_first_magician"><![CDATA[Replace me!]]></entry>
+		<entry id="town_event_description_first_magician"><![CDATA[Replace me!]]></entry>
+		
 		<!-- Trinkets -->
 		<entry id="str_inventory_title_trinketmagician_dust"><![CDATA[Arcane Ash]]></entry>
 		<entry id="str_inventory_title_trinketmagician_herbal"><![CDATA[Herbal Remedy]]></entry>
@@ -182,9 +192,9 @@
 		<entry id="magician+str_bark_witch_night"><![CDATA[One batwing... one lizard... Now everyone hold still.]]></entry>
 		<entry id="magician+str_bark_bomb_brew_mg"><![CDATA[Hey, I don't judge what you drink.]]></entry>
 	
-		<entry id="magician+str_bark_encourage"><![CDATA[]]></entry>
-		<entry id="magician+str_bark_encourage"><![CDATA[]]></entry>
-		<entry id="magician+str_bark_encourage"><![CDATA[]]></entry>
+		<entry id="magician+str_bark_mg_forage"><![CDATA[]]></entry>
+		<entry id="magician+str_bark_mg_forage"><![CDATA[]]></entry>
+		<entry id="magician+str_bark_mg_forage"><![CDATA[]]></entry>
 	
 		<entry id="magician+str_bark_first_aid"><![CDATA[]]></entry>
 		<entry id="magician+str_bark_first_aid"><![CDATA[]]></entry>

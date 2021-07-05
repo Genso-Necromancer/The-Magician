@@ -1,57 +1,57 @@
-resistances: .stun 35% .poison 30% .bleed 25% .disease 20% .move 50% .debuff 30% .death_blow 67% .trap 40%
+resistances: .stun 20% .poison 40% .bleed 30% .disease 40% .move 20% .debuff 60% .death_blow 67% .trap 40%
 crit: .effects "Magician On-Crit"
-weapon: .name "magician_weapon_0" .atk 0% .dmg 4 7 .crit 6% .spd 7
-weapon: .name "magician_weapon_1" .atk 0% .dmg 5 8 .crit 7% .spd 7 .upgradeRequirementCode 0
-weapon: .name "magician_weapon_2" .atk 0% .dmg 6 10 .crit 8% .spd 8 .upgradeRequirementCode 1
-weapon: .name "magician_weapon_3" .atk 0% .dmg 6 11 .crit 9% .spd 8 .upgradeRequirementCode 2
-weapon: .name "magician_weapon_4" .atk 0% .dmg 7 13 .crit 10% .spd 9 .upgradeRequirementCode 3
-armour: .name "magician_armour_0" .def 10% .prot 0 .hp 22 .spd 0
-armour: .name "magician_armour_1" .def 15% .prot 0 .hp 26 .spd 0 .upgradeRequirementCode 0
-armour: .name "magician_armour_2" .def 20% .prot 0 .hp 30 .spd 0 .upgradeRequirementCode 1
-armour: .name "magician_armour_3" .def 25% .prot 0 .hp 34 .spd 0 .upgradeRequirementCode 2
-armour: .name "magician_armour_4" .def 30% .prot 0 .hp 38 .spd 0 .upgradeRequirementCode 3
+weapon: .name "magician_weapon_0" .atk 0% .dmg 4 7  .crit 4% .spd 5
+weapon: .name "magician_weapon_1" .atk 0% .dmg 5 8  .crit 5% .spd 5 .upgradeRequirementCode 0
+weapon: .name "magician_weapon_2" .atk 0% .dmg 6 10 .crit 6% .spd 6 .upgradeRequirementCode 1
+weapon: .name "magician_weapon_3" .atk 0% .dmg 6 11 .crit 7% .spd 6 .upgradeRequirementCode 2
+weapon: .name "magician_weapon_4" .atk 0% .dmg 7 13 .crit 8% .spd 7 .upgradeRequirementCode 3
+armour: .name "magician_armour_0" .def 5%  .prot 0 .hp 25 .spd 0
+armour: .name "magician_armour_1" .def 10% .prot 0 .hp 30 .spd 0 .upgradeRequirementCode 0
+armour: .name "magician_armour_2" .def 15% .prot 0 .hp 35 .spd 0 .upgradeRequirementCode 1
+armour: .name "magician_armour_3" .def 20% .prot 0 .hp 40 .spd 0 .upgradeRequirementCode 2
+armour: .name "magician_armour_4" .def 25% .prot 0 .hp 45 .spd 0 .upgradeRequirementCode 3
 
-combat_skill: .id "magic_missile" .level 0 .type "ranged" .atk 100% .dmg 0% .crit 4.5% .launch 32 .target 1234 .is_crit_valid True  .effect  "Missile Mark 1" .generation_guaranteed true
-combat_skill: .id "magic_missile" .level 1 .type "ranged" .atk 105% .dmg 0% .crit 5%   .launch 32 .target 1234 .is_crit_valid True  .effect  "Missile Mark 2"
-combat_skill: .id "magic_missile" .level 2 .type "ranged" .atk 110% .dmg 0% .crit 5.5% .launch 32 .target 1234 .is_crit_valid True  .effect  "Missile Mark 3"
-combat_skill: .id "magic_missile" .level 3 .type "ranged" .atk 115% .dmg 0% .crit 6%   .launch 32 .target 1234 .is_crit_valid True  .effect  "Missile Mark 4"
-combat_skill: .id "magic_missile" .level 4 .type "ranged" .atk 120% .dmg 0% .crit 6.5% .launch 32 .target 1234 .is_crit_valid True  .effect  "Missile Mark 5"
+combat_skill: .id "magic_missile" .level 0 .type "ranged" .atk 1% .dmg 0% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode  .effect "MG Power Buff" .generation_guaranteed true
+combat_skill: .id "magic_missile" .level 1 .type "ranged" .atk 2% .dmg 0% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode  .effect "MG Power Buff"
+combat_skill: .id "magic_missile" .level 2 .type "ranged" .atk 3% .dmg 0% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode  .effect "MG Power Buff"
+combat_skill: .id "magic_missile" .level 3 .type "ranged" .atk 4% .dmg 0% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode  .effect "MG Power Buff"
+combat_skill: .id "magic_missile" .level 4 .type "ranged" .atk 5% .dmg 0% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode  .effect "MG Power Buff"
 
-combat_skill: .id "up_sweep" .level 0 .type "melee" .atk 90%  .dmg -60% .crit 1% .move 0 1 .launch 432 .target 12 .is_crit_valid True  .effect  "Push 1A" "Mark Target"
-combat_skill: .id "up_sweep" .level 1 .type "melee" .atk 95%  .dmg -60% .crit 2% .move 0 1 .launch 432 .target 12 .is_crit_valid True  .effect  "Push 1B" "Mark Target"
-combat_skill: .id "up_sweep" .level 2 .type "melee" .atk 100% .dmg -60% .crit 3% .move 0 1 .launch 432 .target 12 .is_crit_valid True  .effect  "Push 1C" "Mark Target"
-combat_skill: .id "up_sweep" .level 3 .type "melee" .atk 105% .dmg -60% .crit 4% .move 0 1 .launch 432 .target 12 .is_crit_valid True  .effect  "Push 1D" "Mark Target"
-combat_skill: .id "up_sweep" .level 4 .type "melee" .atk 110% .dmg -60% .crit 5% .move 0 1 .launch 432 .target 12 .is_crit_valid True  .effect  "Push 1E" "Mark Target" 
+combat_skill: .id "up_sweep" .level 0 .type "melee" .atk 90%  .dmg 40% .crit 1% .move 0 1 .launch 432 .target 12 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Push 2A" .is_stall_invalidating false
+combat_skill: .id "up_sweep" .level 1 .type "melee" .atk 95%  .dmg 40% .crit 2% .move 0 1 .launch 432 .target 12 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Push 2B" .is_stall_invalidating false
+combat_skill: .id "up_sweep" .level 2 .type "melee" .atk 100% .dmg 40% .crit 3% .move 0 1 .launch 432 .target 12 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Push 2C" .is_stall_invalidating false
+combat_skill: .id "up_sweep" .level 3 .type "melee" .atk 105% .dmg 40% .crit 4% .move 0 1 .launch 432 .target 12 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Push 2D" .is_stall_invalidating false
+combat_skill: .id "up_sweep" .level 4 .type "melee" .atk 110% .dmg 40% .crit 5% .move 0 1 .launch 432 .target 12 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Push 2E" .is_stall_invalidating false
 
-combat_skill: .id "point_of_gathering" .level 0 .atk 0% .dmg 0% .crit 0% .is_continue_turn true .per_battle_limit 1 .refresh_after_each_wave true .move 0 0 .launch 4321 .target .is_crit_valid False .effect "MG FA TT" "MG Gather Power 1" "MG PoG Buff 1" "MG AD TT"
-combat_skill: .id "point_of_gathering" .level 1 .atk 0% .dmg 0% .crit 0% .is_continue_turn true .per_battle_limit 1 .refresh_after_each_wave true .move 0 0 .launch 4321 .target .is_crit_valid False .effect "MG FA TT" "MG Gather Power 1" "MG PoG Buff 2" "MG AD TT"
-combat_skill: .id "point_of_gathering" .level 2 .atk 0% .dmg 0% .crit 0% .is_continue_turn true .per_battle_limit 1 .refresh_after_each_wave true .move 0 0 .launch 4321 .target .is_crit_valid False .effect "MG FA TT" "MG Gather Power 1" "MG PoG Buff 3" "MG AD TT"
-combat_skill: .id "point_of_gathering" .level 3 .atk 0% .dmg 0% .crit 0% .is_continue_turn true .per_battle_limit 1 .refresh_after_each_wave true .move 0 0 .launch 4321 .target .is_crit_valid False .effect "MG FA TT" "MG Gather Power 1" "MG PoG Buff 4" "MG AD TT"
-combat_skill: .id "point_of_gathering" .level 4 .atk 0% .dmg 0% .crit 0% .is_continue_turn true .per_battle_limit 1 .refresh_after_each_wave true .move 0 0 .launch 4321 .target .is_crit_valid False .effect "MG FA TT" "MG Gather Power 1" "MG PoG Buff 5" "MG AD TT"
+combat_skill: .id "stardust_reverie" .level 0 .type "melee" .atk 85%  .dmg 0% .crit 5% .move 0 3 .launch 4321 .target 1234 .rank_damage_modifiers 0.3 0.2 0.0 -0.15 .is_crit_valid true .effect "MG SR DMG TT" "MG SR DMG BUFF"
+combat_skill: .id "stardust_reverie" .level 1 .type "melee" .atk 90%  .dmg 0% .crit 6% .move 0 3 .launch 4321 .target 1234 .rank_damage_modifiers 0.3 0.2 0.0 -0.15 .is_crit_valid true .effect "MG SR DMG TT" "MG SR DMG BUFF"
+combat_skill: .id "stardust_reverie" .level 2 .type "melee" .atk 95%  .dmg 0% .crit 7% .move 0 3 .launch 4321 .target 1234 .rank_damage_modifiers 0.3 0.2 0.0 -0.15 .is_crit_valid true .effect "MG SR DMG TT" "MG SR DMG BUFF"
+combat_skill: .id "stardust_reverie" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8% .move 0 3 .launch 4321 .target 1234 .rank_damage_modifiers 0.3 0.2 0.0 -0.15 .is_crit_valid true .effect "MG SR DMG TT" "MG SR DMG BUFF"
+combat_skill: .id "stardust_reverie" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .move 0 3 .launch 4321 .target 1234 .rank_damage_modifiers 0.3 0.2 0.0 -0.15 .is_crit_valid true .effect "MG SR DMG TT" "MG SR DMG BUFF"
 
-combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 95%  .dmg -90% .crit 1% .move 1 0 .launch 21 .target ~12 .is_crit_valid True  .effect "Eco Shuffle 1" "Eco Toxin 1" "Eco Urn Buff" .is_stall_invalidating false
-combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 100% .dmg -90% .crit 2% .move 1 0 .launch 21 .target ~12 .is_crit_valid True  .effect "Eco Shuffle 2" "Eco Toxin 2" "Eco Urn Buff" .is_stall_invalidating false
-combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 105% .dmg -90% .crit 3% .move 1 0 .launch 21 .target ~12 .is_crit_valid True  .effect "Eco Shuffle 3" "Eco Toxin 3" "Eco Urn Buff" .is_stall_invalidating false
-combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 110% .dmg -90% .crit 4% .move 1 0 .launch 21 .target ~12 .is_crit_valid True  .effect "Eco Shuffle 4" "Eco Toxin 4" "Eco Urn Buff" .is_stall_invalidating false
-combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 115% .dmg -90% .crit 5% .move 1 0 .launch 21 .target ~12 .is_crit_valid True  .effect "Eco Shuffle 5" "Eco Toxin 5" "Eco Urn Buff" .is_stall_invalidating false
+combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 95%  .dmg -90% .crit 1% .move 1 0 .launch 21 .target ~12 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 1" "Eco Debuff 1" 
+combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 100% .dmg -90% .crit 2% .move 1 0 .launch 21 .target ~12 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 2" "Eco Debuff 2" 
+combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 105% .dmg -90% .crit 3% .move 1 0 .launch 21 .target ~12 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 3" "Eco Debuff 3" 
+combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 110% .dmg -90% .crit 4% .move 1 0 .launch 21 .target ~12 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 4" "Eco Debuff 4" 
+combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 115% .dmg -90% .crit 5% .move 1 0 .launch 21 .target ~12 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 5" "Eco Debuff 5" 
 
-combat_skill: .id "illusion_laser" .level 0 .type "ranged" .atk 95%  .dmg -65% .crit -6% .ignore_protection true .launch 32 .target ~1234 .is_crit_valid True .effect "Laser Urn Buff"
-combat_skill: .id "illusion_laser" .level 1 .type "ranged" .atk 100% .dmg -65% .crit -5% .ignore_protection true .launch 32 .target ~1234 .is_crit_valid True .effect "Laser Urn Buff"
-combat_skill: .id "illusion_laser" .level 2 .type "ranged" .atk 105% .dmg -65% .crit -4% .ignore_protection true .launch 32 .target ~1234 .is_crit_valid True .effect "Laser Urn Buff"
-combat_skill: .id "illusion_laser" .level 3 .type "ranged" .atk 110% .dmg -65% .crit -3% .ignore_protection true .launch 32 .target ~1234 .is_crit_valid True .effect "Laser Urn Buff"
-combat_skill: .id "illusion_laser" .level 4 .type "ranged" .atk 115% .dmg -65% .crit -2% .ignore_protection true .launch 32 .target ~1234 .is_crit_valid True .effect "Laser Urn Buff"
+combat_skill: .id "illusion_laser" .level 0 .type "ranged" .atk 95%  .dmg -65% .crit -6% .ignore_protection true .launch 32 .target ~1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Power AoE Buff"
+combat_skill: .id "illusion_laser" .level 1 .type "ranged" .atk 100% .dmg -65% .crit -5% .ignore_protection true .launch 32 .target ~1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Power AoE Buff" 
+combat_skill: .id "illusion_laser" .level 2 .type "ranged" .atk 105% .dmg -65% .crit -4% .ignore_protection true .launch 32 .target ~1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Power AoE Buff"
+combat_skill: .id "illusion_laser" .level 3 .type "ranged" .atk 110% .dmg -65% .crit -3% .ignore_protection true .launch 32 .target ~1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Power AoE Buff"
+combat_skill: .id "illusion_laser" .level 4 .type "ranged" .atk 115% .dmg -65% .crit -2% .ignore_protection true .launch 32 .target ~1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Power AoE Buff"
 
-combat_skill: .id "master_spark" .level 0 .type "spellcard" .atk 120% .dmg 0% .crit 4.5% .move 0 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.6 -0.4 -0.2 0.0 .ignore_protection true .effect  "MS DMG TT" "MG Overwhelm 1" "Cooldown MG"  "magician bomb count skill" "MG Self Mark" "MG Fake Guard"
-combat_skill: .id "master_spark" .level 1 .type "spellcard" .atk 125% .dmg 0% .crit 5%   .move 0 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.6 -0.4 -0.2 0.0 .ignore_protection true .effect  "MS DMG TT" "MG Overwhelm 2" "Cooldown MG"  "magician bomb count skill" "MG Self Mark" "MG Fake Guard" 
-combat_skill: .id "master_spark" .level 2 .type "spellcard" .atk 130% .dmg 0% .crit 5.5% .move 0 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.6 -0.4 -0.2 0.0 .ignore_protection true .effect  "MS DMG TT" "MG Overwhelm 3" "Cooldown MG"  "magician bomb count skill" "MG Self Mark" "MG Fake Guard" 
-combat_skill: .id "master_spark" .level 3 .type "spellcard" .atk 135% .dmg 0% .crit 6%   .move 0 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.6 -0.4 -0.2 0.0 .ignore_protection true .effect  "MS DMG TT" "MG Overwhelm 4" "Cooldown MG"  "magician bomb count skill" "MG Self Mark" "MG Fake Guard" 
-combat_skill: .id "master_spark" .level 4 .type "spellcard" .atk 140% .dmg 0% .crit 6.5% .move 0 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.6 -0.4 -0.2 0.0 .ignore_protection true .effect  "MS DMG TT" "MG Overwhelm 5" "Cooldown MG"  "magician bomb count skill" "MG Self Mark" "MG Fake Guard" 
+combat_skill: .id "master_spark" .level 0 .type "spellcard" .atk 120% .dmg 0% .crit 4.5% .move 0 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.6 -0.4 -0.2 0.0 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect  "MS DMG TT" "MG Overwhelm 1" "Cooldown MG"  "magician bomb count skill" "MG Self Mark" "MG Fake Daze"
+combat_skill: .id "master_spark" .level 1 .type "spellcard" .atk 125% .dmg 0% .crit 5%   .move 0 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.6 -0.4 -0.2 0.0 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect  "MS DMG TT" "MG Overwhelm 2" "Cooldown MG"  "magician bomb count skill" "MG Self Mark" "MG Fake Daze" 
+combat_skill: .id "master_spark" .level 2 .type "spellcard" .atk 130% .dmg 0% .crit 5.5% .move 0 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.6 -0.4 -0.2 0.0 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect  "MS DMG TT" "MG Overwhelm 3" "Cooldown MG"  "magician bomb count skill" "MG Self Mark" "MG Fake Daze" 
+combat_skill: .id "master_spark" .level 3 .type "spellcard" .atk 135% .dmg 0% .crit 6%   .move 0 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.6 -0.4 -0.2 0.0 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect  "MS DMG TT" "MG Overwhelm 4" "Cooldown MG"  "magician bomb count skill" "MG Self Mark" "MG Fake Daze" 
+combat_skill: .id "master_spark" .level 4 .type "spellcard" .atk 140% .dmg 0% .crit 6.5% .move 0 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.6 -0.4 -0.2 0.0 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect  "MS DMG TT" "MG Overwhelm 5" "Cooldown MG"  "magician bomb count skill" "MG Self Mark" "MG Fake Daze" 
 
-combat_skill: .id "dragon_meteor" .level 0 .type "spellcard" .atk 140% .dmg 50% .crit 9%  .move 0 0 .launch 1 .target 34 .is_crit_valid True .effect "MG Overwhelm 1" "Cooldown MG" "magician bomb count skill" "MG Self Mark" "MG Fake Guard" 
-combat_skill: .id "dragon_meteor" .level 1 .type "spellcard" .atk 145% .dmg 50% .crit 10% .move 0 0 .launch 1 .target 34 .is_crit_valid True .effect "MG Overwhelm 3" "Cooldown MG" "magician bomb count skill" "MG Self Mark" "MG Fake Guard" 
-combat_skill: .id "dragon_meteor" .level 3 .type "spellcard" .atk 155% .dmg 50% .crit 12% .move 0 0 .launch 1 .target 34 .is_crit_valid True .effect "MG Overwhelm 2" "Cooldown MG" "magician bomb count skill" "MG Self Mark" "MG Fake Guard" 
-combat_skill: .id "dragon_meteor" .level 2 .type "spellcard" .atk 150% .dmg 50% .crit 11% .move 0 0 .launch 1 .target 34 .is_crit_valid True .effect "MG Overwhelm 4" "Cooldown MG" "magician bomb count skill" "MG Self Mark" "MG Fake Guard" 
-combat_skill: .id "dragon_meteor" .level 4 .type "spellcard" .atk 160% .dmg 50% .crit 13% .move 0 0 .launch 1 .target 34 .is_crit_valid True .effect "MG Overwhelm 5" "Cooldown MG" "magician bomb count skill" "MG Self Mark" "MG Fake Guard" 
+combat_skill: .id "blazing_star" .level 0 .type "spellcard" .atk 140% .dmg 80% .crit 9%  .move 0 0 .launch 1 .target ?1234 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Overwhelm 1" "Cooldown MG" "magician bomb count skill" "MG Self Mark" "MG Fake Daze" 
+combat_skill: .id "blazing_star" .level 1 .type "spellcard" .atk 145% .dmg 80% .crit 10% .move 0 0 .launch 1 .target ?1234 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Overwhelm 3" "Cooldown MG" "magician bomb count skill" "MG Self Mark" "MG Fake Daze" 
+combat_skill: .id "blazing_star" .level 3 .type "spellcard" .atk 155% .dmg 80% .crit 12% .move 0 0 .launch 1 .target ?1234 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Overwhelm 2" "Cooldown MG" "magician bomb count skill" "MG Self Mark" "MG Fake Daze" 
+combat_skill: .id "blazing_star" .level 2 .type "spellcard" .atk 150% .dmg 80% .crit 11% .move 0 0 .launch 1 .target ?1234 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Overwhelm 4" "Cooldown MG" "magician bomb count skill" "MG Self Mark" "MG Fake Daze" 
+combat_skill: .id "blazing_star" .level 4 .type "spellcard" .atk 160% .dmg 80% .crit 13% .move 0 0 .launch 1 .target ?1234 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Overwhelm 5" "Cooldown MG" "magician bomb count skill" "MG Self Mark" "MG Fake Daze" 
 
 
 
@@ -60,12 +60,18 @@ combat_move_skill: .id "move" .level 0 .type "move" .move 2 2 .launch 4321
 
 tag: .id "light"
 tag: .id "non-religious"
-tag: .id "house_of_the_yellow_hand"
+tag: .id "library"
 tag: .id "touhou"
 
+mode: .id mg_rule_mode .is_raid_default true
+
 extra_curio_loot: .code "MARI" .count 1
+extra_battle_loot: .code "MARI" .count 1
+
+extra_stack_limit: .id magician_gems1 magician_gems2 magician_gems3 magician_gems magician_gems5 magician_gems6 magician_gems7 magician_gems8
+
 deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
-controlled: .target_rank 1
+controlled: .target_rank 3
 id_index: .index 66167696369616
 skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
 generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 7 .number_of_cards_in_deck 6 .card_chance 1.0

@@ -1,0 +1,114 @@
+{
+   "buffs":
+   [
+        
+      
+      {
+         "id" : "magician_SR_DMG_Buff_R4_H",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : ""
+         }
+	  },
+      {
+         "id" : "magician_SR_DMG_Buff_R4_L",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : ""
+         }
+	  },
+      {
+         "id" : "magician_SR_DMG_Buff_R3_H",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         }
+	  },
+      {
+         "id" : "magician_SR_DMG_Buff_R3_L",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         }
+	  },
+      {
+         "id" : "magician_SR_DMG_Buff_R2_H",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         }
+	  },
+      {
+         "id" : "magician_SR_DMG_Buff_R2_L",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         }
+	  },
+      {
+         "id" : "magician_SR_DMG_Buff_R1_H",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+      {
+         "id" : "magician_SR_DMG_Buff_R1_L",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  }
+	  
+	  
+	  
+   ]
+}  

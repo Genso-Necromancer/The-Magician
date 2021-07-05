@@ -192,7 +192,7 @@
          ]
       },
 	  {
-         "id" : "magician.point_of_gathering",
+         "id" : "magician.stardust_reverie",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -216,7 +216,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "magician.point_of_gathering", "requirement_code" : "0" },
+                  { "tree_id" : "magician.stardust_reverie", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -229,7 +229,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "magician.point_of_gathering", "requirement_code" : "1" },
+                  { "tree_id" : "magician.stardust_reverie", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -242,7 +242,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "magician.point_of_gathering", "requirement_code" : "2" },
+                  { "tree_id" : "magician.stardust_reverie", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -255,7 +255,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "magician.point_of_gathering", "requirement_code" : "3" },
+                  { "tree_id" : "magician.stardust_reverie", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -405,7 +405,7 @@
          ]
       },
       {
-         "id" : "magician.dragon_meteor",
+         "id" : "magician.blazing_star",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -429,7 +429,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "magician.dragon_meteor", "requirement_code" : "0" },
+                  { "tree_id" : "magician.blazing_star", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -442,7 +442,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "magician.dragon_meteor", "requirement_code" : "1" },
+                  { "tree_id" : "magician.blazing_star", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -455,7 +455,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "magician.dragon_meteor", "requirement_code" : "2" },
+                  { "tree_id" : "magician.blazing_star", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -468,7 +468,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "magician.dragon_meteor", "requirement_code" : "3" },
+                  { "tree_id" : "magician.blazing_star", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5

@@ -57,6 +57,24 @@
 			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_HERALD_crystal", "amount" : 1 }},
 			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_ETERNAL_urn", "amount" : 1 }}
          ]
+      },
+      {
+         "id" : "MG_FORAGE",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_spd_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_dmg_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_def_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_prot_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_poison_spd_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_poison_dmg_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_poison_def_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_poison_prot_mushroom", "amount" : 1 }}
+            
+         ]
       }
 	  
      
