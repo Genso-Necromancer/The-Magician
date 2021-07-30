@@ -162,9 +162,9 @@
 			] 
 		},
 		{ 
-			"id" : "mg_forage",
+			"id" : "mg_gather_heal",
 			"level" : 0,
-			"cost" : 2,
+			"cost" : 1,
 			"use_limit" : 1,
 			"effects" :
 			[
@@ -173,7 +173,106 @@
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 2.0 },
 					"type": "loot",
-					"sub_type": "MG_FORAGE",
+					"sub_type": "MG_FORAGE_HEAL",
+					"amount": 2
+				}			
+
+			],
+			"hero_classes" : ["magician"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			] 
+		},
+		{ 
+			"id" : "mg_gather_offense",
+			"level" : 0,
+			"cost" : 1,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 2.0 },
+					"type": "loot",
+					"sub_type": "MG_OFFENSE_HEAL",
+					"amount": 2
+				}			
+
+			],
+			"hero_classes" : ["magician"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			] 
+		},
+		{ 
+			"id" : "mg_gather_defense",
+			"level" : 0,
+			"cost" : 1,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 2.0 },
+					"type": "loot",
+					"sub_type": "MG_FORAGE_DEFENSE",
+					"amount": 2
+				}			
+
+			],
+			"hero_classes" : ["magician"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			] 
+		},
+		{ 
+			"id" : "mg_gather_support",
+			"level" : 0,
+			"cost" : 1,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 2.0 },
+					"type": "loot",
+					"sub_type": "MG_FORAGE_SUPPORT",
 					"amount": 2
 				}			
 

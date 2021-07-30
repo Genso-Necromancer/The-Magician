@@ -13,10 +13,26 @@ effect: .name "Magician On-Crit" .target "performer" .chance 100% .duration 1 .b
 //Power Gathering
 //TTs
 
+//Multi-Marisa catch, allows for more than one Magician on the team
+effect: .name "MG Multi Marisa Catch" .target "performer_group_other" .chance 9999% .buff_source_type bsrc_instantSkill .duration 1 .buff_ids "MG_StillAlive_Resistance" .on_hit true .on_miss true .apply_once true .queue true .has_description false
+
+effect: .name "MG Multi Marisa UnCatch" .target "performer_group_other" .chance 9999% .buff_source_type bsrc_instantSkill .duration 1 .buff_ids "MG_UN_Resistance" .on_hit true .on_miss true .apply_once true .queue true .has_description false
+
 //Buff
-effect: .name "MG Power Buff" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_source_type bsrc_crit .buff_ids "magician_Power_Gather_BuffH" "magician_Power_Gather_BuffL" .on_hit true .on_miss false .apply_once true .queue false .has_description true
-effect: .name "MG Power AoE Buff" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_source_type bsrc_crit .buff_ids "magician_Power_Gather_AoE_BuffH" "magician_Power_Gather_AoE_BuffL" .on_hit true .on_miss false .apply_once false .queue false .has_description true
+effect: .name "MG Power Buff" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_source_type bsrc_item .buff_ids "magician_Power_Gather_BuffH" "magician_Power_Gather_BuffL" .on_hit true .on_miss false .apply_once true .queue false .has_description true
+effect: .name "MG Power AoE Buff" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_source_type bsrc_item .buff_ids "magician_Power_Gather_AoE_BuffH" "magician_Power_Gather_AoE_BuffL" .on_hit true .on_miss false .apply_once false .queue false .has_description true
 //Power Gathering FX goes here when asset is ready//
+
+////Test Summon 0 Trick
+//The Summon and a kill of it's types
+effect: .name "MG Power Buff Summon 1" .target "target_enemy_group" .chance 100% .summon_count 1 .summon_limits 1 .summon_can_spawn_loot false .summon_monsters mg_damage_monster_1_A .summon_chances 1.0 .kill_enemy_types mg_dmg_buff_1 .on_hit true .on_miss true .apply_once true .swap_source_and_target true  .has_description false .queue true
+//Target Swapped Resistance if not dead
+effect: .name "MG Still Alive Resistance" .target "target" .swap_source_and_target 1 .chance 5000% .buff_source_type bsrc_instantSkill .duration 1 .buff_ids "MG_StillAlive_Resistance" .on_hit true .on_miss false .queue false .has_description false
+
+//The Summon's buff
+effect: .name "MG_Power_Buff_From_Summon_1" .spawn_target_actor_base_class_id magician .target "target" .chance 500% .duration -1 .buff_is_clear_debuff_valid false .buff_ids "magician_Power_Gather_BuffH" "magician_Power_Gather_BuffL" .on_hit true .on_miss false .apply_once true .queue true .has_description true
+//Summon's Self Kill
+effect: .name "mg_dmg_buff_1_wipe" .target "performer" .chance 1000% .kill_enemy_types mg_dmg_buff_1 .on_hit true .on_miss true .queue true
 
 ////Magic Missle
 
@@ -86,21 +102,21 @@ effect: .name "magician bomb count skill" .target "performer"  .chance 100% .dur
 
 //Funny Mushrooms
 
-effect: .name "magician_spd_mushroom" .target "performer" .item 1 .chance 100% .heal 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .speed_rating_add 2 .on_hit true .on_miss false .apply_once true
+effect: .name "magician_HEAL_mushroom" .target "performer" .item 1 .chance 100% .dotHpHeal 5 .duration 2 .cure 1 .on_hit true .on_miss false .apply_once true
 
-effect: .name "magician_dmg_mushroom" .target "performer" .item 1 .chance 100% .heal 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .damage_high_multiply 0.05 .damage_low_multiply 0.05 .on_hit true .on_miss false .apply_once true
+effect: .name "magician_OFFENSE_mushroom" .target "performer" .item 1 .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .damage_high_multiply 0.1 .damage_low_multiply 0.1 .crit_chance_add 0.05 .attack_rating_add 0.10 .on_hit true .on_miss false .apply_once true
 
-effect: .name "magician_def_mushroom" .target "performer" .item 1 .chance 100% .heal 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 0.05 .on_hit true .on_miss false .apply_once true
+effect: .name "magician_DEFENSE_mushroom" .target "performer" .item 1 .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "magician_DEFENSE_PROT" "magician_DEFENSE_DODGE" "magician_DEFENSE_CRITAV" .on_hit true .on_miss false .apply_once true
 
-effect: .name "magician_prot_mushroom" .target "performer"	.item 1 .chance 100% .heal 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .crit_chance_add 0.05 .on_hit true .on_miss false .apply_once true
+effect: .name "magician_SUPPORT_mushroom" .target "performer"	.item 1 .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "magician_SUPPORT_TORCH" "magician_SUPPORT_SCOUT" "magician_SUPPORT_PARTY_SURPRISE" .on_hit true .on_miss false .apply_once true
 
-effect: .name "magician_poison_spd_mushroom" .target "performer" .item 1 .chance 100% .health_damage 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .speed_rating_add -2 .on_hit true .on_miss false .apply_once true
+//effect: .name "magician_poison_spd_mushroom" .target "performer" .item 1 .chance 100% .health_damage 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .speed_rating_add -2 .on_hit true .on_miss false .apply_once true
 
-effect: .name "magician_poison_dmg_mushroom" .target "performer" .item 1 .chance 100% .health_damage 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .damage_high_multiply -0.05 .damage_low_multiply -0.05 .on_hit true .on_miss false .apply_once true
+//effect: .name "magician_poison_dmg_mushroom" .target "performer" .item 1 .chance 100% .health_damage 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .damage_high_multiply -0.05 .damage_low_multiply -0.05 .on_hit true .on_miss false .apply_once true
 
-effect: .name "magician_poison_def_mushroom" .target "performer" .item 1 .chance 100% .health_damage 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add -0.05 .on_hit true .on_miss false .apply_once true
+//effect: .name "magician_poison_def_mushroom" .target "performer" .item 1 .chance 100% .health_damage 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add -0.05 .on_hit true .on_miss false .apply_once true
 
-effect: .name "magician_poison_prot_mushroom" .target "performer"	.item 1 .chance 100% .health_damage 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .crit_chance_add -0.05 .on_hit true .on_miss false .apply_once true
+//effect: .name "magician_poison_prot_mushroom" .target "performer"	.item 1 .chance 100% .health_damage 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .crit_chance_add -0.05 .on_hit true .on_miss false .apply_once true
 
 //Trinket On-Kill Effects
 effect: .name "Magician common DMG" .target "target" .chance 100% .duration 4 .combat_stat_buff 1  .damage_low_multiply 0.10 .damage_high_multiply 0.10 .on_hit true .on_miss false .queue true

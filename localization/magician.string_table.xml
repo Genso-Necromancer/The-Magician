@@ -33,7 +33,10 @@
 		<entry id="camping_skill_name_witch_night"><![CDATA[WITCHES' NIGHT]]></entry>
 		<entry id="camping_skill_name_bomb_brew_mg"><![CDATA[BOMB BREW]]></entry>
 		<entry id="camping_skill_name_aggressive_borrowing"><![CDATA[AGGRESSIVE BORROWING]]></entry>
-		<entry id="camping_skill_name_mg_forage"><![CDATA[MUSHROOM FORAGE]]></entry>
+		<entry id="camping_skill_name_mg_forage_heal"><![CDATA[FORAGE HEALING]]></entry>
+		<entry id="camping_skill_name_mg_forage_heal"><![CDATA[FORAGE OFFENSE]]></entry>
+		<entry id="camping_skill_name_mg_forage_heal"><![CDATA[FORAGE DEFENSE]]></entry>
+		<entry id="camping_skill_name_mg_forage_heal"><![CDATA[FORAGE SUPPORT]]></entry>
 		
 		<!-- Equipment -->
 
@@ -78,29 +81,18 @@
 		<entry id="str_inventory_description_supplymagician_bomb_camp"><![CDATA[{colour_start|notable}Increases{colour_end} your {colour_start|attacktype}Spell Card{colour_end} limit by {colour_start|notable}1{colour_end}! {colour_start|skill_unselectable}Dislcaimer: Has no effect on non-magicians.{colour_end}]]></entry>
 		
 		<!-- Mushrooms -->
-		<entry id="str_inventory_title_supplymagician_spd_mushroom"><![CDATA[Celeritoletus]]></entry>
-		<entry id="str_inventory_description_supplymagician_spd_mushroom"><![CDATA[A brightly blue and aerodynamic mushroom, with a ring and crown. It's just as easy to throw as it is to cook.]]></entry>
+		<entry id="str_inventory_title_supplymagician_HEAL_mushroom"><![CDATA[Heal (REPLACE ME)]]></entry>
+		<entry id="str_inventory_description_supplymagician_HEAL_mushroom"><![CDATA[HoT and curative (REPLACE ME)]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_dmg_mushroom"><![CDATA[Morsocybin]]></entry>
-		<entry id="str_inventory_description_supplymagician_dmg_mushroom"><![CDATA[This ghostly looking mushroom is both sickly and ethereal in it's appearance. Often attributed to a long forgotten deity of life after life.]]></entry>
+		<entry id="str_inventory_title_supplymagician_OFFENSE_mushroom"><![CDATA[Offense (REPLACE ME)]]></entry>
+		<entry id="str_inventory_description_supplymagician_OFFENSE_mushroom"><![CDATA[Buffs offensive stats for 1 battle (REPLACE ME)]]></entry>
 
-		<entry id="str_inventory_title_supplymagician_def_mushroom"><![CDATA[Apofykitas]]></entry>
-		<entry id="str_inventory_description_supplymagician_def_mushroom"><![CDATA[Sombre, pinkish and draped like a willow. It is surprisingly difficult to grasp and pluck.]]></entry>
+		<entry id="str_inventory_title_supplymagician_DEFENSE_mushroom"><![CDATA[Defense (REPLACE ME)]]></entry>
+		<entry id="str_inventory_description_supplymagician_DEFENSE_mushroom"><![CDATA[Buffs defensive stats for 1 battle (REPLACE ME)]]></entry>
 			
-		<entry id="str_inventory_title_supplymagician_prot_mushroom"><![CDATA[Chishinoko]]></entry>
-		<entry id="str_inventory_description_supplymagician_prot_mushroom"><![CDATA[Vibrant and imposing, this three horned fungus is a favorite of assassins.]]></entry>
+		<entry id="str_inventory_title_supplymagician_SUPPORT_mushroom"><![CDATA[Support (REPLACE ME)]]></entry>
+		<entry id="str_inventory_description_supplymagician_SUPPORT_mushroom"><![CDATA[Buffs supportive stats for 1 battle (REPLACE ME)]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_poison_spd_mushroom"><![CDATA[Celeritoletus]]></entry>
-		<entry id="str_inventory_description_supplymagician_poison_spd_mushroom"><![CDATA[A brightly blue and aerodynamic mushroom, with a ring and crown. It's just as easy to throw as it is to cook.]]></entry>
-		
-		<entry id="str_inventory_title_supplymagician_poison_dmg_mushroom"><![CDATA[Morsocybin]]></entry>
-		<entry id="str_inventory_description_supplymagician_poison_dmg_mushroom"><![CDATA[This ghostly looking mushroom is both sickly and ethereal in it's appearance. Often attributed to a long forgotten deity of life after life.]]></entry>	
-
-		<entry id="str_inventory_title_supplymagician_poison_def_mushroom"><![CDATA[Apofykitas]]></entry>
-		<entry id="str_inventory_description_supplymagician_poison_def_mushroom"><![CDATA[Sombre, pinkish and draped like a willow. It is surprisingly difficult to grasp and pluck.]]></entry>	
-
-		<entry id="str_inventory_title_supplymagician_poison_prot_mushroom"><![CDATA[Chishinoko]]></entry>
-		<entry id="str_inventory_description_supplymagician_poison_prot_mushroom"><![CDATA[Vibrant and imposing, this three horned fungus is a favorite of assassins.]]></entry>
 
 		<!-- "Borrowed" Items -->
 		<entry id="str_inventory_title_supplymagician_RUN_bomb"><![CDATA[Short Fused Bomb]]></entry>

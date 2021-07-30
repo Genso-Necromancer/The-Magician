@@ -16,20 +16,30 @@
          ]
       },
       {
-         "id" : "MARI",
+         "id" : "MARI_CURIO",
          "difficulty" : 0,
          "dungeon" : "",
          "entries" :
          [
             { "type" : "nothing", "chances" : 7, "data" : { }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_spd_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_dmg_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_def_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_prot_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_poison_spd_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_poison_dmg_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_poison_def_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_poison_prot_mushroom", "amount" : 1 }}
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_HEAL_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_OFFENSE_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_DEFENSE_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_SUPPORT_mushroom", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MARI_BATTLE",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 7, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_HEAL_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_OFFENSE_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_DEFENSE_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_SUPPORT_mushroom", "amount" : 1 }}
             
          ]
       },
@@ -59,21 +69,43 @@
          ]
       },
       {
-         "id" : "MG_FORAGE",
+         "id" : "MG_FORAGE_HEAL",
          "difficulty" : 0,
          "dungeon" : "",
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_spd_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_dmg_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_def_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_prot_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_poison_spd_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_poison_dmg_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_poison_def_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_poison_prot_mushroom", "amount" : 1 }}
-            
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_HEAL_mushroom", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE_OFFENSE",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_OFFENSE_mushroom", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE_DEFENSE",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_DEFENSE_mushroom", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE_SUPPORT",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_SUPPORT_mushroom", "amount" : 1 }}
          ]
       }
 	  

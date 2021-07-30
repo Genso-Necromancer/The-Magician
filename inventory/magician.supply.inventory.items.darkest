@@ -1,13 +1,11 @@
 inventory_item: .type "supply"		.id "magician_bomb"			    		.base_stack_limit 1		.purchase_gold_value 0	.sell_gold_value 0
 inventory_item: .type "supply"		.id "magician_bomb_camp"			    .base_stack_limit 1		.purchase_gold_value 0	.sell_gold_value 0 .sequential_use_effects mg_camp_0 mg_camp_1 mg_camp_3 .wait_for_item_use_to_finish true
-inventory_item: .type "supply"		.id "magician_spd_mushroom"			    .base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
-inventory_item: .type "supply"		.id "magician_dmg_mushroom"			    .base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
-inventory_item: .type "supply"		.id "magician_def_mushroom"			    .base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
-inventory_item: .type "supply"		.id "magician_prot_mushroom"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
-inventory_item: .type "supply"		.id "magician_poison_spd_mushroom"		.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
-inventory_item: .type "supply"		.id "magician_poison_dmg_mushroom"		.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
-inventory_item: .type "supply"		.id "magician_poison_def_mushroom"		.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
-inventory_item: .type "supply"		.id "magician_poison_prot_mushroom"		.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+
+inventory_item: .type "supply"		.id "magician_HEAL_mushroom"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 50
+inventory_item: .type "supply"		.id "magician_OFFENSE_mushroom"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 50
+inventory_item: .type "supply"		.id "magician_DEFENSE_mushroom"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 50
+inventory_item: .type "supply"		.id "magician_SUPPORT_mushroom"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 50
+
 inventory_item: .type "supply"		.id "magician_RUN_bomb"					.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
 inventory_item: .type "supply"		.id "magician_APOS_book"				.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
 inventory_item: .type "supply"		.id "magician_CAEN_food"				.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
