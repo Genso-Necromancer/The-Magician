@@ -23,16 +23,71 @@ effect: .name "MG Power Buff" .target "performer" .chance 100% .duration 1 .buff
 effect: .name "MG Power AoE Buff" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_source_type bsrc_item .buff_ids "magician_Power_Gather_AoE_BuffH" "magician_Power_Gather_AoE_BuffL" .on_hit true .on_miss false .apply_once false .queue false .has_description true
 //Power Gathering FX goes here when asset is ready//
 
-////Test Summon 0 Trick
+////DMG buff on Kill///
+
+//Rank 1
 //The Summon and a kill of it's types
 effect: .name "MG Power Buff Summon 1" .target "target_enemy_group" .chance 100% .summon_count 1 .summon_limits 1 .summon_can_spawn_loot false .summon_monsters mg_damage_monster_1_A .summon_chances 1.0 .kill_enemy_types mg_dmg_buff_1 .on_hit true .on_miss true .apply_once true .swap_source_and_target true  .has_description false .queue true
 //Target Swapped Resistance if not dead
 effect: .name "MG Still Alive Resistance" .target "target" .swap_source_and_target 1 .chance 5000% .buff_source_type bsrc_instantSkill .duration 1 .buff_ids "MG_StillAlive_Resistance" .on_hit true .on_miss false .queue false .has_description false
 
 //The Summon's buff
-effect: .name "MG_Power_Buff_From_Summon_1" .spawn_target_actor_base_class_id magician .target "target" .chance 500% .duration -1 .buff_is_clear_debuff_valid false .buff_ids "magician_Power_Gather_BuffH" "magician_Power_Gather_BuffL" .on_hit true .on_miss false .apply_once true .queue true .has_description true
+effect: .name "MG_Power_Buff_From_Summon_1" .spawn_target_actor_base_class_id magician .target "target" .chance 500% .duration 2 .buff_duration_type combat_end .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_Power_Gather_BuffH_1" "magician_Power_Gather_BuffL_1" .on_hit true .on_miss false .apply_once true .queue true .has_description true
 //Summon's Self Kill
 effect: .name "mg_dmg_buff_1_wipe" .target "performer" .chance 1000% .kill_enemy_types mg_dmg_buff_1 .on_hit true .on_miss true .queue true
+
+//Rank 2
+//The Summon and a kill of it's types
+effect: .name "MG Power Buff Summon 2" .target "target_enemy_group" .chance 100% .summon_count 1 .summon_limits 1 .summon_can_spawn_loot false .summon_monsters mg_damage_monster_1_B .summon_chances 1.0 .kill_enemy_types mg_dmg_buff_1 .on_hit true .on_miss true .apply_once true .swap_source_and_target true  .has_description false .queue true
+//Target Swapped Resistance if not dead
+effect: .name "MG Still Alive Resistance" .target "target" .swap_source_and_target 1 .chance 5000% .buff_source_type bsrc_instantSkill .duration 1 .buff_ids "MG_StillAlive_Resistance" .on_hit true .on_miss false .queue false .has_description false
+
+//The Summon's buff
+effect: .name "MG_Power_Buff_From_Summon_2" .spawn_target_actor_base_class_id magician .target "target" .chance 500% .duration 3 .buff_duration_type combat_end .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_Power_Gather_BuffH_2" "magician_Power_Gather_BuffL_2" .on_hit true .on_miss false .apply_once true .queue true .has_description true
+//Summon's Self Kill
+effect: .name "mg_dmg_buff_1_wipe" .target "performer" .chance 1000% .kill_enemy_types mg_dmg_buff_1 .on_hit true .on_miss true .queue true
+
+//Rank 3
+//The Summon and a kill of it's types
+effect: .name "MG Power Buff Summon 3" .target "target_enemy_group" .chance 100% .summon_count 1 .summon_limits 1 .summon_can_spawn_loot false .summon_monsters mg_damage_monster_1_C .summon_chances 1.0 .kill_enemy_types mg_dmg_buff_1 .on_hit true .on_miss true .apply_once true .swap_source_and_target true  .has_description false .queue true
+//Target Swapped Resistance if not dead
+effect: .name "MG Still Alive Resistance" .target "target" .swap_source_and_target 1 .chance 5000% .buff_source_type bsrc_instantSkill .duration 1 .buff_ids "MG_StillAlive_Resistance" .on_hit true .on_miss false .queue false .has_description false
+
+//The Summon's buff
+effect: .name "MG_Power_Buff_From_Summon_3" .spawn_target_actor_base_class_id magician .target "target" .chance 500% .duration 4 .buff_duration_type combat_end .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_Power_Gather_BuffH_3" "magician_Power_Gather_BuffL_3" .on_hit true .on_miss false .apply_once true .queue true .has_description true
+//Summon's Self Kill
+effect: .name "mg_dmg_buff_1_wipe" .target "performer" .chance 1000% .kill_enemy_types mg_dmg_buff_1 .on_hit true .on_miss true .queue true
+
+//Rank 4
+//The Summon and a kill of it's types
+effect: .name "MG Power Buff Summon 4" .target "target_enemy_group" .chance 100% .summon_count 1 .summon_limits 1 .summon_can_spawn_loot false .summon_monsters mg_damage_monster_1_D .summon_chances 1.0 .kill_enemy_types mg_dmg_buff_1 .on_hit true .on_miss true .apply_once true .swap_source_and_target true  .has_description false .queue true
+//Target Swapped Resistance if not dead
+effect: .name "MG Still Alive Resistance" .target "target" .swap_source_and_target 1 .chance 5000% .buff_source_type bsrc_instantSkill .duration 1 .buff_ids "MG_StillAlive_Resistance" .on_hit true .on_miss false .queue false .has_description false
+
+//The Summon's buff
+effect: .name "MG_Power_Buff_From_Summon_4" .spawn_target_actor_base_class_id magician .target "target" .chance 500% .duration -1 .buff_is_clear_debuff_valid false .buff_ids "magician_Power_Gather_BuffH_4" "magician_Power_Gather_BuffL_4" .on_hit true .on_miss false .apply_once true .queue true .has_description true
+//Summon's Self Kill
+effect: .name "mg_dmg_buff_1_wipe" .target "performer" .chance 1000% .kill_enemy_types mg_dmg_buff_1 .on_hit true .on_miss true .queue true
+
+//Rank 5
+//The Summon and a kill of it's types
+effect: .name "MG Power Buff Summon 5" .target "target_enemy_group" .chance 100% .summon_count 1 .summon_limits 1 .summon_can_spawn_loot false .summon_monsters mg_damage_monster_1_E .summon_chances 1.0 .kill_enemy_types mg_dmg_buff_1 .on_hit true .on_miss true .apply_once true .swap_source_and_target true  .has_description false .queue true
+//Target Swapped Resistance if not dead
+effect: .name "MG Still Alive Resistance" .target "target" .swap_source_and_target 1 .chance 5000% .buff_source_type bsrc_instantSkill .duration 1 .buff_ids "MG_StillAlive_Resistance" .on_hit true .on_miss false .queue false .has_description false
+
+//The Summon's buff
+effect: .name "MG_Power_Buff_From_Summon_5" .spawn_target_actor_base_class_id magician .target "target" .chance 500% .duration -1 .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_Power_Gather_BuffH_5" "magician_Power_Gather_BuffL_5" .on_hit true .on_miss false .apply_once true .queue true .has_description true
+//Summon's Self Kill
+effect: .name "mg_dmg_buff_1_wipe" .target "performer" .chance 1000% .kill_enemy_types mg_dmg_buff_1 .on_hit true .on_miss true .queue true
+
+//Tool Tips
+effect: .name "MG MM TT 1" .target "performer" .skill_instant true .buff_ids "magician_MM_NoMiss_TT" "magician_MM_BUFF_R1_TT" "magician_MM_BUFF_DD_TT" .on_hit false .on_miss true .apply_once true
+effect: .name "MG MM TT 2" .target "performer" .skill_instant true .buff_ids "magician_MM_NoMiss_TT" "magician_MM_BUFF_R2_TT" "magician_MM_BUFF_DD_TT" .on_hit false .on_miss true .apply_once true
+effect: .name "MG MM TT 3" .target "performer" .skill_instant true .buff_ids "magician_MM_NoMiss_TT" "magician_MM_BUFF_R3_TT" "magician_MM_BUFF_DD_TT" .on_hit false .on_miss true .apply_once true
+effect: .name "MG MM TT 4" .target "performer" .skill_instant true .buff_ids "magician_MM_NoMiss_TT" "magician_MM_BUFF_R4_TT" "magician_MM_BUFF_DD_TT" .on_hit false .on_miss true .apply_once true
+effect: .name "MG MM TT 5" .target "performer" .skill_instant true .buff_ids "magician_MM_NoMiss_TT" "magician_MM_BUFF_R5_TT" "magician_MM_BUFF_DD_TT" .on_hit false .on_miss true .apply_once true
+////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
 
 ////Magic Missle
 
@@ -42,11 +97,11 @@ effect: .name "Laser Urn Buff" .target "performer"  .chance 100% .skill_instant 
 
 ////Ecological Bomb
 //Blight
-effect: .name "Eco Toxin 1" .target "target"  .chance 100%  .dotPoison 1 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Eco Toxin 2" .target "target"  .chance 110%  .dotPoison 1 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Eco Toxin 3" .target "target"  .chance 120%  .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Eco Toxin 4" .target "target"  .chance 130%  .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Eco Toxin 5" .target "target"  .chance 140%  .dotPoison 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Eco Toxin 1" .target "target"  .chance 100%  .dotPoison 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Eco Toxin 2" .target "target"  .chance 110%  .dotPoison 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Eco Toxin 3" .target "target"  .chance 120%  .dotPoison 5 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Eco Toxin 4" .target "target"  .chance 130%  .dotPoison 5 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Eco Toxin 5" .target "target"  .chance 140%  .dotPoison 6 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
 
 //Blight Debuff
 effect: .name "Eco Debuff 1" .target "target"  .chance 100% .duration 1 .buff_ids "MG_blight_debuff_12" .on_hit true .on_miss false .can_apply_on_death false
@@ -65,6 +120,8 @@ effect: .name "MG SR DMG TT" .target "performer" .skill_instant true .buff_ids "
 effect: .name "MG SR DMG BUFF" .target "performer" .skill_instant true .buff_ids "magician_SR_DMG_Buff_R4_H" "magician_SR_DMG_Buff_R4_L" "magician_SR_DMG_Buff_R3_H" "magician_SR_DMG_Buff_R3_L" "magician_SR_DMG_Buff_R2_H" "magician_SR_DMG_Buff_R2_L" "magician_SR_DMG_Buff_R1_H" "magician_SR_DMG_Buff_R1_L" .on_hit true .on_miss false .apply_once true .has_description false
 
 //Spellcards
+//Support TT
+effect: .name "MGSpellCard" .target "performer" .skill_instant true .buff_ids "magician_is_bomb_TT" .on_hit true .on_miss false
 //Knock Back
 effect: .name "MG Overwhelm 1" .target "performer" .push 3 .chance 130% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
 effect: .name "MG Overwhelm 2" .target "performer" .push 3 .chance 140% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
@@ -77,6 +134,20 @@ effect: .name "MG Self Mark" .target "performer" .chance 100% .health_damage_blo
 
 //MS DMG Tool Tip
 effect: .name "MS DMG TT" .target "performer" .skill_instant true .buff_ids "magician_spark_damage_TT" .on_hit false .on_miss true .apply_once true
+
+///Gathering Buffs
+effect: .name "MG_Gather_Buff_1" .target "performer" .chance 500% .duration 2 .buff_duration_type combat_end .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_Magic_Absorption_BuffH_1" "magician_Magic_Absorption_BuffL_1" .on_hit true .on_miss false .apply_once true .queue true .has_description false
+effect: .name "MG_Gather_Buff_2" .target "performer" .chance 500% .duration 3 .buff_duration_type combat_end .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_Magic_Absorption_BuffH_2" "magician_Magic_Absorption_BuffL_2" .on_hit true .on_miss false .apply_once true .queue true .has_description false
+effect: .name "MG_Gather_Buff_3" .target "performer" .chance 500% .duration 4 .buff_duration_type combat_end .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_Magic_Absorption_BuffH_3" "magician_Magic_Absorption_BuffL_3" .on_hit true .on_miss false .apply_once true .queue true .has_description false
+effect: .name "MG_Gather_Buff_4" .target "performer" .chance 500% .duration -1 .buff_is_clear_debuff_valid false .buff_ids "magician_Magic_Absorption_BuffH_4" "magician_Magic_Absorption_BuffL_4" .on_hit true .on_miss false .apply_once true .queue true .has_description true
+effect: .name "MG_Gather_Buff_5" .target "performer" .chance 500% .duration -1 .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_Magic_Absorption_BuffH_5" "magician_Magic_Absorption_BuffL_5" .on_hit true .on_miss false .apply_once true .queue true .has_description false
+
+//Tool Tips
+effect: .name "MG PG TT 1" .target "performer" .skill_instant true .buff_ids "magician_PG_BUFF_R1_TT" "magician_MM_BUFF_DD_TT" .on_hit false .on_miss true .apply_once true
+effect: .name "MG PG TT 2" .target "performer" .skill_instant true .buff_ids "magician_PG_BUFF_R2_TT" "magician_MM_BUFF_DD_TT" .on_hit false .on_miss true .apply_once true
+effect: .name "MG PG TT 3" .target "performer" .skill_instant true .buff_ids "magician_PG_BUFF_R3_TT" "magician_MM_BUFF_DD_TT" .on_hit false .on_miss true .apply_once true
+effect: .name "MG PG TT 4" .target "performer" .skill_instant true .buff_ids "magician_PG_BUFF_R4_TT" "magician_MM_BUFF_DD_TT" .on_hit false .on_miss true .apply_once true
+effect: .name "MG PG TT 5" .target "performer" .skill_instant true .buff_ids "magician_PG_BUFF_R5_TT" "magician_MM_BUFF_DD_TT" .on_hit false .on_miss true .apply_once true
 
 ///Bomb System
 //Bomb TT

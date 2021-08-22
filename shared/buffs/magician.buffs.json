@@ -560,32 +560,6 @@
          }
 	  },
       {
-         "id" : "magician_Power_Gather_BuffH",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.03,
-         "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-      {
-         "id" : "magician_Power_Gather_BuffL",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.03,
-         "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-      {
          "id" : "magician_Power_Gather_AoE_BuffH",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",

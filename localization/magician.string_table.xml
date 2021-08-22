@@ -17,7 +17,7 @@
 		<entry id="combat_skill_name_magician_up_sweep"><![CDATA[Up Sweep]]></entry>
     	<entry id="combat_skill_name_magician_stardust_reverie"><![CDATA[Stardust Reverie]]></entry>
     	<entry id="combat_skill_name_magician_master_spark"><![CDATA[Master Spark]]></entry>
-    	<entry id="combat_skill_name_magician_blazing_star"><![CDATA[Blazing Star]]></entry>
+    	<entry id="combat_skill_name_magician_blazing_star"><![CDATA[Magic Absorber]]></entry>
     	<entry id="combat_skill_name_magician_magic_missile"><![CDATA[Magic Missle]]></entry>
 		<entry id="combat_skill_name_magician_illusion_laser"><![CDATA[Illusion Laser]]></entry>
     	<entry id="combat_skill_name_magician_move"><![CDATA[Move]]></entry>
@@ -25,7 +25,7 @@
 		<entry id="upgrade_tree_name_magician.up_sweep"><![CDATA[Up Sweep]]></entry>
     	<entry id="upgrade_tree_name_magician.stardust_reverie"><![CDATA[Stardust Reverie]]></entry>
     	<entry id="upgrade_tree_name_magician.master_spark"><![CDATA[Master Spark]]></entry>
-    	<entry id="upgrade_tree_name_magician.blazing_star"><![CDATA[Blazing Star]]></entry>
+    	<entry id="upgrade_tree_name_magician.blazing_star"><![CDATA[Magic Absorber]]></entry>
     	<entry id="upgrade_tree_name_magician.magic_missile"><![CDATA[Magic Missle]]></entry>
     	<entry id="upgrade_tree_name_magician.illusion_laser"><![CDATA[Illusion Laser]]></entry>
 			
@@ -65,11 +65,31 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_is_bomb_tt"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_bomb_count_limit"><![CDATA[{colour_start|attacktype}Spell Card{colour_end} Limit!: {colour_start|notable}%d{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_bomb_count_used"><![CDATA[{colour_start|attacktype}Spell Card{colour_end} Used!: {colour_start|notable}%d{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_nomiss_tt"><![CDATA[Cannot {colour_start|afflicted}Miss{colour_end}
+		Cannot {colour_start|notable}CRIT{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r1_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG for 2 battles]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r2_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG for 3 battles]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r3_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG for 4 battles]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r4_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG until camp]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r5_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG for the rest of the dungeon]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_DD_tt"><![CDATA[DMG buffs lost upon {colour_start|afflicted}Death's Door{colour_end}!]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_pg_buff_r1_tt"><![CDATA[{colour_start|buff}Buff Self:
+		{colour_end} +15%% DMG for 2 battles]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_pg_buff_r2_tt"><![CDATA[{colour_start|buff}Buff Self:
+		{colour_end} +15%% DMG for 3 battles]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_pg_buff_r3_tt"><![CDATA[{colour_start|buff}Buff Self:
+		{colour_end} +15%% DMG for 4 battles]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_pg_buff_r4_tt"><![CDATA[{colour_start|buff}Buff Self:
+		{colour_end} +15%% DMG until camp]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_pg_buff_r5_tt"><![CDATA[{colour_start|buff}Buff Self:
+		{colour_end} +15%% DMG for the rest of the dungeon]]></entry>
 		<entry id="camping_skill_effect_loot_camp_bomb_mg"><![CDATA[Brew 1 Magician Bomb Tincture.]]></entry>
 		<entry id="buff_rule_data_tooltip_up_sweep"><![CDATA[Upsweep]]></entry>
 		<entry id="buff_rule_data_tooltip_stardust_reverie"><![CDATA[Stardust Reverie]]></entry>
 		<entry id="camping_skill_effect_loot_MG_borrowed"><![CDATA[Borrow 2 unique provisionals at random.]]></entry>
 		<entry id="camping_skill_effect_loot_MG_FORAGE"><![CDATA[Forage 2 random mushrooms.]]></entry>
+		<entry id="buff_rule_data_tooltip_mg_rule_mode"><![CDATA[The Magician]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_magician_is_bomb_tt"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
 		
 		<!-- Provisions -->
 		

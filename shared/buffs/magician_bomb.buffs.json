@@ -21,11 +21,11 @@
          "stat_sub_type" : "magician_bomb_count_used",
          "amount" : -0.01,
          "remove_if_not_active" : true,
-         "rule_type" : "always",
+		 "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-             "string" : ""
+             "string" : "mg_rule_mode"
          }
       },
 	  {
@@ -34,11 +34,11 @@
          "stat_sub_type" : "magician_bomb_count_limit",
          "amount" : -0.03,
          "remove_if_not_active" : true,
-         "rule_type" : "always",
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-             "string" : ""
+             "string" : "mg_rule_mode"
          }
       },
 	  {
@@ -47,11 +47,11 @@
          "stat_sub_type" : "magician_bomb_count_limit",
          "amount" : -0.01,
          "remove_if_not_active" : true,
-         "rule_type" : "always",
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-             "string" : ""
+             "string" : "mg_rule_mode"
          }
       },
       {
