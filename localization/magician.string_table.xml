@@ -33,10 +33,8 @@
 		<entry id="camping_skill_name_witch_night"><![CDATA[WITCHES' NIGHT]]></entry>
 		<entry id="camping_skill_name_bomb_brew_mg"><![CDATA[BOMB BREW]]></entry>
 		<entry id="camping_skill_name_aggressive_borrowing"><![CDATA[AGGRESSIVE BORROWING]]></entry>
-		<entry id="camping_skill_name_mg_forage_heal"><![CDATA[FORAGE HEALING]]></entry>
-		<entry id="camping_skill_name_mg_forage_heal"><![CDATA[FORAGE OFFENSE]]></entry>
-		<entry id="camping_skill_name_mg_forage_heal"><![CDATA[FORAGE DEFENSE]]></entry>
-		<entry id="camping_skill_name_mg_forage_heal"><![CDATA[FORAGE SUPPORT]]></entry>
+		<entry id="camping_skill_name_mg_forage"><![CDATA[MUSHROOM FORAGE]]></entry>
+
 		
 		<!-- Equipment -->
 
@@ -61,7 +59,6 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt1"><![CDATA[DMG based on distance from target]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt2"><![CDATA[-10/0/10/20%% vs rank 1/2/3/4]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt3"><![CDATA[20/10/0/-10%% in rank 4/3/2/1]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt3"><![CDATA[20/10/0/-10%% in rank 4/3/2/1]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_is_bomb_tt"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_bomb_count_limit"><![CDATA[{colour_start|attacktype}Spell Card{colour_end} Limit!: {colour_start|notable}%d{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_bomb_count_used"><![CDATA[{colour_start|attacktype}Spell Card{colour_end} Used!: {colour_start|notable}%d{colour_end}]]></entry>
@@ -72,17 +69,18 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r3_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG for 4 battles]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r4_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG until camp]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r5_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG for the rest of the dungeon]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_DD_tt"><![CDATA[DMG buffs lost upon {colour_start|afflicted}Death's Door{colour_end}!]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_DD_tt"><![CDATA[Buffs lasts until end of dungeon
+		Buffs lost upon {colour_start|afflicted}Death's Door{colour_end}!]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_pg_buff_r1_tt"><![CDATA[{colour_start|buff}Buff Self:
-		{colour_end} +15%% DMG for 2 battles]]></entry>
+		{colour_end} +2%% DMG per target]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_pg_buff_r2_tt"><![CDATA[{colour_start|buff}Buff Self:
-		{colour_end} +15%% DMG for 3 battles]]></entry>
+		{colour_end} +2%% DMG & 0.5%% CRIT per target]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_pg_buff_r3_tt"><![CDATA[{colour_start|buff}Buff Self:
-		{colour_end} +15%% DMG for 4 battles]]></entry>
+		{colour_end} +3%% DMG & 0.5%% CRIT per target]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_pg_buff_r4_tt"><![CDATA[{colour_start|buff}Buff Self:
-		{colour_end} +15%% DMG until camp]]></entry>
+		{colour_end} +3%% DMG & 1%% CRIT per target]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_pg_buff_r5_tt"><![CDATA[{colour_start|buff}Buff Self:
-		{colour_end} +15%% DMG for the rest of the dungeon]]></entry>
+		{colour_end} +4%% DMG & 1%% CRIT per target]]></entry>
 		<entry id="camping_skill_effect_loot_camp_bomb_mg"><![CDATA[Brew 1 Magician Bomb Tincture.]]></entry>
 		<entry id="buff_rule_data_tooltip_up_sweep"><![CDATA[Upsweep]]></entry>
 		<entry id="buff_rule_data_tooltip_stardust_reverie"><![CDATA[Stardust Reverie]]></entry>
