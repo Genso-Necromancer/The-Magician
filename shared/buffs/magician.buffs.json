@@ -633,7 +633,7 @@
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 1,
+            "float" : 0,
             "string" : ""
          },
 		 "has_description": false

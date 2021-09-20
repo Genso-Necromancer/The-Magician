@@ -11,23 +11,20 @@ armour: .name "magician_armour_2" .def 15% .prot 0 .hp 35 .spd 0 .upgradeRequire
 armour: .name "magician_armour_3" .def 20% .prot 0 .hp 40 .spd 0 .upgradeRequirementCode 2
 armour: .name "magician_armour_4" .def 25% .prot 0 .hp 45 .spd 0 .upgradeRequirementCode 3
 
-combat_skill: .id "magic_missile" .level 0 .type "ranged" .atk 1% .dmg 0% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode .effect "MG MM TT 1" "MG Multi Marisa Catch" "MG Still Alive Resistance" "MG Multi Marisa Catch" "MG Power Buff Summon 5" "MG Multi Marisa UnCatch" "MG Multi Marisa UnCatch" .generation_guaranteed true
-combat_skill: .id "magic_missile" .level 1 .type "ranged" .atk 2% .dmg 0% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode .effect "MG MM TT 2" "MG Multi Marisa Catch" "MG Still Alive Resistance" "MG Multi Marisa Catch" "MG Power Buff Summon 5" "MG Multi Marisa UnCatch" "MG Multi Marisa UnCatch"
-combat_skill: .id "magic_missile" .level 2 .type "ranged" .atk 3% .dmg 0% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode .effect "MG MM TT 3" "MG Multi Marisa Catch" "MG Still Alive Resistance" "MG Multi Marisa Catch" "MG Power Buff Summon 5" "MG Multi Marisa UnCatch" "MG Multi Marisa UnCatch"
-combat_skill: .id "magic_missile" .level 3 .type "ranged" .atk 4% .dmg 0% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode .effect "MG MM TT 4" "MG Multi Marisa Catch" "MG Still Alive Resistance" "MG Multi Marisa Catch" "MG Power Buff Summon 5" "MG Multi Marisa UnCatch" "MG Multi Marisa UnCatch"
-combat_skill: .id "magic_missile" .level 4 .type "ranged" .atk 5% .dmg 0% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode .effect "MG MM TT 5" "MG Multi Marisa Catch" "MG Still Alive Resistance" "MG Multi Marisa Catch" "MG Power Buff Summon 5" "MG Multi Marisa UnCatch" "MG Multi Marisa UnCatch"
+combat_skill: .id "magic_missile" .level 0 .type "ranged" .atk 1% .dmg -15% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode .effect "MG MM TT 5" "MG Anti-Corpse" "MG Multi Marisa Catch" "MG Still Alive Resistance" "MG Power Buff Summon 5" "MG Multi Marisa UnCatch" .generation_guaranteed true
+
 
 combat_skill: .id "up_sweep" .level 0 .type "melee" .atk 90%  .dmg 0% .crit 1% .move 0 1 .launch 432 .target 12 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG US Push 1" .is_stall_invalidating false
 combat_skill: .id "up_sweep" .level 1 .type "melee" .atk 95%  .dmg 0% .crit 2% .move 0 1 .launch 432 .target 12 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG US Push 2" .is_stall_invalidating false
 combat_skill: .id "up_sweep" .level 2 .type "melee" .atk 100% .dmg 0% .crit 3% .move 0 1 .launch 432 .target 12 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG US Push 3" .is_stall_invalidating false
 combat_skill: .id "up_sweep" .level 3 .type "melee" .atk 105% .dmg 0% .crit 4% .move 0 1 .launch 432 .target 12 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG US Push 4" .is_stall_invalidating false
-combat_skill: .id "up_sweep" .level 4 .type "melee" .atk 110% .dmg 0% .crit 5% .move 0 1 .launch 432 .target 12 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG US Push 5" .is_stall_invalidating false
+combat_skill: .id "up_sweep" .level 4 .type "melee" .atk 110% .dmg 0% .crit 5% .move 0 1 .launch 432 .target 12 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG DIE MONSTER" "MG DIE MONSTER2" "MG US Push 5" .is_stall_invalidating false
 
-combat_skill: .id "stardust_reverie" .level 0 .type "melee" .atk 85%  .dmg 0% .crit 5% .move 0 3 .launch 4321 .target 1234 .rank_damage_modifiers 0.2 0.1 0.0 -0.10 .is_crit_valid true .effect "MG SR DMG TT" "MG SR DMG BUFF"
-combat_skill: .id "stardust_reverie" .level 1 .type "melee" .atk 90%  .dmg 0% .crit 6% .move 0 3 .launch 4321 .target 1234 .rank_damage_modifiers 0.2 0.1 0.0 -0.10 .is_crit_valid true .effect "MG SR DMG TT" "MG SR DMG BUFF"
-combat_skill: .id "stardust_reverie" .level 2 .type "melee" .atk 95%  .dmg 0% .crit 7% .move 0 3 .launch 4321 .target 1234 .rank_damage_modifiers 0.2 0.1 0.0 -0.10 .is_crit_valid true .effect "MG SR DMG TT" "MG SR DMG BUFF"
-combat_skill: .id "stardust_reverie" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8% .move 0 3 .launch 4321 .target 1234 .rank_damage_modifiers 0.2 0.1 0.0 -0.10 .is_crit_valid true .effect "MG SR DMG TT" "MG SR DMG BUFF"
-combat_skill: .id "stardust_reverie" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .move 0 3 .launch 4321 .target 1234 .rank_damage_modifiers 0.2 0.1 0.0 -0.10 .is_crit_valid true .effect "MG SR DMG TT" "MG SR DMG BUFF"
+combat_skill: .id "stardust_reverie" .level 0 .type "melee" .atk 85%  .dmg 0% .crit 5% .move 0 3 .launch 4321 .target 1234 .rank_damage_modifiers 0.15 0.1 0.0 -0.10 .is_crit_valid true .effect "MG SR DMG TT" "MG SR DMG BUFF"
+combat_skill: .id "stardust_reverie" .level 1 .type "melee" .atk 90%  .dmg 0% .crit 6% .move 0 3 .launch 4321 .target 1234 .rank_damage_modifiers 0.15 0.1 0.0 -0.10 .is_crit_valid true .effect "MG SR DMG TT" "MG SR DMG BUFF"
+combat_skill: .id "stardust_reverie" .level 2 .type "melee" .atk 95%  .dmg 0% .crit 7% .move 0 3 .launch 4321 .target 1234 .rank_damage_modifiers 0.15 0.1 0.0 -0.10 .is_crit_valid true .effect "MG SR DMG TT" "MG SR DMG BUFF"
+combat_skill: .id "stardust_reverie" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8% .move 0 3 .launch 4321 .target 1234 .rank_damage_modifiers 0.15 0.1 0.0 -0.10 .is_crit_valid true .effect "MG SR DMG TT" "MG SR DMG BUFF"
+combat_skill: .id "stardust_reverie" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .move 0 3 .launch 4321 .target 1234 .rank_damage_modifiers 0.15 0.1 0.0 -0.10 .is_crit_valid true .effect "MG SR DMG TT" "MG SR DMG BUFF"
 
 combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -60% .crit 1% .move 1 0 .launch 21 .target ~12 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 1" "MG EB Push 1"
 combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -60% .crit 2% .move 1 0 .launch 21 .target ~12 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 2" "MG EB Push 2"
@@ -36,10 +33,13 @@ combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -60% 
 combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -60% .crit 5% .move 1 0 .launch 21 .target ~12 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 5" "MG EB Push 5"
 
 combat_skill: .id "illusion_laser" .level 0 .type "ranged" .atk 95%  .dmg -65% .crit -6% .ignore_protection true .launch 32 .target ~1234 .is_crit_valid true .valid_modes mg_rule_mode .effect
-combat_skill: .id "illusion_laser" .level 1 .type "ranged" .atk 100% .dmg -65% .crit -5% .ignore_protection true .launch 32 .target ~1234 .is_crit_valid true .valid_modes mg_rule_mode .effect
-combat_skill: .id "illusion_laser" .level 2 .type "ranged" .atk 105% .dmg -65% .crit -4% .ignore_protection true .launch 32 .target ~1234 .is_crit_valid true .valid_modes mg_rule_mode .effect
-combat_skill: .id "illusion_laser" .level 3 .type "ranged" .atk 110% .dmg -65% .crit -3% .ignore_protection true .launch 32 .target ~1234 .is_crit_valid true .valid_modes mg_rule_mode .effect
-combat_skill: .id "illusion_laser" .level 4 .type "ranged" .atk 115% .dmg -65% .crit -2% .ignore_protection true .launch 32 .target ~1234 .is_crit_valid true .valid_modes mg_rule_mode .effect
+combat_skill: .id "illusion_laser" .level 1 .type "ranged" .atk 100% .dmg -65% .crit -5% .ignore_protection true .launch 32 .target ~1234 .is_crit_valid true .valid_modes mg_rule_mode .effect 
+combat_skill: .id "illusion_laser" .level 2 .type "ranged" .atk 105% .dmg -65% .crit -4% .ignore_protection true .launch 32 .target ~1234 .is_crit_valid true .valid_modes mg_rule_mode .effect 
+combat_skill: .id "illusion_laser" .level 3 .type "ranged" .atk 110% .dmg -65% .crit -3% .ignore_protection true .launch 32 .target ~1234 .is_crit_valid true .valid_modes mg_rule_mode .effect 
+combat_skill: .id "illusion_laser" .level 4 .type "ranged" .atk 115% .dmg -65% .crit -2% .ignore_protection true .launch 32 .target 1234 .is_crit_valid true .valid_modes mg_rule_mode .effect 
+
+combat_skill: .id "illusion_laser" .level 4 .type "ranged" .atk 115% .dmg -65% .crit -2% .ignore_protection true .launch 32 .target 1234 .is_crit_valid true .valid_modes mg_rule_mode .effect 
+
 
 combat_skill: .id "master_spark" .level 0 .type "spellcard" .atk 120% .dmg 0% .crit 4.5% .move 0 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.6 -0.4 -0.2 0.0 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect  "MS DMG TT" "MG Overwhelm 1" "Cooldown MG"  "magician bomb count skill" "MG Self Mark" "MG Fake Daze"
 combat_skill: .id "master_spark" .level 1 .type "spellcard" .atk 125% .dmg 0% .crit 5%   .move 0 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.6 -0.4 -0.2 0.0 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect  "MS DMG TT" "MG Overwhelm 2" "Cooldown MG"  "magician bomb count skill" "MG Self Mark" "MG Fake Daze"
@@ -47,11 +47,7 @@ combat_skill: .id "master_spark" .level 2 .type "spellcard" .atk 130% .dmg 0% .c
 combat_skill: .id "master_spark" .level 3 .type "spellcard" .atk 135% .dmg 0% .crit 6%   .move 0 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.6 -0.4 -0.2 0.0 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect  "MS DMG TT" "MG Overwhelm 4" "Cooldown MG"  "magician bomb count skill" "MG Self Mark" "MG Fake Daze"
 combat_skill: .id "master_spark" .level 4 .type "spellcard" .atk 140% .dmg 0% .crit 6.5% .move 0 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.6 -0.4 -0.2 0.0 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect  "MS DMG TT" "MG Overwhelm 5" "Cooldown MG"  "magician bomb count skill" "MG Self Mark" "MG Fake Daze"
 
-combat_skill: .id "blazing_star" .level 0 .type "spellcard" .atk 85%  .dmg -100% .crit 0% .launch 21 .target ~1234 .is_crit_valid false .valid_modes mg_rule_mode .effect "MG_Gather_Buff_1" "Cooldown MG" "Per Battle MG" "magician bomb count skill" "MG Self Mark" "MG Fake Daze" "MG PG TT 1"
-combat_skill: .id "blazing_star" .level 1 .type "spellcard" .atk 90%  .dmg -100% .crit 0% .launch 21 .target ~1234 .is_crit_valid false .valid_modes mg_rule_mode .effect "MG_Gather_Buff_2" "Cooldown MG" "Per Battle MG" "magician bomb count skill" "MG Self Mark" "MG Fake Daze" "MG PG TT 2"
-combat_skill: .id "blazing_star" .level 2 .type "spellcard" .atk 95%  .dmg -100% .crit 0% .launch 21 .target ~1234 .is_crit_valid false .valid_modes mg_rule_mode .effect "MG_Gather_Buff_3" "Cooldown MG" "Per Battle MG" "magician bomb count skill" "MG Self Mark" "MG Fake Daze" "MG PG TT 3"
-combat_skill: .id "blazing_star" .level 3 .type "spellcard" .atk 100% .dmg -100% .crit 0% .launch 21 .target ~1234 .is_crit_valid false .valid_modes mg_rule_mode .effect "MG_Gather_Buff_4" "Cooldown MG" "Per Battle MG" "magician bomb count skill" "MG Self Mark" "MG Fake Daze" "MG PG TT 4"
-combat_skill: .id "blazing_star" .level 4 .type "spellcard" .atk 105% .dmg -100% .crit 0% .launch 21 .target ~1234 .is_crit_valid false .valid_modes mg_rule_mode .effect "MG_Gather_Buff_5" "Cooldown MG" "Per Battle MG" "magician bomb count skill" "MG Self Mark" "MG Fake Daze" "MG PG TT 5"
+combat_skill: .id "magic_absorb" .level 0 .type "spellcard" .launch 21 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "Is Bomb MG TT" "MG_Gather_Buff_1" "Cooldown MG" "Per Battle MG" "magician bomb count skill" "MG Self Mark" "MG Fake Daze" "MG PG TT 1"
 
 
 

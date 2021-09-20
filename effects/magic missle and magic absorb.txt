@@ -1,0 +1,67 @@
+
+
+
+combat_skill: .id "magic_missile" .level 1 .type "ranged" .atk 2% .dmg -15% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode .effect "MG MM TT 2" "MG Multi Marisa Catch" "MG Still Alive Resistance" "MG Multi Marisa Catch" "MG Power Buff Summon 5" "MG Multi Marisa UnCatch" "MG Multi Marisa UnCatch"
+combat_skill: .id "magic_missile" .level 2 .type "ranged" .atk 3% .dmg -15% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode .effect "MG MM TT 3" "MG Multi Marisa Catch" "MG Still Alive Resistance" "MG Multi Marisa Catch" "MG Power Buff Summon 5" "MG Multi Marisa UnCatch" "MG Multi Marisa UnCatch"
+combat_skill: .id "magic_missile" .level 3 .type "ranged" .atk 4% .dmg -15% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode .effect "MG MM TT 4" "MG Multi Marisa Catch" "MG Still Alive Resistance" "MG Multi Marisa Catch" "MG Power Buff Summon 5" "MG Multi Marisa UnCatch" "MG Multi Marisa UnCatch"
+combat_skill: .id "magic_missile" .level 4 .type "ranged" .atk 5% .dmg -15% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode .effect "MG MM TT 5" "MG Multi Marisa Catch" "MG Still Alive Resistance" "MG Multi Marisa Catch" "MG Power Buff Summon 5" "MG Multi Marisa UnCatch" "MG Multi Marisa UnCatch"
+
+,
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 250 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "magician.magic_missile", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 750 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "magician.magic_missile", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1250 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "magician.magic_missile", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 2500 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "magician.magic_missile", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 5
+            }
+			
+			
+			combat_skill: .id "blazing_star" .level 1 .type "spellcard" .atk 90%  .dmg -100% .crit 0% .launch 21 .target ~1234 .is_crit_valid false .valid_modes mg_rule_mode .effect "MG_Gather_Buff_2" "Cooldown MG" "Per Battle MG" "magician bomb count skill" "MG Self Mark" "MG Fake Daze" "MG PG TT 2"
+combat_skill: .id "blazing_star" .level 2 .type "spellcard" .atk 95%  .dmg -100% .crit 0% .launch 21 .target ~1234 .is_crit_valid false .valid_modes mg_rule_mode .effect "MG_Gather_Buff_3" "Cooldown MG" "Per Battle MG" "magician bomb count skill" "MG Self Mark" "MG Fake Daze" "MG PG TT 3"
+combat_skill: .id "blazing_star" .level 3 .type "spellcard" .atk 100% .dmg -100% .crit 0% .launch 21 .target ~1234 .is_crit_valid false .valid_modes mg_rule_mode .effect "MG_Gather_Buff_4" "Cooldown MG" "Per Battle MG" "magician bomb count skill" "MG Self Mark" "MG Fake Daze" "MG PG TT 4"
+combat_skill: .id "blazing_star" .level 4 .type "spellcard" .atk 105% .dmg -100% .crit 0% .launch 21 .target ~1234 .is_crit_valid false .valid_modes mg_rule_mode .effect "MG_Gather_Buff_5" "Cooldown MG" "Per Battle MG" "magician bomb count skill" "MG Self Mark" "MG Fake Daze" "MG PG TT 5"

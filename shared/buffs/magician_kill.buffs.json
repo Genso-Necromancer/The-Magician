@@ -2,7 +2,21 @@
    "buffs":
    [
         
+      
       {
+         "id" : "MG_Anti_Corpse",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 5,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "corpse"
+         }
+	  },
+	  {
          "id" : "magician_Power_Gather_BuffH_1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",

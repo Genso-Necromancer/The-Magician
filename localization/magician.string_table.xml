@@ -17,7 +17,7 @@
 		<entry id="combat_skill_name_magician_up_sweep"><![CDATA[Up Sweep]]></entry>
     	<entry id="combat_skill_name_magician_stardust_reverie"><![CDATA[Stardust Reverie]]></entry>
     	<entry id="combat_skill_name_magician_master_spark"><![CDATA[Master Spark]]></entry>
-    	<entry id="combat_skill_name_magician_blazing_star"><![CDATA[Magic Absorber]]></entry>
+    	<entry id="combat_skill_name_magician_magic_absorb"><![CDATA[Magic Absorber]]></entry>
     	<entry id="combat_skill_name_magician_magic_missile"><![CDATA[Magic Missle]]></entry>
 		<entry id="combat_skill_name_magician_illusion_laser"><![CDATA[Illusion Laser]]></entry>
     	<entry id="combat_skill_name_magician_move"><![CDATA[Move]]></entry>
@@ -25,7 +25,7 @@
 		<entry id="upgrade_tree_name_magician.up_sweep"><![CDATA[Up Sweep]]></entry>
     	<entry id="upgrade_tree_name_magician.stardust_reverie"><![CDATA[Stardust Reverie]]></entry>
     	<entry id="upgrade_tree_name_magician.master_spark"><![CDATA[Master Spark]]></entry>
-    	<entry id="upgrade_tree_name_magician.blazing_star"><![CDATA[Magic Absorber]]></entry>
+    	<entry id="upgrade_tree_name_magician.magic_absorb"><![CDATA[Magic Absorber]]></entry>
     	<entry id="upgrade_tree_name_magician.magic_missile"><![CDATA[Magic Missle]]></entry>
     	<entry id="upgrade_tree_name_magician.illusion_laser"><![CDATA[Illusion Laser]]></entry>
 			
@@ -33,7 +33,7 @@
 		<entry id="camping_skill_name_witch_night"><![CDATA[WITCHES' NIGHT]]></entry>
 		<entry id="camping_skill_name_bomb_brew_mg"><![CDATA[BOMB BREW]]></entry>
 		<entry id="camping_skill_name_aggressive_borrowing"><![CDATA[AGGRESSIVE BORROWING]]></entry>
-		<entry id="camping_skill_name_mg_forage"><![CDATA[MUSHROOM FORAGE]]></entry>
+		<entry id="camping_skill_name_mg_gather"><![CDATA[MUSHROOM FORAGE]]></entry>
 
 		
 		<!-- Equipment -->
@@ -64,11 +64,11 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_bomb_count_used"><![CDATA[{colour_start|attacktype}Spell Card{colour_end} Used!: {colour_start|notable}%d{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_nomiss_tt"><![CDATA[Cannot {colour_start|afflicted}Miss{colour_end}
 		Cannot {colour_start|notable}CRIT{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r1_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG for 2 battles]]></entry>
+		<!-- NOT USED <entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r1_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG for 2 battles]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r2_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG for 3 battles]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r3_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG for 4 battles]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r4_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG until camp]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r5_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG for the rest of the dungeon]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r4_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG until camp]]></entry> -->
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r5_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_DD_tt"><![CDATA[Buffs lasts until end of dungeon
 		Buffs lost upon {colour_start|afflicted}Death's Door{colour_end}!]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_pg_buff_r1_tt"><![CDATA[{colour_start|buff}Buff Self:
