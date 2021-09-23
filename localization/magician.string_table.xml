@@ -69,18 +69,12 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r3_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG for 4 battles]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r4_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG until camp]]></entry> -->
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r5_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_DD_tt"><![CDATA[Buffs lasts until end of dungeon
-		Buffs lost upon {colour_start|afflicted}Death's Door{colour_end}!]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_pg_buff_r1_tt"><![CDATA[{colour_start|buff}Buff Self:
-		{colour_end} +2%% DMG per target]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_pg_buff_r2_tt"><![CDATA[{colour_start|buff}Buff Self:
-		{colour_end} +2%% DMG & 0.5%% CRIT per target]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_pg_buff_r3_tt"><![CDATA[{colour_start|buff}Buff Self:
-		{colour_end} +3%% DMG & 0.5%% CRIT per target]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_pg_buff_r4_tt"><![CDATA[{colour_start|buff}Buff Self:
-		{colour_end} +3%% DMG & 1%% CRIT per target]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_pg_buff_r5_tt"><![CDATA[{colour_start|buff}Buff Self:
-		{colour_end} +4%% DMG & 1%% CRIT per target]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_DD_tt"><![CDATA[Buff lasts until end of dungeon
+		Buff lost upon {colour_start|afflicted}Death's Door{colour_end}!]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_pg_buff_tt"><![CDATA[{colour_start|buff}Buff Self:
+		{colour_end} +%d%% DMG]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_PG_TEMP_BUFF_tt"><![CDATA[{colour_start|buff}Buff Self:
+		{colour_end} +%d%% DMG for 2 turns]]></entry>
 		<entry id="camping_skill_effect_loot_camp_bomb_mg"><![CDATA[Brew 1 Magician Bomb Tincture.]]></entry>
 		<entry id="buff_rule_data_tooltip_up_sweep"><![CDATA[Upsweep]]></entry>
 		<entry id="buff_rule_data_tooltip_stardust_reverie"><![CDATA[Stardust Reverie]]></entry>

@@ -135,8 +135,8 @@
 	  {
          "id" : "magician_PG_BUFF_R1_TT",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_pg_buff_r1_tt",
-         "amount" : 0.01,
+         "stat_sub_type" : "mg_pg_buff_tt",
+         "amount" : -0.05,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -146,10 +146,10 @@
          }
       },
 	  {
-         "id" : "magician_PG_BUFF_R2_TT",
+         "id" : "magician_PG_TEMP_BUFF_R1_TT",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_pg_buff_r2_tt",
-         "amount" : 0.01,
+         "stat_sub_type" : "mg_PG_TEMP_BUFF_tt",
+         "amount" : -0.5,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -159,10 +159,10 @@
          }
       },
 	  {
-         "id" : "magician_PG_BUFF_R3_TT",
+         "id" : "magician_PG_TEMP_BUFF_R2_TT",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_pg_buff_r3_tt",
-         "amount" : 0.01,
+         "stat_sub_type" : "mg_PG_TEMP_BUFF_tt",
+         "amount" : -0.6,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -172,10 +172,10 @@
          }
       },
 	  {
-         "id" : "magician_PG_BUFF_R4_TT",
+         "id" : "magician_PG_TEMP_BUFF_R3_TT",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_pg_buff_r4_tt",
-         "amount" : 0.01,
+         "stat_sub_type" : "mg_PG_TEMP_BUFF_tt",
+         "amount" : -0.7,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -185,10 +185,23 @@
          }
       },
 	  {
-         "id" : "magician_PG_BUFF_R5_TT",
+         "id" : "magician_PG_TEMP_BUFF_R4_TT",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_pg_buff_r5_tt",
-         "amount" : 0.01,
+         "stat_sub_type" : "mg_PG_TEMP_BUFF_tt",
+         "amount" : -0.8,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_PG_TEMP_BUFF_R5_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_PG_TEMP_BUFF_tt",
+         "amount" : -0.9,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
