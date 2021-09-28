@@ -8,11 +8,11 @@
          "stat_sub_type" : "miko_is_bomb_tt",
          "amount" : 0.01,
          "remove_if_not_active" : false,
-         "rule_type" : "always",
+          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-             "string" : ""
+             "string" : "mg_rule_mode"
          }
       },
 	  {
@@ -21,11 +21,11 @@
          "stat_sub_type" : "magician_bomb_count_used",
          "amount" : -0.01,
          "remove_if_not_active" : false,
-		 "rule_type" : "always",
+		  "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-             "string" : ""
+             "string" : "mg_rule_mode"
          }
       },
 	  {
@@ -34,11 +34,11 @@
          "stat_sub_type" : "magician_bomb_count_limit",
          "amount" : -0.03,
          "remove_if_not_active" : false,
-         "rule_type" : "always",
+          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-             "string" : ""
+             "string" : "mg_rule_mode"
          }
       },
 	  {
@@ -47,11 +47,11 @@
          "stat_sub_type" : "magician_bomb_count_limit",
          "amount" : -0.01,
          "remove_if_not_active" : false,
-         "rule_type" : "always",
+          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-             "string" : ""
+             "string" : "mg_rule_mode"
          }
       },
       {
@@ -74,11 +74,11 @@
          "stat_sub_type" : "daze",
          "amount" : 0.25,
          "remove_if_not_active" : false,
-         "rule_type" : "always",
+          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-             "string" : ""
+             "string" : "mg_rule_mode"
          },
 		 "has_description": false
       },
@@ -88,11 +88,25 @@
          "stat_sub_type" : "daze",
          "amount" : -0.50,
          "remove_if_not_active" : false,
+          "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+             "string" : "mg_rule_mode"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "magician_no_bombs",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : 10,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-             "string" : ""
+            "string" : ""
          },
 		 "has_description": false
       }

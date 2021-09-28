@@ -56,27 +56,6 @@ effect: .name "MG US Push 5" .target "target"  .push 1 .chance 140%  .on_hit tru
 ////Illusion Laser
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ////Ecological Bomb
 //Blight
 effect: .name "Eco Toxin 1" .target "target"  .chance 100%  .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
@@ -89,7 +68,11 @@ effect: .name "Eco Toxin 5" .target "target"  .chance 140%  .dotPoison 4 .durati
 effect: .name "MG Eco Debuff 1" .target "target" .chance 100% .duration 3 .buff_ids "MG_blight_debuff_1" .on_hit true .on_miss false
 
 //Vs Stunned
-effect: .name "MG Eco Vs Stun 1" .target "performer" .keyStatus stunned .combat_stat_buff 1  .on_hit true .on_miss false
+effect: .name "MG Eco Vs Stun 1" .target "performer" .keyStatus stunned .combat_stat_buff 1 .damage_high_multiply 40% .damage_low_multiply 40% .on_hit true .on_miss false
+effect: .name "MG Eco Vs Stun 2" .target "performer" .keyStatus stunned .combat_stat_buff 1 .damage_high_multiply 45% .damage_low_multiply 45% .on_hit true .on_miss false
+effect: .name "MG Eco Vs Stun 3" .target "performer" .keyStatus stunned .combat_stat_buff 1 .damage_high_multiply 50% .damage_low_multiply 50% .on_hit true .on_miss false
+effect: .name "MG Eco Vs Stun 4" .target "performer" .keyStatus stunned .combat_stat_buff 1 .damage_high_multiply 55% .damage_low_multiply 55% .on_hit true .on_miss false
+effect: .name "MG Eco Vs Stun 5" .target "performer" .keyStatus stunned .combat_stat_buff 1 .damage_high_multiply 60% .damage_low_multiply 60% .on_hit true .on_miss false
 
 //knock back
 effect: .name "MG EB Push 1" .target "target"  .push 1 .chance 75%   .on_hit true .on_miss false .apply_once false .can_apply_on_death true
@@ -121,29 +104,39 @@ effect: .name "MG Overwhelm 5" .target "performer" .push 2 .chance 180% .on_hit 
 effect: .name "MG Self Mark" .target "performer" .chance 100% .duration 3 .tag 1 .on_hit true .on_miss true .queue true .apply_once true
 effect: .name "MG Self Block" .target "performer" .chance 100% .health_damage_blocks 1 .on_hit true .on_miss true .queue true .apply_once true
 
+////Master Spark
+//Vs Bigger enemies
+effect: .name "MG Surface Area" .target "performer" .chance 100% .skill_instant true .buff_ids  "MG_MS_large_DMGH" "MG_MS_large_DMGL" .on_hit true .on_miss false
+
 //MS DMG Tool Tip
 effect: .name "MS DMG TT" .target "performer" .skill_instant true .buff_ids "magician_spark_damage_TT" .on_hit false .on_miss true .apply_once true
 
-///Gathering Buffs
+////Magic Absorber
+///Gathering Buffs NOT USED
 effect: .name "MG_Gather_Buff_1" .target "performer" .chance 500% .duration -1 .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_Magic_Absorption_BuffH_1" "magician_Magic_Absorption_BuffL_1" .on_hit true .on_miss true .apply_once false .queue true .has_description false
 effect: .name "MG_Gather_Buff_2" .target "performer" .chance 500% .duration -1 .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_Magic_Absorption_BuffH_2" "magician_Magic_Absorption_BuffL_2" "magician_Magic_Absorption_CRIT_Buff_2" .on_hit true .on_miss false .apply_once false .queue true .has_description false
 effect: .name "MG_Gather_Buff_3" .target "performer" .chance 500% .duration -1 .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_Magic_Absorption_BuffH_3" "magician_Magic_Absorption_BuffL_3" "magician_Magic_Absorption_CRIT_Buff_3" .on_hit true .on_miss false .apply_once false .queue true .has_description false
 effect: .name "MG_Gather_Buff_4" .target "performer" .chance 500% .duration -1 .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_Magic_Absorption_BuffH_4" "magician_Magic_Absorption_BuffL_4" "magician_Magic_Absorption_CRIT_Buff_4" .on_hit true .on_miss false .apply_once false .queue true .has_description false
 effect: .name "MG_Gather_Buff_5" .target "performer" .chance 500% .duration -1 .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_Magic_Absorption_BuffH_5" "magician_Magic_Absorption_BuffL_5" "magician_Magic_Absorption_CRIT_Buff_5" .on_hit true .on_miss false .apply_once false .queue true .has_description false
+///
 
 //Temp Buff
-effect: .name "MG Temp Absorb 1" .target "performer" .chance 100% .duration 2 .combat_stat_buff 1 .damage_high_multiply 50% .damage_low_multiply 50% .on_hit true .on_miss true .has_description false
-effect: .name "MG Temp Absorb 2" .target "performer" .chance 100% .duration 2 .combat_stat_buff 1 .damage_high_multiply 60% .damage_low_multiply 60% .on_hit true .on_miss true .has_description false
-effect: .name "MG Temp Absorb 3" .target "performer" .chance 100% .duration 2 .combat_stat_buff 1 .damage_high_multiply 70% .damage_low_multiply 70% .on_hit true .on_miss true .has_description false
-effect: .name "MG Temp Absorb 4" .target "performer" .chance 100% .duration 2 .combat_stat_buff 1 .damage_high_multiply 80% .damage_low_multiply 80% .on_hit true .on_miss true .has_description false
-effect: .name "MG Temp Absorb 5" .target "performer" .chance 100% .duration 2 .combat_stat_buff 1 .damage_high_multiply 90% .damage_low_multiply 90% .on_hit true .on_miss true .has_description false
+effect: .name "MG Temp Absorb 1" .target "performer" .chance 100% .duration 1 .combat_stat_buff 1 .damage_high_multiply 50% .damage_low_multiply 50% .on_hit true .on_miss true .has_description false
+effect: .name "MG Temp Absorb 2" .target "performer" .chance 100% .duration 1 .combat_stat_buff 1 .damage_high_multiply 60% .damage_low_multiply 60% .on_hit true .on_miss true .has_description false
+effect: .name "MG Temp Absorb 3" .target "performer" .chance 100% .duration 1 .combat_stat_buff 1 .damage_high_multiply 70% .damage_low_multiply 70% .on_hit true .on_miss true .has_description false
+effect: .name "MG Temp Absorb 4" .target "performer" .chance 100% .duration 1 .combat_stat_buff 1 .damage_high_multiply 80% .damage_low_multiply 80% .on_hit true .on_miss true .has_description false
+effect: .name "MG Temp Absorb 5" .target "performer" .chance 100% .duration 1 .combat_stat_buff 1 .damage_high_multiply 90% .damage_low_multiply 90% .on_hit true .on_miss true .has_description false
+
+//Per Turn Limit
+effect: .name "MG Per Turn" .target "performer" .chance 100% .duration 1 .buff_ids "magician_no_bombs" .on_hit true .on_miss true .has_description false
 
 //Tool Tips
-effect: .name "MG PG TT 1" .target "performer" .skill_instant true .buff_ids "magician_PG_TEMP_BUFF_R1_TT" "magician_PG_BUFF_R1_TT" "magician_MM_BUFF_DD_TT" .on_hit false .on_miss true .apply_once true
-effect: .name "MG PG TT 2" .target "performer" .skill_instant true .buff_ids "magician_PG_TEMP_BUFF_R2_TT" "magician_PG_BUFF_R1_TT" "magician_MM_BUFF_DD_TT" .on_hit false .on_miss true .apply_once true
-effect: .name "MG PG TT 3" .target "performer" .skill_instant true .buff_ids "magician_PG_TEMP_BUFF_R3_TT" "magician_PG_BUFF_R1_TT" "magician_MM_BUFF_DD_TT" .on_hit false .on_miss true .apply_once true
-effect: .name "MG PG TT 4" .target "performer" .skill_instant true .buff_ids "magician_PG_TEMP_BUFF_R4_TT" "magician_PG_BUFF_R1_TT" "magician_MM_BUFF_DD_TT" .on_hit false .on_miss true .apply_once true
-effect: .name "MG PG TT 5" .target "performer" .skill_instant true .buff_ids "magician_PG_TEMP_BUFF_R5_TT" "magician_PG_BUFF_R1_TT" "magician_MM_BUFF_DD_TT" .on_hit false .on_miss true .apply_once true
+effect: .name "MG MA Limit TT" .target "performer" .skill_instant true .buff_ids "magician_Free_and_Limit_TT" .on_hit false .on_miss true .apply_once true
+effect: .name "MG PG TT 1" .target "performer" .skill_instant true .buff_ids "magician_PG_TEMP_BUFF_R1_TT" .on_hit false .on_miss true .apply_once true
+effect: .name "MG PG TT 2" .target "performer" .skill_instant true .buff_ids "magician_PG_TEMP_BUFF_R2_TT" .on_hit false .on_miss true .apply_once true
+effect: .name "MG PG TT 3" .target "performer" .skill_instant true .buff_ids "magician_PG_TEMP_BUFF_R3_TT" .on_hit false .on_miss true .apply_once true
+effect: .name "MG PG TT 4" .target "performer" .skill_instant true .buff_ids "magician_PG_TEMP_BUFF_R4_TT" .on_hit false .on_miss true .apply_once true
+effect: .name "MG PG TT 5" .target "performer" .skill_instant true .buff_ids "magician_PG_TEMP_BUFF_R5_TT" .on_hit false .on_miss true .apply_once true
 
 ///Bomb System
 //Bomb TT

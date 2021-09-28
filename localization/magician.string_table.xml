@@ -55,7 +55,7 @@
 		
 		<entry id="str_skill_mode_info_mg_rule_mode"><![CDATA[]]></entry>
 		<entry id="str_spellcard"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_ms_damage_tt"><![CDATA[DMG Mod: 0/-20/-40/-60%% vs rank 1/2/3/4]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_ms_damage_tt"><![CDATA[Rank DMG: +0/-20/-40/-60%% vs rank 1/2/3/4]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt1"><![CDATA[DMG based on distance from target]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt2"><![CDATA[-10/0/10/20%% vs rank 1/2/3/4]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt3"><![CDATA[20/10/0/-10%% in rank 4/3/2/1]]></entry>
@@ -71,10 +71,10 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r5_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_DD_tt"><![CDATA[Buff lasts until end of dungeon
 		Buff lost upon {colour_start|afflicted}Death's Door{colour_end}!]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_pg_buff_tt"><![CDATA[{colour_start|buff}Buff Self:
-		{colour_end} +%d%% DMG]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_PG_TEMP_BUFF_tt"><![CDATA[{colour_start|buff}Buff Self:
-		{colour_end} +%d%% DMG for 2 turns]]></entry>
+		{colour_end} +%d%% DMG for 1 turn]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_magician_free_and_limit_tt"><![CDATA[{colour_start|notable}Free Action{colour_end}
+		Disables {colour_start|notable}Spell Cards{colour_end} 1rd]]></entry>
 		<entry id="camping_skill_effect_loot_camp_bomb_mg"><![CDATA[Brew 1 Magician Bomb Tincture.]]></entry>
 		<entry id="buff_rule_data_tooltip_up_sweep"><![CDATA[Upsweep]]></entry>
 		<entry id="buff_rule_data_tooltip_stardust_reverie"><![CDATA[Stardust Reverie]]></entry>

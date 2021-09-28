@@ -627,18 +627,32 @@
 		 "has_description": false
       },
       {
-         "id" : ,
-         "stat_type" : "resistance",
-         "stat_sub_type" : "poison",
-         "amount" : -0.2,
+         "id" : "MG_MS_large_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.25,
+		 "duration" : -1,
          "remove_if_not_active" : false,
-         "rule_type" : "always",
+         "rule_type" : "monsterSize",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 1,
+            "float" : 2,
             "string" : ""
-         },
-		 "has_description": true
+         }
+      },
+      {
+         "id" : "MG_MS_large_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.25,
+		 "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterSize",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         }
       }
 	  
 	  

@@ -235,6 +235,19 @@
             "float" : 0,
             "string" : ""
          }
+      },
+	  {
+         "id" : "magician_Free_and_Limit_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "magician_free_and_limit_tt",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
       }
 	  
 	  
