@@ -68,62 +68,10 @@
          }
       },
 	  {
-         "id" : "magician_MM_BUFF_R1_TT",
+         "id" : "magician_MM_BUFF_TT",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_mm_buff_r1_tt",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_MM_BUFF_R2_TT",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_mm_buff_r2_tt",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_MM_BUFF_R3_TT",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_mm_buff_r3_tt",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_MM_BUFF_R4_TT",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_mm_buff_r4_tt",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_MM_BUFF_R5_TT",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_mm_buff_r5_tt",
-         "amount" : 0.01,
+         "stat_sub_type" : "mg_mm_buff_tt",
+         "amount" : -0.05,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -248,6 +196,20 @@
             "float" : 0,
             "string" : ""
          }
+      },
+	  {
+         "id" : "magician_STAFF_BUFF_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_mm_buff_tt",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
       }
 	  
 	  

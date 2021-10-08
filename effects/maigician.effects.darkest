@@ -1,5 +1,5 @@
 //Magician On-Crit Effect
-effect: .name "Magician On-Crit" .target "performer" .chance 100% .duration 2 .buff_source_type bsrc_crit .buff_ids "magician_CRIT_Buff" .on_hit true .on_miss false .queue false .apply_once true
+effect: .name "Magician On-Crit" .target "performer" .chance 100% .duration 2 .buff_source_type bsrc_crit .buff_ids "magician_when_crit_Buff_Dodge" .on_hit true .on_miss false .queue false .apply_once true
 
 
 //Stardust Reverie
@@ -15,9 +15,7 @@ effect: .name "Magician On-Crit" .target "performer" .chance 100% .duration 2 .b
 effect: .name "MG Multi Marisa Catch" .target "performer_group_other" .chance 9999% .buff_source_type bsrc_instantSkill .duration 1 .buff_ids "MG_StillAlive_Resistance" .on_hit true .on_miss true .apply_once true .queue true .has_description false
 effect: .name "MG Multi Marisa UnCatch" .target "performer_group_other" .chance 9999% .buff_source_type bsrc_instantSkill .duration 1 .buff_ids "MG_UN_Resistance" .on_hit true .on_miss true .apply_once true .queue true .has_description false
 
-//Buff
-effect: .name "MG Power Buff" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_source_type bsrc_item .buff_ids "magician_Power_Gather_BuffH" "magician_Power_Gather_BuffL" .on_hit true .on_miss false .apply_once true .queue false .has_description true
-effect: .name "MG Power AoE Buff" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_source_type bsrc_item .buff_ids "magician_Power_Gather_AoE_BuffH" "magician_Power_Gather_AoE_BuffL" .on_hit true .on_miss false .apply_once false .queue false .has_description true
+
 //Power Gathering FX goes here when asset is ready//
 
 //Corpse Prevention. This keeps corpses from bugging out the system
@@ -29,18 +27,18 @@ effect: .name "MG Anti-Corpse" .target "performer" .skill_instant true .buff_ids
 
 //Rank 5
 //The Summon and a kill of it's types
-effect: .name "MG Power Buff Summon 5" .target "target_enemy_group" .chance 100% .summon_count 1 .summon_limits 1 .summon_can_spawn_loot false .summon_monsters mg_damage_monster_1_E .summon_chances 1.0 .kill_enemy_types mg_dmg_buff_1 .on_hit true .on_miss true .apply_once true .swap_source_and_target true  .has_description false .queue true
+effect: .name "MG Power Buff Summon 5" .target "target_enemy_group" .chance 100% .swap_source_and_target true  .summon_count 1 .summon_limits 1 .summon_can_spawn_loot false .summon_monsters mg_damage_monster_1_E .summon_chances 1.0 .on_hit true .on_miss true .apply_once true .has_description false .queue true
 //Target Swapped Resistance if not dead
 effect: .name "MG Still Alive Resistance" .target "target" .swap_source_and_target 1 .chance 5000% .buff_source_type bsrc_instantSkill .duration 1 .buff_ids "MG_StillAlive_Resistance" .on_hit true .on_miss false .queue false .has_description false
 
 //The Summon's buff
-effect: .name "MG_Power_Buff_From_Summon_5" .spawn_target_actor_base_class_id magician .target "target" .chance 500% .duration -1 .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_Power_Gather_BuffH_5" "magician_Power_Gather_BuffL_5" .on_hit true .on_miss false .apply_once false .queue true .has_description true
+effect: .name "MG_Power_Buff_From_Summon_5" .spawn_target_actor_base_class_id magician .target "target" .chance 500% .duration -1 .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_power_count_5" "magician_Power_Gather_BuffH_5" "magician_Power_Gather_BuffL_5" "magician_Power_Gather_BuffCrit_5" .on_hit true .on_miss false .apply_once false .queue true .has_description true
 
 //Summon's Self Kill
 effect: .name "mg_dmg_buff_1_wipe" .target "performer" .chance 1000% .kill_enemy_types mg_dmg_buff_1 .on_hit true .on_miss true .queue true
 
 //Tool Tips
-effect: .name "MG MM TT 5" .target "performer" .skill_instant true .buff_ids "magician_MM_NoMiss_TT" "magician_MM_BUFF_R5_TT" "magician_MM_BUFF_DD_TT" .on_hit false .on_miss true .apply_once true
+effect: .name "MG MM TT 5" .target "performer" .skill_instant true .buff_ids "magician_MM_NoMiss_TT" "magician_MM_BUFF_TT" "magician_MM_BUFF_DD_TT" .on_hit false .on_miss true .apply_once true
 ////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////
 
@@ -74,7 +72,7 @@ effect: .name "MG Eco Vs Stun 3" .target "performer" .keyStatus stunned .combat_
 effect: .name "MG Eco Vs Stun 4" .target "performer" .keyStatus stunned .combat_stat_buff 1 .damage_high_multiply 55% .damage_low_multiply 55% .on_hit true .on_miss false
 effect: .name "MG Eco Vs Stun 5" .target "performer" .keyStatus stunned .combat_stat_buff 1 .damage_high_multiply 60% .damage_low_multiply 60% .on_hit true .on_miss false
 
-//knock back
+//knock back NOT USED
 effect: .name "MG EB Push 1" .target "target"  .push 1 .chance 75%   .on_hit true .on_miss false .apply_once false .can_apply_on_death true
 effect: .name "MG EB Push 2" .target "target"  .push 1 .chance 85%   .on_hit true .on_miss false .apply_once false .can_apply_on_death true
 effect: .name "MG EB Push 3" .target "target"  .push 1 .chance 95%   .on_hit true .on_miss false .apply_once false .can_apply_on_death true
@@ -94,11 +92,11 @@ effect: .name "MG SR DMG BUFF" .target "performer" .skill_instant true .buff_ids
 //Support TT
 effect: .name "MGSpellCard" .target "performer" .skill_instant true .buff_ids "magician_is_bomb_TT" .on_hit true .on_miss false
 //Knock Back
-effect: .name "MG Overwhelm 1" .target "performer" .push 2 .chance 130% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
-effect: .name "MG Overwhelm 2" .target "performer" .push 2 .chance 140% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
-effect: .name "MG Overwhelm 3" .target "performer" .push 2 .chance 150% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
-effect: .name "MG Overwhelm 4" .target "performer" .push 2 .chance 160% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
-effect: .name "MG Overwhelm 5" .target "performer" .push 2 .chance 180% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
+effect: .name "MG Overwhelm 1" .target "performer" .push 3 .chance 130% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
+effect: .name "MG Overwhelm 2" .target "performer" .push 3 .chance 140% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
+effect: .name "MG Overwhelm 3" .target "performer" .push 3 .chance 150% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
+effect: .name "MG Overwhelm 4" .target "performer" .push 3 .chance 160% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
+effect: .name "MG Overwhelm 5" .target "performer" .push 3 .chance 180% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
 
 //Spell Card Self Mark
 effect: .name "MG Self Mark" .target "performer" .chance 100% .duration 3 .tag 1 .on_hit true .on_miss true .queue true .apply_once true
@@ -138,7 +136,21 @@ effect: .name "MG PG TT 3" .target "performer" .skill_instant true .buff_ids "ma
 effect: .name "MG PG TT 4" .target "performer" .skill_instant true .buff_ids "magician_PG_TEMP_BUFF_R4_TT" .on_hit false .on_miss true .apply_once true
 effect: .name "MG PG TT 5" .target "performer" .skill_instant true .buff_ids "magician_PG_TEMP_BUFF_R5_TT" .on_hit false .on_miss true .apply_once true
 
-///Bomb System
+////Trinkets
+///Staff of Vengeful Spirits
+//On-Kill Buff
+effect: .name "MG_Power_Buff_3" .target "performer" .chance 500% .duration -1 .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_power_count_3" "magician_Power_Gather_BuffH_3" "magician_Power_Gather_BuffL_3" "magician_Power_Gather_BuffCrit_3" .on_hit true .on_miss false .apply_once false .queue true .has_description false
+
+
+
+
+
+
+
+
+
+
+////Bomb System////
 //Bomb TT
 effect: .name "Is Bomb MG TT" .target "performer" .skill_instant true .buff_ids "magician_is_bomb_TT" .on_hit false .on_miss true .apply_once true .queue true
 //bomb use debuff

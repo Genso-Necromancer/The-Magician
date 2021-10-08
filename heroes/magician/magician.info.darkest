@@ -70,7 +70,7 @@ mode: .id mg_rule_mode .is_raid_default true
 extra_curio_loot: .code "MARI_CURIO" .count 1
 extra_battle_loot: .code "MARI_BATTLE" .count 1
 
-extra_stack_limit: .id magician_gems1 magician_gems2 magician_gems3 magician_gems magician_gems5 magician_gems6 magician_gems7 magician_gems8
+extra_stack_limit: .id magician_junk1 magician_junk2 magician_junk3 magician_junk4
 
 deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
 controlled: .target_rank 3

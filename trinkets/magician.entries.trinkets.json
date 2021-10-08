@@ -2,10 +2,12 @@
    "entries":
    [
       {
-         "id" : "magician_dust",
+         "id" : "magician_wand",
          "buffs" : 
          [
-            "magician_trinket_dust_acc"
+            "MG_wand_DMGH",
+			"MG_wand_DMGL",
+			"MG_wand_Blight_DEBUFF"
          ],
          "hero_class_requirements":
          [
@@ -14,18 +16,17 @@
          "rarity" : "common",
          "price" : 7500,
          "limit" : 0,
-         "origin_dungeon" : "",
-		 "kill_performer_additional_effects":
-		 [
-		  "Magician common DMG"
-		 ]
-      },
+         "origin_dungeon" : ""
+	  },
 	  {
-         "id" : "magician_herbal",
+         "id" : "magician_manual",
          "buffs" : 
          [
-            "magician_UC_trinket_dodge_buff",
-			"magician_UCtrinket_move_res_debuff"
+             "MG_manual_Blight_Ch_BUFF",
+			 "MG_manual_Blight_Res_BUFF",
+			 "MG_manual_Blight_Dur_BUFF",
+			 "MG_manual_DMGH",
+			 "MG_manual_DMGL"
          ],
          "hero_class_requirements":
          [
@@ -34,19 +35,16 @@
          "rarity" : "uncommon",
          "price" : 10000,
          "limit" : 0,
-         "origin_dungeon" : "",
-		 "kill_performer_additional_effects":
-		 [
-			"Magician Uncommon SH"
-		 ]
-      },
+         "origin_dungeon" : "weald"
+	 },
 	  {
-         "id" : "magician_broom",
+         "id" : "magician_bag",
          "buffs" : 
          [
-            "magician_trinket_move_chanceSR",
-			"magician_trinket_move_chanceUS",
-			"trinket_blight_chance_debuff"
+            "MG_bag_trap",
+			"MG_bag_scout",
+			"MG_bag_surprise",
+			"MG_bag_stress"
          ],
          "hero_class_requirements":
          [
@@ -55,37 +53,20 @@
          "rarity" : "rare",
          "price" : 15000,
          "limit" : 0,
-         "origin_dungeon" : "",
-		 "kill_performer_additional_effects":
-		 [
-		  "Magician Rare MR"
-		 ]
+         "origin_dungeon" : ""
       },
 	  {
-         "id" : "magician_toxic",
+         "id" : "magician_mima",
          "buffs" : 
          [
-            "trinket_blight_chance"
-         ],
-         "hero_class_requirements":
-         [
-            "magician"
-         ],
-         "rarity" : "rare",
-         "price" : 15000,
-         "limit" : 0,
-         "origin_dungeon" : "",
-		 "kill_performer_additional_effects":
-		 [
-		  "Magician Rare BD"
-		 ]
-      },
-	  {
-         "id" : "magician_wand",
-         "buffs" : 
-         [
-			
-            "trinket_stress_debuff"
+			"MG_staff_lowHP_DMGH",
+			"MG_staff_lowHP_DMGL",
+			"MG_staff_ArmPen",
+			"MG_staff_SPD_DEBUFF",
+			"MG_staff_DeathRes_DEBUFF",
+			"MG_staff_Dodge_DEBUFF",
+			"magician_STAFF_BUFF_TT"
+            
          ],
          "hero_class_requirements":
          [
@@ -93,11 +74,11 @@
          ],
          "rarity" : "very_rare",
          "price" : 25000,
-         "limit" : 0,
+         "limit" : 1,
          "origin_dungeon" : "",
 		 "kill_performer_additional_effects":
 		 [
-		  "Magician very rare DMG-Crit"
+		  "MG_Power_Buff_3"
 		 ]
       }
 

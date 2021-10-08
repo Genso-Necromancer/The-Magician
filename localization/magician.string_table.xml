@@ -53,35 +53,46 @@
 		
 		<!-- Tool Tips -->
 		
+			<!--Modes-->
 		<entry id="str_skill_mode_info_mg_rule_mode"><![CDATA[]]></entry>
+		<entry id="buff_rule_data_tooltip_mg_rule_mode"><![CDATA[The Magician]]></entry>
+		
+			<!-- Names -->
 		<entry id="str_spellcard"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_magician_is_bomb_tt"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
+		<entry id="buff_rule_data_tooltip_stardust_reverie"><![CDATA[Stardust Reverie]]></entry>
+		<entry id="buff_rule_data_tooltip_up_sweep"><![CDATA[Upsweep]]></entry>
+		
+			<!-- Counters -->
+		<entry id="buff_stat_tooltip_upgrade_discount_magician_bomb_count_limit"><![CDATA[{colour_start|attacktype}Spell Card{colour_end} Limit!: {colour_start|notable}%d{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_magician_bomb_count_used"><![CDATA[{colour_start|attacktype}Spell Card{colour_end} Used!: {colour_start|notable}%d{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_magician_power_count"><![CDATA[{colour_start|buff}Power{colour_end}: {colour_start|buff}%d{colour_end}]]></entry>
+		
+		
+			<!-- Skill Mechanics -->
+				<!-- Master Spark -->
 		<entry id="buff_stat_tooltip_upgrade_discount_ms_damage_tt"><![CDATA[Rank DMG: +0/-20/-40/-60%% vs rank 1/2/3/4]]></entry>
+				<!-- Reverie -->
 		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt1"><![CDATA[DMG based on distance from target]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt2"><![CDATA[-10/0/10/20%% vs rank 1/2/3/4]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt3"><![CDATA[20/10/0/-10%% in rank 4/3/2/1]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_magician_is_bomb_tt"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_magician_bomb_count_limit"><![CDATA[{colour_start|attacktype}Spell Card{colour_end} Limit!: {colour_start|notable}%d{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_magician_bomb_count_used"><![CDATA[{colour_start|attacktype}Spell Card{colour_end} Used!: {colour_start|notable}%d{colour_end}]]></entry>
+				<!-- Magic Missile -->
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_nomiss_tt"><![CDATA[Cannot {colour_start|afflicted}Miss{colour_end}
 		Cannot {colour_start|notable}CRIT{colour_end}]]></entry>
-		<!-- NOT USED <entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r1_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG for 2 battles]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r2_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG for 3 battles]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r3_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG for 4 battles]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r4_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG until camp]]></entry> -->
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_r5_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +5%% DMG]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +%d {colour_start|buff}Power{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_DD_tt"><![CDATA[Buff lasts until end of dungeon
 		Buff lost upon {colour_start|afflicted}Death's Door{colour_end}!]]></entry>
+				<!-- Magic Absorber -->
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_PG_TEMP_BUFF_tt"><![CDATA[{colour_start|buff}Buff Self:
 		{colour_end} +%d%% DMG for 1 rd]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_free_and_limit_tt"><![CDATA[{colour_start|notable}Free Action{colour_end}
 		Disables {colour_start|notable}Spell Cards{colour_end} 1 rd]]></entry>
+				<!-- Camping -->
 		<entry id="camping_skill_effect_loot_camp_bomb_mg"><![CDATA[Brew 1 Magician Bomb Tincture.]]></entry>
-		<entry id="buff_rule_data_tooltip_up_sweep"><![CDATA[Upsweep]]></entry>
-		<entry id="buff_rule_data_tooltip_stardust_reverie"><![CDATA[Stardust Reverie]]></entry>
 		<entry id="camping_skill_effect_loot_MG_borrowed"><![CDATA[Borrow 2 unique provisionals at random.]]></entry>
 		<entry id="camping_skill_effect_loot_MG_FORAGE"><![CDATA[Forage 2 random mushrooms.]]></entry>
-		<entry id="buff_rule_data_tooltip_mg_rule_mode"><![CDATA[The Magician]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_magician_is_bomb_tt"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
+		
+		
 		
 		<!-- Provisions -->
 		
@@ -177,12 +188,12 @@
 		<entry id="town_event_description_first_magician"><![CDATA[Replace me!]]></entry>
 		
 		<!-- Trinkets -->
-		<entry id="str_inventory_title_trinketmagician_dust"><![CDATA[Arcane Ash]]></entry>
-		<entry id="str_inventory_title_trinketmagician_herbal"><![CDATA[Herbal Remedy]]></entry>
-		<entry id="str_inventory_title_trinketmagician_broom"><![CDATA[Reinforced Broom]]></entry>
-		<entry id="str_inventory_title_trinketmagician_toxic"><![CDATA[Toxicology Manual]]></entry>
-		<entry id="str_inventory_title_trinketmagician_wand"><![CDATA[Power Gathering Wand]]></entry>
-		<entry id="str_inventory_set_title_cc_magician"><![CDATA[""]]></entry>
+		<entry id="str_inventory_title_trinketmagician_wand"><![CDATA[Apprentice Wand]]></entry>
+		<entry id="str_inventory_title_trinketmagician_manual"><![CDATA[Mushroom Manual]]></entry>
+		<entry id="str_inventory_title_trinketmagician_bag"><![CDATA[Borrower's Bag]]></entry>
+		<entry id="str_inventory_title_trinketmagician_mima"><![CDATA[Staff of Vengeful Spirits]]></entry>
+
+		<entry id="str_inventory_set_title_cc_magician"><![CDATA["I'm going to Alice"]]></entry>
 		
 		<!-- Barks -->
 			<!-- COME FORTH -->

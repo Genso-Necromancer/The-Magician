@@ -48,125 +48,6 @@
          }
 	  },
       {
-         "id" : "magician_trinket_small_dmgH",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.10,
-         "duration" : 4,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-      {
-         "id" : "magician_trinket_small_dmgL",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.10,
-         "duration" : 4,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-      {
-         "id" : "magician_trinket_dust_acc",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "attack_rating",
-         "amount" : 0.05,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-      {
-         "id" : "magician_trinket_move_res",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "move",
-         "amount" : 0.10,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-      {
-         "id" : "magician_trinket_move_chanceSR",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "attack_rating",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "skill",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "stardust_reverie"
-         }
-	  },
-      {
-         "id" : "magician_trinket_move_chanceUS",
-         "stat_type" : "move_chance",
-         "stat_sub_type" : "",
-         "amount" : 0.30,
-         "remove_if_not_active" : false,
-         "rule_type" : "skill",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "up_sweep"
-         }
-	  },
-      {
-         "id" : "magician_trinket_long_dmgH",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.03,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-      {
-         "id" : "magician_trinket_long_dmgL",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.03,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-      {
-         "id" : "magician_trinket_long_crit",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-      {
          "id" : "MG_blight_debuff_12",
          "stat_type" : "hp_dot_poison_amount_received_percent",
          "stat_sub_type" : "",
@@ -200,97 +81,6 @@
          "stat_sub_type" : "",
          "amount" : 0.25,
 		 "duration" : 3,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-      {
-         "id" : "trinket_blight_chance_debuff",
-         "stat_type" : "poison_chance",
-         "stat_sub_type" : "",
-         "amount" : -0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-      {
-         "id" : "trinket_blight_chance",
-         "stat_type" : "poison_chance",
-         "stat_sub_type" : "",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-      {
-         "id" : "trinket_blight_duration",
-         "stat_type" : "hp_dot_poison_duration_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-      {
-         "id" : "trinket_stress_debuff",
-         "stat_type" : "stress_dmg_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.10,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-      {
-         "id" : "magician_UC_trinket_dodge_buff",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : 0.05,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-      {
-         "id" : "magician_UCtrinket_move_res_debuff",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "move",
-         "amount" : -0.20,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-      {
-         "id" : "magician_UCtrinket_stress_heal",
-         "stat_type" : "stress_heal_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.10,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -586,10 +376,10 @@
          }
 	  },
       {
-         "id" : "magician_CRIT_Buff",
+         "id" : "magician_when_crit_Buff_Dodge",
          "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.03,
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
