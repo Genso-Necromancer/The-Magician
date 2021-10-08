@@ -1,6 +1,6 @@
 extra_stack_limit: .id magician_junk1	.type "heirloom"		.id "portrait"	.amount 1
-extra_stack_limit: .id magician_junk2	.type "heirloom"		.id "bust"		.amount 2
-extra_stack_limit: .id magician_junk3	.type "heirloom"		.id "crest"		.amount 3
-extra_stack_limit: .id magician_junk4	.type "heirloom"		.id "deed"		.amount 2
+extra_stack_limit: .id magician_junk2	.type "heirloom"		.id "bust"		.amount 1
+extra_stack_limit: .id magician_junk3	.type "heirloom"		.id "crest"		.amount 1
+extra_stack_limit: .id magician_junk4	.type "heirloom"		.id "deed"		.amount 1
 	
 		
