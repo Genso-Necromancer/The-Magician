@@ -171,11 +171,19 @@
 				{
 					"selection" : "self",
 					"requirements" : [],
-					"chance" : { "code" : "a", "amount": 2.0 },
+					"chance" : { "code" : "a", "amount": 1.0 },
 					"type": "loot",
 					"sub_type": "MG_FORAGE",
-					"amount": 2
-				}			
+					"amount": 1
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+					"type": "loot",
+					"sub_type": "MG_FORAGE2",
+					"amount": 1
+				}	
 
 			],
 			"hero_classes" : ["magician"],

@@ -71,7 +71,7 @@
          "id" : "magician_MM_BUFF_TT",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "mg_mm_buff_tt",
-         "amount" : -0.05,
+         "amount" : -0.03,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -162,7 +162,7 @@
          "id" : "magician_MM_BUFF_DD_TT",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "mg_mm_buff_DD_tt",
-         "amount" : 0.01,
+         "amount" : 0.03,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -201,7 +201,77 @@
          "id" : "magician_STAFF_BUFF_TT",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "mg_mm_buff_tt",
-         "amount" : -0.03,
+         "amount" : -0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "magician_EB_SPLASH_TT1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_eb_splash_tt1",
+         "amount" : -0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "magician_EB_SPLASH_TT2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_eb_splash_tt2",
+         "amount" : -0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "magician_EB_SPLASH_TT3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_eb_splash_tt3",
+         "amount" : -0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "magician_EB_SPLASH_TT4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_eb_splash_tt4",
+         "amount" : -0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "magician_EB_SPLASH_TT5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_eb_splash_tt5",
+         "amount" : -0.00,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

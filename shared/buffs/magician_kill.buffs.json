@@ -101,6 +101,48 @@
 		 "has_description": false
 	  },
 	  {
+         "id" : "magician_Power_Gather_BuffH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.02,
+         "remove_if_not_active" : true,
+         "rule_type" : "hpabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false
+	  },
+      {
+         "id" : "magician_Power_Gather_BuffL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.02,
+         "remove_if_not_active" : true,
+         "rule_type" : "hpabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false
+	  },
+      {
+         "id" : "magician_Power_Gather_BuffCrit_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.002,
+         "remove_if_not_active" : true,
+         "rule_type" : "hpabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false
+	  },
+	  {
          "id" : "magician_power_count_5",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "magician_power_count",
@@ -112,13 +154,25 @@
             "float" : 0,
             "string" : ""
          }
-      }
-	  ,
+      },
 	  {
          "id" : "magician_power_count_3",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "magician_power_count",
          "amount" : -0.03,
+         "remove_if_not_active" : true,
+         "rule_type" : "hpabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_power_count_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "magician_power_count",
+         "amount" : -0.02,
          "remove_if_not_active" : true,
          "rule_type" : "hpabove",
          "is_false_rule" : false,

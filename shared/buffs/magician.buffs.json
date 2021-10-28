@@ -443,6 +443,19 @@
             "float" : 2,
             "string" : ""
          }
+      },
+	  {
+         "id" : "MG_EB_Blight_DMG_BUFF",
+         "stat_type" : "hp_dot_poison_amount_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         }
       }
 	  
 	  

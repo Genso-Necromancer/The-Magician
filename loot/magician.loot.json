@@ -76,6 +76,17 @@
             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_OFFENSE_mushroom", "amount" : 1 }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_DEFENSE_mushroom", "amount" : 1 }}
          ]
+      },
+      {
+         "id" : "MG_FORAGE2",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_HEAL_mushroom", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_OFFENSE_mushroom", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_DEFENSE_mushroom", "amount" : 1 }}
+         ]
       }
 	  
      

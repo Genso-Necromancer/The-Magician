@@ -27,12 +27,12 @@ effect: .name "MG Anti-Corpse" .target "performer" .skill_instant true .buff_ids
 
 //Rank 5
 //The Summon and a kill of it's types
-effect: .name "MG Power Buff Summon 5" .target "target_enemy_group" .chance 100% .swap_source_and_target true  .summon_count 1 .summon_limits 1 .summon_can_spawn_loot false .summon_monsters mg_damage_monster_1_E .summon_chances 1.0 .on_hit true .on_miss true .apply_once true .has_description false .queue true
+effect: .name "MG Power Buff Summon 5" .target "target_enemy_group" .chance 100% .swap_source_and_target true  .summon_count 1 .summon_limits 1 .summon_can_spawn_loot false .summon_monsters mg_satono_and_mai_E .summon_chances 1.0 .on_hit true .on_miss true .apply_once true .has_description false .queue true
 //Target Swapped Resistance if not dead
 effect: .name "MG Still Alive Resistance" .target "target" .swap_source_and_target 1 .chance 5000% .buff_source_type bsrc_instantSkill .duration 1 .buff_ids "MG_StillAlive_Resistance" .on_hit true .on_miss false .queue false .has_description false
 
 //The Summon's buff
-effect: .name "MG_Power_Buff_From_Summon_5" .spawn_target_actor_base_class_id magician .target "target" .chance 500% .duration -1 .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_power_count_5" "magician_Power_Gather_BuffH_5" "magician_Power_Gather_BuffL_5" "magician_Power_Gather_BuffCrit_5" .on_hit true .on_miss false .apply_once false .queue true .has_description true
+effect: .name "MG_Power_Buff_From_Summon_5" .spawn_target_actor_base_class_id magician .target "target" .chance 500% .duration -1 .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_power_count_3" "magician_Power_Gather_BuffH_3" "magician_Power_Gather_BuffL_3" "magician_Power_Gather_BuffCrit_3" .on_hit true .on_miss false .apply_once false .queue true .has_description true
 
 //Summon's Self Kill
 effect: .name "mg_dmg_buff_1_wipe" .target "performer" .chance 1000% .kill_enemy_types mg_dmg_buff_1 .on_hit true .on_miss true .queue true
@@ -55,31 +55,62 @@ effect: .name "MG US Push 5" .target "target"  .push 1 .chance 140%  .on_hit tru
 
 
 ////Ecological Bomb
-//Blight
-effect: .name "Eco Toxin 1" .target "target"  .chance 100%  .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Eco Toxin 2" .target "target"  .chance 110%  .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Eco Toxin 3" .target "target"  .chance 120%  .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Eco Toxin 4" .target "target"  .chance 130%  .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Eco Toxin 5" .target "target"  .chance 140%  .dotPoison 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-
-//Blight Debuff
-effect: .name "MG Eco Debuff 1" .target "target" .chance 100% .duration 3 .buff_ids "MG_blight_debuff_1" .on_hit true .on_miss false
 
 //Vs Stunned
-effect: .name "MG Eco Vs Stun 1" .target "performer" .keyStatus stunned .combat_stat_buff 1 .damage_high_multiply 40% .damage_low_multiply 40% .on_hit true .on_miss false
-effect: .name "MG Eco Vs Stun 2" .target "performer" .keyStatus stunned .combat_stat_buff 1 .damage_high_multiply 45% .damage_low_multiply 45% .on_hit true .on_miss false
-effect: .name "MG Eco Vs Stun 3" .target "performer" .keyStatus stunned .combat_stat_buff 1 .damage_high_multiply 50% .damage_low_multiply 50% .on_hit true .on_miss false
-effect: .name "MG Eco Vs Stun 4" .target "performer" .keyStatus stunned .combat_stat_buff 1 .damage_high_multiply 55% .damage_low_multiply 55% .on_hit true .on_miss false
-effect: .name "MG Eco Vs Stun 5" .target "performer" .keyStatus stunned .combat_stat_buff 1 .damage_high_multiply 60% .damage_low_multiply 60% .on_hit true .on_miss false
+effect: .name "MG Eco Vs Stun" .target "performer" .chance 100% .skill_instant true  .buff_ids "MG_EB_Blight_DMG_BUFF" .on_hit true .on_miss false
 
-//knock back NOT USED
-effect: .name "MG EB Push 1" .target "target"  .push 1 .chance 75%   .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-effect: .name "MG EB Push 2" .target "target"  .push 1 .chance 85%   .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-effect: .name "MG EB Push 3" .target "target"  .push 1 .chance 95%   .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-effect: .name "MG EB Push 4" .target "target"  .push 1 .chance 105%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-effect: .name "MG EB Push 5" .target "target"  .push 1 .chance 115%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+//Blight
+effect: .name "Eco Toxin 1" .target "target"  .chance 100%  .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "Eco Toxin 2" .target "target"  .chance 110%  .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "Eco Toxin 3" .target "target"  .chance 120%  .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "Eco Toxin 4" .target "target"  .chance 130%  .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "Eco Toxin 5" .target "target"  .chance 140%  .dotPoison 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
 
-//Urn Buff 
+
+////ECOLOGICAL SPLASH DAMAGE\\\\
+///Ka-Chow, it's ya boy Necro back at it again with the code necromancy
+//save for clean up later .buff_source_type bsrc_notspecified
+
+//Step 1: Set up the checks for valid splash damage using increased blight resistance
+effect: .name "MG Splash BR" .target "target_group" .chance 9999% .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_BR_R1" "magician_EB_BR_R2" "magician_EB_BR_R3" "magician_EB_BR_R4" .on_hit true .on_miss false .queue true .has_description false
+//and debuff chance. This one is only required for ranks 1-3 for this skill
+effect: .name "MG Splash DC" .target "target_group" .chance 9999% .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_DC_R1" "magician_EB_DC_R2" "magician_EB_DC_R3" .on_hit true .on_miss false .queue true .has_description false
+
+
+//Step 2: Have the target swap buffs to Marisa based on it's rank. This is how it tells Marisa which enemies should get splash damage
+effect: .name "MG Swap BC R1" .target "target" .chance -600% .swap_source_and_target true .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_Swapped_BC_2500" .on_hit true .on_miss false .queue true .has_description false
+effect: .name "MG Swap BC R2" .target "target" .chance -1100% .swap_source_and_target true .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_Swapped_BC_1000" .on_hit true .on_miss false .queue true .has_description false
+effect: .name "MG Swap BC R3" .target "target" .chance -2100% .swap_source_and_target true .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_Swapped_BC_Neg_1000" "magician_EB_Swapped_DC_2000" .on_hit true .on_miss false .queue true .has_description false
+
+//Step 3: If Rank 4 is a valid splash target, this will proc and open it to splash damage. It otherwise fails to proc and R4 remained protected
+effect: .name "MG R4 Splash" .target "target_group" .chance -1000% .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_Splash_Check_BR_R4" .on_hit true .on_miss false .queue true .has_description false
+
+//Step 4: Now apply the splash damage, if the above all proc'd correctly in the right order, it will only ever succeed a blight check against enemies adjacent to the target.
+effect: .name "MG Splash Blight 1" .target "target_group_other" .chance -176% .individual_target_actor_rolls true .dotPoison 1 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true .has_description false
+effect: .name "MG Splash Blight 2" .target "target_group_other" .chance -166% .individual_target_actor_rolls true .dotPoison 1 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true .has_description false
+effect: .name "MG Splash Blight 3" .target "target_group_other" .chance -156% .individual_target_actor_rolls true .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true .has_description false
+effect: .name "MG Splash Blight 4" .target "target_group_other" .chance -146% .individual_target_actor_rolls true .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true .has_description false
+effect: .name "MG Splash Blight 5" .target "target_group_other" .chance -136% .individual_target_actor_rolls true .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true .has_description false
+
+//effect: .name "MG Splash Blight 5" .target "target_group_other" .chance -360% .duration 3 .buff_ids "magician_EB_Blight_Splash_5" .can_apply_on_death true .queue true .has_description false
+
+//Step 5: Clean up the R4 validity check. Like Step 3, this won't proc if R4 was never valid
+effect: .name "MG R4 Splash REVERSAL" .target "target_group" .chance -1000% .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_Splash_Check_BR_R4_REVERSAL" .on_hit true .on_miss false .queue true .has_description false
+
+//Step 6: Clean up the buffs from Step 1
+effect: .name "MG Splash BR REVERSAL" .target "target_group" .chance 9999% .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_BR_R1_REVERSAL" "magician_EB_BR_R2_REVERSAL" "magician_EB_BR_R2_REVERSAL" "magician_EB_BR_R3_REVERSAL" "magician_EB_BR_R4_REVERSAL" .on_hit true .on_miss false .queue true .has_description false
+effect: .name "MG Splash DC REVERSAL" .target "target_group" .chance 9999% .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_DC_R1_REVERSAL" "magician_EB_DC_R2_REVERSAL" "magician_EB_DC_R3_REVERSAL" .on_hit true .on_miss false .queue true .has_description false
+
+//Marisa's Buffs from Step 2 will tick-off as her turn ends. Thus no need to reverse them.
+
+//The Tool Tips that explain the skill to the player
+effect: .name "MG EB Splash TT1" .target "performer" .skill_instant true .buff_ids "magician_EB_SPLASH_TT1" .on_hit false .on_miss true
+effect: .name "MG EB Splash TT2" .target "performer" .skill_instant true .buff_ids "magician_EB_SPLASH_TT2" .on_hit false .on_miss true
+effect: .name "MG EB Splash TT3" .target "performer" .skill_instant true .buff_ids "magician_EB_SPLASH_TT3" .on_hit false .on_miss true
+effect: .name "MG EB Splash TT4" .target "performer" .skill_instant true .buff_ids "magician_EB_SPLASH_TT4" .on_hit false .on_miss true
+effect: .name "MG EB Splash TT5" .target "performer" .skill_instant true .buff_ids "magician_EB_SPLASH_TT5" .on_hit false .on_miss true
+
+//Urn Buff NOT USED
 effect: .name "Eco Urn Buff" .target "performer"  .chance 100% .skill_instant true  .buff_ids "magician_ETERNAL_blightbuff" .on_hit true .on_miss false .can_apply_on_death false .has_description false
 
 ////Star Dust Reverie
@@ -139,7 +170,7 @@ effect: .name "MG PG TT 5" .target "performer" .skill_instant true .buff_ids "ma
 ////Trinkets
 ///Staff of Vengeful Spirits
 //On-Kill Buff
-effect: .name "MG_Power_Buff_3" .target "performer" .chance 500% .duration -1 .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_power_count_3" "magician_Power_Gather_BuffH_3" "magician_Power_Gather_BuffL_3" "magician_Power_Gather_BuffCrit_3" .on_hit true .on_miss false .apply_once false .queue true .has_description false
+effect: .name "MG_Power_Buff_2" .target "performer" .chance 500% .duration -1 .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_power_count_2" "magician_Power_Gather_BuffH_2" "magician_Power_Gather_BuffL_2" "magician_Power_Gather_BuffCrit_2" .on_hit true .on_miss false .apply_once false .queue true .has_description false
 
 
 
@@ -175,7 +206,7 @@ effect: .name "magician bomb count skill" .target "performer"  .chance 100% .dur
 
 //Funny Mushrooms
 
-effect: .name "magician_HEAL_mushroom" .target "performer" .item 1 .chance 100% .dotHpHeal 5 .duration 2 .cure 1 .on_hit true .on_miss false .apply_once true
+effect: .name "magician_HEAL_mushroom" .target "performer" .item 1 .chance 100% .dotHpHeal 2 .duration 5 .cure 1 .on_hit true .on_miss false .apply_once true
 
 effect: .name "magician_OFFENSE_mushroom" .target "performer" .item 1 .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .damage_high_multiply 0.1 .damage_low_multiply 0.1 .crit_chance_add 0.05 .attack_rating_add 0.10 .on_hit true .on_miss false .apply_once true
 
@@ -190,17 +221,6 @@ effect: .name "magician_SUPPORT_mushroom" .target "performer"	.item 1 .chance 10
 //effect: .name "magician_poison_def_mushroom" .target "performer" .item 1 .chance 100% .health_damage 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add -0.05 .on_hit true .on_miss false .apply_once true
 
 //effect: .name "magician_poison_prot_mushroom" .target "performer"	.item 1 .chance 100% .health_damage 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .crit_chance_add -0.05 .on_hit true .on_miss false .apply_once true
-
-//Trinket On-Kill Effects
-effect: .name "Magician common DMG" .target "target" .chance 100% .duration 4 .combat_stat_buff 1  .damage_low_multiply 0.10 .damage_high_multiply 0.10 .on_hit true .on_miss false .queue true
-
-effect: .name "Magician Uncommon SH" .target "target" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "magician_UCtrinket_stress_heal" .on_hit true .on_miss false .queue true
-
-effect: .name "Magician Rare MR" .target "target" .chance 100% .duration 2 .buff_duration_type combat_end .buff_ids "magician_trinket_move_res"  .on_hit true .on_miss false .queue true
-
-effect: .name "Magician Rare BD" .target "target" .chance 100% .duration 2 .buff_duration_type combat_end .buff_ids "trinket_blight_duration"  .on_hit true .on_miss false .queue true
-
-effect: .name "Magician very rare DMG-Crit" .target "target" .chance 100% .duration 4 .buff_source_type bsrc_skill .buff_duration_type combat_end .buff_ids .combat_stat_buff 1  .damage_low_multiply 0.06 .damage_high_multiply 0.06 .crit_chance_add 0.01 .on_hit true .on_miss false .queue true
 
 //"Borrowed" provisionals
 
