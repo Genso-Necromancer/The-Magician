@@ -81,6 +81,19 @@
          }
       },
 	  {
+         "id" : "magician_MM_NoCorpse_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_mm_nocorpse_tt",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "magician_PG_BUFF_R1_TT",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "mg_pg_buff_tt",
@@ -272,6 +285,91 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "mg_eb_splash_tt5",
          "amount" : -0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "magician_CONC_DISABLE_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_conc_disable_tt",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "magician_CONC_TORCH_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_conc_torch_tt",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "magician_CONC_ANTISTEALTH_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_conc_antistealth_tt",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "magician_CONC_STRESSONMISS_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_conc_stressonmiss_tt",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "magician_CONC_SKILL_TT_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_conc_skill_tt_1",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "magician_CONC_INCANDESSENCE_TT_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_conc_incandessence_tt",
+         "amount" : 0.01,
+		 "duration" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

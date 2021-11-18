@@ -49,6 +49,34 @@
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
             { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_JESTER_herbs", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_MAA_plans", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_HOUND_treats", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_MAID_watch", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "gem",    "id" : "magician_MIKO_donations", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_borrowed2",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_JESTER_herbs", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_MAA_plans", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_HOUND_treats", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_MAID_watch", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "gem",    "id" : "magician_MIKO_donations", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_DUMMIED",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_JESTER_herbs", "amount" : 1 }},
             { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_GRAVE_knife", "amount" : 1 }},
             { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_CRUSADER_holywater", "amount" : 1 }},
             { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_HOUND_treats", "amount" : 1 }},

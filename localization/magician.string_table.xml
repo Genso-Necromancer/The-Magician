@@ -19,7 +19,7 @@
     	<entry id="combat_skill_name_magician_master_spark"><![CDATA[Master Spark]]></entry>
     	<entry id="combat_skill_name_magician_magic_absorb"><![CDATA[Magic Absorber]]></entry>
     	<entry id="combat_skill_name_magician_magic_missile"><![CDATA[Magic Missle]]></entry>
-		<entry id="combat_skill_name_magician_illusion_laser"><![CDATA[Illusion Laser]]></entry>
+		<entry id="combat_skill_name_magician_illusion_laser"><![CDATA[Powerful Drug]]></entry>
     	<entry id="combat_skill_name_magician_move"><![CDATA[Move]]></entry>
    		<entry id="upgrade_tree_name_magician.ecological_bomb"><![CDATA[Ecological Bomb]]></entry>
 		<entry id="upgrade_tree_name_magician.up_sweep"><![CDATA[Up Sweep]]></entry>
@@ -27,7 +27,7 @@
     	<entry id="upgrade_tree_name_magician.master_spark"><![CDATA[Master Spark]]></entry>
     	<entry id="upgrade_tree_name_magician.magic_absorb"><![CDATA[Magic Absorber]]></entry>
     	<entry id="upgrade_tree_name_magician.magic_missile"><![CDATA[Magic Missle]]></entry>
-    	<entry id="upgrade_tree_name_magician.illusion_laser"><![CDATA[Illusion Laser]]></entry>
+    	<entry id="upgrade_tree_name_magician.illusion_laser"><![CDATA[Powerful Drug]]></entry>
 			
 		<entry id="camping_skill_name_danmaku_mg"><![CDATA[DANMAKU PRACTICE]]></entry>
 		<entry id="camping_skill_name_witch_night"><![CDATA[WITCHES' NIGHT]]></entry>
@@ -38,18 +38,18 @@
 		
 		<!-- Equipment -->
 
-		<entry id="magician_weapon_0"><![CDATA[Hakkero 1]]></entry>
-		<entry id="magician_weapon_1"><![CDATA[Hakkero 2]]></entry>
-    	<entry id="magician_weapon_2"><![CDATA[Hakkero 3]]></entry>
-    	<entry id="magician_weapon_3"><![CDATA[Hakkero 4]]></entry>
-    	<entry id="magician_weapon_4"><![CDATA["Point of Collection"]]></entry>
+		<entry id="magician_weapon_0"><![CDATA[Burnt-out Hakkero]]></entry>
+		<entry id="magician_weapon_1"><![CDATA[Improvised Furnace]]></entry>
+    	<entry id="magician_weapon_2"><![CDATA[Reignited Furnace]]></entry>
+    	<entry id="magician_weapon_3"><![CDATA[Mini-Hakkero]]></entry>
+    	<entry id="magician_weapon_4"><![CDATA["Casket of Stars"]]></entry>
     	<entry id="upgrade_tree_name_magician.weapon"><![CDATA[Hakkero]]></entry>
-    	<entry id="magician_armour_0"><![CDATA[Hat 1]]></entry>
-    	<entry id="magician_armour_1"><![CDATA[Hat 2]]></entry> 
-    	<entry id="magician_armour_2"><![CDATA[Hat 3]]></entry>
-    	<entry id="magician_armour_3"><![CDATA[Hat 4]]></entry>
-    	<entry id="magician_armour_4"><![CDATA["Hat"]]></entry>
-    	<entry id="upgrade_tree_name_magician.armour"><![CDATA[Hat]]></entry>
+    	<entry id="magician_armour_0"><![CDATA[Tattered Apron]]></entry>
+    	<entry id="magician_armour_1"><![CDATA[Patched Dress]]></entry> 
+    	<entry id="magician_armour_2"><![CDATA[Witching Gown]]></entry>
+    	<entry id="magician_armour_3"><![CDATA[Hunter's Garb]]></entry>
+    	<entry id="magician_armour_4"><![CDATA["Star Wizard"]]></entry>
+    	<entry id="upgrade_tree_name_magician.armour"><![CDATA[Witch's Gown]]></entry>
 		
 		<!-- Tool Tips -->
 		
@@ -74,11 +74,11 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_ms_damage_tt"><![CDATA[Rank DMG: +0/-20/-40/-60%% vs rank 1/2/3/4]]></entry>
 				<!-- Reverie -->
 		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt1"><![CDATA[DMG based on distance from target]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt2"><![CDATA[-10/0/10/20%% vs rank 1/2/3/4]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt3"><![CDATA[20/10/0/-10%% in rank 4/3/2/1]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt2"><![CDATA[-10/0/10/15%% vs rank 1/2/3/4]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt3"><![CDATA[15/10/0/-10%% in rank 4/3/2/1]]></entry>
 				<!-- Magic Missile -->
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_nomiss_tt"><![CDATA[Cannot {colour_start|afflicted}Miss{colour_end}
-		Cannot {colour_start|notable}CRIT{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_nomiss_tt"><![CDATA[Cannot {colour_start|afflicted}Miss{colour_end} or {colour_start|notable}CRIT{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_nocorpse_tt"><![CDATA[Cannot DMG Corpse]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_tt"><![CDATA[{colour_start|notable}On kill:{colour_end} {colour_start|buff}Buff Self:{colour_end} +%d {colour_start|buff}Power{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_DD_tt"><![CDATA[Buff lasts until end of dungeon
 		Buff lost upon {colour_start|afflicted}Death's Door{colour_end}!]]></entry>
@@ -87,6 +87,11 @@
 		{colour_end} +%d%% DMG for 1 rd]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_free_and_limit_tt"><![CDATA[{colour_start|notable}Free Action{colour_end}
 		Disables {colour_start|notable}Spell Cards{colour_end} 1 rd]]></entry>
+		
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_Count_FX_3"><![CDATA[Remaining Riposte: 3]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_Count_FX_2"><![CDATA[Remaining Riposte: 2]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_Count_FX_1"><![CDATA[Remaining Riposte: 1]]></entry>
 				<!-- Ecological Bomb -->
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt1"><![CDATA[ {colour_start|buff}Splash Damage:{colour_end}
 		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (100%% Base){colour_end} 1 pts/rd for 3rds]]></entry>
@@ -98,9 +103,18 @@
 		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (130%% Base){colour_end} 2 pts/rd for 3rds]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt5"><![CDATA[ {colour_start|buff}Splash Damage:{colour_end}
 		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (140%% Base){colour_end} 2 pts/rd for 3rds]]></entry>
+				<!-- Concoctions {colour_start|skill_unselectable}(X%% Base){colour_end}-->
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_conc_antistealth_tt"><![CDATA[Bypass {colour_start|stealth}Stealth{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_conc_skill_tt_1"><![CDATA[Target:
+		Apply {colour_start|buff}Buffs{colour_end} of varied potency
+		with the risk of some {colour_start|debuff}Side Effects{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_conc_incandessence_tt"><![CDATA[It would seem you've started glowing! {colour_start|skill_unselectable}(Torch light increased){colour_end}]]></entry>
+		
+		
 				<!-- Camping -->
 		<entry id="camping_skill_effect_loot_camp_bomb_mg"><![CDATA[Brew 1 Magician Bomb Tincture.]]></entry>
 		<entry id="camping_skill_effect_loot_MG_borrowed"><![CDATA[Borrow 2 unique provisionals at random.]]></entry>
+		<entry id="camping_skill_effect_loot_MG_borrowed2"><![CDATA[]]></entry>
 		<entry id="camping_skill_effect_loot_MG_FORAGE"><![CDATA[Forage 2 random mushrooms.]]></entry>
 		<entry id="camping_skill_effect_loot_MG_FORAGE2"><![CDATA[]]></entry>
 		
@@ -129,6 +143,25 @@
 		
 
 		<!-- "Borrowed" Items -->
+		
+		<entry id="str_inventory_title_supplymagician_JESTER_herbs"><![CDATA[Confusing Remedy]]></entry>
+		<entry id="str_inventory_description_supplymagician_JESTER_herbs"><![CDATA[Clear Horror; -30 Stress.
+		{colour_start|skill_unselectable}"C'mon, he wasn't ever gonna use it!"{colour_end}]]></entry>	
+		
+		<entry id="str_inventory_title_gemymagician_MIKO_donations"><![CDATA[Misplaced Donations]]></entry>
+		<entry id="str_inventory_description_gemmagician_MIKO_donations"><![CDATA[Mon from an unfortunate shrine, worth 3500 gold.
+		{colour_start|skill_unselectable}"I'll pay her back... eventually."{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_MAA_battleplans"><![CDATA[Old man's playbook]]></entry>
+		<entry id="str_inventory_description_supplymagician_MAA_battleplans"><![CDATA[+15%% DMG & +15%% Prot for 4 battles.
+		{colour_start|skill_unselectable}"Hehe, this is kinda' like danmaku for the slow minded."{colour_end}]]></entry>
+
+		<entry id="str_inventory_title_supplymagician_HOUND_treats"><![CDATA[Leftover Treats]]></entry>
+		<entry id="str_inventory_description_supplymagician_HOUND_treats"><![CDATA[-20%% Party Surprise Chance & +20%% Monster Surprise Chance for 4 battles.
+		{colour_start|skill_unselectable}"Not for human consumption, but times are rough."{colour_end}]]></entry>			
+		
+		
+		<!-- Not in Use -->
 		<entry id="str_inventory_title_supplymagician_RUN_bomb"><![CDATA[Short Fused Bomb]]></entry>
 		<entry id="str_inventory_description_supplymagician_RUN_bomb"><![CDATA[+40% DMG and +100% Random Target Chance for 1 rd.
 		{colour_start|skill_unselectable}"This is the real deal, 'aint it?"{colour_end}]]></entry>
@@ -141,13 +174,9 @@
 		<entry id="str_inventory_description_supplymagician_CAEN_food"><![CDATA[+15 Dodge and +5 SPD for 3 rds.
 		{colour_start|skill_unselectable}"These things make me uneasy, oh well."{colour_end}]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_MAID_knife"><![CDATA[Wound-up Watch]]></entry>
-		<entry id="str_inventory_description_supplymagician_MAID_knife"><![CDATA[Inflicts 50 stress, yet warps time for an additional action.
+		<entry id="str_inventory_title_supplymagician_MAID_watch"><![CDATA[Wound-up Watch]]></entry>
+		<entry id="str_inventory_description_supplymagician_MAID_watch"><![CDATA[Inflicts 50 stress, yet warps time for an additional action.
 		{colour_start|skill_unselectable}"Guess this makes me head maid now."{colour_end}]]></entry>
-		
-		<entry id="str_inventory_title_gemymagician_MIKO_donations"><![CDATA[Misplaced Donations]]></entry>
-		<entry id="str_inventory_description_gemmagician_MIKO_donations"><![CDATA[Mon from an unfortunate shrine.
-		{colour_start|skill_unselectable}"I'll pay her back... eventually."{colour_end}]]></entry>
 		
 		<entry id="str_inventory_title_supplymagician_SWITCH_components"><![CDATA[Lightly Used Components]]></entry>
 		<entry id="str_inventory_description_supplymagician_SWITCH_components"><![CDATA[Inflicts 4 stress; +6% CRT and +25% Debuff Resistance if torchlight is less than 50 for 1 battle.
@@ -169,9 +198,7 @@
 		<entry id="str_inventory_description_supplymagician_HERALD_crystal"><![CDATA[+15% PROT and 1 REGEN for 3 rnds.
 		{colour_start|skill_unselectable}"It was far too pretty to just leave it there."{colour_end}]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_JESTER_herbs"><![CDATA[Confusing Remedy]]></entry>
-		<entry id="str_inventory_description_supplymagician_JESTER_herbs"><![CDATA[Clear Horror/debuff; -33% Stress for 3rds.
-		{colour_start|skill_unselectable}"C'mon, he wasn't ever gonna use it!"{colour_end}]]></entry>	
+		
 		
 		<entry id="str_inventory_title_supplymagician_GRAVE_knife"><![CDATA[Twice Taken Knife]]></entry>
 		<entry id="str_inventory_description_supplymagician_GRAVE_knife"><![CDATA[Stealths and gives +20% DMG and +4% CRT for 2 rounds.
@@ -181,9 +208,7 @@
 		<entry id="str_inventory_description_supplymagician_CRUSADER_holywater"><![CDATA[Heal 10 Stress. +33% Bleed, Debuff, Blight; Disease Resistance for 3rds
 		{colour_start|skill_unselectable}"Never had a potion you threw on yourself instead'a drinkin'"{colour_end}]]></entry>	
 		
-		<entry id="str_inventory_title_supplymagician_HOUND_treats"><![CDATA[Leftover Treats]]></entry>
-		<entry id="str_inventory_description_supplymagician_HOUND_treats"><![CDATA[+25% DMG and +7% ACC for 3rds.
-		{colour_start|skill_unselectable}"Not for human consumption, but times are rough."{colour_end}]]></entry>	
+
 		
 		<entry id="str_inventory_title_supplymagician_PLAGUE_antivenom"><![CDATA[Experimental Cure]]></entry>
 		<entry id="str_inventory_description_supplymagician_PLAGUE_antivenom"><![CDATA[Cure Blight; +40% Blight and Disease Resistance for 3 rds.

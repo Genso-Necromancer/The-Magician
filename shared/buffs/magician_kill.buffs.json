@@ -17,6 +17,46 @@
          }
 	  },
 	  {
+         "id" : "MG_Anti_Corpse_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -10,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "corpse"
+         }
+	  },
+	  {
+         "id" : "MG_Anti_Corpse_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -10,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "corpse"
+         }
+	  },
+      {
+         "id" : "MG_StillAlive_Resistance",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
          "id" : "magician_Power_Gather_BuffH_5",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",

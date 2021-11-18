@@ -1,0 +1,634 @@
+{
+   "buffs":
+   [
+        
+      {
+         "id" : "magician_CONC_ACC_R1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_ACC_R2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_ACC_R3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_ACC_R4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_ACC_R5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_CRT_R1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_CRT_R2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_CRT_R3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_CRT_R4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_CRT_R5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_DDGE_R1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_DDGE_R2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_DDGE_R3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_DDGE_R4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_DDGE_R5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_SPD_R1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_SPD_R2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_SPD_R3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_IGSTLTH_R1",
+         "stat_type" : "ignore_stealth",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_ARMPEN_R1",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_ARMPEN_R2",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.17,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_ARMPEN_R3",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_ARMPEN_R4",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.22,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_ARMPEN_R5",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_EXP_R1",
+         "stat_type" : "resolve_xp_bonus_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_BLEEDRES_R1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_BLEEDRES_R2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_BLEEDRES_R3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_BLEEDRES_R4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_BLEEDRES_R5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_BLIGHTRES_R1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_BLIGHTRES_R2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_BLIGHTRES_R3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_BLIGHTRES_R4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_BLIGHTRES_R5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_GUARDBLOCK_R1",
+         "stat_type" : "guard_blocked",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_SRECEVIED_R1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_SRECEVIED_R2",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.065,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_SRECEVIED_R3",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_SRECEVIED_R4",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.095,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_SRECEVIED_R5",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_Virtue_R1",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_Virtue_R2",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_Virtue_R3",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_Virtue_R4",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_Virtue_R5",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_StressMiss_R1",
+         "stat_type" : "stress_on_miss",
+         "stat_sub_type" : "",
+         "amount" : 5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_CONC_TAG",
+         "stat_type" : "tag",
+         "stat_sub_type" : "",
+         "amount" : 1,
+		 "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""
+         }
+      }
+	  
+	  
+	  
+   ]
+}  

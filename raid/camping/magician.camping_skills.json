@@ -131,18 +131,26 @@
 		{ 
 			"id" : "aggressive_borrowing",
 			"level" : 0,
-			"cost" : 3,
+			"cost" : 5,
 			"use_limit" : 1,
 			"effects" :
 			[
 				{
 					"selection" : "self",
 					"requirements" : [],
-					"chance" : { "code" : "a", "amount": 2.0 },
+					"chance" : { "code" : "a", "amount": 1.0 },
 					"type": "loot",
 					"sub_type": "MG_borrowed",
-					"amount": 2
-				}			
+					"amount": 1
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+					"type": "loot",
+					"sub_type": "MG_borrowed2",
+					"amount": 1
+				}				
 
 			],
 			"hero_classes" : ["magician"],

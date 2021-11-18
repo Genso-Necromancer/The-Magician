@@ -2,136 +2,233 @@
    "buffs":
    [
         
-      {
-         "id" : "magician_Magic_Absorption_BuffH_1",
+	  {
+         "id" : "MG_MA_DMG_Drain_H5",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.05,
-         "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
+         "amount" : -0.05,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description": true
 	  },
       {
-         "id" : "magician_Magic_Absorption_BuffL_1",
+         "id" : "MG_MA_DMG_Drain_L5",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.05,
-         "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
+         "amount" : -0.05,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description": true
+	  },
+      {
+         "id" : "MG_MA_CRIT_Drain_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.005,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
 	  },
 	  {
-         "id" : "magician_Magic_Absorption_BuffH_2",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.02,
-         "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
+         "id" : "MG_MA_Count_fx_3",
+         "stat_type":"upgrade_discount",
+         "stat_sub_type":"mg_ma_Count_FX_3",
+         "amount": -1,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
-	  },
-      {
-         "id" : "magician_Magic_Absorption_BuffL_2",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.02,
-         "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
+         },
+		 "has_description" : true,
+         "fx" : "yinyangorbfx"
+      },
 	  {
-         "id" : "magician_Magic_Absorption_BuffH_3",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.03,
-         "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
+         "id" : "MG_MA_Count_fx_2",
+         "stat_type":"upgrade_discount",
+         "stat_sub_type":"mg_ma_Count_FX_2",
+         "amount": -1,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
-	  },
-      {
-         "id" : "magician_Magic_Absorption_BuffL_3",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.03,
-         "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
+         },
+		 "has_description" : true,
+         "fx" : "flandollfx"
+      },
 	  {
-         "id" : "magician_Magic_Absorption_BuffH_4",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.03,
-         "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
+         "id" : "MG_MA_Count_fx_1",
+         "stat_type":"upgrade_discount",
+         "stat_sub_type":"mg_ma_Count_FX_1",
+         "amount": -1,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description" : true
+      },
+      {
+         "id" : "MG_MA_Riposte_Drain_5",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "MG Power Drain 5",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
 	  },
       {
-         "id" : "magician_Magic_Absorption_BuffL_4",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.03,
-         "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
+         "id" : "MG_MA_Riposte_Gain_5",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "MG Power Buff 5",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
-	  },
-	  {
-         "id" : "magician_Magic_Absorption_BuffH_5",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.04,
-         "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
+         },
+		 "has_description": true
 	  },
       {
-         "id" : "magician_Magic_Absorption_BuffL_5",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.04,
-         "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
+         "id" : "MG_MA_Riposte_Clear",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "MG Riposte Steal",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description": false
+	  },
+      {
+         "id" : "MG_MA_Riposte_Chain_R5_T2",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "MG Riposte Drain and Gain 5 Chain R5 T2",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false
+	  },
+      {
+         "id" : "MG_MA_Riposte_Chain_R5_T3",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "MG Riposte Drain and Gain 5 Chain R5 T3",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false
+	  },
+      {
+         "id" : "MG_MA_Riposte_Count_2_T1",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "MG Riposte Count 2",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false
+	  },
+      {
+         "id" : "MG_MA_Riposte_Count_1_T2",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "MG Riposte Count 1",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false
+	  },
+      {
+         "id" : "MG_MA_Riposte_R5",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "MG Riposte R5",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false
 	  }
+	  
 	  
 	  
 	  
