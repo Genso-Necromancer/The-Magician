@@ -1,10 +1,10 @@
 inventory_item: .type "supply"		.id "magician_bomb"			    		.base_stack_limit 1		.purchase_gold_value 0	.sell_gold_value 0
 inventory_item: .type "supply"		.id "magician_bomb_camp"			    .base_stack_limit 1		.purchase_gold_value 0	.sell_gold_value 0 .sequential_use_effects mg_camp_0 mg_camp_1 mg_camp_3 .wait_for_item_use_to_finish true
 
-inventory_item: .type "supply"		.id "magician_HEAL_mushroom"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 50
-inventory_item: .type "supply"		.id "magician_OFFENSE_mushroom"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 50
-inventory_item: .type "supply"		.id "magician_DEFENSE_mushroom"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 50
-inventory_item: .type "supply"		.id "magician_SUPPORT_mushroom"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 50
+inventory_item: .type "supply"		.id "magician_HEAL_mushroom"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+inventory_item: .type "supply"		.id "magician_OFFENSE_mushroom"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+inventory_item: .type "supply"		.id "magician_DEFENSE_mushroom"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+inventory_item: .type "supply"		.id "magician_SUPPORT_mushroom"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
 
 inventory_item: .type "gem"			.id "magician_MIKO_donations"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 3500
 inventory_item: .type "supply"		.id "magician_JESTER_herbs"				.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100

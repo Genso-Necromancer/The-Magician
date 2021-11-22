@@ -78,7 +78,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description": false
       },
 	   {
          "id" : "MG_manual_DMGH",

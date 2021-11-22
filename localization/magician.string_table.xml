@@ -87,8 +87,6 @@
 		{colour_end} +%d%% DMG for 1 rd]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_free_and_limit_tt"><![CDATA[{colour_start|notable}Free Action{colour_end}
 		Disables {colour_start|notable}Spell Cards{colour_end} 1 rd]]></entry>
-		
-		
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_Count_FX_3"><![CDATA[Remaining Riposte: 3]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_Count_FX_2"><![CDATA[Remaining Riposte: 2]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_Count_FX_1"><![CDATA[Remaining Riposte: 1]]></entry>
@@ -103,6 +101,7 @@
 		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (130%% Base){colour_end} 2 pts/rd for 3rds]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt5"><![CDATA[ {colour_start|buff}Splash Damage:{colour_end}
 		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (140%% Base){colour_end} 2 pts/rd for 3rds]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_stun_tt"><![CDATA[+50%% {colour_start|blight}Blight{colour_end} amount when applied]]></entry>
 				<!-- Concoctions {colour_start|skill_unselectable}(X%% Base){colour_end}-->
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_conc_antistealth_tt"><![CDATA[Bypass {colour_start|stealth}Stealth{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_conc_skill_tt_1"><![CDATA[Target:
@@ -110,6 +109,19 @@
 		with the risk of some {colour_start|debuff}Side Effects{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_conc_incandessence_tt"><![CDATA[It would seem you've started glowing! {colour_start|skill_unselectable}(Torch light increased){colour_end}]]></entry>
 		
+			<!-- Trinket Tool Tips -->
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_manual_bli_dur_tt"><![CDATA[+30%% {colour_start|blight}Blight{colour_end} duration when applied]]></entry>
+			
+		
+		<!-- Declaration of base game tool tips that red hook did not do themselves. Normally would just use a fake tool tip, but would not work for stacking effects. These are the exact same used in Sunward Isles to avoid flickering text. -->
+		<entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} duration received]]></entry> 
+		<entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} duration received]]></entry> 
+		<entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} amount received]]></entry> 
+		<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} amount received]]></entry>
+		<entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} duration when applied]]></entry> 
+		<entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} duration when applied]]></entry> 
+		<entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} amount when applied]]></entry> 
+		<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} amount when applied]]></entry>
 		
 				<!-- Camping -->
 		<entry id="camping_skill_effect_loot_camp_bomb_mg"><![CDATA[Brew 1 Magician Bomb Tincture.]]></entry>
