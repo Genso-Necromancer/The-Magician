@@ -11,9 +11,9 @@ inventory_item: .type "supply"		.id "magician_JESTER_herbs"				.base_stack_limit
 inventory_item: .type "supply"		.id "magician_MAA_plans"				.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
 
 inventory_item: .type "supply"		.id "magician_RUN_bomb"					.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
-inventory_item: .type "supply"		.id "magician_APOS_book"				.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
+inventory_item: .type "supply"		.id "magician_HELLION_stone"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
 inventory_item: .type "supply"		.id "magician_CAEN_food"				.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
-inventory_item: .type "supply"		.id "magician_MAID_watch"				.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
+inventory_item: .type "supply"		.id "magician_MAID_tea"				    .base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
 
 inventory_item: .type "supply"		.id "magician_SWITCH_components"		.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
 inventory_item: .type "supply"		.id "magician_LIBRARIAN_notes"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100

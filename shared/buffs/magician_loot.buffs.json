@@ -68,179 +68,10 @@
          }
       },
 	  {
-         "id" : "magician_APOS_dmgH",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "hpbelow",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0.5,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_APOS_dmgL",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "hpbelow",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0.5,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_APOS_CRIT",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.03,
-         "remove_if_not_active" : false,
-         "rule_type" : "hpbelow",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0.5,
-            "string" : ""
-         }
-      },
-	   {
-         "id" : "magician_HOUND_dmgH",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.25,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_HOUND_dmgL",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.25,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_HOUND_ACC",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "attack_rating",
-         "amount" : 0.075,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_SWITCH_CRIT",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.06,
-         "remove_if_not_active" : false,
-         "rule_type" : "lightbelow",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0.5,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_SWITCH_DeBR",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "debuff",
-         "amount" : 0.25,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_MAID_SPD",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : 0.03,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_JESTER_SR",
-         "stat_type" : "stress_dmg_received_percent",
-         "stat_sub_type" : "",
-         "amount" : -0.33,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_PLAGUE_DeR",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "disease",
-         "amount" : 0.40,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_PLAGUE_PsR",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "poison",
-         "amount" : 0.40,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_ARB_BlR",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "bleed",
-         "amount" : 0.40,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_ARB_HealBuff",
+         "id" : "magician_PLAGUE_antivenom_HR",
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "",
-         "amount" : 0.10,
+         "amount" : 0.33,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -289,23 +120,36 @@
          }
       },
 	  {
-         "id" : "magician_JESTER_DODGE",
+         "id" : "magician_MAID_SR",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_MAID_Secret_Buff",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "remove_if_not_active" : true,
+         "rule_type" : "is_vampire",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_HELLION_Crit_Buff",
          "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : 0.05,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	   {
-         "id" : "magician_RUN_dmgH",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.40,
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.10,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -315,62 +159,8 @@
          }
       },
 	  {
-         "id" : "magician_RUN_dmgL",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.40,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	   {
-         "id" : "magician_RUN_targetchance",
-         "stat_type" : "random_target_attack_chance",
-         "stat_sub_type" : "",
-         "amount" : 1.00,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_LIB_EXP",
-         "stat_type" : "resolve_xp_bonus_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.50,
-		 "duration_type" : "quest_end",
-		 "duration" : 1,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_FISHLAD_foodbuff",
-         "stat_type" : "food_consumption_percent",
-         "stat_sub_type" : "",
-         "amount" : -1.00,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_ETERNAL_blightbuff",
-         "stat_type" : "hp_dot_poison_amount_percent",
+         "id" : "magician_ETERNAL_Blight_Buff",
+         "stat_type" : "poison_chance",
          "stat_sub_type" : "",
          "amount" : 0.10,
          "remove_if_not_active" : false,
@@ -378,33 +168,59 @@
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "magician_ETERNAL_blightbuff"
+            "string" : "magician_ETERNAL_urn"
          }
       },
 	  {
-         "id" : "magician_ETERNAL_laserbuffH",
+         "id" : "magician_HERALD_HP_Buff",
          "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.15,
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.20,
          "remove_if_not_active" : false,
-         "rule_type" : "has_item_id",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "magician_ETERNAL_blightbuff"
+            "string" : ""
          }
       },
 	  {
-         "id" : "magician_ETERNAL_laserbuffL",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.15,
+         "id" : "magician_HERALD_ref_Buff",
+         "stat_type" : "damage_reflect_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.30,
          "remove_if_not_active" : false,
-         "rule_type" : "has_item_id",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "magician_ETERNAL_blightbuff"
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_PRACTITIONER_CRITPROT_Buff",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_PRACTITIONER_Disease_Buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
          }
       },
 	  {

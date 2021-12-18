@@ -107,9 +107,9 @@
          }
       },
 	  {
-         "id" : "magician_PG_TEMP_BUFF_R1_TT",
+         "id" : "magician_MA_EFFECT_R1_TT",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_PG_TEMP_BUFF_tt",
+         "stat_sub_type" : "mg_MA_EFFECT_tt",
          "amount" : -0.5,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -120,9 +120,9 @@
          }
       },
 	  {
-         "id" : "magician_PG_TEMP_BUFF_R2_TT",
+         "id" : "magician_MA_EFFECT_R2_TT",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_PG_TEMP_BUFF_tt",
+         "stat_sub_type" : "mg_MA_EFFECT_tt",
          "amount" : -0.6,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -133,9 +133,9 @@
          }
       },
 	  {
-         "id" : "magician_PG_TEMP_BUFF_R3_TT",
+         "id" : "magician_MA_EFFECT_R3_TT",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_PG_TEMP_BUFF_tt",
+         "stat_sub_type" : "mg_MA_EFFECT_tt",
          "amount" : -0.7,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -146,9 +146,9 @@
          }
       },
 	  {
-         "id" : "magician_PG_TEMP_BUFF_R4_TT",
+         "id" : "magician_MA_EFFECT_R4_TT",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_PG_TEMP_BUFF_tt",
+         "stat_sub_type" : "mg_MA_EFFECT_tt",
          "amount" : -0.8,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -159,9 +159,9 @@
          }
       },
 	  {
-         "id" : "magician_PG_TEMP_BUFF_R5_TT",
+         "id" : "magician_MA_EFFECT_R5_TT",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_PG_TEMP_BUFF_tt",
+         "stat_sub_type" : "mg_MA_EFFECT_tt",
          "amount" : -0.9,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -398,6 +398,21 @@
          "id" : "magician_manual_BLI_Dur_TT",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "mg_manual_bli_dur_tt",
+         "amount" : 0.01,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "magician_Treats_Buff_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "magician_treats_buff_tt",
          "amount" : 0.01,
 		 "duration" : 1,
          "remove_if_not_active" : false,
