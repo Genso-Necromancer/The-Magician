@@ -48,11 +48,11 @@ effect: .name "MG MM TT 5" .target "performer" .skill_instant true .buff_ids "ma
 ////Magic Missle
 
 ////Up-Sweep
-effect: .name "MG US Push 1" .target "target"  .push 1 .chance 100%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-effect: .name "MG US Push 2" .target "target"  .push 1 .chance 110%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-effect: .name "MG US Push 3" .target "target"  .push 1 .chance 120%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-effect: .name "MG US Push 4" .target "target"  .push 1 .chance 130%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-effect: .name "MG US Push 5" .target "target"  .push 1 .chance 140%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+effect: .name "MG US Push 1" .target "target"  .push 2 .chance 100%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+effect: .name "MG US Push 2" .target "target"  .push 2 .chance 110%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+effect: .name "MG US Push 3" .target "target"  .push 2 .chance 120%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+effect: .name "MG US Push 4" .target "target"  .push 2 .chance 130%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+effect: .name "MG US Push 5" .target "target"  .push 2 .chance 140%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
 
 ////Witch Ley-line(Illusion Laser)
 ///////////UNUSED/////////////
@@ -251,6 +251,9 @@ effect: .name "MG Overwhelm 5" .target "performer" .push 3 .chance 180% .on_hit 
 //MS DMG Tool Tip
 effect: .name "MS DMG TT" .target "performer" .skill_instant true .buff_ids "magician_spark_damage_TT" .on_hit false .on_miss true .apply_once true
 
+//Obligatory Chuuni Bullshit
+effect: .name "Magician Chuuni Bullshit" .target "performer" .chance 25% .bark "str_master_spark" .on_hit true .on_miss false .queue false .apply_once true .has_description false
+effect: .name "Magician Chunni Bullshit Reaction" .target "performer_group_other" .chance 20% .bark "str_master_spark_react" .individual_target_actor_rolls true .on_hit true .on_miss false .queue true .apply_once true .has_description false
 
 
 /////Magic Absorber/////

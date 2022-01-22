@@ -578,6 +578,70 @@
 		 "has_description": false
 	  },
       {
+         "id" : "MG_MA_Riposte_R1",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "MG Riposte R1",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false
+	  },
+      {
+         "id" : "MG_MA_Riposte_R2",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "MG Riposte R2",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false
+	  },
+      {
+         "id" : "MG_MA_Riposte_R3",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "MG Riposte R3",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false
+	  },
+      {
+         "id" : "MG_MA_Riposte_R4",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "MG Riposte R4",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false
+	  },
+      {
          "id" : "MG_MA_Riposte_R5",
          "stat_type" : "riposte",
          "stat_sub_type" : "MG Riposte R5",

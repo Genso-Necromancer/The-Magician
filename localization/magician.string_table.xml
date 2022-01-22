@@ -3,12 +3,12 @@
 
     <language id="english">
 		<entry id="hero_class_name_magician"><![CDATA[Magician]]></entry>
-		<entry id="action_verbose_body_blacksmith_magician"><![CDATA[Replace Me.]]></entry>
+		<entry id="action_verbose_body_blacksmith_magician"><![CDATA[Straight forward in battle and personality, The Magician's scuffed and black cloak is both heavy enough for grazing blows and yet light enough to not slow down her relentless march forward in combat. This made all the more complete by her imposing hat. Mundane in nature, one can't help but feel a sort of magic when witnessing it.]]></entry>
 
-		<entry id="action_verbose_body_guild_magician"><![CDATA[Replace Me.]]></entry>
+		<entry id="action_verbose_body_guild_magician"><![CDATA[Believing power is key, The Magician arms herself with a mini-hakkero capable of storing magical energies to fuel it's own white-hot burning magic. Should things not go as planned, The Magician brings both her talents in more earthly witchcraft to bolster or patch up her companions, or her faithful broom to sweep the opposition back into place.]]></entry>
 
 
-		<entry id="action_verbose_body_camping_trainer_magician"><![CDATA[Replace Me.]]></entry>
+		<entry id="action_verbose_body_camping_trainer_magician"><![CDATA[Restless as ever, The Magician keeps her hands busy. Whether in the practice of witchcraft and mycology or in the business of others, The Magician is sure to have what you're looking for at short notice.]]></entry>
 
 <!-- -->
 		<!-- Skills -->
