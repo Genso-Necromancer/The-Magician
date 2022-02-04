@@ -324,13 +324,6 @@ effect: .name "MG_Power_Buff_2" .target "performer" .chance 500% .duration -1 .b
 
 
 
-
-
-
-
-
-
-
 ////Bomb System////
 //Bomb TT
 effect: .name "Is Bomb MG TT" .target "performer" .skill_instant true .buff_ids "magician_is_bomb_TT" .on_hit false .on_miss true .apply_once true .queue true
@@ -396,16 +389,9 @@ effect: .name "magician_MAID_tea" .target "performer" .item 1 .chance 100% .dura
 
 
 //unused
-
-
-
-
-
 effect: .name "magician_ARB_bandage" .target "performer" .item 1 .chance 100% .heal 3 .cure_bleed 1 .duration 3 .buff_ids "magician_ARB_BlR" "magician_ARB_HealBuff"
 
 //unused class mods
-
-
 effect: .name "magician_APOS_book" .target "performer" .item 1 .chance 100% .health_damage 5 .duration 1 .buff_duration_type combat_end .buff_ids "magician_APOS_dmgH" "magician_APOS_dmgL" "magician_APOS_CRIT"
 
 effect: .name "magician_CAEN_food" .target "performer" .item 1 .chance 100% .heal 2 .duration 3 .combat_stat_buff 1 .defense_rating_add 0.15 .speed_rating_add 5

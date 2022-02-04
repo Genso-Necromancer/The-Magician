@@ -1,0 +1,20 @@
+
+magician.sprite.attack_magicmissile.png
+size: 1303,1133
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+magicmissile
+  rotate: true
+  xy: 2, 2
+  size: 1129, 1235
+  orig: 1129, 1235
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1239, 774
+  size: 357, 62
+  orig: 357, 62
+  offset: 0, 0
+  index: -1

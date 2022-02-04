@@ -18,13 +18,39 @@
       {
          "id" : "MARI_CURIO",
          "difficulty" : 0,
+         "dungeon" : "warrens",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_HEAL_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_OFFENSE_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_DEFENSE_mushroom", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MARI_BATTLE",
+         "difficulty" : 0,
+         "dungeon" : "warrens",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_HEAL_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_OFFENSE_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_DEFENSE_mushroom", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MARI_CURIO",
+         "difficulty" : 0,
          "dungeon" : "",
          "entries" :
          [
-            { "type" : "nothing", "chances" : 7, "data" : { }},
+            { "type" : "nothing", "chances" : 0, "data" : { }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_HEAL_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_OFFENSE_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_DEFENSE_mushroom", "amount" : 1 }}
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_OFFENSE_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_DEFENSE_mushroom", "amount" : 1 }}
             
          ]
       },
@@ -34,10 +60,10 @@
          "dungeon" : "",
          "entries" :
          [
-            { "type" : "nothing", "chances" : 7, "data" : { }},
+            { "type" : "nothing", "chances" : 0, "data" : { }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_HEAL_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_OFFENSE_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_DEFENSE_mushroom", "amount" : 1 }}
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_OFFENSE_mushroom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_DEFENSE_mushroom", "amount" : 1 }}
             
          ]
       },

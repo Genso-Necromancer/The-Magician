@@ -1,13 +1,13 @@
 
 magician.sprite.TNec_RipTrac_FX3.png
-size: 44,53
+size: 69,64
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 riposte tracker
   rotate: false
   xy: 2, 2
-  size: 40, 49
-  orig: 40, 49
+  size: 65, 60
+  orig: 65, 60
   offset: 0, 0
   index: -1
