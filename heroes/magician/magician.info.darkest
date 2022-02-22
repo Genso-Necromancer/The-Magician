@@ -128,8 +128,8 @@ tag: .id "touhou"
 
 mode: .id mg_rule_mode .is_raid_default true
 
-extra_curio_loot: .code "MARI_CURIO" .count 1
-extra_battle_loot: .code "MARI_BATTLE" .count 1
+extra_curio_loot: .code "MARI_MUSHROOMS" .count 1
+extra_battle_loot: .code "MARI_MUSHROOMS" .count 1
 
 extra_stack_limit: .id magician_junk1 magician_junk2 magician_junk3 magician_junk4 magician_junk5 magician_junk6 magician_junk7 magician_junk8 magician_junk9 magician_junk10
 

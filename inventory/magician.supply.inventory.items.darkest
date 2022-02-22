@@ -1,10 +1,26 @@
 inventory_item: .type "supply"		.id "magician_bomb"			    		.base_stack_limit 1		.purchase_gold_value 0	.sell_gold_value 0
 inventory_item: .type "supply"		.id "magician_bomb_camp"			    .base_stack_limit 1		.purchase_gold_value 0	.sell_gold_value 0 .sequential_use_effects mg_camp_0 mg_camp_1 mg_camp_3 .wait_for_item_use_to_finish true
 
-inventory_item: .type "supply"		.id "magician_HEAL_mushroom"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
-inventory_item: .type "supply"		.id "magician_OFFENSE_mushroom"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
-inventory_item: .type "supply"		.id "magician_DEFENSE_mushroom"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
-inventory_item: .type "supply"		.id "magician_SUPPORT_mushroom"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+inventory_item: .type "supply"		.id "magician_healshroom_1"		 		.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+inventory_item: .type "supply"		.id "magician_razorshroom_1"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+inventory_item: .type "supply"		.id "magician_sturdyshroom_1"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+inventory_item: .type "supply"		.id "magician_shadowshroom_1"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+inventory_item: .type "supply"		.id "magician_horrorshroom_1"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+inventory_item: .type "supply"		.id "magician_curseshroom_1"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+
+inventory_item: .type "supply"		.id "magician_healshroom_3"		 		.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+inventory_item: .type "supply"		.id "magician_razorshroom_3"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+inventory_item: .type "supply"		.id "magician_sturdyshroom_3"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+inventory_item: .type "supply"		.id "magician_shadowshroom_3"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+inventory_item: .type "supply"		.id "magician_horrorshroom_3"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+inventory_item: .type "supply"		.id "magician_curseshroom_3"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+
+inventory_item: .type "supply"		.id "magician_healshroom_5"		 		.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+inventory_item: .type "supply"		.id "magician_razorshroom_5"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+inventory_item: .type "supply"		.id "magician_sturdyshroom_5"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+inventory_item: .type "supply"		.id "magician_shadowshroom_5"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+inventory_item: .type "supply"		.id "magician_horrorshroom_5"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
+inventory_item: .type "supply"		.id "magician_curseshroom_5"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
 
 inventory_item: .type "gem"			.id "magician_MIKO_donations"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 3500
 inventory_item: .type "supply"		.id "magician_JESTER_herbs"				.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100

@@ -189,7 +189,7 @@
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
 					"type": "loot",
-					"sub_type": "MG_FORAGE2",
+					"sub_type": "MG_FORAGE",
 					"amount": 1
 				}	
 

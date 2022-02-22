@@ -30,7 +30,7 @@ effect: .name "MG Anti-Corpse DMG" .target "performer" .skill_instant true .buff
 
 //Rank 5
 //The Summon and a kill of it's types
-effect: .name "MG Power Buff Summon 5" .target "target_enemy_group" .chance 100% .swap_source_and_target true  .summon_count 1 .summon_limits 1 .summon_can_spawn_loot false .summon_monsters mg_satono_and_mai_E .summon_chances 1.0 .on_hit true .on_miss true .apply_once true .has_description false .queue true
+effect: .name "MG Power Buff Summon 5" .target "target_enemy_group" .chance 100% .swap_source_and_target true  .summon_count 1 .summon_limits 1 .summon_can_spawn_loot false .summon_monsters mg_satono_and_mai_E .summon_chances 1.0 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .apply_once true .has_description false .queue true
 //Target Swapped Resistance if not dead
 effect: .name "MG Still Alive Resistance" .target "target" .swap_source_and_target 1 .chance 5000% .buff_source_type bsrc_instantSkill .duration 1 .buff_ids "MG_StillAlive_Resistance" .on_hit true .on_miss false .queue false .has_description false
 
@@ -257,6 +257,7 @@ effect: .name "Magician Chunni Bullshit Reaction" .target "performer_group_other
 
 
 /////Magic Absorber/////
+////Uses the concept of "Limited Ripostes" from Mrglrgl's Tenshi class
 //Resets Riposte when skill is activated and used to properly progress the chain
 effect: .name "MG Riposte Steal" .target "performer" .chance 100% .steal_buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false .queue true
 
@@ -317,10 +318,25 @@ effect: .name "MG MA TT 5" .target "performer" .skill_instant true .buff_ids "ma
 
 
 
-////Trinkets
+/////Trinkets
+//Trinket Summon's Self Kill
+effect: .name "mg_trinketspawn_wipe" .target "performer" .chance 1000% .kill_enemy_types mg_trinketspawn .on_hit true .on_miss true .queue true
+
+
 ///Staff of Vengeful Spirits
 //On-Kill Buff
 effect: .name "MG_Power_Buff_2" .target "performer" .chance 500% .duration -1 .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_power_count_2" "magician_Power_Gather_BuffH_2" "magician_Power_Gather_BuffL_2" "magician_Power_Gather_BuffCrit_2" .on_hit true .on_miss false .apply_once false .queue true .has_description false
+
+///Thief Bag
+//Pick-pocket
+effect: .name "MG Pick-Pocket" .target "target_enemy_group" .chance 20% .swap_source_and_target true  .summon_count 1 .summon_limits 1 .summon_can_spawn_loot true .summon_monsters mg_trinketspawn_A .summon_chances 1.0 .summon_does_roll_initiatives 0 .on_hit true .on_miss false .apply_once true .has_description false .queue true
+
+//The Summon's buffFX
+effect: .name "MG_pickpocket_FX" .spawn_target_actor_base_class_id magician .target "target" .chance 500% .duration 1 .buff_ids "magician_thief_feedback_fx" .on_hit true .on_miss false .apply_once false .queue true .has_description false
+
+///Manual
+//Extra Mushroom Chance
+effect: .name "MG Mushroom Search" .target "target_enemy_group" .chance 15% .swap_source_and_target true  .summon_count 1 .summon_limits 1 .summon_can_spawn_loot true .summon_monsters mg_trinketspawn_B .summon_chances 1.0 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .apply_once true .has_description false .queue true
 
 
 
@@ -335,7 +351,7 @@ effect: .name "Cooldown MG" .target "performer"  .chance 100% .duration -1 .buff
 effect: .name "MG Fake Daze" .target "performer" .chance 0% .daze 1 .on_hit false .on_miss false .apply_once true .queue true .has_description false
 
 //Bomb Item
-effect: .name "magician_bomb" .target "performer"  .item 1 .chance 100% .duration -1 .buff_ids "magician_bomb_elixer" "magician_bomb_count_elixir" .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .queue true .has_description false
+effect: .name "magician_bomb" .target "target_enemy_group"  .item 1 .chance 100% .duration -1 .buff_ids "magician_bomb_elixer" "magician_bomb_count_elixir" .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .queue true .has_description false
 
 
 effect: .name "mg_camp_0"  .target "target" .chance 100% .duration -1 .buff_ids "magician_bomb_tincture" "magician_bomb_count_tincture"  .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .has_description false
@@ -347,25 +363,39 @@ effect: .name "mg_camp_2"  .target "target" .chance 100% .duration -1 .buff_ids 
 //Bomb Counter
 effect: .name "magician bomb count skill" .target "performer"  .chance 100% .duration -1 .buff_ids "magician_bomb_count_skill"  .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .queue true .has_description false
 
-//Funny Mushrooms
+////Funny Mushrooms
 
-effect: .name "magician_HEAL_mushroom" .target "performer" .item 1 .chance 100% .dotHpHeal 2 .duration 5 .cure 1 .on_hit true .on_miss false .apply_once true
+//Health
+effect: .name "magician_healshroom_1" .target "performer" .item 1 .chance 100% .heal 2 .dotHpHeal 2 .duration 1 .on_hit true .on_miss false .apply_once true
+effect: .name "magician_healshroom_3" .target "performer" .item 1 .chance 100% .heal 2 .dotHpHeal 2 .duration 2 .buff_ids "magician_MAXHP_3" .on_hit true .on_miss false .apply_once true
+effect: .name "magician_healshroom_5" .target "performer" .item 1 .chance 100% .heal 2 .dotHpHeal 2 .duration 3 .buff_ids "magician_MAXHP_5" .on_hit true .on_miss false .apply_once true
 
-effect: .name "magician_OFFENSE_mushroom" .target "performer" .item 1 .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .damage_high_multiply 0.1 .damage_low_multiply 0.1 .crit_chance_add 0.05 .attack_rating_add 0.10 .on_hit true .on_miss false .apply_once true
+//ArmorPEN and DMG
+effect: .name "magician_razorshroom_1" .target "performer" .item 1 .chance 100% .buff_ids "magician_DMGH_1" "magician_DMGL_1" "magician_ArmPen_1" .on_hit true .on_miss false .apply_once true
+effect: .name "magician_razorshroom_3" .target "performer" .item 1 .chance 100% .buff_ids "magician_DMGH_3" "magician_DMGL_3" "magician_ArmPen_1" .on_hit true .on_miss false .apply_once true
+effect: .name "magician_razorshroom_5" .target "performer" .item 1 .chance 100% .buff_ids "magician_DMGH_5" "magician_DMGL_5" "magician_ArmPen_1" .on_hit true .on_miss false .apply_once true
 
-effect: .name "magician_DEFENSE_mushroom" .target "performer" .item 1 .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "magician_DEFENSE_PROT" "magician_DEFENSE_DODGE" "magician_DEFENSE_CRITAV" .on_hit true .on_miss false .apply_once true
+//Prot and S&M Resistance
+effect: .name "magician_sturdyshroom_1" .target "performer" .item 1 .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "magician_PROT_1" "magician_StRes_1" "magician_MRes_1" "magician_BlRes_1" "magician_PoRes_1" "magician_SPD_penalty_1" "magician_Dodge_penalty_1" .on_hit true .on_miss false .apply_once true
+effect: .name "magician_sturdyshroom_3" .target "performer" .item 1 .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "magician_PROT_3" "magician_StRes_3" "magician_MRes_3" "magician_BlRes_3" "magician_PoRes_3" "magician_SPD_penalty_1" "magician_Dodge_penalty_1" .on_hit true .on_miss false .apply_once true
+effect: .name "magician_sturdyshroom_5" .target "performer" .item 1 .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "magician_PROT_5" "magician_StRes_5" "magician_MRes_5" "magician_BlRes_5" "magician_PoRes_5" "magician_SPD_penalty_1" "magician_Dodge_penalty_1" .on_hit true .on_miss false .apply_once true
 
-effect: .name "magician_SUPPORT_mushroom" .target "performer"	.item 1 .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "magician_SUPPORT_TORCH" "magician_SUPPORT_SCOUT" "magician_SUPPORT_PARTY_SURPRISE" .on_hit true .on_miss false .apply_once true
+//Dodge, ACC, CRIT and Stealth
+effect: .name "magician_shadowshroom_1" .target "performer" .item 1 .chance 100% .buff_ids "magician_Dodge_1" "magician_ACC_1" "magician_DMG_penalty_1" .on_hit true .on_miss false .apply_once true
+effect: .name "magician_shadowshroom_3" .target "performer" .item 1 .chance 100% .buff_ids "magician_Dodge_3" "magician_ACC_3" "magician_DMG_penalty_1" .on_hit true .on_miss false .apply_once true
+effect: .name "magician_shadowshroom_5" .target "performer" .item 1 .chance 100% .buff_ids "magician_Stealth_5" "magician_Dodge_5" "magician_ACC_5" "magician_DMG_penalty_1" .on_hit true .on_miss false .apply_once true
 
-//effect: .name "magician_poison_spd_mushroom" .target "performer" .item 1 .chance 100% .health_damage 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .speed_rating_add -2 .on_hit true .on_miss false .apply_once true
+//Horror and Stress
+effect: .name "magician_horrorshroom_1" .target "performer" .item 1 .chance 100% .clearDotStress 1 .healstress 7  .on_hit true .on_miss false .apply_once true
+effect: .name "magician_horrorshroom_3" .target "performer" .item 1 .chance 100% .clearDotStress 1 .healstress 10 .on_hit true .on_miss false .apply_once true
+effect: .name "magician_horrorshroom_5" .target "performer" .item 1 .chance 100% .clearDotStress 1 .healstress 15 .on_hit true .on_miss false .apply_once true
 
-//effect: .name "magician_poison_dmg_mushroom" .target "performer" .item 1 .chance 100% .health_damage 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .damage_high_multiply -0.05 .damage_low_multiply -0.05 .on_hit true .on_miss false .apply_once true
+//Debuff and Resistances
+effect: .name "magician_curseshroom_1" .target "performer" .item 1 .chance 100% .clear_debuff 1 .buff_ids "magician_DeBRes_1", .on_hit true .on_miss false .apply_once true
+effect: .name "magician_curseshroom_3" .target "performer" .item 1 .chance 100% .clear_debuff 1 .buff_ids "magician_DeBRes_3", .on_hit true .on_miss false .apply_once true
+effect: .name "magician_curseshroom_5" .target "performer" .item 1 .chance 100% .clear_debuff 1 .buff_ids "magician_DeBRes_5", .on_hit true .on_miss false .apply_once true
 
-//effect: .name "magician_poison_def_mushroom" .target "performer" .item 1 .chance 100% .health_damage 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add -0.05 .on_hit true .on_miss false .apply_once true
-
-//effect: .name "magician_poison_prot_mushroom" .target "performer"	.item 1 .chance 100% .health_damage 2 .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .crit_chance_add -0.05 .on_hit true .on_miss false .apply_once true
-
-//"Borrowed" provisionals
+////"Borrowed" provisionals
 
 ///Vanilla
 effect: .name "magician_JESTER_herbs" .target "performer" .item 1 .chance 100% .clearDotStress 1 .healstress 30

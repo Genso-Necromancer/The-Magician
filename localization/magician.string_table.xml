@@ -111,8 +111,8 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_conc_incandessence_tt"><![CDATA[It would seem you've started glowing! {colour_start|skill_unselectable}(Torch light increased){colour_end}]]></entry>
 		
 			<!-- Trinket Tool Tips -->
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_manual_bli_dur_tt"><![CDATA[+30%% {colour_start|blight}Blight{colour_end} duration when applied]]></entry>
-			
+		<entry id="buff_stat_tooltip_upgrade_discount_magician_thief_bag_steal_tt"><![CDATA[On Melee Attack Hit: {colour_start|stealth}Steal{colour_end} some gold {colour_start|skill_unselectable}(20%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_magician_manual_search_tt"><![CDATA[On Kill: Search for {colour_start|notable}Mushrooms{colour_end} {colour_start|skill_unselectable}(25%%){colour_end}]]></entry>
 		
 		<!-- Declaration of base game tool tips that red hook did not do themselves. Normally would just use a fake tool tip, but would not work for stacking effects. These are the exact same used in Sunward Isles to avoid flickering text. -->
 		<entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} duration received]]></entry> 
@@ -142,17 +142,83 @@
 		<entry id="str_inventory_description_supplymagician_bomb_camp"><![CDATA[{colour_start|notable}Increases{colour_end} your {colour_start|attacktype}Spell Card{colour_end} limit by {colour_start|notable}1{colour_end}! {colour_start|skill_unselectable}Dislcaimer: Has no effect on non-magicians.{colour_end}]]></entry>
 		
 		<!-- Mushrooms -->
-		<entry id="str_inventory_title_supplymagician_HEAL_mushroom"><![CDATA[Heal (REPLACE ME)]]></entry>
-		<entry id="str_inventory_description_supplymagician_HEAL_mushroom"><![CDATA[HoT and curative (REPLACE ME)]]></entry>
+		<entry id="str_inventory_title_supplymagician_healshroom_1"><![CDATA[Hourai Green-button]]></entry>
+		<entry id="str_inventory_description_supplymagician_healshroom_1"><![CDATA[{colour_start|healhp}Heal{colour_end}: 2, {colour_start|healhp}Regen{colour_end} 2/1
+		{colour_start|skill_unselectable}"I wonder how this got here? Did it take a carriage like I did?"{colour_end}]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_OFFENSE_mushroom"><![CDATA[Offense (REPLACE ME)]]></entry>
-		<entry id="str_inventory_description_supplymagician_OFFENSE_mushroom"><![CDATA[Buffs offensive stats for 1 battle (REPLACE ME)]]></entry>
-
-		<entry id="str_inventory_title_supplymagician_DEFENSE_mushroom"><![CDATA[Defense (REPLACE ME)]]></entry>
-		<entry id="str_inventory_description_supplymagician_DEFENSE_mushroom"><![CDATA[Buffs defensive stats for 1 battle (REPLACE ME)]]></entry>
-			
-		<entry id="str_inventory_title_supplymagician_SUPPORT_mushroom"><![CDATA[Support (REPLACE ME)]]></entry>
-		<entry id="str_inventory_description_supplymagician_SUPPORT_mushroom"><![CDATA[Buffs supportive stats for 1 battle (REPLACE ME)]]></entry>
+		<entry id="str_inventory_title_supplymagician_healshroom_3"><![CDATA[Hourai Green-button]]></entry>
+		<entry id="str_inventory_description_supplymagician_healshroom_3"><![CDATA[{colour_start|healhp}Heal{colour_end}: 2, {colour_start|healhp}Regen{colour_end} 2/2, 
+		+5%% MAXHP {colour_start|skill_unselectable}(1 Battle){colour_end}
+		{colour_start|skill_unselectable}"I wonder how this got here? Did it take a carriage like I did?"{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_healshroom_5"><![CDATA[Hourai Green-button]]></entry>
+		<entry id="str_inventory_description_supplymagician_healshroom_5"><![CDATA[{colour_start|healhp}Heal{colour_end}: 2, {colour_start|healhp}Regen{colour_end} 2/3, 
+		+15%% MAXHP {colour_start|skill_unselectable}(1 Battle){colour_end}
+		{colour_start|skill_unselectable}"I wonder how this got here? Did it take a carriage like I did?"{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_curseshroom_1"><![CDATA[Mishaguji's Bane]]></entry>
+		<entry id="str_inventory_description_supplymagician_curseshroom_1"><![CDATA[Cure {colour_start|debuff}Debuff{colour_end}]
+		+10%% {colour_start|debuff}Debuff{colour_end} Resist{colour_start|skill_unselectable}(1 Battle){colour_end}
+		{colour_start|skill_unselectable}"Your supposed to burn this one and let it's smoke drive out troublesome spirits. Kinda strange if you ask me"{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_curseshroom_3"><![CDATA[Mishaguji's Bane]]></entry>
+		<entry id="str_inventory_description_supplymagician_curseshroom_3"><![CDATA[Cure {colour_start|debuff}Debuff{colour_end}]
+		+15%% {colour_start|debuff}Debuff{colour_end} Resist {colour_start|skill_unselectable}(1 Battle){colour_end}
+		{colour_start|skill_unselectable}"Your supposed to burn this one and let it's smoke drive out troublesome spirits. Kinda strange if you ask me"{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_curseshroom_5"><![CDATA[Mishaguji's Bane]]></entry>
+		<entry id="str_inventory_description_supplymagician_curseshroom_5"><![CDATA[Cure {colour_start|debuff}Debuff{colour_end}]
+		+20%% {colour_start|debuff}Debuff{colour_end} Resist {colour_start|skill_unselectable}(1 Battle){colour_end}
+		{colour_start|skill_unselectable}"Your supposed to burn this one and let it's smoke drive out troublesome spirits. Kinda strange if you ask me"{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_horrorshroom_1"><![CDATA[Lumen Parasol]]></entry>
+		<entry id="str_inventory_description_supplymagician_horrorshroom_1"><![CDATA[Cure {colour_start|stress}Horror{colour_end}, {colour_start|stress}Stress{colour_end} -7
+		{colour_start|skill_unselectable}"It absorbs light and confidence in it's presence, so eatin' one should fill you with all kinds of good vibes!"{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_horrorshroom_3"><![CDATA[Lumen Parasol]]></entry>
+		<entry id="str_inventory_description_supplymagician_horrorshroom_3"><![CDATA[Cure {colour_start|stress}Horror{colour_end}, {colour_start|stress}Stress{colour_end} -10
+		{colour_start|skill_unselectable}"It absorbs light and confidence in it's presence, so eatin' one should fill you with all kinds of good vibes!"{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_horrorshroom_5"><![CDATA[Lumen Parasol]]></entry>
+		<entry id="str_inventory_description_supplymagician_horrorshroom_5"><![CDATA[Cure {colour_start|stress}Horror{colour_end}, {colour_start|stress}Stress{colour_end} -15
+		{colour_start|skill_unselectable}"It absorbs light and confidence in it's presence, so eatin' one should fill you with all kinds of good vibes!"{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_razorshroom_1"><![CDATA[Oni Snowflake]]></entry>
+		<entry id="str_inventory_description_supplymagician_razorshroom_1"><![CDATA[+15%% Armor Piercing,  -10%% MIN DMG; +10%% MAX DMG {colour_start|skill_unselectable}(1 Battle){colour_end}
+		{colour_start|skill_unselectable}"Ouch! It's tricky to pick these, even trickier to eat"{colour_end}]]></entry>		
+		
+		<entry id="str_inventory_title_supplymagician_razorshroom_3"><![CDATA[Oni Snowflake]]></entry>
+		<entry id="str_inventory_description_supplymagician_razorshroom_3"><![CDATA[+15%% Armor Piercing,  -15%% MIN DMG; +15%% MAX DMG {colour_start|skill_unselectable}(1 Battle){colour_end}
+		{colour_start|skill_unselectable}"Ouch! It's tricky to pick these, even trickier to ea"{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_razorshroom_5"><![CDATA[Oni Snowflake]]></entry>
+		<entry id="str_inventory_description_supplymagician_razorshroom_5"><![CDATA[+15%% Armor Piercing,  -20%% MIN DMG; +20%% MAX DMG {colour_start|skill_unselectable}(1 Battle){colour_end}
+		{colour_start|skill_unselectable}"Ouch! It's tricky to pick these, even trickier to ea"{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_shadowshroom_1"><![CDATA[Inky Night Sparrow]]></entry>
+		<entry id="str_inventory_description_supplymagician_shadowshroom_1"><![CDATA[+5 ACC, +5 DODGE; +10%% DMG Received {colour_start|skill_unselectable}(1 Battle){colour_end}
+		{colour_start|skill_unselectable}"This one just gives me the creeps, I swear it moves when I'm not looking at it"{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_shadowshroom_3"><![CDATA[Inky Night Sparrow]]></entry>
+		<entry id="str_inventory_description_supplymagician_shadowshroom_3"><![CDATA[+10 ACC, +10 DODGE; +10%% DMG Received {colour_start|skill_unselectable}(1 Battle){colour_end}
+		{colour_start|skill_unselectable}"This one just gives me the creeps, I swear it moves when I'm not looking at it"{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_shadowshroom_5"><![CDATA[Inky Night Sparrow]]></entry>
+		<entry id="str_inventory_description_supplymagician_shadowshroom_5"><![CDATA[{colour_start|stealth}Stealth{colour_end}
+		+15 ACC, +15 DODGE; +10%% DMG Received {colour_start|skill_unselectable}(1 Battle){colour_end}
+		{colour_start|skill_unselectable}"This one just gives me the creeps, I swear it moves when I'm not looking at it"{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_sturdyshroom_1"><![CDATA[Haniwa Agaricus]]></entry>
+		<entry id="str_inventory_description_supplymagician_sturdyshroom_1"><![CDATA[+5%% PROT, +10%% {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end}/{colour_start|stun}Stun{colour_end}/{colour_start|move}Move {colour_end} Resist, -2 SPD; -10 DODGE {colour_start|skill_unselectable}(1 Battle){colour_end}
+		{colour_start|skill_unselectable}""{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_sturdyshroom_3"><![CDATA[Haniwa Agaricus]]></entry>
+		<entry id="str_inventory_description_supplymagician_sturdyshroom_3"><![CDATA[+10%% PROT, +15%% {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end}/{colour_start|stun}Stun{colour_end}/{colour_start|move}Move {colour_end} Resist, -2 SPD; -10 DODGE {colour_start|skill_unselectable}(1 Battle){colour_end}
+		{colour_start|skill_unselectable}""{colour_end}]]></entry>
+		
+		<entry id="str_inventory_title_supplymagician_sturdyshroom_5"><![CDATA[Haniwa Agaricus]]></entry>
+		<entry id="str_inventory_description_supplymagician_sturdyshroom_5"><![CDATA[+15%% PROT, +20%% {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end}/{colour_start|stun}Stun{colour_end}/{colour_start|move}Move {colour_end} Resist, -2 SPD; -10 DODGE {colour_start|skill_unselectable}(1 Battle){colour_end}
+		{colour_start|skill_unselectable}""{colour_end}]]></entry>
 		
 
 		<!-- "Borrowed" Items -->

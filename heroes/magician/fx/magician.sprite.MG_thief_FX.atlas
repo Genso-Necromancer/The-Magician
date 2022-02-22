@@ -1,13 +1,13 @@
 
-bounty_hunter.sprite.finish_him.png
-size: 650,219
+magician.sprite.MG_thief_FX.png
+size: 69,64
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-axe_trail
+riposte tracker
   rotate: false
   xy: 2, 2
-  size: 646, 215
-  orig: 646, 215
+  size: 65, 60
+  orig: 65, 60
   offset: 0, 0
   index: -1

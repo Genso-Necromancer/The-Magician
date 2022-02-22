@@ -67,20 +67,6 @@
             "string" : ""
          }
       },
-	  {
-         "id" : "MG_manual_Blight_Dur_BUFF",
-         "stat_type" : "hp_dot_poison_duration_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.30,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		 "has_description": false
-      },
 	   {
          "id" : "MG_manual_DMGH",
          "stat_type" : "combat_stat_multiply",
@@ -111,7 +97,7 @@
          "id" : "MG_bag_trap",
          "stat_type" : "resistance",
          "stat_sub_type" : "trap",
-         "amount" : 0.2,
+         "amount" : 0.1,
          "remove_if_not_active" : false,
          "rule_type" : "lightbelow",
          "is_false_rule" : false,
@@ -124,7 +110,7 @@
          "id" : "MG_bag_scout",
          "stat_type" : "scouting_chance",
          "stat_sub_type" : "",
-         "amount" : 0.30,
+         "amount" : 0.20,
          "remove_if_not_active" : false,
          "rule_type" : "lightbelow",
          "is_false_rule" : false,
@@ -236,6 +222,22 @@
             "float" : 0,
             "string" : ""
          }
+      },
+	  {
+         "id" : "magician_thief_feedback_fx",
+         "stat_type":"upgrade_discount",
+         "stat_sub_type":"mg_thief_fx",
+         "amount": -1,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false,
+         "fx" : "MG_thief_FX"
       }
 	  
 	  

@@ -16,55 +16,1021 @@
          ]
       },
       {
-         "id" : "MARI_CURIO",
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 0,
+         "dungeon" : "warrens",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
          "difficulty" : 0,
          "dungeon" : "warrens",
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_HEAL_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_OFFENSE_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_DEFENSE_mushroom", "amount" : 1 }}
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+         { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+         { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
             
          ]
       },
       {
-         "id" : "MARI_BATTLE",
-         "difficulty" : 0,
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 3,
+         "dungeon" : "warrens",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
+         "difficulty" : 3,
          "dungeon" : "warrens",
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_HEAL_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_OFFENSE_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_DEFENSE_mushroom", "amount" : 1 }}
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
             
          ]
       },
       {
-         "id" : "MARI_CURIO",
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 5,
+         "dungeon" : "warrens",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
+         "difficulty" : 5,
+         "dungeon" : "warrens",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 0,
+         "dungeon" : "crypts",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
+         "difficulty" : 0,
+         "dungeon" : "crypts",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 3,
+         "dungeon" : "crypts",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
+         "difficulty" : 3,
+         "dungeon" : "crypts",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 5,
+         "dungeon" : "crypts",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
+         "difficulty" : 5,
+         "dungeon" : "crypts",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 0,
+         "dungeon" : "cove",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
+         "difficulty" : 0,
+         "dungeon" : "cove",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 3,
+         "dungeon" : "cove",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
+         "difficulty" : 3,
+         "dungeon" : "cove",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 5,
+         "dungeon" : "cove",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
+         "difficulty" : 5,
+         "dungeon" : "cove",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 0,
+         "dungeon" : "weald",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
+         "difficulty" : 0,
+         "dungeon" : "weald",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 3,
+         "dungeon" : "weald",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
+         "difficulty" : 3,
+         "dungeon" : "weald",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 5,
+         "dungeon" : "weald",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
+         "difficulty" : 5,
+         "dungeon" : "weald",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 0,
+         "dungeon" : "courtyard",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
+         "difficulty" : 0,
+         "dungeon" : "courtyard",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 3,
+         "dungeon" : "courtyard",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
+         "difficulty" : 3,
+         "dungeon" : "courtyard",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 5,
+         "dungeon" : "courtyard",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
+         "difficulty" : 5,
+         "dungeon" : "courtyard",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 0,
+         "dungeon" : "ship",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
+         "difficulty" : 0,
+         "dungeon" : "ship",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 3,
+         "dungeon" : "ship",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
+         "difficulty" : 3,
+         "dungeon" : "ship",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 5,
+         "dungeon" : "ship",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
+         "difficulty" : 5,
+         "dungeon" : "ship",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
          "difficulty" : 0,
          "dungeon" : "",
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_HEAL_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_OFFENSE_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_DEFENSE_mushroom", "amount" : 1 }}
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
             
          ]
       },
       {
-         "id" : "MARI_BATTLE",
-         "difficulty" : 0,
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
+         "difficulty" : 3,
          "dungeon" : "",
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_HEAL_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_OFFENSE_mushroom", "amount" : 1 }},
-			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_DEFENSE_mushroom", "amount" : 1 }}
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
             
+         ]
+      },
+      {
+         "id" : "MARI_MUSHROOMS",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 60, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MARI_MANUAL",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+            
+         ]
+      },
+      {
+         "id" : "MG_STOLEN_GOLD",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 50 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 500 }}
+         ]
+      },
+      {
+         "id" : "MG_STOLEN_GOLD",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 50 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 500 }}
+         ]
+      },
+      {
+         "id" : "MG_STOLEN_GOLD",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 750 }}
+         ]
+      },
+      {
+         "id" : "MG_STOLEN_GOLD",
+         "difficulty" : 6,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "gold", "id" : "", "amount" : 750 }}
          ]
       },
       {
@@ -126,23 +1092,379 @@
       {
          "id" : "MG_FORAGE",
          "difficulty" : 0,
-         "dungeon" : "",
+         "dungeon" : "warrens",
          "entries" :
          [
-            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_HEAL_mushroom", "amount" : 1 }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_OFFENSE_mushroom", "amount" : 1 }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_DEFENSE_mushroom", "amount" : 1 }}
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }}
          ]
       },
       {
-         "id" : "MG_FORAGE2",
+         "id" : "MG_FORAGE",
+         "difficulty" : 3,
+         "dungeon" : "warrens",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE",
+         "difficulty" : 5,
+         "dungeon" : "warrens",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE",
+         "difficulty" : 0,
+         "dungeon" : "crypts",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE",
+         "difficulty" : 3,
+         "dungeon" : "crypts",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE",
+         "difficulty" : 5,
+         "dungeon" : "crypts",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE",
+         "difficulty" : 0,
+         "dungeon" : "cove",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE",
+         "difficulty" : 3,
+         "dungeon" : "cove",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_razorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE",
+         "difficulty" : 5,
+         "dungeon" : "cove",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_razorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_razorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE",
+         "difficulty" : 0,
+         "dungeon" : "weald",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE",
+         "difficulty" : 3,
+         "dungeon" : "weald",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE",
+         "difficulty" : 5,
+         "dungeon" : "weald",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE",
+         "difficulty" : 0,
+         "dungeon" : "courtyard",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE",
+         "difficulty" : 3,
+         "dungeon" : "courtyard",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_shadowshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE",
+         "difficulty" : 5,
+         "dungeon" : "courtyard",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_shadowshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_shadowshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE",
+         "difficulty" : 0,
+         "dungeon" : "ship",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE",
+         "difficulty" : 3,
+         "dungeon" : "ship",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE",
+         "difficulty" : 5,
+         "dungeon" : "ship",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_curseshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_curseshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE",
          "difficulty" : 0,
          "dungeon" : "",
          "entries" :
          [
-            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_HEAL_mushroom", "amount" : 1 }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_OFFENSE_mushroom", "amount" : 1 }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_DEFENSE_mushroom", "amount" : 1 }}
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_horrorshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_1", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MG_FORAGE",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 11, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_sturdyshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "magician_horrorshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_horrorshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "magician_healshroom_3", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "magician_healshroom_5", "amount" : 1 }}
          ]
       }
 	  

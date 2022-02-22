@@ -395,9 +395,9 @@
 		 "has_description": true
       },
 	  {
-         "id" : "magician_manual_BLI_Dur_TT",
+         "id" : "magician_Treats_Buff_TT",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_manual_bli_dur_tt",
+         "stat_sub_type" : "magician_treats_buff_tt",
          "amount" : 0.01,
 		 "duration" : 1,
          "remove_if_not_active" : false,
@@ -410,9 +410,24 @@
 		 "has_description": true
       },
 	  {
-         "id" : "magician_Treats_Buff_TT",
+         "id" : "magician_Thief_Bag_Steal_TT",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "magician_treats_buff_tt",
+         "stat_sub_type" : "magician_thief_bag_steal_tt",
+         "amount" : 0.01,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "magician_manual_search_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "magician_manual_search_tt",
          "amount" : 0.01,
 		 "duration" : 1,
          "remove_if_not_active" : false,
