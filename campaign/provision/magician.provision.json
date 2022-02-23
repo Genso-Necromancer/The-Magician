@@ -8,6 +8,7 @@
             "item_lists": 
             [
                 { "type": "supply", "id": "magician_bomb", "amount": 1 }
+				
             ]
         }              
     ]   

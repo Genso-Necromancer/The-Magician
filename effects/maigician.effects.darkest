@@ -351,7 +351,7 @@ effect: .name "Cooldown MG" .target "performer"  .chance 100% .duration -1 .buff
 effect: .name "MG Fake Daze" .target "performer" .chance 0% .daze 1 .on_hit false .on_miss false .apply_once true .queue true .has_description false
 
 //Bomb Item
-effect: .name "magician_bomb" .target "target_enemy_group"  .item 1 .chance 100% .duration -1 .buff_ids "magician_bomb_elixer" "magician_bomb_count_elixir" .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .queue true .has_description false
+effect: .name "magician_bomb" .target "performer"  .item 1 .chance 100% .duration -1 .buff_ids "magician_bomb_elixer" "magician_bomb_count_elixir" .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .queue true .has_description false
 
 
 effect: .name "mg_camp_0"  .target "target" .chance 100% .duration -1 .buff_ids "magician_bomb_tincture" "magician_bomb_count_tincture"  .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .has_description false
