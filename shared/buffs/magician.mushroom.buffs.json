@@ -33,6 +33,36 @@
          }
 	  },
 	  {
+         "id" : "magician_REGEN_3",
+         "stat_type" : "hp_dot_heal",
+         "stat_sub_type" : "",
+         "amount" : 2,
+		 "duration_type" : "round",
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "magician_REGEN_5",
+         "stat_type" : "hp_dot_heal",
+         "stat_sub_type" : "",
+         "amount" : 2,
+		 "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
          "id" : "magician_DMGH_1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
@@ -45,7 +75,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description": false
 	  },
 	  {
          "id" : "magician_DMGL_1",
@@ -60,7 +91,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description": false
 	  },
 	  {
          "id" : "magician_DMGH_3",
@@ -75,7 +107,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description": false
 	  },
 	  {
          "id" : "magician_DMGL_3",
@@ -90,7 +123,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description": false
 	  },
 	  {
          "id" : "magician_DMGH_5",
@@ -105,7 +139,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description": false
 	  },
 	  {
          "id" : "magician_DMGL_5",
@@ -120,7 +155,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description": false
 	  },
 	  {
          "id" : "magician_ArmPen_1",
@@ -231,7 +267,7 @@
          "id" : "magician_SPD_penalty_1",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
-         "amount" : -0.2,
+         "amount" : -2,
 		 "duration_type" : "combat_end",
          "duration" : 1,
          "remove_if_not_active" : false,
@@ -562,7 +598,7 @@
          "stat_type" : "stealth",
          "stat_sub_type" : "",
          "amount" : 1,
-         "duration" : 1,
+         "duration" : 2,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -616,7 +652,6 @@
             "string" : ""
          }
       }
-	  
 	  
 	  
 	  

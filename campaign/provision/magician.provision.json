@@ -7,7 +7,13 @@
             "hero_class": "magician",
             "item_lists": 
             [
-                { "type": "supply", "id": "magician_bomb", "amount": 1 }
+                { "type": "supply", "id": "magician_bomb", "amount": 1 },
+				{ "type": "supply", "id": "magician_healshroom_5", "amount": 1 },
+				{ "type": "supply", "id": "magician_razorshroom_1", "amount": 1 },
+				{ "type": "supply", "id": "magician_sturdyshroom_1", "amount": 1 },
+				{ "type": "supply", "id": "magician_shadowshroom_5", "amount": 1 },
+				{ "type": "supply", "id": "magician_curseshroom_1", "amount": 1 }
+				
 				
             ]
         }              

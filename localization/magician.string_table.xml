@@ -86,8 +86,9 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_DD_tt"><![CDATA[Buff lasts until end of dungeon
 		Buff lost upon {colour_start|afflicted}Death's Door{colour_end}!]]></entry>
 				<!-- Magic Absorber -->
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_PG_TEMP_BUFF_tt"><![CDATA[{colour_start|buff}Buff Self:
-		{colour_end} +%d%% DMG for 1 rd]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_MA_RipCount_tt"><![CDATA[{colour_start|debuff}Riposte{colour_end} charges: 3]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_MA_EFFECT_tt"><![CDATA[%d%% DMG Taken while {colour_start|debuff}Riposte{colour_end} is active]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_MA_DMGREC_tt"><![CDATA[%d%% DMG Taken while {colour_start|debuff}Riposte{colour_end} is active]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_Count_FX_3"><![CDATA[Remaining Riposte: 3]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_Count_FX_2"><![CDATA[Remaining Riposte: 2]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_Count_FX_1"><![CDATA[Remaining Riposte: 1]]></entry>
@@ -110,7 +111,11 @@
 		with the risk of some {colour_start|debuff}Side Effects{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_conc_incandessence_tt"><![CDATA[It would seem you've started glowing! {colour_start|skill_unselectable}(Torch light increased){colour_end}]]></entry>
 		
-			<!-- Trinket Tool Tips -->
+			<!-- Mushrooms -->
+		<entry id="buff_stat_tooltip_upgrade_discount_magician_DMG_range_TT_1"><![CDATA[+10%% MAX DMG/-10%% MIN DMG]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_magician_DMG_range_TT_3"><![CDATA[+15%% MAX DMG/-15%% MIN DMG]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_magician_DMG_range_TT_5"><![CDATA[+20%% MAX DMG/-20%% MIN DMG]]></entry>
+			<!-- Trinkets -->
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_thief_bag_steal_tt"><![CDATA[On Melee Attack Hit: {colour_start|stealth}Steal{colour_end} some gold {colour_start|skill_unselectable}(20%%){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_manual_search_tt"><![CDATA[On Kill: Search for {colour_start|notable}Mushrooms{colour_end} {colour_start|skill_unselectable}(25%%){colour_end}]]></entry>
 		

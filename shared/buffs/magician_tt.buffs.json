@@ -110,46 +110,77 @@
          "id" : "magician_MA_EFFECT_R1_TT",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "mg_MA_EFFECT_tt",
-         "amount" : -0.5,
+         "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description": true
       },
 	  {
          "id" : "magician_MA_EFFECT_R2_TT",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "mg_MA_EFFECT_tt",
-         "amount" : -0.6,
+         "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description": true
       },
 	  {
          "id" : "magician_MA_EFFECT_R3_TT",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "mg_MA_EFFECT_tt",
-         "amount" : -0.7,
+         "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description": true
       },
 	  {
          "id" : "magician_MA_EFFECT_R4_TT",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "mg_MA_EFFECT_tt",
-         "amount" : -0.8,
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "magician_MA_EFFECT_R5_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_MA_EFFECT_tt",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "magician_MA_DMGREC_R1_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_MA_DMGREC_tt",
+         "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -159,10 +190,10 @@
          }
       },
 	  {
-         "id" : "magician_MA_EFFECT_R5_TT",
+         "id" : "magician_MA_DMGREC_R2_TT",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_MA_EFFECT_tt",
-         "amount" : -0.9,
+         "stat_sub_type" : "mg_MA_DMGREC_tt",
+         "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -170,6 +201,59 @@
             "float" : 0,
             "string" : ""
          }
+      },
+	  {
+         "id" : "magician_MA_DMGREC_R3_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_MA_DMGREC_tt",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_MA_DMGREC_R4_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_MA_DMGREC_tt",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_MA_DMGREC_R5_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_MA_DMGREC_tt",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_MA_RipCount_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_MA_RipCount_tt",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
       },
 	  {
          "id" : "magician_MM_BUFF_DD_TT",
@@ -429,6 +513,54 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "magician_manual_search_tt",
          "amount" : 0.01,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "magician_DMG_range_TT_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "magician_DMG_range_TT_1",
+         "amount" : 0.01,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "magician_DMG_range_TT_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "magician_DMG_range_TT_3",
+         "amount" : 0.01,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "magician_DMG_range_TT_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "magician_DMG_range_TT_5",
+         "amount" : 0.01,
+		 "duration_type" : "combat_end",
 		 "duration" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
