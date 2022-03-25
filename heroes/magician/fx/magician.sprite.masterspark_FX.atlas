@@ -1,0 +1,111 @@
+
+magician.sprite.masterspark_FX.png
+size: 3972,955
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Beam Reflect
+  rotate: true
+  xy: 3314, 25
+  size: 202, 350
+  orig: 202, 350
+  offset: 0, 0
+  index: -1
+Global shadow
+  rotate: false
+  xy: 1956, 414
+  size: 662, 539
+  orig: 662, 539
+  offset: 0, 0
+  index: -1
+Laser Color #1
+  rotate: false
+  xy: 2655, 62
+  size: 619, 161
+  orig: 619, 161
+  offset: 0, 0
+  index: -1
+Phase 15
+  rotate: false
+  xy: 3314, 229
+  size: 650, 319
+  orig: 650, 319
+  offset: 0, 0
+  index: -1
+Phase 2
+  rotate: false
+  xy: 2, 414
+  size: 975, 539
+  orig: 975, 539
+  offset: 0, 0
+  index: -1
+Phase 3
+  rotate: false
+  xy: 979, 414
+  size: 975, 539
+  orig: 975, 539
+  offset: 0, 0
+  index: -1
+Phase 35
+  rotate: false
+  xy: 2655, 225
+  size: 657, 323
+  orig: 657, 323
+  offset: 0, 0
+  index: -1
+Phase 4 glow
+  rotate: false
+  xy: 2, 2
+  size: 668, 410
+  orig: 668, 410
+  offset: 0, 0
+  index: -1
+WHITE HOT 1
+  rotate: false
+  xy: 2620, 550
+  size: 659, 403
+  orig: 659, 403
+  offset: 0, 0
+  index: -1
+WHITE HOT 2
+  rotate: false
+  xy: 672, 9
+  size: 659, 403
+  orig: 659, 403
+  offset: 0, 0
+  index: -1
+WHITE HOT 3
+  rotate: false
+  xy: 3281, 550
+  size: 659, 403
+  orig: 659, 403
+  offset: 0, 0
+  index: -1
+WHITE HOT 4
+  rotate: false
+  xy: 1333, 9
+  size: 659, 403
+  orig: 659, 403
+  offset: 0, 0
+  index: -1
+WHITE HOT 5
+  rotate: false
+  xy: 1994, 9
+  size: 659, 403
+  orig: 659, 403
+  offset: 0, 0
+  index: -1
+ring background
+  rotate: true
+  xy: 3666, 135
+  size: 92, 304
+  orig: 92, 304
+  offset: 0, 0
+  index: -1
+ring foreground
+  rotate: true
+  xy: 3666, 41
+  size: 92, 304
+  orig: 92, 304
+  offset: 0, 0
+  index: -1

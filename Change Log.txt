@@ -1,0 +1,61 @@
+MAGIC ABSORBER
+=Now scales accuracy, +5 at Rank 2, up to +20 at Rank 5
+=Riposte DMG mod now -50% across all ranks
+=Scales -30% Damage received to -50% Damage received while riposte is active
+=When the Riposte hits, it debuffs target -5% scaling to -10% DMG for 3rds
+=When the Riposte hits, it buffs maris +5% scaling to +10% DMG for 3rds
+=Cleaned up tool tip both on skill and on riposte buff
+
+MAGIC MISSILE
+=Oh yeah, it has ranks now :^)
+=Cleaned up tool tip immensely, it was a cluttered mess
+="Power" keyword removed, same with the +% buff from kills. Felt the crit wasn't necessary, given your main attack can't crit, and the keyword just complicated things
+=Added FX animation
+=Ranks increase the amount of DMG gained for the dungeon duration scales as follows
+1]2.5%:40, 20 Kills to +50%
+2]3%:50, 20 Kills to +60%
+3]3.5%:33, 20 Kills to +70%
+4]4%:25, 20 Kills to +80%
+5]5%:20 kills to +100%
+-5+Mima Staff-
+7%:15 kills to +100%
+
+POWERFUL DRUG
+=Now heals 2-3<>6-7
+=-34% Healing done if target is Bleeding or Blighted, stacking if both
+
+MASTAH SPAHK
+=Size 2+ Bonus damage reduced from 25% to 15%
+=Added FX Animation
+=Removed the +20-30% DMG Mod, instead it's been integrated into the rank based DMG. So the numbers look different, but it's exactly the same.
+
+ECOLOGICAL BOMB
+=Changed Color of "Splash Damage" to a tasteful "Coral"
+
+STARDUST REVERIE
+=Damage output increased. Old scale +15/10 vs -10/0/+10/+15, New Scale +15/10 vs 0/+5/+10/+15
+=Crit changed from positional to a static 5 to 9 Crit Mod
+=Tool tip changed to say "+5% DMG per Rank from Target"
+=Added a 60% chance to receive recoil, dealing a growing 4/5/6/6/7 self DMG. Roughly 15% of her base HP
+=Added a growing self Knock Back 1 chance (60/70/80/90/100%) This would result in her ending up in Pos2 instead of 1 as the skill would normally place you
+[These changes were done for both game balance and brevity reasons
+First, tool tip and scaling. The scaling was always kinda wonky, and should have been more uniform. Then once it was uniform, I was able to shrink down all the information to a single line. Even though the dmg is Base*TargetRank%*Position%, I feel +5% per distance is honest enough to what's going on. If anything, the skill will do a little more damage than you expected if you had not checked it before confirming the attack.
+Next, the recoil damage. A full Rank 4 vs Rank 4 BLAST from the attack out does Graverobber's Lunge(22MaxDMG) and matches it(20MaxDMG) at Pos3 vs rank 3! This is before any of Magician's Kill Buffs are factored in! It's not a huge DMG gap, her crit is lower than Graverobbers and it's harder for Magician to reset the skill on her own, but once you consider all the Kill Damage something like Recoil needed to be done. It scales based on *base* HP so your choice to take HP trinkets will still matter and there's still a 40% chance it won't hurt her at all. I think this change is more than fair.
+Last change, the knock-back. I thought it interesting to bring back her MR use, and while tweaking this skill, I saw an opportunity to reintroduce it. At the current % chance, if her lv matches the skill rank, it's only a 30% chance to be knocked back. However, there's other movement trinkets you can use as well. Right now, it's just a test and may not even stay. It depends entirely on if it turns out to be more annoying than an interesting layer to planning her. Keep in mind, she has a skill which completely negates the need for Accuracy, Crit barely benefits her and she can farm DMG every dungeon. So needing some other stat and exploring otherwise unused trinkets could be a good thing. Keep in mind trinkets like Move Amulet give move resist and move chance, which she can use! Alternatively, if landing is Rank 2 instead of 1 is preferrable for you, why not takes trinkets that decrease her movement resist to make it happen more often?]
+
+MUSHROOM FORAGE
+=Added Skill Icon
+
+WITCH'S NIGHT
+=Replaced Aggressive Borrowing
+=Added Skill Icon
+=No effects yet, sorry!
+
+STAFF OF VENGEFUL SPIRITS
+=-4 Dodge is now when HP is below 25% instead of death's door
+=added +9% Stress when HP is below 50%
+=Increased deathblow resistance penalty from -12 to -18%
+[these numbers are just spookier]
+=removed -2 SPD
+=Armor Piercing raised from 10% to 15%
+=On-Kill buff changed to On Magic Missile Kill

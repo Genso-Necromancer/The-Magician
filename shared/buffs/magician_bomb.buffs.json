@@ -83,6 +83,20 @@
 		 "has_description": false
       },
       {
+         "id" : "magician_bomb_tincture",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "mg_rule_mode"
+         },
+		 "has_description": false
+      },
+      {
          "id" : "magician_bomb_elixer",
          "stat_type" : "disable_combat_skill_attribute",
          "stat_sub_type" : "daze",

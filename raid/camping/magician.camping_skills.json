@@ -129,7 +129,7 @@
 			]
 		},
 		{ 
-			"id" : "aggressive_borrowing",
+			"id" : "mg_witch_night",
 			"level" : 0,
 			"cost" : 5,
 			"use_limit" : 1,
@@ -173,7 +173,7 @@
 			"id" : "mg_gather",
 			"level" : 0,
 			"cost" : 1,
-			"use_limit" : 1,
+			"use_limit" : 2,
 			"effects" :
 			[
 				{
@@ -183,15 +183,7 @@
 					"type": "loot",
 					"sub_type": "MG_FORAGE",
 					"amount": 1
-				},
-				{
-					"selection" : "self",
-					"requirements" : [],
-					"chance" : { "code" : "b", "amount": 1.0 },
-					"type": "loot",
-					"sub_type": "MG_FORAGE",
-					"amount": 1
-				}	
+				}
 
 			],
 			"hero_classes" : ["magician"],
@@ -262,7 +254,7 @@
 		{ 
 			"id" : "bomb_brew_mg",
 			"level" : 0,
-			"cost" : 1,
+			"cost" : 3,
 			"use_limit" : 1,
 			"effects" :
 			[

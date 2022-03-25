@@ -3,10 +3,62 @@
    [
         
       {
-         "id" : "magician_spark_damage_TT",
+         "id" : "magician_spark_damage_TT1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ms_damage_tt",
-         "amount" : 0.01,
+         "stat_sub_type" : "ms_damage_tt1",
+         "amount" : 0.025,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_spark_damage_TT2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ms_damage_tt2",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_spark_damage_TT3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ms_damage_tt3",
+         "amount" : 0.035,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_spark_damage_TT4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ms_damage_tt4",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_spark_damage_TT5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ms_damage_tt5",
+         "amount" : 0.05,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -26,7 +78,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description" : true
       },
 	  {
          "id" : "magician_stardust_damage_TT2",
@@ -39,20 +92,78 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description" : true
       },
 	  {
-         "id" : "magician_stardust_damage_TT3",
+         "id" : "magician_recoil_damage_TT1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "sr_damage_tt3",
-         "amount" : 0.01,
+         "stat_sub_type" : "sr_recoil_tt",
+         "amount" : -0.04,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "magician_recoil_damage_TT2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sr_recoil_tt",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "magician_recoil_damage_TT3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sr_recoil_tt",
+         "amount" : -0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "magician_recoil_damage_TT4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sr_recoil_tt",
+         "amount" : -0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "magician_recoil_damage_TT5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sr_recoil_tt",
+         "amount" : -0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
       },
 	  {
          "id" : "magician_MM_NoMiss_TT",
@@ -68,7 +179,20 @@
          }
       },
 	  {
-         "id" : "magician_MM_BUFF_TT",
+         "id" : "magician_MM_BUFF_TT1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_mm_buff_tt",
+         "amount" : -0.025,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_MM_BUFF_TT2",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "mg_mm_buff_tt",
          "amount" : -0.03,
@@ -81,10 +205,36 @@
          }
       },
 	  {
-         "id" : "magician_MM_NoCorpse_TT",
+         "id" : "magician_MM_BUFF_TT3",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_mm_nocorpse_tt",
-         "amount" : 0.01,
+         "stat_sub_type" : "mg_mm_buff_tt",
+         "amount" : -0.035,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_MM_BUFF_TT4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_mm_buff_tt",
+         "amount" : -0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_MM_BUFF_TT5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_mm_buff_tt",
+         "amount" : -0.05,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -180,7 +330,7 @@
          "id" : "magician_MA_DMGREC_R1_TT",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "mg_MA_DMGREC_tt",
-         "amount" : 1,
+         "amount" : 0.3,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -193,7 +343,7 @@
          "id" : "magician_MA_DMGREC_R2_TT",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "mg_MA_DMGREC_tt",
-         "amount" : 1,
+         "amount" : 0.35,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -206,7 +356,7 @@
          "id" : "magician_MA_DMGREC_R3_TT",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "mg_MA_DMGREC_tt",
-         "amount" : 1,
+         "amount" : 0.4,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -219,7 +369,7 @@
          "id" : "magician_MA_DMGREC_R4_TT",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "mg_MA_DMGREC_tt",
-         "amount" : 1,
+         "amount" : 0.45,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -232,7 +382,7 @@
          "id" : "magician_MA_DMGREC_R5_TT",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "mg_MA_DMGREC_tt",
-         "amount" : 1,
+         "amount" : 0.5,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -297,7 +447,7 @@
 	  {
          "id" : "magician_STAFF_BUFF_TT",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_mm_buff_tt",
+         "stat_sub_type" : "mg_staff_buff_tt",
          "amount" : -0.02,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -559,6 +709,166 @@
          "id" : "magician_DMG_range_TT_5",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "magician_DMG_range_TT_5",
+         "amount" : 0.01,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "mg_ma_riposte_effect_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_ma_riposte_effect_1",
+         "amount" : 0.01,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "mg_ma_riposte_effect_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_ma_riposte_effect_2",
+         "amount" : 0.01,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "mg_ma_riposte_effect_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_ma_riposte_effect_3",
+         "amount" : 0.01,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "mg_ma_riposte_effect_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_ma_riposte_effect_4",
+         "amount" : 0.01,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "mg_ma_riposte_effect_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_ma_riposte_effect_5",
+         "amount" : 0.01,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "mg_ma_riposte_onhit_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_ma_riposte_onhit_1",
+         "amount" : 0.01,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "mg_ma_riposte_onhit_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_ma_riposte_onhit_2",
+         "amount" : 0.01,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "mg_ma_riposte_onhit_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_ma_riposte_onhit_3",
+         "amount" : 0.01,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "mg_ma_riposte_onhit_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_ma_riposte_onhit_4",
+         "amount" : 0.01,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "mg_ma_riposte_onhit_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_ma_riposte_onhit_5",
          "amount" : 0.01,
 		 "duration_type" : "combat_end",
 		 "duration" : 1,

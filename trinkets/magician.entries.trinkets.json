@@ -74,9 +74,9 @@
 			"MG_staff_lowHP_DMGH",
 			"MG_staff_lowHP_DMGL",
 			"MG_staff_ArmPen",
-			"MG_staff_SPD_DEBUFF",
-			"MG_staff_DeathRes_DEBUFF",
+			"magician_staff_stress_looming",
 			"MG_staff_Dodge_DEBUFF",
+			"MG_staff_DeathRes_DEBUFF",
 			"magician_STAFF_BUFF_TT"
             
          ],
@@ -90,7 +90,9 @@
          "origin_dungeon" : "",
 		 "kill_performer_additional_effects":
 		 [
-		  "MG_Power_Buff_2"
+		  "MG Missile Check",
+		  "MG_Power_Buff_2",
+		  "MG Kill Check Clear"
 		 ]
       }
 

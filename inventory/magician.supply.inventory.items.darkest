@@ -21,24 +21,3 @@ inventory_item: .type "supply"		.id "magician_sturdyshroom_5"			.base_stack_limi
 inventory_item: .type "supply"		.id "magician_shadowshroom_5"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
 inventory_item: .type "supply"		.id "magician_horrorshroom_5"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
 inventory_item: .type "supply"		.id "magician_curseshroom_5"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
-
-inventory_item: .type "gem"			.id "magician_MIKO_donations"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 3500
-inventory_item: .type "supply"		.id "magician_JESTER_herbs"				.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
-inventory_item: .type "supply"		.id "magician_MAA_plans"				.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
-
-inventory_item: .type "supply"		.id "magician_RUN_bomb"					.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
-inventory_item: .type "supply"		.id "magician_HELLION_stone"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
-inventory_item: .type "supply"		.id "magician_CAEN_food"				.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
-inventory_item: .type "supply"		.id "magician_MAID_tea"				    .base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
-
-inventory_item: .type "supply"		.id "magician_SWITCH_components"		.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
-inventory_item: .type "supply"		.id "magician_LIBRARIAN_notes"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
-inventory_item: .type "supply"		.id "magician_FISHLAD_oranges"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
-inventory_item: .type "supply"		.id "magician_ETERNAL_urn"				.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
-inventory_item: .type "supply"		.id "magician_HERALD_crystal"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
-
-inventory_item: .type "supply"		.id "magician_GRAVE_knife"				.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
-inventory_item: .type "supply"		.id "magician_CRUSADER_holywater"		.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
-inventory_item: .type "supply"		.id "magician_HOUND_treats"				.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
-inventory_item: .type "supply"		.id "magician_PLAGUE_antivenom"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100
-inventory_item: .type "supply"		.id "magician_ARB_bandage"				.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 100

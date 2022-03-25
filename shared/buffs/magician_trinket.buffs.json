@@ -175,20 +175,7 @@
          "id" : "MG_staff_ArmPen",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.10,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "MG_staff_SPD_DEBUFF",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : -2,
+         "amount" : 0.15,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -201,7 +188,7 @@
          "id" : "MG_staff_DeathRes_DEBUFF",
          "stat_type" : "resistance",
          "stat_sub_type" : "death_blow",
-         "amount" : -0.12,
+         "amount" : -0.18,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -214,12 +201,26 @@
          "id" : "MG_staff_Dodge_DEBUFF",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
-         "amount" : -0.05,
+         "amount" : -0.04,
          "remove_if_not_active" : false,
-         "rule_type" : "hpabove",
-         "is_false_rule" : true,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0,
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_staff_stress_looming",
+         "stat_type":"stress_dmg_received_percent",
+         "stat_sub_type":"",
+         "amount": 0.09,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.25,
             "string" : ""
          }
       },

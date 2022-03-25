@@ -1,0 +1,20 @@
+
+magician.sprite.mg_mm_targ_fx.png
+size: 204,250
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+magic missile proj
+  rotate: true
+  xy: 2, 2
+  size: 246, 53
+  orig: 246, 53
+  offset: 0, 0
+  index: -1
+missile hit
+  rotate: true
+  xy: 57, 19
+  size: 229, 145
+  orig: 229, 145
+  offset: 0, 0
+  index: -1

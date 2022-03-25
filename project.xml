@@ -2,7 +2,7 @@
 <project>
 	<PreviewIconFile>preview_icon.png</PreviewIconFile>
 	<ItemDescriptionShort/>
-	<ModDataPath>C:\Program Files (x86)\Steam\steamapps\common\DarkestDungeon\mods\MarisaModWIP</ModDataPath>
+	<ModDataPath>C:/Program Files (x86)/Steam/steamapps/common/DarkestDungeon/mods/MarisaModWIP/</ModDataPath>
 	<Title>(non-steam)Marisa - New Class Mod</Title>
 	<Language>english</Language>
 	<UpdateDetails/>
@@ -15,6 +15,6 @@
 		<Tags>Class Mod</Tags>
 		<Tags>Magician</Tags>
 	</Tags>
-	<ItemDescription>The Magician Class Mod by Ed "I love my wife very much." Boon.</ItemDescription>
+	<ItemDescription>The Magician Class Mod by Ed &quot;I love my wife very much.&quot; Boon.</ItemDescription>
 </project>
 

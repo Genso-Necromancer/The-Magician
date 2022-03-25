@@ -62,13 +62,13 @@
          "stat_sub_type" : "damage_high",
          "amount" : 0.05,
          "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
-         "is_false_rule" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : true,
          "rule_data" : {
             "float" : 0,
             "string" : ""
          },
-		 "has_description": false
+		 "has_description": true
 	  },
       {
          "id" : "magician_Power_Gather_BuffL_5",
@@ -76,119 +76,133 @@
          "stat_sub_type" : "damage_low",
          "amount" : 0.05,
          "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
-         "is_false_rule" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : true,
          "rule_data" : {
             "float" : 0,
             "string" : ""
          },
-		 "has_description": false
+		 "has_description": true
+	  },
+	  {
+         "id" : "magician_Power_Gather_BuffH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.04,
+         "remove_if_not_active" : true,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
 	  },
       {
-         "id" : "magician_Power_Gather_BuffCrit_5",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.005,
+         "id" : "magician_Power_Gather_BuffL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.04,
          "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
-         "is_false_rule" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : true,
          "rule_data" : {
             "float" : 0,
             "string" : ""
          },
-		 "has_description": false
+		 "has_description": true
 	  },
 	  {
          "id" : "magician_Power_Gather_BuffH_3",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.03,
+         "amount" : 0.035,
          "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
-         "is_false_rule" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : true,
          "rule_data" : {
             "float" : 0,
             "string" : ""
          },
-		 "has_description": false
+		 "has_description": true
 	  },
       {
          "id" : "magician_Power_Gather_BuffL_3",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.03,
+         "amount" : 0.035,
          "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
-         "is_false_rule" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : true,
          "rule_data" : {
             "float" : 0,
             "string" : ""
          },
-		 "has_description": false
-	  },
-      {
-         "id" : "magician_Power_Gather_BuffCrit_3",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.003,
-         "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		 "has_description": false
+		 "has_description": true
 	  },
 	  {
          "id" : "magician_Power_Gather_BuffH_2",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.02,
+         "amount" : 0.03,
          "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
-         "is_false_rule" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : true,
          "rule_data" : {
             "float" : 0,
             "string" : ""
          },
-		 "has_description": false
+		 "has_description": true
 	  },
       {
          "id" : "magician_Power_Gather_BuffL_2",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.02,
+         "amount" : 0.03,
          "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
-         "is_false_rule" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : true,
          "rule_data" : {
             "float" : 0,
             "string" : ""
          },
-		 "has_description": false
+		 "has_description": true
+	  },
+	  {
+         "id" : "magician_Power_Gather_BuffH_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.025,
+         "remove_if_not_active" : true,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
 	  },
       {
-         "id" : "magician_Power_Gather_BuffCrit_2",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.002,
+         "id" : "magician_Power_Gather_BuffL_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.025,
          "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
-         "is_false_rule" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : true,
          "rule_data" : {
             "float" : 0,
             "string" : ""
          },
-		 "has_description": false
+		 "has_description": true
 	  },
 	  {
-         "id" : "magician_power_count_5",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "magician_power_count",
-         "amount" : -0.05,
-         "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
+         "id" : "MG_Kill_Check_Debuff",
+         "stat_type" : "buff_duration_percent",
+         "stat_sub_type" : "",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
@@ -196,31 +210,18 @@
          }
       },
 	  {
-         "id" : "magician_power_count_3",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "magician_power_count",
-         "amount" : -0.03,
-         "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
-         "is_false_rule" : false,
+         "id" : "MG_Missile_Check",
+        "stat_type" : "buff_duration_percent",
+         "stat_sub_type" : "",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : true,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "magic_missile"
          }
-      },
-	  {
-         "id" : "magician_power_count_2",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "magician_power_count",
-         "amount" : -0.02,
-         "remove_if_not_active" : true,
-         "rule_type" : "hpabove",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      }
+	  }
 	  
 	  
 	  
