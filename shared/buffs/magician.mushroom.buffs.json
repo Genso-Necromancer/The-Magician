@@ -651,6 +651,96 @@
             "float" : 0,
             "string" : ""
          }
+      },
+	  {
+         "id" : "magician_BleRes_1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.1,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_BleRes_3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.15,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_BleRes_5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.20,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_BliRes_1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.1,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_BliRes_3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.15,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_BliRes_5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.20,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
       }
 	  
 	  

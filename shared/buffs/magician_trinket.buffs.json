@@ -212,7 +212,7 @@
       },
 	  {
          "id" : "magician_staff_stress_looming",
-         "stat_type":"stress_dmg_received_percent",
+         "stat_type" : "stress_dmg_received_percent",
          "stat_sub_type":"",
          "amount": 0.09,
 		 "duration" : 1,
@@ -226,8 +226,8 @@
       },
 	  {
          "id" : "magician_thief_feedback_fx",
-         "stat_type":"upgrade_discount",
-         "stat_sub_type":"mg_thief_fx",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_thief_fx",
          "amount": -1,
 		 "duration" : 1,
          "remove_if_not_active" : false,
@@ -239,6 +239,187 @@
          },
 		 "has_description" : false,
          "fx" : "MG_thief_FX"
+      },
+	  {
+         "id" : "magician_dhakkero_resistance",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount": 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_dhakkero_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount": 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_dhakkero_DMGL",
+         "stat_type":"combat_stat_multiply",
+         "stat_sub_type":"damage_low",
+         "amount": 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_dhakkero_RDMGH_Decay",
+         "stat_type":"combat_stat_multiply",
+         "stat_sub_type":"damage_high",
+         "amount": -0.15,
+		 "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_dhakkero_RDMGL_Decay",
+         "stat_type":"combat_stat_multiply",
+         "stat_sub_type":"damage_low",
+         "amount": -0.15,
+		 "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_dhakkero_MSDMGH_Decay",
+         "stat_type":"combat_stat_multiply",
+         "stat_sub_type":"damage_high",
+         "amount": -0.50,
+		 "duration" : 1,
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "master_spark"
+         }
+      },
+	  {
+         "id" : "magician_dhakkero_MSDMGL_Decay",
+         "stat_type":"combat_stat_multiply",
+         "stat_sub_type":"damage_low",
+         "amount": -0.50,
+		 "duration" : 1,
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "master_spark"
+         }
+      },
+	  {
+         "id" : "magician_dhakkero_BlCh_Decay",
+         "stat_type":"poison_chance",
+         "stat_sub_type":"",
+         "amount": -0.15,
+		 "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_dhakkero_MDMGH_Decay",
+         "stat_type":"combat_stat_multiply",
+         "stat_sub_type":"damage_high",
+         "amount": -0.15,
+		 "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "meleeonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "magician_dhakkero_MDMGL_Decay",
+         "stat_type":"combat_stat_multiply",
+         "stat_sub_type":"damage_low",
+         "amount": -0.15,
+		 "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "meleeonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_MS_Check_Debuff",
+         "stat_type": "buff_duration_percent",
+         "stat_sub_type": "",
+         "amount": -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "master_spark"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "MG_DH_Power_Stopper",
+         "stat_type":"resistance",
+         "stat_sub_type" : "debuff",
+         "amount": 5,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : "mg_dmg_buff_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "MG_Dark_Hakkero_Check",
+         "stat_type":"resistance",
+         "stat_sub_type" : "debuff",
+         "amount": 5,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : "mg_dmg_buff_1"
+         },
+		 "has_description" : false
       }
 	  
 	  

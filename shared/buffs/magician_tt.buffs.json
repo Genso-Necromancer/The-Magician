@@ -445,20 +445,6 @@
          }
       },
 	  {
-         "id" : "magician_STAFF_BUFF_TT",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "mg_staff_buff_tt",
-         "amount" : -0.02,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		 "has_description": true
-      },
-	  {
          "id" : "magician_EB_SPLASH_TT1",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "mg_eb_splash_tt1",
@@ -872,6 +858,48 @@
          "amount" : 0.01,
 		 "duration_type" : "combat_end",
 		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "mg_dhakkero_MSDebuff_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_dhakkero_MSDebuff_TT",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "MG_DH_MM_Power_Stop_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MG_DH_MM_Power_Stop_TT",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "MG_SpaceDeleter_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MG_SpaceDeleter_TT",
+         "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

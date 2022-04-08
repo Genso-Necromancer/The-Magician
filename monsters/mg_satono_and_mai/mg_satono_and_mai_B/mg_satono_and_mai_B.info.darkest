@@ -5,7 +5,7 @@ personality: .prefskill -1
 loot: .code "NONE" .count 0
 initiative: .number_of_turns_per_round 0
 monster_brain: .id default
-battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise false .can_be_surprised True .always_surprise False .always_be_surprised False
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise false .can_be_surprised False .always_surprise False .always_be_surprised False
 wave_spawning: .prefers_front True
 
 spawn: .effects MG_Power_Buff_From_Summon_2 mg_dmg_buff_1_wipe

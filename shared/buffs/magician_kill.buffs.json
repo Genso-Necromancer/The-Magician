@@ -208,20 +208,7 @@
             "float" : 0,
             "string" : ""
          }
-      },
-	  {
-         "id" : "MG_Missile_Check",
-        "stat_type" : "buff_duration_percent",
-         "stat_sub_type" : "",
-         "amount" : -1,
-         "remove_if_not_active" : false,
-         "rule_type" : "skill",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "magic_missile"
-         }
-	  }
+      }
 	  
 	  
 	  

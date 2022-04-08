@@ -1,0 +1,20 @@
+
+magician.sprite.attack_upsweep.png
+size: 1169,755
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: true
+  xy: 1105, 396
+  size: 357, 62
+  orig: 357, 62
+  offset: 0, 0
+  index: -1
+upsweep
+  rotate: true
+  xy: 2, 2
+  size: 751, 1101
+  orig: 751, 1101
+  offset: 0, 0
+  index: -1

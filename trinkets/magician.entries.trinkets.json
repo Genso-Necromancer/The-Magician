@@ -77,7 +77,7 @@
 			"magician_staff_stress_looming",
 			"MG_staff_Dodge_DEBUFF",
 			"MG_staff_DeathRes_DEBUFF",
-			"magician_STAFF_BUFF_TT"
+			"magician_MM_BUFF_TT2"
             
          ],
          "hero_class_requirements":
@@ -90,11 +90,47 @@
          "origin_dungeon" : "",
 		 "kill_performer_additional_effects":
 		 [
-		  "MG Missile Check",
+		  "MG Hakkero Check",
 		  "MG_Power_Buff_2",
-		  "MG Kill Check Clear"
+		  "MG Hakker Check Clear"
 		 ]
-      }
+      },
+	  {
+         "id" : "magician_darkhakkero_si",
+         "buffs" : 
+         [
+			"magician_dhakkero_resistance",
+			"magician_dhakkero_DMGH",
+			"magician_dhakkero_DMGL",
+			"MG_DH_MM_Power_Stop_TT",
+			"mg_dhakkero_MSDebuff_TT",
+			"MG_SpaceDeleter_TT"
+         ],
+         "hero_class_requirements":
+         [
+            "magician"
+         ],
+         "rarity" : "sakura",
+         "price" : 30000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+         [
+			"MG MS Check",
+			"MG DH MS Debuff",
+			"MG BDP Clear"
+			 
+         ],
+		 "melee_attack_skill_additional_effects":
+         [
+			 "MG DH Melee Debuff"
+         ],
+		 "ranged_attack_skill_additional_effects":
+         [
+			 "MG DH Range Debuff",
+			 "MG DH MM Power Stop"
+         ]
+	}
 
    ]
 }
