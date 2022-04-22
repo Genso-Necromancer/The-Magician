@@ -478,6 +478,52 @@
             "float" : 0,
             "string" : "poisoned"
          }
+      },
+	  {
+         "id" : "MG_CAMP_HP_Debuff_20",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : -0.2,
+		 "duration_type" : "combat_end",
+		 "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+		 "is_clear_debuff_valid" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_CAMP_DMGADD_3H",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 3,
+		 "duration_type" : "combat_end",
+		 "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_CAMP_DMGADD_3L",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 3,
+		 "duration_type" : "combat_end",
+		 "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
       }
 	  
 	  

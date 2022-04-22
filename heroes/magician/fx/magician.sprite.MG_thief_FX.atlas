@@ -1,13 +1,62 @@
 
 magician.sprite.MG_thief_FX.png
-size: 69,64
+size: 392,236
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-riposte tracker
+coin L 1
+  rotate: false
+  xy: 236, 27
+  size: 26, 13
+  orig: 26, 13
+  offset: 0, 0
+  index: -1
+coin L 2
+  rotate: false
+  xy: 236, 10
+  size: 24, 15
+  orig: 24, 15
+  offset: 0, 0
+  index: -1
+coin L 3
+  rotate: false
+  xy: 288, 38
+  size: 19, 18
+  orig: 19, 18
+  offset: 0, 0
+  index: -1
+coin R 1
+  rotate: true
+  xy: 265, 41
+  size: 15, 21
+  orig: 15, 21
+  offset: 0, 0
+  index: -1
+coin R 2
+  rotate: false
+  xy: 309, 38
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+coin R 3
+  rotate: false
+  xy: 236, 42
+  size: 27, 14
+  orig: 27, 14
+  offset: 0, 0
+  index: -1
+coinglow
   rotate: false
   xy: 2, 2
-  size: 65, 60
-  orig: 65, 60
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+coinpurse
+  rotate: false
+  xy: 236, 58
+  size: 154, 176
+  orig: 154, 176
   offset: 0, 0
   index: -1

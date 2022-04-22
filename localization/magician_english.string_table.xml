@@ -29,9 +29,9 @@
     	<entry id="upgrade_tree_name_magician.magic_missile"><![CDATA[Magic Missle]]></entry>
     	<entry id="upgrade_tree_name_magician.illusion_laser"><![CDATA[Powerful Drug]]></entry>
 			
-		<entry id="camping_skill_name_danmaku_mg"><![CDATA[DANMAKU PRACTICE]]></entry>
+		<entry id="camping_skill_name_danmaku_mg"><![CDATA[SWEET MERCY]]></entry>
 		<entry id="camping_skill_name_mg_witch_night"><![CDATA[WITCHES' NIGHT]]></entry>
-		<entry id="camping_skill_name_bomb_brew_mg"><![CDATA[BOMB BREW]]></entry>
+		<entry id="camping_skill_name_bomb_brew_mg"><![CDATA[TROUBLING BREW]]></entry>
 		<entry id="camping_skill_name_mg_gather"><![CDATA[MUSHROOM FORAGE]]></entry>
 
 		
@@ -79,7 +79,6 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_ms_damage_tt4"><![CDATA[{colour_start|move}Rank{colour_end} DMG: +28/+8/-13/-33%% vs rank 1/2/3/4]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_ms_damage_tt5"><![CDATA[{colour_start|move}Rank{colour_end} DMG: +30/+10/-10/-30%% vs rank 1/2/3/4]]></entry>
 				<!-- Reverie -->
-		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt1"><![CDATA[{colour_start|skill_unselectable}DMG based on distance from target{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt2"><![CDATA[+5%% DMG per {colour_start|move}Rank{colour_end} from Target]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_sr_recoil_tt"><![CDATA[{colour_start|afflicted}Recoil: {colour_end} -%d HP]]></entry>
 				<!-- Magic Missile -->
@@ -88,47 +87,47 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_DD_tt"><![CDATA[Buffs lost upon {colour_start|afflicted}Death's Door{colour_end}!]]></entry>
 				<!-- Magic Absorber -->
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_MA_RipCount_tt"><![CDATA[{colour_start|debuff}Riposte{colour_end} charges: 3]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_MA_DMGREC_tt"><![CDATA[{colour_start|debuff}Riposte:{colour_end} %d%% DMG Received]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_riposte_effect_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
-		{colour_start|skill_unselectable}(DMG -50%% /DMG Received -30%%){colour_end}]]></entry>
+		{colour_start|skill_unselectable}(DMG -50%%){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_riposte_effect_2"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
-		{colour_start|skill_unselectable}(ACC +5 /DMG -50%% /Damage Received -35%%){colour_end}]]></entry>
+		{colour_start|skill_unselectable}(ACC +5 /DMG -50%%){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_riposte_effect_3"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
-		{colour_start|skill_unselectable}(ACC +10 /DMG -50%% /Damage Received -40%%){colour_end}]]></entry>
+		{colour_start|skill_unselectable}(ACC +10 /DMG -50%%){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_riposte_effect_4"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
-		{colour_start|skill_unselectable}(ACC +15 /DMG -50%% /Damage Received -45%%){colour_end}]]></entry>
+		{colour_start|skill_unselectable}(ACC +15 /DMG -50%%){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_riposte_effect_5"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
-		{colour_start|skill_unselectable}(ACC +20 /DMG -50%% /Damage Received -50%%){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_riposte_onhit_1"><![CDATA[{colour_start|riposte}Riposte{colour_end} Self: +5%% DMG
-		Target: -5%% DMG {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_riposte_onhit_2"><![CDATA[{colour_start|riposte}Riposte{colour_end} Self: +6%% DMG
-		Target: -6%% DMG {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_riposte_onhit_3"><![CDATA[{colour_start|riposte}Riposte{colour_end} Self: +7%% DMG
-		Target: -7%% DMG {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_riposte_onhit_4"><![CDATA[{colour_start|riposte}Riposte{colour_end} Self: +8%% DMG
-		Target: -8%% DMG {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_riposte_onhit_5"><![CDATA[{colour_start|riposte}Riposte{colour_end} Self: +10%% DMG
-		Target: -10%% DMG {colour_start|skill_unselectable}(150%% base){colour_end}]]></entry>
+		{colour_start|skill_unselectable}(ACC +20 /DMG -50%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_riposte_onhit_1"><![CDATA[{colour_start|riposte}Riposte:{colour_end} 
+		Self: +20%% DMG / Target: -20%% DMG]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_riposte_onhit_2"><![CDATA[{colour_start|riposte}Riposte:{colour_end} 
+		Self: +21%% DMG / Target: -21%% DMG]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_riposte_onhit_3"><![CDATA[{colour_start|riposte}Riposte:{colour_end} 
+		Self: +22%% DMG / Target: -22%% DMG]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_riposte_onhit_4"><![CDATA[{colour_start|riposte}Riposte:{colour_end} 
+		Self: +23%% DMG / Target: -23%% DMG]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_riposte_onhit_5"><![CDATA[{colour_start|riposte}Riposte:{colour_end}
+		Self: +25%% DMG / Target: -25%% DMG]]></entry>
 		
 		
 				<!-- Ecological Bomb -->
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt1"><![CDATA[ {colour_start|MGsplash}Splash Damage:{colour_end}
-		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (100%% Base){colour_end} 1 pts/rd for 3rds]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt2"><![CDATA[ {colour_start|MGsplash}Splash Damage:{colour_end}
-		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (110%% Base){colour_end} 1 pts/rd for 3rds]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt3"><![CDATA[ {colour_start|MGsplash}Splash Damage:{colour_end}
-		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (120%% Base){colour_end} 2 pts/rd for 3rds]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt4"><![CDATA[ {colour_start|MGsplash}Splash Damage:{colour_end}
-		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (130%% Base){colour_end} 2 pts/rd for 3rds]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt5"><![CDATA[ {colour_start|MGsplash}Splash Damage:{colour_end}
-		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (140%% Base){colour_end} 2 pts/rd for 3rds]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_stun_tt"><![CDATA[+50%% {colour_start|blight}Blight{colour_end} amount when applied]]></entry>
-				<!-- Concoctions {colour_start|skill_unselectable}(X%% Base){colour_end}-->
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_conc_antistealth_tt"><![CDATA[Bypass {colour_start|stealth}Stealth{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_conc_skill_tt_1"><![CDATA[Target:
-		Apply {colour_start|buff}Buffs{colour_end} of varied potency
-		with the risk of some {colour_start|debuff}Side Effects{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_conc_incandessence_tt"><![CDATA[It would seem you've started glowing! {colour_start|skill_unselectable}(Torch light increased){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_corpse_kill_tt"><![CDATA[Clear Target Corpse]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt1"><![CDATA[ {colour_start|MGsplash}Contagion:{colour_end}
+		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (90%% Base){colour_end} 
+		1 pts/rd for 3rds]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt2"><![CDATA[ {colour_start|MGsplash}Contagion:{colour_end}
+		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (100%% Base){colour_end} 
+		2 pts/rd for 3rds]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt3"><![CDATA[ {colour_start|MGsplash}Contagion:{colour_end}
+		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (110%% Base){colour_end} 
+		2 pts/rd for 3rds]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt4"><![CDATA[ {colour_start|MGsplash}Contagion:{colour_end}
+		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (120%% Base){colour_end} 
+		3 pts/rd for 3rds]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt5"><![CDATA[ {colour_start|MGsplash}Contagion:{colour_end}
+		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (130%% Base){colour_end} 
+		3 pts/rd for 3rds]]></entry>
+				<!-- Powerful Drug {colour_start|skill_unselectable}(X%% Base){colour_end}-->
+		
 		
 			<!-- Mushroom Tool Tips-->
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_DMG_range_TT_1"><![CDATA[+10%% MAX DMG/-10%% MIN DMG]]></entry>
@@ -307,18 +306,24 @@
 		<entry id="str_ui_actor_dot_complete"><![CDATA[]]></entry>
  
 			<!-- Camping Skills -->
-		<entry id="magician+str_bark_danmaku_mg"><![CDATA[Sure you can keep up?]]></entry>
+		<entry id="magician+str_bark_danmaku_mg"><![CDATA[Only the mad or desperate, as they say]]></entry>
+		<entry id="magician+str_bark_danmaku_mg"><![CDATA[It helps if you don't dwell on what you lost]]></entry>
+		<entry id="magician+str_bark_danmaku_mg"><![CDATA[A magician's mercy isn't perfect]]></entry>
  
-		<entry id="magician+str_bark_bomb_brew_mg"><![CDATA[Hey, I don't judge what you drink.]]></entry>
+		<entry id="magician+str_bark_bomb_brew_mg"><![CDATA[Hey, I don't judge what you drink]]></entry>
+		<entry id="magician+str_bark_bomb_brew_mg"><![CDATA[It never gets easier...]]></entry>
+		<entry id="magician+str_bark_bomb_brew_mg"><![CDATA[(sigh) The unavoidable cost of my talents]]></entry>
  
 		<entry id="magician+str_bark_mg_gather"><![CDATA[These ones aren't poisonous, I think?]]></entry>
-		<entry id="magician+str_bark_mg_gather"><![CDATA[Couple of these'll do ya good.]]></entry>
-		<entry id="magician+str_bark_mg_gather"><![CDATA[One makes you larger, the other makers you small.]]></entry>
+		<entry id="magician+str_bark_mg_gather"><![CDATA[Couple of these'll do you good]]></entry>
+		<entry id="magician+str_bark_mg_gather"><![CDATA[One makes you larger, the other makers you small]]></entry>
+		
+		<entry id="magician+str_bark_mg_witch_night"><![CDATA[Sacrifices must be made to be strong]]></entry>
+		<entry id="magician+str_bark_mg_witch_night"><![CDATA[... and now for a drop of blood...]]></entry>
+		<entry id="magician+str_bark_mg_witch_night"><![CDATA[You got what you asked for, don't give me that look]]></entry>
  
-		<entry id="magician+str_bark_first_aid"><![CDATA[Hold still will ya?]]></entry>
-		<entry id="magician+str_bark_first_aid"><![CDATA[I get ya good as new, ze.]]></entry>
-		<entry id="magician+str_bark_first_aid"><![CDATA[Just a quick patch job, ze]]></entry>
- 
+		<entry id="magician+str_bark_first_aid"><![CDATA[I'll get you good as new, ze]]></entry>
+		<entry id="magician+str_bark_encourage"><![CDATA[Hang in there, stand in front of me and hold your head high!]]></entry>
 		<entry id="magician+str_bark_pep_talk"><![CDATA[Woah, you really want to use this skill?]]></entry>
  
 			<!-- Roster -->

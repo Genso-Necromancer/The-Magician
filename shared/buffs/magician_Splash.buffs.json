@@ -4,10 +4,10 @@
         
       
       {
-         "id" : "magician_EB_BR_R1",
+         "id" : "magician_EB_R1_BR",
          "stat_type" : "resistance",
          "stat_sub_type" : "poison",
-         "amount" : 2.41,
+         "amount" : 2,
          "remove_if_not_active" : false,
          "rule_type" : "in_rank",
          "is_false_rule" : false,
@@ -15,41 +15,27 @@
             "float" : 0,
             "string" : ""
          },
-		 "has_description": false
+		 "has_description": true
 	  },
 	  {
-         "id" : "magician_EB_BR_R2",
+         "id" : "magician_EB_R1_BR_R",
          "stat_type" : "resistance",
          "stat_sub_type" : "poison",
-         "amount" : 1,
+         "amount" : -2,
          "remove_if_not_active" : false,
          "rule_type" : "in_rank",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 1,
+            "float" : 0,
             "string" : ""
          },
-		 "has_description": false
+		 "has_description": true
 	  },
 	  {
-         "id" : "magician_EB_BR_R3",
+         "id" : "magician_EB_R4_BR",
          "stat_type" : "resistance",
          "stat_sub_type" : "poison",
-         "amount" : 2.41,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 2,
-            "string" : ""
-         },
-		 "has_description": false
-	  },
-	  {
-         "id" : "magician_EB_BR_R4",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "poison",
-         "amount" : 3.41,
+         "amount" : 2,
          "remove_if_not_active" : false,
          "rule_type" : "in_rank",
          "is_false_rule" : false,
@@ -57,10 +43,24 @@
             "float" : 3,
             "string" : ""
          },
-		 "has_description": false
+		 "has_description": true
 	  },
 	  {
-         "id" : "magician_EB_DC_R1",
+         "id" : "magician_EB_R4_BR_R",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : -2,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : ""
+         },
+		 "has_description": true
+	  },
+	  {
+         "id" : "magician_EB_R3_Check",
          "stat_type" : "debuff_chance",
          "stat_sub_type" : "",
          "amount" : 10,
@@ -68,181 +68,13 @@
          "rule_type" : "in_rank",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		 "has_description": false
-	  },
-	  {
-         "id" : "magician_EB_DC_R2",
-         "stat_type" : "debuff_chance",
-         "stat_sub_type" : "",
-         "amount" : 20,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 1,
-            "string" : ""
-         },
-		 "has_description": false
-	  },
-	  {
-         "id" : "magician_EB_DC_R3",
-         "stat_type" : "debuff_chance",
-         "stat_sub_type" : "",
-         "amount" : 30,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "rule_data" : {
             "float" : 2,
             "string" : ""
          },
-		 "has_description": false
+		 "has_description": true
 	  },
 	  {
-         "id" : "magician_EB_Swapped_BC_2500",
-         "stat_type" : "poison_chance",
-         "stat_sub_type" : "",
-         "amount" : 3.76,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		 "has_description": false
-	  },
-	  {
-         "id" : "magician_EB_Swapped_BC_1000",
-         "stat_type" : "poison_chance",
-         "stat_sub_type" : "",
-         "amount" : 1.41,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		 "has_description": false
-	  },
-	  {
-         "id" : "magician_EB_Swapped_BC_Neg_1000",
-         "stat_type" : "poison_chance",
-         "stat_sub_type" : "",
-         "amount" : -1.41,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		 "has_description": false
-	  },
-	  {
-         "id" : "magician_EB_Swapped_DC_2000",
-         "stat_type" : "debuff_chance",
-         "stat_sub_type" : "",
-         "amount" : 20,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		 "has_description": false
-	  },
-	  {
-         "id" : "magician_EB_Splash_Check_BR_R4",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "poison",
-         "amount" : -2.41,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 3,
-            "string" : ""
-         },
-		 "has_description": false
-	  },
-	  {
-         "id" : "magician_EB_Splash_Check_BR_R4_REVERSAL",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "poison",
-         "amount" : 2.41,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 3,
-            "string" : ""
-         },
-		 "has_description": false
-	  },
-	  {
-         "id" : "magician_EB_BR_R1_REVERSAL",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "poison",
-         "amount" : -2.41,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		 "has_description": false
-	  },
-	  {
-         "id" : "magician_EB_BR_R2_REVERSAL",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "poison",
-         "amount" : -1,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 1,
-            "string" : ""
-         },
-		 "has_description": false
-	  },
-	  {
-         "id" : "magician_EB_BR_R3_REVERSAL",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "poison",
-         "amount" : -2.41,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 2,
-            "string" : ""
-         },
-		 "has_description": false
-	  },
-	  {
-         "id" : "magician_EB_BR_R4_REVERSAL",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "poison",
-         "amount" : -3.41,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 3,
-            "string" : ""
-         },
-		 "has_description": false
-	  },
-	  {
-         "id" : "magician_EB_DC_R1_REVERSAL",
+         "id" : "magician_EB_R3_Check_R",
          "stat_type" : "debuff_chance",
          "stat_sub_type" : "",
          "amount" : -10,
@@ -250,40 +82,67 @@
          "rule_type" : "in_rank",
          "is_false_rule" : false,
          "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         },
+		 "has_description": true
+	  },
+	  {
+         "id" : "magician_EB_R3_Stop_1",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : -10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
             "float" : 0,
             "string" : ""
          },
-		 "has_description": false
+		 "has_description": true
 	  },
 	  {
-         "id" : "magician_EB_DC_R2_REVERSAL",
+         "id" : "magician_EB_R3_Stop_1_R",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+	  },
+	  {
+         "id" : "magician_EB_R3_Stop_2",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+	  },
+	  {
+         "id" : "magician_EB_R3_Stop_2_R",
          "stat_type" : "debuff_chance",
          "stat_sub_type" : "",
          "amount" : -20,
          "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 1,
+            "float" : 0,
             "string" : ""
          },
-		 "has_description": false
-	  },
-	  {
-         "id" : "magician_EB_DC_R3_REVERSAL",
-         "stat_type" : "debuff_chance",
-         "stat_sub_type" : "",
-         "amount" : -30,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 2,
-            "string" : ""
-         },
-		 "has_description": false
+		 "has_description": true
 	  }
-	  
 	  
 	  
 	  

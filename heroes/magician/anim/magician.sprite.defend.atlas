@@ -1,20 +1,20 @@
 
 magician.sprite.defend.png
-size: 579,361
+size: 922,849
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-defend
-  rotate: true
-  xy: 2, 32
-  size: 327, 510
-  orig: 327, 510
+dodge
+  rotate: false
+  xy: 2, 2
+  size: 854, 845
+  orig: 854, 845
   offset: 0, 0
   index: -1
 shadow
   rotate: true
-  xy: 514, 2
-  size: 357, 63
-  orig: 357, 63
+  xy: 858, 490
+  size: 357, 62
+  orig: 357, 62
   offset: 0, 0
   index: -1

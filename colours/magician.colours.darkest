@@ -1,4 +1,4 @@
 colour: .id "loretext"											        .rgba #84182d
 colour: .id "disorient"											        .rgba #ff53c1
-colour: .id "MGsplash"													.rgba  255 127 80 255
+colour: .id "MGsplash"													.rgba  144 197 104 255
 colour: .id "invisible" 												.rgba 0 0 0 0

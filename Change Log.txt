@@ -1,23 +1,53 @@
-STAFF OF VENGEFUL SPIRITS
-=Reverted On-kill back to any kill
+=Bomb Brew
+Changed Name to Troubling Brew
+Reduced Camp cost from 3 to 2
+Increased number of uses per camp from 1 to 2
+Now costs 25% HP each time it is used
 
-=New Trinket
-Dark-Hakkero
-Rarity: Sunward
-Theme: Trading off overall damage for immediate damage, short dungeons are ideal for it
-+100% Move Resist
-+30% DMG
-Bewitchment: Magic Missile no longer gains DMG on Kill
-Master Spark: -50% Master Spark Damage for 1 battle
-Ranged Attack: -15% Ranged Dmg & Blight Chance 3 rds
-Melee Attack: -15% Melee DMG 3 rds
+=Sweet Mercy
+Replacing Danmaku Practice
+Cost 2
+Inflict -30% HP to target and heal 30 stress if not religious, heal 20 stress if religious
 
-=Added Up-Sweep Sprite
-It's, uh, getting redone. So technically not really done
+=Witches' Night
+Cost 2
+Inflict uncurable -20% MaxHP Debuff to target for 4 battles
+Grant +3 Flat DMG bonus to target for 4 battles
+If Religious: +10 Stress
 
-=Mishaguji's Bane
-Now cures Blight/Bleed as well as Debuff
-Now gives Blight/Bleed Resistance as well as Debuff
+=All camp skills
+Unique camp skills now have 4 barks each, with 1 per generic skill
 
-=All Mushrooms
-Rewrote the "Marisa Comments" to be far shorter in length
+=Borrower's Bag
+Added an FX which plays when you succesfully pick an enemy's pocket
+
+=Ecological Bomb
+Changed "Splash Damage" to "Contagion"
+Changed tasteful "Coral" to a sickening "Pistachio"
+Changed DMG mod to -90% and Crit Mod to +2-+6%
+Initial Blight is now 4-6/3 (100-140% Base), and the Contagion Blight is now 1-3/3 (90-130% Base)
+>When Ranking up the skill the blight grows either the initial or the Contagion each rank for a steady increase
+Now "Kills" target corpse(not a full corpse clear, she doesn't need 2 full corpse clears)
+
+=Stardust Reverie
+Chance of Self Knockback 1 changed to chance of Self Shuffle
+
+=Magic Missile
+Reverted to +3% Power DMG at all ranks
+Now has -31% DMG at Rank 1, reducing each rank by 3% to the old penalty of -20% at Rank 5
+
+=Magic Absorber
+Readded the check that ties it to the spellcard system to rank 5, forgot to do this after testing it last time!
+No longer provides ANY damage received buff!
+Damage absorption mechanic increased from 5-10% DMG stolen to 20-25% DMG stolen, and it's duration changed to 1 round for Magician's DMG buff and "2 rounds" for the attacker's DMG debuff
+The DMG debuff will always succeed vs the target, but if the riposte misses, both the buff and debuff fail to occur
+Grants 1 Aegis again, like all spellcards do
+Used a trick that seperates the De/buff applied by this skill from other DMG de/buffs, this is to keep the duration clear and readable in combat when they're applied
+
+=Staff of Vengeful Spirits
+DMG vs LowHP reduced from 25% to 20%
+DMG vs lowHP requirement reduced from below 31% to 27%
+
+=General Art
+Added the Sprite for Defend!
+Added a sketch for Camping!

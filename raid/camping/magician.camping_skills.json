@@ -131,26 +131,41 @@
 		{ 
 			"id" : "mg_witch_night",
 			"level" : 0,
-			"cost" : 5,
+			"cost" : 2,
 			"use_limit" : 1,
 			"effects" :
 			[
 				{
-					"selection" : "self",
+					"selection" : "individual",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
-					"type": "loot",
-					"sub_type": "MG_borrowed",
-					"amount": 1
+					"type": "buff",
+					"sub_type": "MG_CAMP_HP_Debuff_20",
+					"amount": -0.2
 				},
 				{
-					"selection" : "self",
+					"selection" : "individual",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
-					"type": "loot",
-					"sub_type": "MG_borrowed2",
-					"amount": 1
-				}				
+					"type": "buff",
+					"sub_type": "MG_CAMP_DMGADD_3H",
+					"amount": 3
+				},
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+					"type": "buff",
+					"sub_type": "MG_CAMP_DMGADD_3L",
+					"amount": 3
+				},
+				{
+					"selection" : "individual",
+					"requirements" : ["religious"],
+					"chance" : { "code" : "d", "amount": 1.0 },
+					"type": "stress_damage_amount",
+					"amount": 10
+				}
 
 			],
 			"hero_classes" : ["magician"],
@@ -173,7 +188,7 @@
 			"id" : "mg_gather",
 			"level" : 0,
 			"cost" : 1,
-			"use_limit" : 2,
+			"use_limit" : 1,
 			"effects" :
 			[
 				{
@@ -181,8 +196,7 @@
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
 					"type": "loot",
-					"sub_type": "MG_FORAGE",
-					"amount": 1
+					"sub_type": "MG_FORAGE"
 				}
 
 			],
@@ -205,34 +219,34 @@
 		{ 
 			"id" : "danmaku_mg",
 			"level" : 0,
-			"cost" : 3,
+			"cost" : 2,
 			"use_limit" : 1,
 			"effects" :
 			[
 				
 				{ 
-					"selection" : "self",
+					"selection" : "individual",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
-					"type" : "buff",
-					"sub_type" : "campingDEFBuff",
-					"amount" :  0.10										
+					"type" : "health_damage_max_health_percent",
+					"sub_type" : "",
+					"amount" :  0.30
 				},
 				{ 
 					"selection" : "individual",
-					"requirements" : [],
+					"requirements" : ["not_religious"],
 					"chance" : { "code" : "b", "amount": 1.0 }, 
-					"type" : "buff",
-					"sub_type" : "campingDMGLowBuffRanged",
-					"amount" :  0.15
+					"type" : "stress_heal_amount",
+					"sub_type" : "",
+					"amount" :  30
 				},
-                { 
+				{ 
 					"selection" : "individual",
-					"requirements" : [],
+					"requirements" : ["religious"],
 					"chance" : { "code" : "c", "amount": 1.0 }, 
-					"type" : "buff",
-					"sub_type" : "campingDMGHighBuffRanged",
-					"amount" :  0.15
+					"type" : "stress_heal_amount",
+					"sub_type" : "",
+					"amount" :  20
 				}
 			],
 			"hero_classes" : ["magician"],
@@ -254,17 +268,23 @@
 		{ 
 			"id" : "bomb_brew_mg",
 			"level" : 0,
-			"cost" : 3,
-			"use_limit" : 1,
+			"cost" : 2,
+			"use_limit" : 2,
 			"effects" :
 			[
 				
-			
-				
-				{
+				{ 
 					"selection" : "self",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "health_damage_max_health_percent",
+                    "sub_type" : "",
+					"amount" :  0.25
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
 					"type": "loot",
 					"sub_type": "camp_bomb_mg",
 					"amount": 1

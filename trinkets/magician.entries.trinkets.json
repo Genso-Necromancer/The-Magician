@@ -61,10 +61,8 @@
          "origin_dungeon" : "crypts",
 		 "melee_attack_skill_additional_effects":
 		 [
-		  
-		  "MG Multi Marisa Catch",
-		  "MG Pick-Pocket",
-		  "MG Multi Marisa UnCatch"
+		  "MG_pickpocket_FX",
+		  "MG Pick-Pocket"
 		 ]
       },
 	  {
