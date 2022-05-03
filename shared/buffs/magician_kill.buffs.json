@@ -68,7 +68,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "has_description": true
+		 "has_description": true,
+         "fx" : "mg_power_loss"
 	  },
       {
          "id" : "magician_Power_Gather_BuffL_5",
@@ -96,7 +97,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "has_description": true
+		 "has_description": true,
+         "fx" : "mg_power_loss"
 	  },
       {
          "id" : "magician_Power_Gather_BuffL_4",
@@ -124,7 +126,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "has_description": true
+		 "has_description": true,
+         "fx" : "mg_power_loss"
 	  },
       {
          "id" : "magician_Power_Gather_BuffL_3",
@@ -152,7 +155,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "has_description": true
+		 "has_description": true,
+         "fx" : "mg_power_loss"
 	  },
       {
          "id" : "magician_Power_Gather_BuffL_2",
@@ -180,7 +184,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "has_description": true
+		 "has_description": true,
+         "fx" : "mg_power_loss"
 	  },
       {
          "id" : "magician_Power_Gather_BuffL_1",
@@ -208,8 +213,22 @@
             "float" : 0,
             "string" : ""
          }
-      }
-	  
+      },
+	  {
+         "id" : "MG_power_gain_FX",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_power_dummy",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false,
+         "fx" : "mg_power_gain"
+	  }
 	  
 	  
 	  

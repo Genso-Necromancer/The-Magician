@@ -128,7 +128,56 @@
 			 "MG DH Range Debuff",
 			 "MG DH MM Power Stop"
          ]
-	}
+	},
+      {
+         "id" : "cc_set_magician_melancholic_doll",
+         "buffs" : 
+         [
+          
+         ],
+         "hero_class_requirements":
+         [
+            "magician"
+         ],
+         "set_id" : "cc_magician",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard",
+		 "melee_attack_skill_additional_effects":
+         [
+			 "MG Melee Doll Buff"
+         ],
+		 "ranged_attack_skill_additional_effects":
+         [
+			 "MG Range Doll Buff"
+         ]
+      },
+	 {
+         "id" : "cc_set_magician_lonely_doll",
+         "buffs" : 
+         [
+			
+         ],
+         "hero_class_requirements":
+         [
+            "magician"
+         ],
+         "set_id" : "cc_magician",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard",
+		 "friendly_skill_additional_effects":
+         [
+			"MG Friendly Doll Buff"
+         ],
+		 "kill_all_monsters_additional_effects":
+         [
+			 "MG Kill Doll Buff"
+         ]
+      }
+	
 
    ]
 }

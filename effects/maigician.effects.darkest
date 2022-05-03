@@ -44,6 +44,9 @@ effect: .name "MG_Power_Buff_From_Summon_3" .spawn_target_actor_base_class_id ma
 effect: .name "MG_Power_Buff_From_Summon_4" .spawn_target_actor_base_class_id magician .target "target" .chance 500% .duration -1 .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_Power_Gather_BuffH_4" "magician_Power_Gather_BuffL_4" .on_hit true .on_miss false .apply_once false .queue true .has_description true
 effect: .name "MG_Power_Buff_From_Summon_5" .spawn_target_actor_base_class_id magician .target "target" .chance 500% .duration -1 .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "magician_Power_Gather_BuffH_5" "magician_Power_Gather_BuffL_5" .on_hit true .on_miss false .apply_once false .queue true .has_description true
 
+//Onset Buff
+effect: .name "MG_Power_Onset_Buff" .spawn_target_actor_base_class_id magician .target "target" .chance 500% .duration 1 .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .buff_ids "MG_power_gain_FX" .on_hit true .on_miss false .apply_once false .queue true
+
 //Existance is a burden Satano and Mai can stand no longer and so they obliterate themselves
 effect: .name "mg_dmg_buff_1_wipe" .target "performer" .chance 1000% .kill_enemy_types mg_dmg_buff_1 .on_hit true .on_miss true .queue true
 
@@ -68,6 +71,7 @@ effect: .name "MG MM Kill TT5" .target "performer" .skill_instant true .buff_ids
 
 
 
+
 ////Up-Sweep
 effect: .name "MG US Push 1" .target "target"  .push 2 .chance 100%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
 effect: .name "MG US Push 2" .target "target"  .push 2 .chance 110%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
@@ -77,19 +81,39 @@ effect: .name "MG US Push 5" .target "target"  .push 2 .chance 140%  .on_hit tru
 
 /////Powerful Drug//////
 
+//Cures
+effect: .name "MG Cure" .target "target" .curio_result_type "positive" .chance 100% .cure 1	.on_hit true .on_miss false
+//Trinket Cure
+effect: .name "MG Cureself" .target "performer" .curio_result_type "positive" .chance 100% .cure 1	.on_hit true .on_miss false .queue true .apply_once true
+
 ///Healing Penalties
 effect: .name "MG Cure Penalty" .target "performer" .skill_instant true .buff_ids "MG_PD_Bleed_Penalty" "MG_PD_Blight_Penalty" .on_hit true .on_miss false
+
+
+//Mishaps
+//0:30, 1:40, 2:50, 3:60, 4:70, 5:80, 6:90
+effect: .name "MG Mishap Blight 1" .target "target" .chance 30% .dotPoison 1 .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "MG Mishap Blight 2" .target "target" .chance 40% .dotPoison 1 .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "MG Mishap Blight 3" .target "target" .chance 50% .dotPoison 2 .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "MG Mishap Blight 4" .target "target" .chance 60% .dotPoison 2 .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "MG Mishap Blight 5" .target "target" .chance 70% .dotPoison 3 .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "MG Mishap Debuff" .target "target" .chance 30% .duration 3 .buff_ids "MG_PD_Mishap_Res_Debuff" .on_hit true .on_miss false .queue true
+
+
+//WHAT THE FUCK MARISA???
+effect: .name "Magician Mishap Oops" .target "performer" .chance 20% .bark "str_mishap" .on_hit true .on_miss false .queue false .apply_once true .has_description false
+effect: .name "Magician Mishap Reaction" .target "target" .chance 20% .bark "str_mishap_react" .individual_target_actor_rolls false .on_hit true .on_miss false .queue true .apply_once true .has_description false
 
 ////Ecological Bomb
 
 //Contagion
 
 //Initial Blight
-effect: .name "Eco Toxin 1" .target "target"  .chance 100%  .dotPoison 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
-effect: .name "Eco Toxin 2" .target "target"  .chance 110%  .dotPoison 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
-effect: .name "Eco Toxin 3" .target "target"  .chance 120%  .dotPoison 5 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
-effect: .name "Eco Toxin 4" .target "target"  .chance 130%  .dotPoison 5 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
-effect: .name "Eco Toxin 5" .target "target"  .chance 140%  .dotPoison 6 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "Eco Toxin 1" .target "target"  .chance 100%  .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "Eco Toxin 2" .target "target"  .chance 110%  .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "Eco Toxin 3" .target "target"  .chance 120%  .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "Eco Toxin 4" .target "target"  .chance 130%  .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "Eco Toxin 5" .target "target"  .chance 140%  .dotPoison 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
 
 //Step 0: Remove corpse if target is a corpse. This does not "fix" original issue of if PoS3 is targeted and it is killed/a corpse not triggering the sorting logic. Instead of a "bug" resulting in the opposite outcome than the player intended, the player knows targeting a corpse removes it, so isn't expecting to get the Target Blight, is still blighting the targets they expected contagion to hit, and is still getting up to 3 targets blighted as usual. This works because PoS4 is the default protected PoS, but when the corpse is removed the target is PoS4 has shifted forward, invalidating the protection. Very simple and easy.
 effect: .name "MG EB Corpse Kill" .target "target" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss false .queue true .can_apply_on_death true .has_description false
@@ -158,6 +182,8 @@ effect: .name "Sonic Broom 2" .target "performer" .chance 60% .health_damage 5 .
 effect: .name "Sonic Broom 3" .target "performer" .chance 60% .health_damage 6 .on_hit true .on_miss true .queue true .has_description false
 effect: .name "Sonic Broom 4" .target "performer" .chance 60% .health_damage 6 .on_hit true .on_miss true .queue true .has_description false
 effect: .name "Sonic Broom 5" .target "performer" .chance 60% .health_damage 7 .on_hit true .on_miss true .queue true .has_description false
+
+effect: .name "MG TEST" .target "performer" .chance 100% .health_damage 90 .on_hit true .on_miss true .queue true .has_description false
 //Recoil Knock-Back
 effect: .name "MG Backdraft 1" .target "performer" .shuffletarget .chance 60% .on_hit true .on_miss true .can_apply_on_death true
 effect: .name "MG Backdraft 2" .target "performer" .shuffletarget .chance 70% .on_hit true .on_miss true .can_apply_on_death true
@@ -307,6 +333,21 @@ effect: .name "MG BDP Clear" .target "performer" .chance 1000% .steal_buff_stat_
 effect: .name "MG DH MM Power Stop" .target "performer" .chance 100% .buff_source_type bsrc_notspecified .duration 1 .buff_ids "MG_DH_Power_Stopper" .on_hit true .on_miss false .apply_once true .has_description false
 //In inventory
 effect: .name "MG Hakkero Check" .target "performer" .skill_instant true .buff_source_type bsrc_notspecified .buff_ids "MG_Dark_Hakkero_Check" .on_hit true .on_miss false .has_description false .queue true
+
+///CC Dolls///
+///Melancholic Doll
+//Melee "Summon"
+effect: .name "MG Range Doll Buff" .target "performer" .chance 100% .duration 4 .buff_ids "magician_MDoll_Rng_DMGH" "magician_MDoll_Rng_DMGL" .on_hit true .on_miss false .queue true .has_description true
+
+//Ranged "Summon"
+effect: .name "MG Melee Doll Buff" .target "performer" .chance 100% .duration 4 .buff_ids "magician_MDoll_Mle_DMGH" "magician_MDoll_Mle_DMGL" .on_hit true .on_miss false .queue true .has_description true
+
+///Lonely Doll
+//Friendly "Summon"
+effect: .name "MG Friendly Doll Buff" .target "target" .chance 100% .duration 3 .buff_ids "magician_ADoll_Frn_PROT" .on_hit true .on_miss false .queue true .has_description true
+
+//Kill "Summon"
+effect: .name "MG Kill Doll Buff" .target "target" .chance 140% .duration 3 .buff_ids "magician_ADoll_Kill_DMGRe" .on_hit true .on_miss false .queue true .has_description true
 
 ////Bomb System////
 //Bomb TT

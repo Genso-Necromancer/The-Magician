@@ -298,8 +298,10 @@
 		<entry id="str_inventory_title_trinketmagician_bag"><![CDATA[Borrower's Bag]]></entry>
 		<entry id="str_inventory_title_trinketmagician_mima"><![CDATA[Staff of Vengeful Spirits]]></entry>
 		<entry id="str_inventory_title_trinketmagician_darkhakkero_si"><![CDATA[Dark-Hakkero]]></entry>
+		<entry id="str_inventory_title_trinketcc_set_magician_melancholic_doll"><![CDATA[Melancholic Doll]]></entry>
+		<entry id="str_inventory_title_trinketcc_set_magician_lonely_doll"><![CDATA[Lonely Doll]]></entry>
 
-		<entry id="str_inventory_set_title_cc_magician"><![CDATA["I'm going to Alice"]]></entry>
+		<entry id="str_inventory_set_title_cc_magician"><![CDATA["They looked so similar, I didn't realize..."]]></entry>
 		
 <!-- Barks -->
 			<!-- COME FORTH -->
@@ -439,6 +441,15 @@
 		<!--Blanks, Intentional -->
 	<entry id="str_master_spark"><![CDATA[]]></entry>
 	<entry id="str_master_spark_react"><![CDATA[]]></entry>
+	<entry id="str_mishap"><![CDATA[]]></entry>
+	<entry id="str_mishap_react"><![CDATA[]]></entry>
+	
+		<!-- Mishap Barks -->
+	<entry id="magician+str_mishap"><![CDATA[Wait, don't- oh.. never mind.]]></entry>
+	<entry id="magician+str_mishap"><![CDATA[These mushrooms all look the same, okay?!]]></entry>
+	<entry id="magician+str_mishap"><![CDATA[I swear this has never happened to me before!]]></entry>
+	<entry id="magician+str_mishap"><![CDATA[That's perfectly normal, ze!]]></entry>
+	
 		<!-- magician's Chuuni Bullshit -->
 	<entry id="magician+str_master_spark"><![CDATA[Maaaaster Spark!]]></entry>
 	<entry id="magician+str_master_spark"><![CDATA[Final Spark!]]></entry>

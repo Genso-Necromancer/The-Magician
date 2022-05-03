@@ -29,41 +29,47 @@ combat_skill: .id "stardust_reverie" .level 2 .type "melee" .atk 95%  .dmg 0% .c
 combat_skill: .id "stardust_reverie" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8% .move 0 3 .launch 43 .target 1234 .rank_damage_modifiers 0.15 0.1 0.5 0.0 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG SR DMG TT" "MG SR DMG BUFF" "MG Backdraft 4" "MG SR Recoil TT4" "Sonic Broom 4"
 combat_skill: .id "stardust_reverie" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .move 0 3 .launch 43 .target 1234 .rank_damage_modifiers 0.15 0.1 0.5 0.0 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG SR DMG TT" "MG SR DMG BUFF" "MG Backdraft 5" "Sonic Broom 5" "MG SR Recoil TT5"
 
-combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -90% .crit 2% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 1" "MG EB Corpse Kill"
-combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -90% .crit 3% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 2" "MG EB Corpse Kill"
-combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 100% .dmg -90% .crit 4% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 3" "MG EB Corpse Kill"
-combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -90% .crit 5% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 4" "MG EB Corpse Kill"
-combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -90% .crit 6% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 5" "MG EB Corpse Kill"
+combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -34% .crit 2% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 1" "MG EB Corpse Kill"
+combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -34% .crit 3% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 2" "MG EB Corpse Kill"
+combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 100% .dmg -34% .crit 4% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 3" "MG EB Corpse Kill"
+combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -34% .crit 5% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 4" "MG EB Corpse Kill"
+combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -34% .crit 6% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 5" "MG EB Corpse Kill"
 
-combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -90% .crit 2% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Check" "MG R3 Stop 1" "MG R4 BR"
-combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -90% .crit 3% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Check" "MG R3 Stop 1" "MG R4 BR"
-combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 100% .dmg -90% .crit 4% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Check" "MG R3 Stop 1" "MG R4 BR"
-combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -90% .crit 5% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Check" "MG R3 Stop 1" "MG R4 BR"
-combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -90% .crit 6% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Check" "MG R3 Stop 1" "MG R4 BR"
+combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -34% .crit 2% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Check" "MG R3 Stop 1" "MG R4 BR"
+combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -34% .crit 3% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Check" "MG R3 Stop 1" "MG R4 BR"
+combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 100% .dmg -34% .crit 4% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Check" "MG R3 Stop 1" "MG R4 BR"
+combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -34% .crit 5% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Check" "MG R3 Stop 1" "MG R4 BR"
+combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -34% .crit 6% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Check" "MG R3 Stop 1" "MG R4 BR"
 
-combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -90% .crit 2% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2" "MG R1 BR" "Eco Contagion 1" "MG R1 BR R"
-combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -90% .crit 3% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2" "MG R1 BR" "Eco Contagion 2" "MG R1 BR R"
-combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 100% .dmg -90% .crit 4% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2" "MG R1 BR" "Eco Contagion 3" "MG R1 BR R"
-combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -90% .crit 5% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2" "MG R1 BR" "Eco Contagion 4" "MG R1 BR R"
-combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -90% .crit 6% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2" "MG R1 BR" "Eco Contagion 5" "MG R1 BR R"
+combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -34% .crit 2% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2" "MG R1 BR" "Eco Contagion 1" "MG R1 BR R"
+combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -34% .crit 3% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2" "MG R1 BR" "Eco Contagion 2" "MG R1 BR R"
+combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 100% .dmg -34% .crit 4% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2" "MG R1 BR" "Eco Contagion 3" "MG R1 BR R"
+combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -34% .crit 5% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2" "MG R1 BR" "Eco Contagion 4" "MG R1 BR R"
+combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -34% .crit 6% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2" "MG R1 BR" "Eco Contagion 5" "MG R1 BR R"
 
-combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -90% .crit 2% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2 R" "MG R4 BR R" "MG R3 Stop 1 R" "MG R3 Check R"
-combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -90% .crit 3% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2 R" "MG R4 BR R" "MG R3 Stop 1 R" "MG R3 Check R"
-combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 100% .dmg -90% .crit 4% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2 R" "MG R4 BR R" "MG R3 Stop 1 R" "MG R3 Check R"
-combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -90% .crit 5% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2 R" "MG R4 BR R" "MG R3 Stop 1 R" "MG R3 Check R"
-combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -90% .crit 6% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2 R" "MG R4 BR R" "MG R3 Stop 1 R" "MG R3 Check R"
+combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -34% .crit 2% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2 R" "MG R4 BR R" "MG R3 Stop 1 R" "MG R3 Check R"
+combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -34% .crit 3% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2 R" "MG R4 BR R" "MG R3 Stop 1 R" "MG R3 Check R"
+combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 100% .dmg -34% .crit 4% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2 R" "MG R4 BR R" "MG R3 Stop 1 R" "MG R3 Check R"
+combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -34% .crit 5% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2 R" "MG R4 BR R" "MG R3 Stop 1 R" "MG R3 Check R"
+combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -34% .crit 6% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2 R" "MG R4 BR R" "MG R3 Stop 1 R" "MG R3 Check R"
 
-combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -90% .crit 2% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG EB Splash TT1"
-combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -90% .crit 3% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG EB Splash TT2"
-combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 100% .dmg -90% .crit 4% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG EB Splash TT3"
-combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -90% .crit 5% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG EB Splash TT4"
-combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -90% .crit 6% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG EB Splash TT5"
+combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -34% .crit 2% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG EB Splash TT1"
+combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -34% .crit 3% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG EB Splash TT2"
+combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 100% .dmg -34% .crit 4% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG EB Splash TT3"
+combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -34% .crit 5% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG EB Splash TT4"
+combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -34% .crit 6% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG EB Splash TT5"
 
-combat_skill: .id "illusion_laser" .level 0 .heal 2 3 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Cure Penalty" "Cure" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 1 .heal 3 4 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Cure Penalty" "Cure" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 2 .heal 4 5 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Cure Penalty" "Cure" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 3 .heal 5 6 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Cure Penalty" "Cure" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 4 .heal 6 7 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Cure Penalty" "Cure" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 0 .heal 2 3 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Cure" "Magician Mishap Oops" "Magician Mishap Reaction" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 1 .heal 3 4 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Cure" "Magician Mishap Oops" "Magician Mishap Reaction" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 2 .heal 4 5 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Cure" "Magician Mishap Oops" "Magician Mishap Reaction" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 3 .heal 5 6 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Cure" "Magician Mishap Oops" "Magician Mishap Reaction" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 4 .heal 6 7 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Cure" "Magician Mishap Oops" "Magician Mishap Reaction" .is_stall_invalidating false
+
+combat_skill: .id "illusion_laser" .level 0 .heal 2 3 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Mishap Blight 1" "MG Mishap Debuff" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 1 .heal 3 4 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Mishap Blight 2" "MG Mishap Debuff" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 2 .heal 4 5 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Mishap Blight 3" "MG Mishap Debuff" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 3 .heal 5 6 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Mishap Blight 4" "MG Mishap Debuff" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 4 .heal 6 7 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Mishap Blight 5" "MG Mishap Debuff" .is_stall_invalidating false
 
 
 combat_skill: .id "master_spark" .level 0 .type "spellcard" .atk 120% .dmg 0% .crit 5% .move 0 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.4 -0.2 0.0 0.2 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect "MS DMG TT1" "MG Surface Area" "MG Overwhelm 1" "Cooldown MG"  "magician bomb count skill" "MG Self Mark" "MG Self Block" "MG Fake Daze" "Magician Chuuni Bullshit" "Magician Chuuni Bullshit Reaction"

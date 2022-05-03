@@ -1,0 +1,13 @@
+
+magician.sprite.mg_power_gain.png
+size: 572,113
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+power_trail
+  rotate: false
+  xy: 2, 2
+  size: 568, 109
+  orig: 568, 109
+  offset: 0, 0
+  index: -1

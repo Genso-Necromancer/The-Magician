@@ -103,6 +103,12 @@ heroes/magician/fx/magician.sprite.mg_mm_perf_fx.skel
 heroes/magician/fx/magician.sprite.mg_mm_targ_fx.atlas
 heroes/magician/fx/magician.sprite.mg_mm_targ_fx.png
 heroes/magician/fx/magician.sprite.mg_mm_targ_fx.skel
+heroes/magician/fx/magician.sprite.mg_power_gain.atlas
+heroes/magician/fx/magician.sprite.mg_power_gain.png
+heroes/magician/fx/magician.sprite.mg_power_gain.skel
+heroes/magician/fx/magician.sprite.mg_power_loss.atlas
+heroes/magician/fx/magician.sprite.mg_power_loss.png
+heroes/magician/fx/magician.sprite.mg_power_loss.skel
 heroes/magician/fx/missile hit.png
 heroes/magician/icons_equip/eqp_armour_0.png
 heroes/magician/icons_equip/eqp_armour_1.png
@@ -243,6 +249,7 @@ trinkets/com.rarities.trinkets.json
 trinkets/crimson_court.rarities.trinkets.json
 trinkets/east_town.rarities.trinkets.json
 trinkets/magician.entries.trinkets.json
+trinkets/magician.sets.trinkets.json
 upgrades/magician.upgrades.json
 Change Log.txt
 preview_icon.png

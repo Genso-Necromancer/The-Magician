@@ -8,4 +8,4 @@ monster_brain: .id default
 battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise false .can_be_surprised False .always_surprise False .always_be_surprised False
 wave_spawning: .prefers_front True
 
-spawn: .effects MG_Power_Buff_From_Summon_2 mg_dmg_buff_1_wipe
+spawn: .effects MG_Power_Buff_From_Summon_2 MG_Power_Onset_Buff mg_dmg_buff_1_wipe
