@@ -131,12 +131,12 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_pd_Heal_tt4"><![CDATA[ {colour_start|healhp}Heal{colour_end} 3-4]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_pd_Heal_tt5"><![CDATA[ {colour_start|healhp}Heal{colour_end} 4-4]]></entry>
 		
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_pd_miracle_tt"><![CDATA[ {colour_start|buff}Miracle:{colour_end} {colour_start|skill_unselectable}(24%%){colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_pd_miracle_tt"><![CDATA[ {colour_start|buff}Miracle:{colour_end} {colour_start|skill_unselectable}(12%% Chance){colour_end}
 		+%d {colour_start|healhp}Healing{colour_end}
 		OR]]></entry>
 		
 		
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_pd_mishap_tt"><![CDATA[ {colour_start|debuff}Mishap:{colour_end}  {colour_start|skill_unselectable}(24%%){colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_pd_mishap_tt"><![CDATA[ {colour_start|debuff}Mishap:{colour_end}  {colour_start|skill_unselectable}(12%% Chance){colour_end}
 		Target: 100%% Random Target Chance]]></entry>
 		
 			<!-- Mushroom Tool Tips-->

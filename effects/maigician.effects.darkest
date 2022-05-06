@@ -80,26 +80,22 @@ effect: .name "MG US Push 4" .target "target"  .push 2 .chance 130%  .on_hit tru
 effect: .name "MG US Push 5" .target "target"  .push 2 .chance 140%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
 
 /////Powerful Drug//////
-
 //Cure
 effect: .name "MG Cure" .target "target" .chance 100% .cure 1 .on_hit true .on_miss false
-
-
-
 ////Healing & Miracle
 ///Miracles
 //Rank 1 & 2
-effect: .name "MG MIRACLE INTO MISHAP 2" .target "performer" .chance 24% .duration 1 .buff_ids "MG_HEAL_RNG_GAIN_2" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
-effect: .name "MG MIRACLE 2" .target "performer" .chance 100% .duration 1 .buff_ids "MG_HEAL_RNG_LOSS_2" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+effect: .name "MG MIRACLE INTO MISHAP 2" .target "performer" .chance 12% .duration 1 .buff_ids "MG_HEAL_RNG_LOSS_2" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+effect: .name "MG MIRACLE 2" .target "performer" .chance 24% .duration 1 .buff_ids "MG_HEAL_RNG_GAIN_2" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
 //Rank 3 & 4
-effect: .name "MG MIRACLE INTO MISHAP 3" .target "performer" .chance 24% .duration 1 .buff_ids "MG_HEAL_RNG_GAIN_3" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
-effect: .name "MG MIRACLE 3" .target "performer" .chance 100% .duration 1 .buff_ids "MG_HEAL_RNG_LOSS_3" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+effect: .name "MG MIRACLE INTO MISHAP 3" .target "performer" .chance 12% .duration 1 .buff_ids "MG_HEAL_RNG_LOSS_3" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+effect: .name "MG MIRACLE 3" .target "performer" .chance 24% .duration 1 .buff_ids "MG_HEAL_RNG_GAIN_3" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
 //Rank 5
-effect: .name "MG MIRACLE INTO MISHAP 4" .target "performer" .chance 24% .duration 1 .buff_ids "MG_HEAL_RNG_GAIN_4" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
-effect: .name "MG MIRACLE 4" .target "performer" .chance 100% .duration 1 .buff_ids "MG_HEAL_RNG_LOSS_4" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+effect: .name "MG MIRACLE INTO MISHAP 4" .target "performer" .chance 12% .duration 1 .buff_ids "MG_HEAL_RNG_LOSS_4" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+effect: .name "MG MIRACLE 4" .target "performer" .chance 24% .duration 1 .buff_ids "MG_HEAL_RNG_GAIN_4" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
 
 ///Mishaps
-effect: .name "MG MISHAP" .target "target" .chance 24% .duration 1 .buff_ids "MG_PD_Mishap_Random_Attack" .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+effect: .name "MG MISHAP" .target "target" .chance 12% .duration 1 .buff_ids "MG_PD_Mishap_Random_Attack" .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
 
 
 ///Healings
@@ -108,11 +104,11 @@ effect: .name "MG Heal 3" .target "target" .chance 100% .can_crit_heal true .hea
 effect: .name "MG Heal 4" .target "target" .chance 100% .can_crit_heal true .heal 4 .apply_with_result true .on_hit true .on_miss false .has_description false
 
 //"I'm a fucking idiot" Matrix
-effect: .name "MG HEAL -1 A" .target "performer" .chance 74% .duration 1 .buff_ids "MG_HEAL_RNG_STOP_1" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified 
-effect: .name "MG HEAL +1 A" .target "performer" .chance 48% .duration 1 .buff_ids "MG_HEAL_RNG_REVERT_1" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
-effect: .name "MG HEAL -1 B" .target "performer" .chance 36% .duration 1 .buff_ids "MG_HEAL_RNG_STOP_1" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
-effect: .name "MG HEAL +1 B" .target "performer" .chance 24% .duration 1 .buff_ids "MG_HEAL_RNG_REVERT_1" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
-effect: .name "MG HEAL -1 C" .target "performer" .chance 12% .duration 1 .buff_ids "MG_HEAL_RNG_STOP_1" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+effect: .name "MG HEAL -1 A" .target "performer" .chance 81% .duration 1 .buff_ids "MG_HEAL_RNG_LOSS_1" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified 
+effect: .name "MG HEAL +1 A" .target "performer" .chance 62% .duration 1 .buff_ids "MG_HEAL_RNG_GAIN_1" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+effect: .name "MG HEAL -1 B" .target "performer" .chance 43% .duration 1 .buff_ids "MG_HEAL_RNG_LOSS_1" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+effect: .name "MG HEAL +1 B" .target "performer" .chance 18% .duration 1 .buff_ids "MG_HEAL_RNG_GAIN_1" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+effect: .name "MG HEAL -1 C" .target "performer" .chance  6% .duration 1 .buff_ids "MG_HEAL_RNG_LOSS_1" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
 
 //Hidden stress factor
 effect: .name "MG Great Success" .target "performer" .chance 48% .healstress 3 .on_hit true .on_miss false .has_description false
