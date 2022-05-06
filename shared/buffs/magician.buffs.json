@@ -513,10 +513,153 @@
          }
       },
 	  {
-         "id" : "MG_PD_Mishap_Res_Debuff",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "poison",
-         "amount" : -0.10,
+         "id" : "MG_HEAL_RNG_LOSS_2",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : -2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_HEAL_RNG_GAIN_2",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_HEAL_RNG_LOSS_3",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : -3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_HEAL_RNG_GAIN_3",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_HEAL_RNG_LOSS_4",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : -4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_HEAL_RNG_GAIN_4",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_HEAL_RNG_LOSS_1",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_HEAL_RNG_GAIN_1",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_PD_SH_BLOCK",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "effect",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_PD_SH_REVERT",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "effect",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_PD_Mishap_Random_Attack",
+         "stat_type" : "random_target_attack_chance",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_PD_Mishap_Random_Friendly",
+         "stat_type" : "random_target_friendly_chance",
+         "stat_sub_type" : "",
+         "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

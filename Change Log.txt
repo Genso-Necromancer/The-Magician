@@ -5,11 +5,24 @@ Single Target Blight now 2-4/3
 =Crimson Court Set
 Added very the basic functionality of the two dolls
 Added the trinket art
-
-=Elixir and Tincture
-Changed the Animation to something more high quality and simple, this goes for Miko as well!
+This is still far from a final version, and it's not entirely the first draft either
 
 =Magic Missile
 Fixed the Dark Hakkero Curse having the wrong rule type and preventing the skill from working at the wrong times
 Added an FX for when MM gains damage on kill. Will fine tweak it's positioning once a combat animation has been made.
 Added an FX for when Magician reaches death's door and loses her power buffs
+
+=Powerful Drug
+Removed situational Healing reduction
+Changed Healing rates to 2-2/2-3/3-3/3-4/4-4
+Added Mishap and Miracle system
+>There is a 24% chance for a Mishap or Miracle, you cannot get both, but you can get neither
+>Mishaps always inflict +100% Random Target chance(Attack&Friendly)
+>Miracles always add the value of the heal low roll onto what you did roll
+>Miracle bonuses are doubled when critting
+>There's a few unmentioned quirks of the skill, but they're all intentional and part of the fun
+Added barks for when Magician get's a mishap on someone else, and different ones for when using it on herself
+There is support for, but not yet written, bark reactions from Maid and Miko when a mishap is inflicted upon them
+
+=Art
+Added Camping Sprite!

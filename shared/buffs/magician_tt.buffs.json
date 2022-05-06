@@ -760,6 +760,146 @@
 		 "has_description": true
       },
 	  {
+         "id" : "MG_PD_Heal_TT1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_pd_Heal_tt1",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "MG_PD_Heal_TT2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_pd_Heal_tt2",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "MG_PD_Heal_TT3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_pd_Heal_tt3",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "MG_PD_Heal_TT4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_pd_Heal_tt4",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "MG_PD_Heal_TT5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_pd_Heal_tt5",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "MG_PD_Heal_TT5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_pd_Heal_tt5",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "MG_PD_Miracle_TT2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_pd_miracle_tt",
+         "amount" : -0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "MG_PD_Miracle_TT3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_pd_miracle_tt",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "MG_PD_Miracle_TT4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_pd_miracle_tt",
+         "amount" : -0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "MG_PD_Mishap_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_pd_mishap_tt",
+         "amount" : -0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
          "id" : "MG_SpaceDeleter_TT",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "MG_SpaceDeleter_TT",

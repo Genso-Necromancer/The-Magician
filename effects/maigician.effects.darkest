@@ -81,28 +81,61 @@ effect: .name "MG US Push 5" .target "target"  .push 2 .chance 140%  .on_hit tru
 
 /////Powerful Drug//////
 
-//Cures
-effect: .name "MG Cure" .target "target" .curio_result_type "positive" .chance 100% .cure 1	.on_hit true .on_miss false
-//Trinket Cure
-effect: .name "MG Cureself" .target "performer" .curio_result_type "positive" .chance 100% .cure 1	.on_hit true .on_miss false .queue true .apply_once true
-
-///Healing Penalties
-effect: .name "MG Cure Penalty" .target "performer" .skill_instant true .buff_ids "MG_PD_Bleed_Penalty" "MG_PD_Blight_Penalty" .on_hit true .on_miss false
+//Cure
+effect: .name "MG Cure" .target "target" .chance 100% .cure 1 .on_hit true .on_miss false
 
 
-//Mishaps
-//0:30, 1:40, 2:50, 3:60, 4:70, 5:80, 6:90
-effect: .name "MG Mishap Blight 1" .target "target" .chance 30% .dotPoison 1 .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "MG Mishap Blight 2" .target "target" .chance 40% .dotPoison 1 .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "MG Mishap Blight 3" .target "target" .chance 50% .dotPoison 2 .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "MG Mishap Blight 4" .target "target" .chance 60% .dotPoison 2 .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "MG Mishap Blight 5" .target "target" .chance 70% .dotPoison 3 .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "MG Mishap Debuff" .target "target" .chance 30% .duration 3 .buff_ids "MG_PD_Mishap_Res_Debuff" .on_hit true .on_miss false .queue true
 
+////Healing & Miracle
+///Miracles
+//Rank 1 & 2
+effect: .name "MG MIRACLE INTO MISHAP 2" .target "performer" .chance 24% .duration 1 .buff_ids "MG_HEAL_RNG_GAIN_2" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+effect: .name "MG MIRACLE 2" .target "performer" .chance 100% .duration 1 .buff_ids "MG_HEAL_RNG_LOSS_2" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+//Rank 3 & 4
+effect: .name "MG MIRACLE INTO MISHAP 3" .target "performer" .chance 24% .duration 1 .buff_ids "MG_HEAL_RNG_GAIN_3" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+effect: .name "MG MIRACLE 3" .target "performer" .chance 100% .duration 1 .buff_ids "MG_HEAL_RNG_LOSS_3" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+//Rank 5
+effect: .name "MG MIRACLE INTO MISHAP 4" .target "performer" .chance 24% .duration 1 .buff_ids "MG_HEAL_RNG_GAIN_4" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+effect: .name "MG MIRACLE 4" .target "performer" .chance 100% .duration 1 .buff_ids "MG_HEAL_RNG_LOSS_4" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+
+///Mishaps
+effect: .name "MG MISHAP" .target "target" .chance 24% .duration 1 .buff_ids "MG_PD_Mishap_Random_Attack" .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+
+
+///Healings
+effect: .name "MG Heal 2" .target "target" .chance 100% .can_crit_heal true .heal 2 .apply_with_result true .on_hit true .on_miss false .has_description false
+effect: .name "MG Heal 3" .target "target" .chance 100% .can_crit_heal true .heal 3 .apply_with_result true .on_hit true .on_miss false .has_description false
+effect: .name "MG Heal 4" .target "target" .chance 100% .can_crit_heal true .heal 4 .apply_with_result true .on_hit true .on_miss false .has_description false
+
+//"I'm a fucking idiot" Matrix
+effect: .name "MG HEAL -1 A" .target "performer" .chance 74% .duration 1 .buff_ids "MG_HEAL_RNG_STOP_1" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified 
+effect: .name "MG HEAL +1 A" .target "performer" .chance 48% .duration 1 .buff_ids "MG_HEAL_RNG_REVERT_1" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+effect: .name "MG HEAL -1 B" .target "performer" .chance 36% .duration 1 .buff_ids "MG_HEAL_RNG_STOP_1" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+effect: .name "MG HEAL +1 B" .target "performer" .chance 24% .duration 1 .buff_ids "MG_HEAL_RNG_REVERT_1" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+effect: .name "MG HEAL -1 C" .target "performer" .chance 12% .duration 1 .buff_ids "MG_HEAL_RNG_STOP_1" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+
+//Hidden stress factor
+effect: .name "MG Great Success" .target "performer" .chance 48% .healstress 3 .on_hit true .on_miss false .has_description false
+effect: .name "MG Stress Block" .target "performer" .chance 24% .duration 1 .buff_ids "MG_PD_SH_BLOCK" .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+effect: .name "MG Messed Up Again" .target "performer" .chance 24% .stress 2 .on_hit true .on_miss false .has_description false
+effect: .name "MG Stress Revert" .target "performer" .chance 24% .duration 1 .buff_ids "MG_PD_SH_REVERT" .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+
+
+
+//Tool Tips
+effect: .name "MG PD Heal TT1" .target "performer" .skill_instant true .buff_ids "MG_PD_Heal_TT1" .on_hit false .on_miss false
+effect: .name "MG PD Heal TT2" .target "performer" .skill_instant true .buff_ids "MG_PD_Heal_TT2" .on_hit false .on_miss false
+effect: .name "MG PD Heal TT3" .target "performer" .skill_instant true .buff_ids "MG_PD_Heal_TT3" .on_hit false .on_miss false
+effect: .name "MG PD Heal TT4" .target "performer" .skill_instant true .buff_ids "MG_PD_Heal_TT4" .on_hit false .on_miss false
+effect: .name "MG PD Heal TT5" .target "performer" .skill_instant true .buff_ids "MG_PD_Heal_TT5" .on_hit false .on_miss false
+effect: .name "MG PD Miracle TT2" .target "performer" .skill_instant true .buff_ids "MG_PD_Miracle_TT2" .on_hit false .on_miss false
+effect: .name "MG PD Miracle TT3" .target "performer" .skill_instant true .buff_ids "MG_PD_Miracle_TT3" .on_hit false .on_miss false
+effect: .name "MG PD Miracle TT4" .target "performer" .skill_instant true .buff_ids "MG_PD_Miracle_TT4" .on_hit false .on_miss false
+effect: .name "MG PD Mihap TT" .target "performer" .skill_instant true .buff_ids "MG_PD_Mishap_TT" .on_hit false .on_miss false
 
 //WHAT THE FUCK MARISA???
-effect: .name "Magician Mishap Oops" .target "performer" .chance 20% .bark "str_mishap" .on_hit true .on_miss false .queue false .apply_once true .has_description false
-effect: .name "Magician Mishap Reaction" .target "target" .chance 20% .bark "str_mishap_react" .individual_target_actor_rolls false .on_hit true .on_miss false .queue true .apply_once true .has_description false
+effect: .name "MG Mishap Oops" .target "target_group_other" .chance 24% .bark "str_mishap" .individual_target_actor_rolls false .on_hit true .on_miss false .queue false .apply_once true .has_description false
+effect: .name "MG Mishap Reaction" .target "target" .chance 24% .bark "str_mishap_react" .individual_target_actor_rolls false .on_hit true .on_miss false .queue true .apply_once true .has_description false
 
 ////Ecological Bomb
 
@@ -375,33 +408,33 @@ effect: .name "magician bomb count skill" .target "performer"  .chance 100% .dur
 ////Funny Mushrooms
 
 //Health
-effect: .name "magician_healshroom_1" .target "performer" .item 1 .chance 100% .heal 2 .dotHpHeal 2 .duration 1 .on_hit true .on_miss true .apply_once true
-effect: .name "magician_healshroom_3" .target "performer" .item 1 .chance 100% .heal 2 .buff_ids "magician_MAXHP_3" "magician_REGEN_3" .on_hit true .on_miss true .apply_once true
-effect: .name "magician_healshroom_5" .target "performer" .item 1 .chance 100% .heal 2 .buff_ids "magician_MAXHP_5" "magician_REGEN_5" .on_hit true .on_miss true .apply_once true
+effect: .name "magician_healshroom_1" .target "performer" .item 1 .chance 100% .bark "str_str_mg_mushroom_bite" .heal 2 .dotHpHeal 2 .duration 1 .on_hit true .on_miss true .apply_once true
+effect: .name "magician_healshroom_3" .target "performer" .item 1 .chance 100% .bark "str_str_mg_mushroom_bite" .heal 2 .buff_ids "magician_MAXHP_3" "magician_REGEN_3" .on_hit true .on_miss true .apply_once true
+effect: .name "magician_healshroom_5" .target "performer" .item 1 .chance 100% .bark "str_str_mg_mushroom_bite" .heal 2 .buff_ids "magician_MAXHP_5" "magician_REGEN_5" .on_hit true .on_miss true .apply_once true
 
 //ArmorPEN and DMG
-effect: .name "magician_razorshroom_1" .target "performer" .item 1 .chance 100% .buff_ids "magician_DMG_range_TT_1" "magician_DMGH_1" "magician_DMGL_1" "magician_ArmPen_1" .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true
-effect: .name "magician_razorshroom_3" .target "performer" .item 1 .chance 100% .buff_ids "magician_DMG_range_TT_3" "magician_DMGH_3" "magician_DMGL_3" "magician_ArmPen_1" .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true
-effect: .name "magician_razorshroom_5" .target "performer" .item 1 .chance 100% .buff_ids "magician_DMG_range_TT_5" "magician_DMGH_5" "magician_DMGL_5" "magician_ArmPen_1" .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true
+effect: .name "magician_razorshroom_1" .target "performer" .item 1 .chance 100% .bark "str_str_mg_mushroom_bite" .buff_ids "magician_DMG_range_TT_1" "magician_DMGH_1" "magician_DMGL_1" "magician_ArmPen_1" .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true
+effect: .name "magician_razorshroom_3" .target "performer" .item 1 .chance 100% .bark "str_str_mg_mushroom_bite" .buff_ids "magician_DMG_range_TT_3" "magician_DMGH_3" "magician_DMGL_3" "magician_ArmPen_1" .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true
+effect: .name "magician_razorshroom_5" .target "performer" .item 1 .chance 100% .bark "str_str_mg_mushroom_bite" .buff_ids "magician_DMG_range_TT_5" "magician_DMGH_5" "magician_DMGL_5" "magician_ArmPen_1" .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true
 
 //Prot and S&M Resistance
-effect: .name "magician_sturdyshroom_1" .target "performer" .item 1 .chance 100% .buff_ids "magician_PROT_1" "magician_StRes_1" "magician_MRes_1" "magician_BlRes_1" "magician_PoRes_1" "magician_SPD_penalty_1" "magician_Dodge_penalty_1" .on_hit true .on_miss true .apply_once true
-effect: .name "magician_sturdyshroom_3" .target "performer" .item 1 .chance 100% .buff_ids "magician_PROT_3" "magician_StRes_3" "magician_MRes_3" "magician_BlRes_3" "magician_PoRes_3" "magician_SPD_penalty_1" "magician_Dodge_penalty_1" .on_hit true .on_miss true .apply_once true
-effect: .name "magician_sturdyshroom_5" .target "performer" .item 1 .chance 100% .buff_ids "magician_PROT_5" "magician_StRes_5" "magician_MRes_5" "magician_BlRes_5" "magician_PoRes_5" "magician_SPD_penalty_1" "magician_Dodge_penalty_1" .on_hit true .on_miss true .apply_once true
+effect: .name "magician_sturdyshroom_1" .target "performer" .item 1 .chance 100% .bark "str_str_mg_mushroom_bite" .buff_ids "magician_PROT_1" "magician_StRes_1" "magician_MRes_1" "magician_BlRes_1" "magician_PoRes_1" "magician_SPD_penalty_1" "magician_Dodge_penalty_1" .on_hit true .on_miss true .apply_once true
+effect: .name "magician_sturdyshroom_3" .target "performer" .item 1 .chance 100% .bark "str_str_mg_mushroom_bite" .buff_ids "magician_PROT_3" "magician_StRes_3" "magician_MRes_3" "magician_BlRes_3" "magician_PoRes_3" "magician_SPD_penalty_1" "magician_Dodge_penalty_1" .on_hit true .on_miss true .apply_once true
+effect: .name "magician_sturdyshroom_5" .target "performer" .item 1 .chance 100% .bark "str_str_mg_mushroom_bite" .buff_ids "magician_PROT_5" "magician_StRes_5" "magician_MRes_5" "magician_BlRes_5" "magician_PoRes_5" "magician_SPD_penalty_1" "magician_Dodge_penalty_1" .on_hit true .on_miss true .apply_once true
 
 //Dodge, ACC, CRIT and Stealth
-effect: .name "magician_shadowshroom_1" .target "performer" .item 1 .chance 100% .buff_ids "magician_Dodge_1" "magician_ACC_1" "magician_DMG_penalty_1" .on_hit true .on_miss true .apply_once true
-effect: .name "magician_shadowshroom_3" .target "performer" .item 1 .chance 100% .buff_ids "magician_Dodge_3" "magician_ACC_3" "magician_DMG_penalty_1" .on_hit true .on_miss true .apply_once true
-effect: .name "magician_shadowshroom_5" .target "performer" .item 1 .chance 100% .buff_ids "magician_Stealth_5" "magician_Dodge_5" "magician_ACC_5" "magician_DMG_penalty_1" .on_hit true .on_miss true .apply_once true
+effect: .name "magician_shadowshroom_1" .target "performer" .item 1 .chance 100% .bark "str_str_mg_mushroom_bite" .buff_ids "magician_Dodge_1" "magician_ACC_1" "magician_DMG_penalty_1" .on_hit true .on_miss true .apply_once true
+effect: .name "magician_shadowshroom_3" .target "performer" .item 1 .chance 100% .bark "str_str_mg_mushroom_bite" .buff_ids "magician_Dodge_3" "magician_ACC_3" "magician_DMG_penalty_1" .on_hit true .on_miss true .apply_once true
+effect: .name "magician_shadowshroom_5" .target "performer" .item 1 .chance 100% .bark "str_str_mg_mushroom_bite" .buff_ids "magician_Stealth_5" "magician_Dodge_5" "magician_ACC_5" "magician_DMG_penalty_1" .on_hit true .on_miss true .apply_once true
 
 //Horror and Stress
-effect: .name "magician_horrorshroom_1" .target "performer" .item 1 .chance 100% .clearDotStress 1 .healstress 7  .on_hit true .on_miss true .apply_once true
-effect: .name "magician_horrorshroom_3" .target "performer" .item 1 .chance 100% .clearDotStress 1 .healstress 10 .on_hit true .on_miss true .apply_once true
-effect: .name "magician_horrorshroom_5" .target "performer" .item 1 .chance 100% .clearDotStress 1 .healstress 15 .on_hit true .on_miss true .apply_once true
+effect: .name "magician_horrorshroom_1" .target "performer" .item 1 .chance 100% .bark "str_str_mg_mushroom_bite" .clearDotStress 1 .healstress 7  .on_hit true .on_miss true .apply_once true
+effect: .name "magician_horrorshroom_3" .target "performer" .item 1 .chance 100% .bark "str_str_mg_mushroom_bite" .clearDotStress 1 .healstress 10 .on_hit true .on_miss true .apply_once true
+effect: .name "magician_horrorshroom_5" .target "performer" .item 1 .chance 100% .bark "str_str_mg_mushroom_bite" .clearDotStress 1 .healstress 15 .on_hit true .on_miss true .apply_once true
 
 //Debuff and Resistances
-effect: .name "magician_curseshroom_1" .target "performer" .item 1 .chance 100% .cure 1 .clear_debuff 1 .buff_ids "magician_DeBRes_1" "magician_BleRes_1" "magician_BliRes_1" .on_hit true .on_miss true .apply_once true
-effect: .name "magician_curseshroom_3" .target "performer" .item 1 .chance 100% .cure 1 .clear_debuff 1 .buff_ids "magician_DeBRes_3" "magician_BleRes_3" "magician_BliRes_3" .on_hit true .on_miss true .apply_once true
-effect: .name "magician_curseshroom_5" .target "performer" .item 1 .chance 100% .cure 1 .clear_debuff 1 .buff_ids "magician_DeBRes_5" "magician_BleRes_5" "magician_BliRes_5" .on_hit true .on_miss true .apply_once true
+effect: .name "magician_curseshroom_1" .target "performer" .item 1 .chance 100% .bark "str_str_mg_mushroom_bite" .cure 1 .clear_debuff 1 .buff_ids "magician_DeBRes_1" "magician_BleRes_1" "magician_BliRes_1" .on_hit true .on_miss true .apply_once true
+effect: .name "magician_curseshroom_3" .target "performer" .item 1 .chance 100% .bark "str_str_mg_mushroom_bite" .cure 1 .clear_debuff 1 .buff_ids "magician_DeBRes_3" "magician_BleRes_3" "magician_BliRes_3" .on_hit true .on_miss true .apply_once true
+effect: .name "magician_curseshroom_5" .target "performer" .item 1 .chance 100% .bark "str_str_mg_mushroom_bite" .cure 1 .clear_debuff 1 .buff_ids "magician_DeBRes_5" "magician_BleRes_5" "magician_BliRes_5" .on_hit true .on_miss true .apply_once true
 
 
