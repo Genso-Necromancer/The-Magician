@@ -82,6 +82,7 @@ effect: .name "MG US Push 5" .target "target"  .push 2 .chance 140%  .on_hit tru
 /////Powerful Drug//////
 //Cure
 effect: .name "MG Cure" .target "target" .chance 100% .cure 1 .on_hit true .on_miss false
+effect: .name "MG SelfCure" .target "performer" .chance 100% .cure 1 .on_hit true .on_miss false
 ////Healing & Miracle
 ///Miracles
 //Rank 1 & 2
@@ -111,10 +112,10 @@ effect: .name "MG HEAL +1 B" .target "performer" .chance 18% .duration 1 .buff_i
 effect: .name "MG HEAL -1 C" .target "performer" .chance  6% .duration 1 .buff_ids "MG_HEAL_RNG_LOSS_1" .apply_with_result true  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
 
 //Hidden stress factor
-effect: .name "MG Great Success" .target "performer" .chance 48% .healstress 3 .on_hit true .on_miss false .has_description false
-effect: .name "MG Stress Block" .target "performer" .chance 24% .duration 1 .buff_ids "MG_PD_SH_BLOCK" .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
-effect: .name "MG Messed Up Again" .target "performer" .chance 24% .stress 2 .on_hit true .on_miss false .has_description false
-effect: .name "MG Stress Revert" .target "performer" .chance 24% .duration 1 .buff_ids "MG_PD_SH_REVERT" .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+effect: .name "MG Great Success" .target "performer" .chance 24% .healstress 3 .on_hit true .on_miss false .has_description false
+effect: .name "MG Stress Block" .target "performer" .chance 12% .duration 1 .buff_ids "MG_PD_SH_BLOCK" .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
+effect: .name "MG Messed Up Again" .target "performer" .chance 12% .stress 2 .on_hit true .on_miss false .has_description false
+effect: .name "MG Stress Revert" .target "performer" .chance 12% .duration 1 .buff_ids "MG_PD_SH_REVERT" .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
 
 
 
@@ -130,8 +131,8 @@ effect: .name "MG PD Miracle TT4" .target "performer" .skill_instant true .buff_
 effect: .name "MG PD Mihap TT" .target "performer" .skill_instant true .buff_ids "MG_PD_Mishap_TT" .on_hit false .on_miss false
 
 //WHAT THE FUCK MARISA???
-effect: .name "MG Mishap Oops" .target "target_group_other" .chance 24% .bark "str_mishap" .individual_target_actor_rolls false .on_hit true .on_miss false .queue false .apply_once true .has_description false
-effect: .name "MG Mishap Reaction" .target "target" .chance 24% .bark "str_mishap_react" .individual_target_actor_rolls false .on_hit true .on_miss false .queue true .apply_once true .has_description false
+effect: .name "MG Mishap Oops" .target "target_group_other" .chance 12% .bark "str_mishap" .individual_target_actor_rolls false .on_hit true .on_miss false .queue false .apply_once true .has_description false
+effect: .name "MG Mishap Reaction" .target "target" .chance 12% .bark "str_mishap_react" .individual_target_actor_rolls false .on_hit true .on_miss false .queue true .apply_once true .has_description false
 
 ////Ecological Bomb
 
@@ -221,11 +222,11 @@ effect: .name "MG Backdraft 4" .target "performer" .shuffletarget .chance 90% .o
 effect: .name "MG Backdraft 5" .target "performer" .shuffletarget .chance 100% .on_hit true .on_miss true .can_apply_on_death true
 
 // 0: 20%
-//[1: 30%
+// 1: 30%
 // 2: 40%
 // 3: 50%
 // 4: 60%
-// 5: 70%]
+// 5: 70%
 // 6: 80%
 
 
@@ -364,16 +365,18 @@ effect: .name "MG DH MM Power Stop" .target "performer" .chance 100% .buff_sourc
 effect: .name "MG Hakkero Check" .target "performer" .skill_instant true .buff_source_type bsrc_notspecified .buff_ids "MG_Dark_Hakkero_Check" .on_hit true .on_miss false .has_description false .queue true
 
 ///CC Dolls///
+//Doll Virute
+effect: .name "MG Doll Virtue" .target "performer" .chance 100% .duration 5 .buff_ids "MG_CCSet_DollVirtue" .on_hit true .on_miss false .queue true .has_description true
 ///Melancholic Doll
 //Melee "Summon"
-effect: .name "MG Range Doll Buff" .target "performer" .chance 100% .duration 4 .buff_ids "magician_MDoll_Rng_DMGH" "magician_MDoll_Rng_DMGL" .on_hit true .on_miss false .queue true .has_description true
+effect: .name "MG Melee Doll Buff" .target "performer" .chance 100% .duration 4 .buff_ids "magician_MDoll_Mle_DMGH" "magician_MDoll_Mle_DMGL" .on_hit true .on_miss false .queue true .has_description true
 
 //Ranged "Summon"
-effect: .name "MG Melee Doll Buff" .target "performer" .chance 100% .duration 4 .buff_ids "magician_MDoll_Mle_DMGH" "magician_MDoll_Mle_DMGL" .on_hit true .on_miss false .queue true .has_description true
+effect: .name "MG Ranged Doll Buff" .target "performer" .chance 100% .duration 4 .buff_ids "magician_MDoll_Rng_DMGH" "magician_MDoll_Rng_DMGL" .on_hit true .on_miss false .queue true .has_description true
 
 ///Lonely Doll
 //Friendly "Summon"
-effect: .name "MG Friendly Doll Buff" .target "target" .chance 100% .duration 3 .buff_ids "magician_ADoll_Frn_PROT" .on_hit true .on_miss false .queue true .has_description true
+effect: .name "MG Friendly Doll Buff" .target "target" .chance 100% .duration 3 .buff_ids "magician_ADoll_Frn_HP" .on_hit true .on_miss false .queue true .has_description true
 
 //Kill "Summon"
 effect: .name "MG Kill Doll Buff" .target "target" .chance 140% .duration 3 .buff_ids "magician_ADoll_Kill_DMGRe" .on_hit true .on_miss false .queue true .has_description true

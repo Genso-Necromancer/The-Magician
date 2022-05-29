@@ -114,11 +114,11 @@ combat_skill: .id "magic_absorb" .level 2 .type "spellcard" .launch 4321 .target
 combat_skill: .id "magic_absorb" .level 3 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "Is Bomb MG TT" "Cooldown MG" "magician bomb count skill" "MG Self Mark" .is_stall_invalidating false
 combat_skill: .id "magic_absorb" .level 4 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "Is Bomb MG TT" "Cooldown MG" "magician bomb count skill" "MG Self Mark" .is_stall_invalidating false
 
-combat_skill: .id "magic_absorb" .level 0 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Self Block" "MG Riposte Steal" "MG Fake Daze" "MG Prot Steal" .is_stall_invalidating false
-combat_skill: .id "magic_absorb" .level 1 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Self Block" "MG Riposte Steal" "MG Fake Daze" "MG Prot Steal" .is_stall_invalidating false
-combat_skill: .id "magic_absorb" .level 2 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Self Block" "MG Riposte Steal" "MG Fake Daze" "MG Prot Steal" .is_stall_invalidating false
-combat_skill: .id "magic_absorb" .level 3 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Self Block" "MG Riposte Steal" "MG Fake Daze" "MG Prot Steal" .is_stall_invalidating false
-combat_skill: .id "magic_absorb" .level 4 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Self Block" "MG Riposte Steal" "MG Fake Daze" "MG Prot Steal" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 0 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Self Block" "MG Riposte Steal" "MG Fake Daze" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 1 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Self Block" "MG Riposte Steal" "MG Fake Daze" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 2 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Self Block" "MG Riposte Steal" "MG Fake Daze" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 3 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Self Block" "MG Riposte Steal" "MG Fake Daze" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 4 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Self Block" "MG Riposte Steal" "MG Fake Daze" .is_stall_invalidating false
 
 combat_skill: .id "magic_absorb" .level 0 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Riposte R1" "MG MA TT 1" "MG Riposte Count 3" "MG Riposte Drain and Gain Chain R1 T1" .is_stall_invalidating false
 combat_skill: .id "magic_absorb" .level 1 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Riposte R2" "MG MA TT 2" "MG Riposte Count 3" "MG Riposte Drain and Gain Chain R2 T1" .is_stall_invalidating false

@@ -133,7 +133,7 @@
          "id" : "cc_set_magician_melancholic_doll",
          "buffs" : 
          [
-          
+          "MG_CCSet_SPD"
          ],
          "hero_class_requirements":
          [
@@ -146,18 +146,20 @@
          "origin_dungeon" : "courtyard",
 		 "melee_attack_skill_additional_effects":
          [
-			 "MG Melee Doll Buff"
+			 "MG Melee Doll Buff",
+			 "MG Doll Virtue"
          ],
 		 "ranged_attack_skill_additional_effects":
          [
-			 "MG Range Doll Buff"
+			 "MG Ranged Doll Buff",
+			 "MG Doll Virtue"
          ]
       },
 	 {
          "id" : "cc_set_magician_lonely_doll",
          "buffs" : 
          [
-			
+			"MG_bag_stress"
          ],
          "hero_class_requirements":
          [
@@ -170,11 +172,14 @@
          "origin_dungeon" : "courtyard",
 		 "friendly_skill_additional_effects":
          [
-			"MG Friendly Doll Buff"
+			"MG Friendly Doll Buff",
+			"MG SelfCure",
+			"MG Doll Virtue"
          ],
 		 "kill_all_monsters_additional_effects":
          [
-			 "MG Kill Doll Buff"
+			 "MG Kill Doll Buff",
+			 "MG Doll Virtue"
          ]
       }
 	

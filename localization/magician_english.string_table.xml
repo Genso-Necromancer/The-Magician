@@ -3,12 +3,12 @@
 
     <language id="english">
 		<entry id="hero_class_name_magician"><![CDATA[Magician]]></entry>
-		<entry id="action_verbose_body_blacksmith_magician"><![CDATA[Straight forward in battle and personality, The Magician's scuffed and black cloak is both heavy enough for grazing blows and yet light enough to not slow down her relentless march forward in combat. This made all the more complete by her imposing hat. Mundane in nature, one can't help but feel a sort of magic when witnessing it.]]></entry>
+		<entry id="action_verbose_body_blacksmith_magician"><![CDATA[Straight forward in battle and personality, The Magician's scuffed and black cloak is both heavy enough for grazing blows and yet light enough to not slow down her relentless march forward in combat. This made all the more complete by her imposing hat. Mundane in nature, one can't help but feel a sort of magic when witnessing it]]></entry>
 
-		<entry id="action_verbose_body_guild_magician"><![CDATA[Believing power is key, The Magician arms herself with a mini-hakkero capable of storing magical energies to fuel it's own white-hot burning magic. Should things not go as planned, The Magician brings both her talents in more earthly witchcraft to bolster or patch up her companions, or her faithful broom to sweep the opposition back into place.]]></entry>
+		<entry id="action_verbose_body_guild_magician"><![CDATA[Believing power is key, The Magician arms herself with a mini-hakkero capable of storing magical energies to fuel it's own white-hot burning magic. Should things not go as planned, The Magician brings both her talents in more earthly witchcraft to bolster or patch up her companions, or her faithful broom to sweep the opposition back into place]]></entry>
 
 
-		<entry id="action_verbose_body_camping_trainer_magician"><![CDATA[Restless as ever, The Magician keeps her hands busy. Whether in the practice of witchcraft and mycology or in the business of others, The Magician is sure to have what you're looking for at short notice.]]></entry>
+		<entry id="action_verbose_body_camping_trainer_magician"><![CDATA[Restless as ever, The Magician keeps her hands busy. Whether in the practice of witchcraft and mycology or in the business of others, The Magician is sure to have what you're looking for at short notice]]></entry>
 
 <!-- -->
 		<!-- Skills -->
@@ -149,16 +149,8 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_dhakkero_MSDebuff_TT"><![CDATA[On Master Spark Hit:{colour_start|debuff} Debuff Self:{colour_end} -50%% {colour_start|attacktype}Master Spark{colour_end} DMG {colour_start|skill_unselectable}(1 battle){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_MG_DH_MM_Power_Stop_TT"><![CDATA[{colour_start|stealth}Bewitchment:{colour_end} Magic Missile no longer gains DMG on kill]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_MG_SpaceDeleter_TT"><![CDATA[​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_MG_INV_SpaceDeleter_TT"><![CDATA[{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 		
-		<!-- Declaration of base game tool tips that red hook did not do themselves. Normally would just use a fake tool tip, but would not work for stacking effects. These are the exact same used in Sunward Isles to avoid flickering text. -->
-		<entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} duration received]]></entry> 
-		<entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} duration received]]></entry> 
-		<entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} amount received]]></entry> 
-		<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} amount received]]></entry>
-		<entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} duration when applied]]></entry> 
-		<entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} duration when applied]]></entry> 
-		<entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} amount when applied]]></entry> 
-		<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} amount when applied]]></entry>
 		
 				<!-- Camping -->
 		<entry id="camping_skill_effect_loot_camp_bomb_mg"><![CDATA[Brew 1 Magician Bomb Tincture]]></entry>
@@ -173,6 +165,9 @@
 		
 		<entry id="str_inventory_title_supplymagician_bomb_camp"><![CDATA[Magician Bomb Tincture]]></entry>
 		<entry id="str_inventory_description_supplymagician_bomb_camp"><![CDATA[{colour_start|notable}Increases{colour_end} your {colour_start|attacktype}Spell Card{colour_end} limit by {colour_start|notable}1{colour_end}! {colour_start|skill_unselectable}Dislcaimer: Has no effect on non-magicians.{colour_end}]]></entry>
+		
+		
+		
 		
 		<!-- Mushroom-->
 		<entry id="str_inventory_title_supplymagician_healshroom_1"><![CDATA[Hourai Green-button]]></entry>
@@ -308,8 +303,8 @@
 		<entry id="str_inventory_title_trinketmagician_bag"><![CDATA[Borrower's Bag]]></entry>
 		<entry id="str_inventory_title_trinketmagician_mima"><![CDATA[Staff of Vengeful Spirits]]></entry>
 		<entry id="str_inventory_title_trinketmagician_darkhakkero_si"><![CDATA[Dark-Hakkero]]></entry>
-		<entry id="str_inventory_title_trinketcc_set_magician_melancholic_doll"><![CDATA[Melancholic Doll]]></entry>
-		<entry id="str_inventory_title_trinketcc_set_magician_lonely_doll"><![CDATA[Lonely Doll]]></entry>
+		<entry id="str_inventory_title_trinketcc_set_magician_melancholic_doll"><![CDATA[Persevering Doll]]></entry>
+		<entry id="str_inventory_title_trinketcc_set_magician_lonely_doll"><![CDATA[Melancholic Dol]]></entry>
 
 		<entry id="str_inventory_set_title_cc_magician"><![CDATA["They looked so similar, I didn't realize..."]]></entry>
 		
@@ -323,7 +318,7 @@
 		<entry id="magician+str_bark_danmaku_mg"><![CDATA[A magician's mercy isn't perfect]]></entry>
  
 		<entry id="magician+str_bark_bomb_brew_mg"><![CDATA[Hey, I don't judge what you drink]]></entry>
-		<entry id="magician+str_bark_bomb_brew_mg"><![CDATA[It never gets easier...]]></entry>
+		<entry id="magician+str_bark_bomb_brew_mg"><![CDATA[It never gets easier..]]></entry>
 		<entry id="magician+str_bark_bomb_brew_mg"><![CDATA[(sigh) The unavoidable cost of my talents]]></entry>
  
 		<entry id="magician+str_bark_mg_gather"><![CDATA[These ones aren't poisonous, I think?]]></entry>
@@ -331,7 +326,7 @@
 		<entry id="magician+str_bark_mg_gather"><![CDATA[One makes you larger, the other makers you small]]></entry>
 		
 		<entry id="magician+str_bark_mg_witch_night"><![CDATA[Sacrifices must be made to be strong]]></entry>
-		<entry id="magician+str_bark_mg_witch_night"><![CDATA[... and now for a drop of blood...]]></entry>
+		<entry id="magician+str_bark_mg_witch_night"><![CDATA[... and now for a drop of blood..]]></entry>
 		<entry id="magician+str_bark_mg_witch_night"><![CDATA[You got what you asked for, don't give me that look]]></entry>
  
 		<entry id="magician+str_bark_first_aid"><![CDATA[I'll get you good as new, ze]]></entry>
@@ -355,20 +350,20 @@
  
 		<!-- Crit Barks -->
  
-	<entry id="magician+str_critbyhero"><![CDATA[Not even breakin' a sweat, ze.]]></entry>
-	<entry id="magician+str_critbyhero"><![CDATA[Next.]]></entry>
+	<entry id="magician+str_critbyhero"><![CDATA[Not even breakin' a sweat, ze]]></entry>
+	<entry id="magician+str_critbyhero"><![CDATA[Next]]></entry>
 	<entry id="magician+str_critbyhero"><![CDATA[Got any more fight in ya?]]></entry>
 	<entry id="magician+str_critbyhero"><![CDATA[It's not over already, is it?]]></entry>
 	<entry id="magician+str_critbyhero"><![CDATA[That was no ordinary hit, though!]]></entry>
-	<entry id="magician+str_critbyhero"><![CDATA[Ha! Try and keep up with me.]]></entry>
-	<entry id="magician+str_critbyhero"><![CDATA[Get back up so I can hit you again.]]></entry>
-	<entry id="magician+str_critbyhero"><![CDATA[Extermination's just that easy, ze.]]></entry>
-	<entry id="magician+str_critbyhero"><![CDATA[At this pace we'll have time for drinks after.]]></entry>
-	<entry id="magician+str_critbyhero"><![CDATA[What a bore you turned out to be.]]></entry>
+	<entry id="magician+str_critbyhero"><![CDATA[Ha! Try and keep up with me]]></entry>
+	<entry id="magician+str_critbyhero"><![CDATA[Get back up so I can hit you again]]></entry>
+	<entry id="magician+str_critbyhero"><![CDATA[Extermination's just that easy, ze]]></entry>
+	<entry id="magician+str_critbyhero"><![CDATA[At this pace we'll have time for drinks after]]></entry>
+	<entry id="magician+str_critbyhero"><![CDATA[What a bore you turned out to be]]></entry>
 	<entry id="magician+str_critbyhero"><![CDATA[Watch your heads!]]></entry>
 	<entry id="magician+str_critbyhero"><![CDATA[Pretty good spell, right?]]></entry>
 	<entry id="magician+str_critbyhero"><![CDATA[Outta' my way!]]></entry>
-	<entry id="magician+str_critbyhero"><![CDATA[Gets the blood flowin'.]]></entry>
+	<entry id="magician+str_critbyhero"><![CDATA[Gets the blood flowin']]></entry>
 	<entry id="magician+str_critbyhero"><![CDATA[If you want revenge, the name's Reimu Hakurei!]]></entry>
 	<entry id="magician+str_critbyhero"><![CDATA[This night won't go as you expect!]]></entry>
  
@@ -378,12 +373,12 @@
 	<entry id="magician+str_monster_attack_unholy_judgement"><![CDATA[Woah, hey! Let go!]]></entry>
 	<entry id="magician+str_monster_attack_unholy_curse"><![CDATA[Spooky stuff, mind if I borrow that spell?]]></entry>
 	<entry id="magician+str_control_before_turn_siren"><![CDATA[I knew you guys were behind this incident!]]></entry>	
-    <entry id="magician+str_control_before_turn_siren"><![CDATA[Ehh.. my head...]]></entry>	
+    <entry id="magician+str_control_before_turn_siren"><![CDATA[Ehh.. my head..]]></entry>	
     <entry id="magician+str_control_before_turn_siren"><![CDATA[So I get to keep these shells, right?]]></entry>	
     <entry id="magician+str_control_return_siren"><![CDATA[Did the fumes get to me again?]]></entry>	
     <entry id="magician+str_control_return_siren"><![CDATA[Whoops. You guys can forgive me, right?]]></entry>	
-    <entry id="magician+str_control_return_siren"><![CDATA[That was the worst trip of my life.]]></entry>	
-	<entry id="magician+str_monster_attack_prophet_mark"><![CDATA[Come on, it's just a trick.]]></entry>
+    <entry id="magician+str_control_return_siren"><![CDATA[That was the worst trip of my life]]></entry>	
+	<entry id="magician+str_monster_attack_prophet_mark"><![CDATA[Come on, it's just a trick]]></entry>
     <entry id="magician+str_monster_attack_prophet_mark"><![CDATA[Who wants to swap places??]]></entry>
 	<entry id="magician+str_monster_attack_prophet_mark"><![CDATA[You're a terrible dungeon master, you know?]]></entry>
  
@@ -391,32 +386,33 @@
     <entry id="magician+str_bark_stopmoving"><![CDATA[What, you see something good?]]></entry>
     <entry id="magician+str_bark_stopmoving"><![CDATA[what's the hold up?]]></entry>
     <entry id="magician+str_bark_startmoving"><![CDATA[Onwards!]]></entry>
-    <entry id="magician+str_bark_startmoving"><![CDATA[No use stickin' around here.]]></entry>
+    <entry id="magician+str_bark_startmoving"><![CDATA[No use stickin' around here]]></entry>
     <entry id="magician+str_bark_startmoving"><![CDATA[How about a song while we march?]]></entry>
  
 	<!-- Light -->
 	<entry id="magician+str_bark_torch_0"><![CDATA[Eh? Did you notice something?]]></entry>
-	<entry id="magician+str_bark_torch_0"><![CDATA[I might have some extra torches.]]></entry>
+	<entry id="magician+str_bark_torch_0"><![CDATA[I might have some extra torches]]></entry>
 	<entry id="magician+str_bark_torch_0"><![CDATA[Did it just get a little darker?]]></entry>
     <entry id="magician+str_bark_torch_1"><![CDATA[You didn't cheap out on us, did ya?]]></entry>
-    <entry id="magician+str_bark_torch_1"><![CDATA[I can make this work, ze.]]></entry>
-    <entry id="magician+str_bark_torch_1"><![CDATA[Hey boss, the light.]]></entry>
+    <entry id="magician+str_bark_torch_1"><![CDATA[I can make this work, ze]]></entry>
+    <entry id="magician+str_bark_torch_1"><![CDATA[Hey boss, the light]]></entry>
     <entry id="magician+str_bark_torch_2"><![CDATA[Wait, wait! I see a sparkle of something in the distance!]]></entry>
     <entry id="magician+str_bark_torch_2"><![CDATA[What? Am I supposed to use my spells to see where I'm going?]]></entry>
 	<entry id="magician+str_bark_torch_2"><![CDATA[More treasure right?]]></entry>
  
 	<!-- Taking Damage/DoTs -->
+	<entry id="magician+str_bark_stressdot"><![CDATA[This naggin' feeling won't let up...]]></entry>
 	<entry id="magician+str_bark_bigwound"><![CDATA[What'd I do to you?!]]></entry>
 	<entry id="magician+str_bark_bigwound"><![CDATA[Hey, hey! You're mistaking me for someone else!]]></entry>
-	<entry id="magician+str_bark_bigwound"><![CDATA[Enh.. Now things are heatin' up.]]></entry>
+	<entry id="magician+str_bark_bigwound"><![CDATA[Enh.. Now things are heatin' up]]></entry>
 	<entry id="magician+str_bark_bigwound"><![CDATA[(spits) That the best ya' got?!]]></entry>
 	<entry id="magician+str_bark_bigwound"><![CDATA[Not the face!]]></entry>
-	<entry id="magician+str_bark_bleeddot"><![CDATA[uhhhn. I'm getting tired...]]></entry>
+	<entry id="magician+str_bark_bleeddot"><![CDATA[uhhhn. I'm getting tired..]]></entry>
 	<entry id="magician+str_bark_bleeddot"><![CDATA[Anyone got a bandage?!]]></entry>
 	<entry id="magician+str_bark_bleeddot"><![CDATA[Let me patch this wound up first!]]></entry>
-	<entry id="magician+str_bark_poisondot"><![CDATA[Oh, I'm feelin' dizzy...]]></entry>
+	<entry id="magician+str_bark_poisondot"><![CDATA[Oh, I'm feelin' dizzy..]]></entry>
     <entry id="magician+str_bark_poisondot"><![CDATA[Where is it? I have something for this! Where is it?!]]></entry>
-    <entry id="magician+str_bark_poisondot"><![CDATA[(grunts) That's not a good burn...]]></entry>
+    <entry id="magician+str_bark_poisondot"><![CDATA[(grunts) That's not a good burn..]]></entry>
 	<entry id="magician+str_bark_bigwound_ally"><![CDATA[Hold on! That wounds nothin' I can't fix, ze!]]></entry>
     <entry id="magician+str_bark_bigwound_ally"><![CDATA[Woah! I mean, you're gonna' be alright!]]></entry>
  
@@ -431,9 +427,9 @@
     <entry id="magician+str_heart_attack_irrational"><![CDATA[NOT AGAIN!]]></entry>
  
 	<!-- Death's Door -->
-	<entry id="magician+str_bark_deathsdoor"><![CDATA[It can't be the last adventure...]]></entry>
-	<entry id="magician+str_bark_deathsdoor"><![CDATA[Sorry, friend...]]></entry>
-	<entry id="magician+str_bark_deathsdoor"><![CDATA[There goes the good ending...]]></entry>
+	<entry id="magician+str_bark_deathsdoor"><![CDATA[It can't be the last adventure..]]></entry>
+	<entry id="magician+str_bark_deathsdoor"><![CDATA[Sorry, friend..]]></entry>
+	<entry id="magician+str_bark_deathsdoor"><![CDATA[There goes the good ending..]]></entry>
 	<entry id="magician+str_bark_deathsdoorsurvive"><![CDATA[...How about we try that again, ze?]]></entry>
 	<entry id="magician+str_bark_deathsdoorsurvive"><![CDATA[...Another chance, don't squander it!]]></entry>
 	<entry id="magician+str_bark_deathsdoorsurvive"><![CDATA[...Did I have you worried there?]]></entry>
@@ -441,8 +437,8 @@
 	<entry id="magician+str_bark_deathsdoorsurvive_ally"><![CDATA[Don't delay! Give as you've gotten!]]></entry>
  
 	<!-- Stress -->
-	<entry id="magician+str_bark_increasingstress"><![CDATA[Ugh, my head...]]></entry>
-    <entry id="magician+str_bark_increasingstress"><![CDATA[This place is getting on my nerves.]]></entry>
+	<entry id="magician+str_bark_increasingstress"><![CDATA[Ugh, my head..]]></entry>
+    <entry id="magician+str_bark_increasingstress"><![CDATA[This place is getting on my nerves]]></entry>
     <entry id="magician+str_bark_increasingstress"><![CDATA[Enough!]]></entry>
     <entry id="magician+str_bark_increasingstress"><![CDATA[How much more of this?]]></entry>
 	<entry id="magician+str_bark_increasingstress"><![CDATA[Can we pick up the pace?!]]></entry>
@@ -455,7 +451,7 @@
 	<entry id="str_mishap_react"><![CDATA[]]></entry>
 	
 		<!-- Mishap Barks -->
-	<entry id="magician+str_mishap"><![CDATA[Wait, don't- oh.. never mind.]]></entry>
+	<entry id="magician+str_mishap"><![CDATA[Wait, don't- oh.. never mind]]></entry>
 	<entry id="magician+str_mishap"><![CDATA[These mushrooms all look the same, okay?!]]></entry>
 	<entry id="magician+str_mishap"><![CDATA[I swear this has never happened to me before!]]></entry>
 	<entry id="magician+str_mishap"><![CDATA[That's a perfectly normal reaction!]]></entry>
@@ -464,13 +460,13 @@
 	<entry id="magician+str_mishap_react"><![CDATA[Oh- (gags) What? No, everything just fine!]]></entry>
 	<entry id="magician+str_mishap_react"><![CDATA[What did I mess up this time?!]]></entry>
 	<entry id="magician+str_mishap_react"><![CDATA[Yuck! Did I forget to add dogtooth?]]></entry>
-	<entry id="magician+str_mishap_react"><![CDATA[Too much... (coughs) lepiota...]]></entry>
+	<entry id="magician+str_mishap_react"><![CDATA[Too much... (coughs) lepiota..]]></entry>
 	
 		<!-- Mishap Reaction Barks -->
-	<entry id="maid+str_mishap_react"><![CDATA[]]></entry>
-	<entry id="maid+str_mishap_react"><![CDATA[]]></entry>
-	<entry id="maid+str_mishap_react"><![CDATA[]]></entry>
-	<entry id="maid+str_mishap_react"><![CDATA[]]></entry>
+	<entry id="magician+str_mishap_react"><![CDATA[]]></entry>
+	<entry id="magician+str_mishap_react"><![CDATA[]]></entry>
+	<entry id="magician+str_mishap_react"><![CDATA[]]></entry>
+	<entry id="magician+str_mishap_react"><![CDATA[]]></entry>
 	
 	<entry id="miko+str_mishap_react"><![CDATA[]]></entry>
 	<entry id="miko+str_mishap_react"><![CDATA[]]></entry>
@@ -494,22 +490,22 @@
 	<entry id="miko+str_mg_mushroom_bite"><![CDATA[]]></entry>
 	<entry id="miko+str_mg_mushroom_bite"><![CDATA[]]></entry>
 	
-	<entry id="maid+str_mg_mushroom_bite"><![CDATA[]]></entry>
-	<entry id="maid+str_mg_mushroom_bite"><![CDATA[]]></entry>
-	<entry id="maid+str_mg_mushroom_bite"><![CDATA[]]></entry>
-	<entry id="maid+str_mg_mushroom_bite"><![CDATA[]]></entry>
+	<entry id="magician+str_mg_mushroom_bite"><![CDATA[]]></entry>
+	<entry id="magician+str_mg_mushroom_bite"><![CDATA[]]></entry>
+	<entry id="magician+str_mg_mushroom_bite"><![CDATA[]]></entry>
+	<entry id="magician+str_mg_mushroom_bite"><![CDATA[]]></entry>
 	
 		<!-- magician's Chuuni Bullshit -->
 	<entry id="magician+str_master_spark"><![CDATA[Maaaaster Spark!]]></entry>
 	<entry id="magician+str_master_spark"><![CDATA[Final Spark!]]></entry>
 	<entry id="magician+str_master_spark"><![CDATA[(wipes hands) They're not recoverin' from that!]]></entry>
-	<entry id="magician+str_master_spark"><![CDATA[Hah! Leave nothing left.]]></entry>
+	<entry id="magician+str_master_spark"><![CDATA[Hah! Leave nothing left]]></entry>
 	<entry id="magician+str_master_spark"><![CDATA[Spark and burn it all down!]]></entry>
 		<!-- magician's Reactions -->
 			<!--Miko-->
 	<entry id="magician+str_miko_spellcard_react"><![CDATA[Not bad, but let me show you how to clear a room!]]></entry>
 	<entry id="magician+str_miko_spellcard_react"><![CDATA[Tag me in!]]></entry>
-	<entry id="magician+str_miko_spellcard_react"><![CDATA[Flashy! Not much power behind it though...]]></entry>
+	<entry id="magician+str_miko_spellcard_react"><![CDATA[Flashy! Not much power behind it though..]]></entry>
 	<entry id="magician+str_miko_spellcard_react"><![CDATA[Don't waste time! Just wipe them out next time!]]></entry>
 	<entry id="magician+str_miko_spellcard_react"><![CDATA[Annnd then enters the Magician!]]></entry>
 			<!--Maid-->
@@ -525,64 +521,64 @@
 	<entry id="magician+str_bar_committed"><![CDATA[I can hold more than I look!]]></entry>
     <entry id="magician+str_bar_committed"><![CDATA[Ah, a reward to myself!]]></entry>
     <entry id="magician+str_bar_committed"><![CDATA[Buy a round for everyone, but bring them all to me. Alright?]]></entry>
-	<entry id="magician+str_brothel_committed"><![CDATA[You should be payin' me.]]></entry>
-	<entry id="magician+str_brothel_committed"><![CDATA[Eh, you'll do.]]></entry>
-	<entry id="magician+str_brothel_committed"><![CDATA[I got some talents as well, ze.]]></entry>
-    <entry id="magician+str_gambling_committed"><![CDATA[How do I play this? I want to play this.]]></entry>
-    <entry id="magician+str_gambling_committed"><![CDATA[I take all in everything I do.]]></entry>
+	<entry id="magician+str_brothel_committed"><![CDATA[You should be payin' me]]></entry>
+	<entry id="magician+str_brothel_committed"><![CDATA[Eh, you'll do]]></entry>
+	<entry id="magician+str_brothel_committed"><![CDATA[I got some talents as well, ze]]></entry>
+    <entry id="magician+str_gambling_committed"><![CDATA[How do I play this? I want to play this]]></entry>
+    <entry id="magician+str_gambling_committed"><![CDATA[I take all in everything I do]]></entry>
     <entry id="magician+str_gambling_committed"><![CDATA[Clear a seat for me, or I will!]]></entry>
-    <entry id="magician+str_meditation_committed"><![CDATA[This is so boring....]]></entry>
+    <entry id="magician+str_meditation_committed"><![CDATA[This is so boring...]]></entry>
     <entry id="magician+str_meditation_committed"><![CDATA[Do I have to?]]></entry>
     <entry id="magician+str_meditation_committed"><![CDATA[How long do I have to stay here?]]></entry>
     <entry id="magician+str_flagellation_committed"><![CDATA[How's this not just more sinning?!]]></entry>
     <entry id="magician+str_flagellation_committed"><![CDATA[This is like a kinkier brothel, yeah?]]></entry>
-    <entry id="magician+str_flagellation_committed"><![CDATA[I want the cute one to do it for me.]]></entry>
-	<entry id="magician+str_prayer_committed"><![CDATA[Don't expect any donations from me.]]></entry>
-	<entry id="magician+str_prayer_committed"><![CDATA[This place looks as shoddy as Miko's shrine.]]></entry>
+    <entry id="magician+str_flagellation_committed"><![CDATA[I want the cute one to do it for me]]></entry>
+	<entry id="magician+str_prayer_committed"><![CDATA[Don't expect any donations from me]]></entry>
+	<entry id="magician+str_prayer_committed"><![CDATA[This place looks as shoddy as Miko's shrine]]></entry>
 	<entry id="magician+str_prayer_committed"><![CDATA[I-I'm not gonna burst into flames when I walk in, right?!]]></entry>
  
 	<!-- Roster -->
 	<entry id="magician+str_roster_list_low_stress_bark"><![CDATA[So are we burnin' up some bad guys or what?]]></entry>
-    <entry id="magician+str_roster_list_low_stress_bark"><![CDATA[Guess I got more time to read sittin' here.]]></entry>
+    <entry id="magician+str_roster_list_low_stress_bark"><![CDATA[Guess I got more time to read sittin' here]]></entry>
     <entry id="magician+str_roster_list_low_stress_bark"><![CDATA[Come on, there has to be some interesting stuff down there!]]></entry>
-    <entry id="magician+str_roster_list_medium_stress_bark"><![CDATA[This kinda work is no sweat, ze.]]></entry>
-    <entry id="magician+str_roster_list_medium_stress_bark"><![CDATA[I'm not ready to give up now.]]></entry>
-    <entry id="magician+str_roster_list_medium_stress_bark"><![CDATA[Just let me take something before the show.]]></entry>
+    <entry id="magician+str_roster_list_medium_stress_bark"><![CDATA[This kinda work is no sweat, ze]]></entry>
+    <entry id="magician+str_roster_list_medium_stress_bark"><![CDATA[I'm not ready to give up now]]></entry>
+    <entry id="magician+str_roster_list_medium_stress_bark"><![CDATA[Just let me take something before the show]]></entry>
     <entry id="magician+str_roster_list_high_stress_bark"><![CDATA[Maybe just let me lay down for a bit?]]></entry>
     <entry id="magician+str_roster_list_high_stress_bark"><![CDATA[Ask the lazy one in red, not me!]]></entry>
     <entry id="magician+str_roster_list_high_stress_bark"><![CDATA[I can't enjoy my loot if I have no time to admire it!]]></entry>
 	
-    <entry id="magician+str_roster_list_fearful_bark"><![CDATA[Please, I need some time alone.]]></entry>
+    <entry id="magician+str_roster_list_fearful_bark"><![CDATA[Please, I need some time alone]]></entry>
     <entry id="magician+str_roster_list_fearful_bark"><![CDATA[This incident is madness!]]></entry>
-    <entry id="magician+str_roster_list_paranoid_bark"><![CDATA[I'd rather take my chances with the fiends than stay here.]]></entry>
+    <entry id="magician+str_roster_list_paranoid_bark"><![CDATA[I'd rather take my chances with the fiends than stay here]]></entry>
     <entry id="magician+str_roster_list_paranoid_bark"><![CDATA[Is it really any safer up here?]]></entry>
-    <entry id="magician+str_roster_list_depressed_bark"><![CDATA[Taking me would only be a mistake.]]></entry>
-    <entry id="magician+str_roster_list_depressed_bark"><![CDATA[Just leave me alone.]]></entry>
-    <entry id="magician+str_roster_list_selfish_bark"><![CDATA[You're mistaken if you think you've earned my loyalty.]]></entry>
-    <entry id="magician+str_roster_list_selfish_bark"><![CDATA[Don't approach me until you've raised the tavern's betting limit.]]></entry>
-    <entry id="magician+str_roster_list_abusive_bark"><![CDATA[Do not even think of sending me back with that last team.]]></entry>
+    <entry id="magician+str_roster_list_depressed_bark"><![CDATA[Taking me would only be a mistake]]></entry>
+    <entry id="magician+str_roster_list_depressed_bark"><![CDATA[Just leave me alone]]></entry>
+    <entry id="magician+str_roster_list_selfish_bark"><![CDATA[You're mistaken if you think you've earned my loyalty]]></entry>
+    <entry id="magician+str_roster_list_selfish_bark"><![CDATA[Don't approach me until you've raised the tavern's betting limit]]></entry>
+    <entry id="magician+str_roster_list_abusive_bark"><![CDATA[Do not even think of sending me back with that last team]]></entry>
     <entry id="magician+str_roster_list_abusive_bark"><![CDATA[May I cull the heard?]]></entry>
-    <entry id="magician+str_roster_list_masochistic_bark"><![CDATA[I have more to give, send me back.]]></entry>
-    <entry id="magician+str_roster_list_masochistic_bark"><![CDATA[I wonder how many I can take with me.]]></entry>
-    <entry id="magician+str_roster_list_irrational_bark"><![CDATA[The flowers refuse to grow here...]]></entry>
-    <entry id="magician+str_roster_list_irrational_bark"><![CDATA[Don't take me from the moon's alluring gaze.]]></entry>
+    <entry id="magician+str_roster_list_masochistic_bark"><![CDATA[I have more to give, send me back]]></entry>
+    <entry id="magician+str_roster_list_masochistic_bark"><![CDATA[I wonder how many I can take with me]]></entry>
+    <entry id="magician+str_roster_list_irrational_bark"><![CDATA[The flowers refuse to grow here..]]></entry>
+    <entry id="magician+str_roster_list_irrational_bark"><![CDATA[Don't take me from the moon's alluring gaze]]></entry>
 	
-    <entry id="magician+str_roster_list_bar_bark"><![CDATA[(hic) C'mon, I didn't tell ya' to stop.]]></entry>
+    <entry id="magician+str_roster_list_bar_bark"><![CDATA[(hic) C'mon, I didn't tell ya' to stop]]></entry>
     <entry id="magician+str_roster_list_bar_bark"><![CDATA[I (hic) used to drink with oni, you know?]]></entry>
 	<entry id="magician+str_roster_list_brothel_bark"><![CDATA[Hey, want to see a magic trick?]]></entry>
 	<entry id="magician+str_roster_list_brothel_bark"><![CDATA[Hold still, or this'll burn!]]></entry>
-    <entry id="magician+str_roster_list_gambling_bark"><![CDATA[One more try, I can win this time.]]></entry>
-    <entry id="magician+str_roster_list_gambling_bark"><![CDATA[Hey, not like it's my money I lost...]]></entry>
+    <entry id="magician+str_roster_list_gambling_bark"><![CDATA[One more try, I can win this time]]></entry>
+    <entry id="magician+str_roster_list_gambling_bark"><![CDATA[Hey, not like it's my money I lost..]]></entry>
     <entry id="magician+str_roster_list_meditation_bark"><![CDATA[Can I go now? Please?]]></entry>
     <entry id="magician+str_roster_list_meditation_bark"><![CDATA[C'mon let me out of here!]]></entry>
 	<entry id="magician+str_roster_list_prayer_bark"><![CDATA[So do I pretend to pray before or after the kneeling?]]></entry>
-	<entry id="magician+str_roster_list_prayer_bark"><![CDATA[That looks expensive.]]></entry>
+	<entry id="magician+str_roster_list_prayer_bark"><![CDATA[That looks expensive]]></entry>
     <entry id="magician+str_roster_list_flagellation_bark"><![CDATA[What was my safe word again?]]></entry>
     <entry id="magician+str_roster_list_flagellation_bark"><![CDATA[How's any of this have anything to do with the light?]]></entry>
-	<entry id="magician+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[Please don't tell me there's a secret monster after this.]]></entry>
-    <entry id="magician+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[I just need a few more mushrooms, that'll fix me up...]]></entry>
-    <entry id="magician+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[Maybe I could use a long sleep...]]></entry>
-    <entry id="magician+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[I need to just be happy I made it out.]]></entry>
+	<entry id="magician+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[Please don't tell me there's a secret monster after this]]></entry>
+    <entry id="magician+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[I just need a few more mushrooms, that'll fix me up..]]></entry>
+    <entry id="magician+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[Maybe I could use a long sleep..]]></entry>
+    <entry id="magician+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[I need to just be happy I made it out]]></entry>
     <entry id="magician+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[So... if this is all just a loop, how's there a sequel?]]></entry>
  
  
@@ -598,15 +594,15 @@
  
 	<!-- Abusive: Stress -->
  
-    <entry id="magician+str_bark_stress_abusive"><![CDATA[Ugh, every day is like this with you guys.]]></entry>
-    <entry id="magician+str_bark_stress_abusive"><![CDATA[The only mistake I made was going along with you guys.]]></entry>
-    <entry id="magician+str_bark_stress_abusive"><![CDATA[I can't be seen with you guys.]]></entry>
+    <entry id="magician+str_bark_stress_abusive"><![CDATA[Ugh, every day is like this with you guys]]></entry>
+    <entry id="magician+str_bark_stress_abusive"><![CDATA[The only mistake I made was going along with you guys]]></entry>
+    <entry id="magician+str_bark_stress_abusive"><![CDATA[I can't be seen with you guys]]></entry>
  
 	<!-- Abusive: Random -->
  
     <entry id="magician+str_random_command_abusive"><![CDATA[You think I want to listen to the one who got us into this mess?!]]></entry>
-    <entry id="magician+str_random_command_abusive"><![CDATA[I think I know a little more about exterimations than you do, pal.]]></entry>
-    <entry id="magician+str_random_command_abusive"><![CDATA[What? Huh? Didn't catch that! heh.]]></entry>
+    <entry id="magician+str_random_command_abusive"><![CDATA[I think I know a little more about exterimations than you do, pal]]></entry>
+    <entry id="magician+str_random_command_abusive"><![CDATA[What? Huh? Didn't catch that! heh]]></entry>
  
 	<!-- Abusive: Friendly Fire -->
  
@@ -614,8 +610,8 @@
  
 	<!-- Abusive: Camp Stress -->
  
-    <entry id="magician+str_bark_stress_camp_abusive"><![CDATA[Ugh, which of you set up this camp. It's a disaster.]]></entry>
-    <entry id="magician+str_bark_stress_camp_abusive"><![CDATA[Wake me when everyone feels like trying.]]></entry>
+    <entry id="magician+str_bark_stress_camp_abusive"><![CDATA[Ugh, which of you set up this camp. It's a disaster]]></entry>
+    <entry id="magician+str_bark_stress_camp_abusive"><![CDATA[Wake me when everyone feels like trying]]></entry>
     <entry id="magician+str_bark_stress_camp_abusive"><![CDATA[We're just going to get ambushed, why are you even trying?]]></entry>
  
 	<!-- Abusive: Ally Attack Hit -->
@@ -630,117 +626,116 @@
  
 	<!-- Abusive: Ally Hit -->
  
-    <entry id="magician+str_comment_ally_hit_abusive"><![CDATA[Don't make it too hard for them or anything.]]></entry>
+    <entry id="magician+str_comment_ally_hit_abusive"><![CDATA[Don't make it too hard for them or anything]]></entry>
     <entry id="magician+str_comment_ally_hit_abusive"><![CDATA[You call that dodging?!]]></entry>
  
 	<!-- Abusive: Block Move -->
  
-    <entry id="magician+str_block_move_abusive"><![CDATA[Get outta here, I'm not letting you mess things up.]]></entry>
-    <entry id="magician+str_block_move_abusive"><![CDATA[Like you could do any better.]]></entry>
+    <entry id="magician+str_block_move_abusive"><![CDATA[Get outta here, I'm not letting you mess things up]]></entry>
+    <entry id="magician+str_block_move_abusive"><![CDATA[Like you could do any better]]></entry>
  
 	<!-- Abusive: Block Camping Skill Performer -->
  
-    <entry id="magician+str_block_camping_skill_performer_abusive"><![CDATA[You'd just get us killed anyways.]]></entry>
-    <entry id="magician+str_block_camping_skill_performer_abusive"><![CDATA[I don't think even magic can fix this situation.]]></entry>
-    <entry id="magician+str_block_camping_skill_performer_abusive"><![CDATA[Not taking orders from anyone who messes up this bad.]]></entry>
+    <entry id="magician+str_block_camping_skill_performer_abusive"><![CDATA[You'd just get us killed anyways]]></entry>
+    <entry id="magician+str_block_camping_skill_performer_abusive"><![CDATA[I don't think even magic can fix this situation]]></entry>
+    <entry id="magician+str_block_camping_skill_performer_abusive"><![CDATA[Not taking orders from anyone who messes up this bad]]></entry>
  
 	<!-- Abusive: Block Camping Skill -->
  
-    <entry id="magician+str_block_camping_skill_target_abusive"><![CDATA[Don't touch you me, you filthy casual.]]></entry>
-    <entry id="magician+str_block_camping_skill_target_abusive"><![CDATA[No way, I don't need any of your botched help.]]></entry>
-    <entry id="magician+str_block_camping_skill_target_abusive"><![CDATA[You're just going to mess up anyways.]]></entry>
+    <entry id="magician+str_block_camping_skill_target_abusive"><![CDATA[Don't touch you me, you filthy casual]]></entry>
+    <entry id="magician+str_block_camping_skill_target_abusive"><![CDATA[No way, I don't need any of your botched help]]></entry>
+    <entry id="magician+str_block_camping_skill_target_abusive"><![CDATA[You're just going to mess up anyways]]></entry>
  
 	<!-- Depressed -->
  
-    <entry id="magician+str_afflicted_depressed"><![CDATA[Why did I think it was a good idea to come here...]]></entry>
+    <entry id="magician+str_afflicted_depressed"><![CDATA[Why did I think it was a good idea to come here..]]></entry>
 	<entry id="magician+str_afflicted_depressed"><![CDATA[I just wanted to fix things, why is this happening?!]]></entry>
-	<entry id="magician+str_afflicted_depressed"><![CDATA[I'm going to fail, aren't I...]]></entry>
-	<entry id="magician+str_afflicted_depressed"><![CDATA[I can't believe I tricked myself into this.]]></entry>
-	<entry id="magician+str_afflicted_depressed"><![CDATA[There's no more continues for me.]]></entry>
+	<entry id="magician+str_afflicted_depressed"><![CDATA[I'm going to fail, aren't I..]]></entry>
+	<entry id="magician+str_afflicted_depressed"><![CDATA[I can't believe I tricked myself into this]]></entry>
+	<entry id="magician+str_afflicted_depressed"><![CDATA[There's no more continues for me]]></entry>
  
 	<!-- Depressed: Stress -->
  
-    <entry id="magician+str_bark_stress_depressed"><![CDATA[I can't do this, what was I thinking.]]></entry>
-    <entry id="magician+str_bark_stress_depressed"><![CDATA[There's no fixing this mess we're in.]]></entry>
+    <entry id="magician+str_bark_stress_depressed"><![CDATA[I can't do this, what was I thinking]]></entry>
+    <entry id="magician+str_bark_stress_depressed"><![CDATA[There's no fixing this mess we're in]]></entry>
     <entry id="magician+str_bark_stress_depressed"><![CDATA[Where did I go wrong this time?!]]></entry>
  
 	<!-- Depressed: Move Forward -->
  
     <entry id="magician+str_change_pos_fwd_depressed"><![CDATA[Maybe I can still do this, may- Wuh, Oh! (falls)]]></entry>
-    <entry id="magician+str_change_pos_fwd_depressed"><![CDATA[I can't do anything from here... I can't do anything.]]></entry>
+    <entry id="magician+str_change_pos_fwd_depressed"><![CDATA[I can't do anything from here... I can't do anything]]></entry>
  
 	<!-- Depressed: Move Back -->
  
-    <entry id="magician+str_change_pos_back_depressed"><![CDATA[No, I- Hey, hold my spot for me.]]></entry>
-    <entry id="magician+str_change_pos_back_depressed"><![CDATA[Let me go, I can't stay here.]]></entry>
-    <entry id="magician+str_change_pos_back_depressed"><![CDATA[This is all happening too fast.]]></entry>
+    <entry id="magician+str_change_pos_back_depressed"><![CDATA[Let me go, I can't stay here]]></entry>
+    <entry id="magician+str_change_pos_back_depressed"><![CDATA[This is all happening too fast]]></entry>
  
 	<!-- Depressed: Ignore -->
  
-    <entry id="magician+str_ignore_command_depressed"><![CDATA[I'm just going to screw up again.]]></entry>
-    <entry id="magician+str_ignore_command_depressed"><![CDATA[Me? I'm just a fruad...]]></entry>
-    <entry id="magician+str_ignore_command_depressed"><![CDATA[I'll just let you down, too.]]></entry>
+    <entry id="magician+str_ignore_command_depressed"><![CDATA[I'm just going to screw up again]]></entry>
+    <entry id="magician+str_ignore_command_depressed"><![CDATA[Me? I'm just a fruad..]]></entry>
+    <entry id="magician+str_ignore_command_depressed"><![CDATA[I'll just let you down, too]]></entry>
  
 	<!-- Depressed: Block Meal -->
  
-    <entry id="magician+str_block_camping_meal_depressed"><![CDATA[Why do I deserve food? She can't even wake up.]]></entry>
-    <entry id="magician+str_block_camping_meal_depressed"><![CDATA[I can't eat, not like this.]]></entry>
+    <entry id="magician+str_block_camping_meal_depressed"><![CDATA[Why do I deserve food? She can't even wake up]]></entry>
+    <entry id="magician+str_block_camping_meal_depressed"><![CDATA[I can't eat, not like this]]></entry>
  
 	<!-- Depressed: Random -->
  
-    <entry id="magician+str_random_command_depressed"><![CDATA[Ah! Just leave me alone!.]]></entry>
+    <entry id="magician+str_random_command_depressed"><![CDATA[Ah! Just leave me alone!]]></entry>
     <entry id="magician+str_random_command_depressed"><![CDATA[What does it matter what I try to do?]]></entry>
     <entry id="magician+str_random_command_depressed"><![CDATA[You think a hack like me can follow your tactics?]]></entry>
  
 	<!-- Depressed: Camp Stress -->
  
-    <entry id="magician+str_bark_stress_camp_depressed"><![CDATA[Digging around in some hole, thinking I can find it, this is all pointless.]]></entry>
-    <entry id="magician+str_bark_stress_camp_depressed"><![CDATA[I should just leave, you don't need me around here.]]></entry>
-    <entry id="magician+str_bark_stress_camp_depressed"><![CDATA[Why do I have to do this alone, why can't you be here.]]></entry>
+    <entry id="magician+str_bark_stress_camp_depressed"><![CDATA[Digging around in some hole, thinking I can find it, this is all pointless]]></entry>
+    <entry id="magician+str_bark_stress_camp_depressed"><![CDATA[I should just leave, you don't need me around here]]></entry>
+    <entry id="magician+str_bark_stress_camp_depressed"><![CDATA[Why do I have to do this alone, why can't you be here]]></entry>
  
 	<!-- Depressed: Mark Self -->
  
-    <entry id="magician+str_mark_self_depressed"><![CDATA[Come on, lets see what kind of heroine I really am.]]></entry>
-    <entry id="magician+str_mark_self_depressed"><![CDATA[Let's go, I'm right here.]]></entry>
+    <entry id="magician+str_mark_self_depressed"><![CDATA[Come on, lets see what kind of heroine I really am]]></entry>
+    <entry id="magician+str_mark_self_depressed"><![CDATA[Let's go, I'm right here]]></entry>
  
 	<!-- Depressed: Attack Self -->
  
-    <entry id="magician+str_attack_self_depressed"><![CDATA[Hnng.. I fumbled the spell, this is bad.]]></entry>
+    <entry id="magician+str_attack_self_depressed"><![CDATA[Hnng... I fumbled the spell, this is bad]]></entry>
     <entry id="magician+str_attack_self_depressed"><![CDATA[Another miscast... What did I expect?]]></entry>
  
 	<!-- Depressed: Block Retreat -->
  
-    <entry id="magician+str_block_combat_retreat_depressed"><![CDATA[Least I can do is die trying to find it for her.]]></entry>
+    <entry id="magician+str_block_combat_retreat_depressed"><![CDATA[Least I can do is die trying to find it for her]]></entry>
     <entry id="magician+str_block_combat_retreat_depressed"><![CDATA[You can go, I'm staying..]]></entry>
  
 		<!-- Depressed: Block Item -->
  
-    <entry id="magician+str_block_item_depressed"><![CDATA[If I could be fixed, none of this would have happened in the first place.]]></entry>
-    <entry id="magician+str_block_item_depressed"><![CDATA[I don't deserve it.]]></entry>
+    <entry id="magician+str_block_item_depressed"><![CDATA[If I could be fixed, none of this would have happened in the first place]]></entry>
+    <entry id="magician+str_block_item_depressed"><![CDATA[I don't deserve it]]></entry>
  
 	<!-- Depressed: Block Heal -->
  
-    <entry id="magician+str_block_heal_depressed"><![CDATA[I'm fine, it wouldn't be fair.]]></entry>
-    <entry id="magician+str_block_heal_depressed"><![CDATA[Some things can't be undone.]]></entry>
-    <entry id="magician+str_block_heal_depressed"><![CDATA[Get away, I don't need your help.]]></entry>
+    <entry id="magician+str_block_heal_depressed"><![CDATA[I'm fine, it wouldn't be fair]]></entry>
+    <entry id="magician+str_block_heal_depressed"><![CDATA[Some things can't be undone]]></entry>
+    <entry id="magician+str_block_heal_depressed"><![CDATA[Get away, I don't need your help]]></entry>
  
 	<!-- Depressed: Block Camping Skill Performer -->
  
-    <entry id="magician+str_block_camping_skill_performer_depressed"><![CDATA[I'll just hurt them, too.]]></entry>
+    <entry id="magician+str_block_camping_skill_performer_depressed"><![CDATA[I'll just hurt them, too]]></entry>
     <entry id="magician+str_block_camping_skill_performer_depressed"><![CDATA[You trust me to do that?]]></entry>
-    <entry id="magician+str_block_camping_skill_performer_depressed"><![CDATA[My hands are shaking, I can't do it.]]></entry>
+    <entry id="magician+str_block_camping_skill_performer_depressed"><![CDATA[My hands are shaking, I can't do it]]></entry>
  
 	<!-- Depressed: Block Camping Skill -->
  
-    <entry id="magician+str_block_camping_skill_target_depressed"><![CDATA[Look, just leave me alone.]]></entry>
-    <entry id="magician+str_block_camping_skill_target_depressed"><![CDATA[I'll just eat another mushroom, forget about me.]]></entry>
-    <entry id="magician+str_block_camping_skill_target_depressed"><![CDATA[You're wasting your time with me.]]></entry>
+    <entry id="magician+str_block_camping_skill_target_depressed"><![CDATA[Look, just leave me alone]]></entry>
+    <entry id="magician+str_block_camping_skill_target_depressed"><![CDATA[I'll just eat another mushroom, forget about me]]></entry>
+    <entry id="magician+str_block_camping_skill_target_depressed"><![CDATA[You're wasting your time with me]]></entry>
  
 		<!-- Depressed: Block Buff -->
  
-    <entry id="magician+str_block_buff_depressed"><![CDATA[I can't just keep borrowing power from others.]]></entry>
+    <entry id="magician+str_block_buff_depressed"><![CDATA[I can't just keep borrowing power from others]]></entry>
     <entry id="magician+str_block_buff_depressed"><![CDATA[You're still trying?]]></entry>
-    <entry id="magician+str_block_buff_depressed"><![CDATA[Some good that'll do.]]></entry>
+    <entry id="magician+str_block_buff_depressed"><![CDATA[Some good that'll do]]></entry>
  
 	<!-- Fearful -->
  
@@ -751,643 +746,625 @@
  
 	<!-- Fearful: Move Back -->
  
-    <entry id="magician+str_change_pos_back_fearful"><![CDATA[I can't get a good shot from here, yeah...]]></entry>
-    <entry id="magician+str_change_pos_back_fearful"><![CDATA[This isn't good...]]></entry>
-    <entry id="magician+str_change_pos_back_fearful"><![CDATA[It's harder to see what coming thing far up!]]></entry>
+    <entry id="magician+str_change_pos_back_fearful"><![CDATA[I can't get a good shot from here, yeah..]]></entry>
+    <entry id="magician+str_change_pos_back_fearful"><![CDATA[This isn't good..]]></entry>
+    <entry id="magician+str_change_pos_back_fearful"><![CDATA[No, I- Hey, hold my spot for me]]></entry>
  
 	<!-- Fearful: stress -->
-	<!-- LEFT OFF -->
-    <entry id="magician+str_bark_stress_fearful"><![CDATA[]]></entry>
-    <entry id="magician+str_bark_stress_fearful"><![CDATA[Look, the strange energies are getting stronger even now....]]></entry>
-    <entry id="magician+str_bark_stress_fearful"><![CDATA[I wonder, can my knives even cut phantoms?!]]></entry>
+    <entry id="magician+str_bark_stress_fearful"><![CDATA[Gameover!]]></entry>
+    <entry id="magician+str_bark_stress_fearful"><![CDATA[This is getting ugly]]></entry>
+    <entry id="magician+str_bark_stress_fearful"><![CDATA[A good leader knows when to retreat, right?!]]></entry>
  
 	<!-- Fear: Ignore -->
  
-    <entry id="magician+str_ignore_command_fearful"><![CDATA[I'm not sure I'm qualified.]]></entry>
-    <entry id="magician+str_ignore_command_fearful"><![CDATA[(What am I even trying to accomplish here?)]]></entry>
-    <entry id="magician+str_ignore_command_fearful"><![CDATA[What? Why is time resuming..]]></entry>
+    <entry id="magician+str_ignore_command_fearful"><![CDATA[I think you're breaking up, I didn't catch that!]]></entry>
+    <entry id="magician+str_ignore_command_fearful"><![CDATA[Ask that shrine maiden, don't expect me to pull us through this!]]></entry>
  
 	<!-- Fearful: Camp Stress -->
  
-    <entry id="magician+str_bark_stress_camp_fearful"><![CDATA[If that bug we saw before shows up again...]]></entry>
-    <entry id="magician+str_bark_stress_camp_fearful"><![CDATA[Twisting away, mixing time and space...]]></entry>
-    <entry id="magician+str_bark_stress_camp_fearful"><![CDATA[How have we passed so many nights this way?]]></entry>
+    <entry id="magician+str_bark_stress_camp_fearful"><![CDATA[How can we sleep in a place like this?!]]></entry>
+    <entry id="magician+str_bark_stress_camp_fearful"><![CDATA[Am I the only one who heard that?]]></entry>
  
  
 	<!-- Fearful: Self Hit -->
  
-    <entry id="magician+str_comment_self_hit_fearful"><![CDATA[Everything comes to a halt...]]></entry>
-    <entry id="magician+str_comment_self_hit_fearful"><![CDATA[Their attacks are too unpredictable!]]></entry>
+    <entry id="magician+str_comment_self_hit_fearful"><![CDATA[Ah! I can't focus! My spells!]]></entry>
+    <entry id="magician+str_comment_self_hit_fearful"><![CDATA[Was that even dodgeable?!]]></entry>
  
 	<!-- Fearful: Self Missed -->
  
-    <entry id="magician+str_comment_self_missed_fearful"><![CDATA[Huh!? Who was that? They came out of nowhere!]]></entry>
-    <entry id="magician+str_comment_self_missed_fearful"><![CDATA[(heavy breathing)A graze...just a graze...]]></entry>
+    <entry id="magician+str_comment_self_missed_fearful"><![CDATA[(opens eyes) Oh.. oh wow]]></entry>
+    <entry id="magician+str_comment_self_missed_fearful"><![CDATA[Are they mocking me?!]]></entry>
  
 	<!-- Fearful: Ally Attack Missed -->
  
-    <entry id="magician+str_comment_ally_attack_missed_fearful"><![CDATA[How troublesome...]]></entry>
-    <entry id="magician+str_comment_ally_attack_missed_fearful"><![CDATA[Why are you stalling this fight?!]]></entry>
+    <entry id="magician+str_comment_ally_attack_missed_fearful"><![CDATA[Come on! Kill them! We're all gonna die down here!]]></entry>
+    <entry id="magician+str_comment_ally_attack_missed_fearful"><![CDATA[Oh my- We're doomed!]]></entry>
  
 	<!-- Fearful: Ally Hit -->
  
-    <entry id="magician+str_comment_ally_hit_fearful"><![CDATA[Perhaps you should become more aware of your surroundings?!]]></entry>
-    <entry id="magician+str_comment_ally_hit_fearful"><![CDATA[We are no more than dominos now.]]></entry>
+    <entry id="magician+str_comment_ally_hit_fearful"><![CDATA[Are you relying on me to keep you alive?!]]></entry>
+    <entry id="magician+str_comment_ally_hit_fearful"><![CDATA[They're hitting them! Then they're going to hit me!]]></entry>
  
 	<!-- Fearful: Ally Missed -->
  
-    <entry id="magician+str_comment_ally_missed_fearful"><![CDATA[That was far too close. Pay attention!]]></entry>
-    <entry id="magician+str_comment_ally_missed_fearful"><![CDATA[Luck shall take us only so far.]]></entry>
+    <entry id="magician+str_comment_ally_missed_fearful"><![CDATA[I thought you were a goner for sure!]]></entry>
+    <entry id="magician+str_comment_ally_missed_fearful"><![CDATA[Great, but there's no running the clock down here!]]></entry>
  
  
  
 	<!-- Fearful: Block Move -->
  
-    <entry id="magician+str_block_move_fearful"><![CDATA[I-I don't understand..]]></entry>
-    <entry id="magician+str_block_move_fearful"><![CDATA[Why am only I frozen in place..]]></entry>
+    <entry id="magician+str_block_move_fearful"><![CDATA[Sure, yeah, soon as my legs start listening to me again!]]></entry>
+    <entry id="magician+str_block_move_fearful"><![CDATA[No! This is a blindspot!]]></entry>
  
 	<!-- Fearful: Block Camping Skill Performer -->
  
-    <entry id="magician+str_block_camping_skill_performer_fearful"><![CDATA[I didn't want to come here.]]></entry>
-    <entry id="magician+str_block_camping_skill_performer_fearful"><![CDATA[Lingering here is a fatal mistake.]]></entry>
-    <entry id="magician+str_block_camping_skill_performer_fearful"><![CDATA[They wait just outside the boundry of our light, all of you are fools.]]></entry>
+    <entry id="magician+str_block_camping_skill_performer_fearful"><![CDATA[Aren't things bad enough?]]></entry>
+    <entry id="magician+str_block_camping_skill_performer_fearful"><![CDATA[You want me to what?!]]></entry>
+    <entry id="magician+str_block_camping_skill_performer_fearful"><![CDATA[It's too dangerous, you can't just mess with these sorts of things]]></entry>
  
 	<!-- Irrational -->
  
-    <entry id="magician+str_afflicted_irrational"><![CDATA[With so many blooming, bamboo flowers shall be dinner tonight.]]></entry>
-	<entry id="magician+str_afflicted_irrational"><![CDATA[They scatter and bloom, then scatter and bloom again....]]></entry>
-	<entry id="magician+str_afflicted_irrational"><![CDATA[My memories become a haze, just who am I?]]></entry>
-	<entry id="magician+str_afflicted_irrational"><![CDATA[Ahhh, such a sight, and yet their blossom is so fleating...]]></entry>
-	<entry id="magician+str_afflicted_irrational"><![CDATA[They mock us from above, those upon the moon.]]></entry>
+    <entry id="magician+str_afflicted_irrational"><![CDATA[It all makes sense now, I was the protagonist all along!]]></entry>
+	<entry id="magician+str_afflicted_irrational"><![CDATA[Fear not, my burdensome allies, for I shall magic us away!]]></entry>
+	<entry id="magician+str_afflicted_irrational"><![CDATA[Adore me, shower me in your praise!]]></entry>
+	<entry id="magician+str_afflicted_irrational"><![CDATA[It can’t be stopped now, haha!]]></entry>
  
 	<!-- Irrational: Move Forward -->
  
-    <entry id="magician+str_change_pos_fwd_irrational"><![CDATA[You're getting in the way of my cleaning again...]]></entry>
-    <entry id="magician+str_change_pos_fwd_irrational"><![CDATA[Oh... Certain were my beliefs that this place would be filled with flowers, as well.]]></entry>
-    <entry id="magician+str_change_pos_fwd_irrational"><![CDATA[Hm? Are there flowers here as well?]]></entry>
+    <entry id="magician+str_change_pos_fwd_irrational"><![CDATA[Masterspark! Masterspark! Masterspark!]]></entry>
+    <entry id="magician+str_change_pos_fwd_irrational"><![CDATA[I can't beat the shit out of you if I don't get closer!]]></entry>
  
 	<!-- Irrational: Move Back -->
  
-    <entry id="magician+str_change_pos_back_irrational"><![CDATA[No flowers are in bloom. Time to depart.]]></entry>
-    <entry id="magician+str_change_pos_back_irrational"><![CDATA[Wherever I find myself, flowers can be found all around.]]></entry>
-	<entry id="magician+str_monster_user_selected_targets_kill_pill"><![CDATA[Will there ever be a place for the broken in the light?]]></entry>
-    <entry id="magician+str_change_pos_back_irrational"><![CDATA[Mistress? I will be there shortly!]]></entry>
+    <entry id="magician+str_change_pos_back_irrational"><![CDATA[Ah, but I want to use these skills instead!]]></entry>
+    <entry id="magician+str_change_pos_back_irrational"><![CDATA[Change places!]]></entry>
+	<entry id="magician+str_monster_user_selected_targets_kill_pill"><![CDATA[Can I take another step? I've done everything I can]]></entry>
+    <entry id="magician+str_change_pos_back_irrational"><![CDATA[Right here, this is the spot. Mhmm]]></entry>
  
 	<!-- Irrational: Stress -->
  
-    <entry id="magician+str_bark_stress_irrational"><![CDATA[Oh, it's so much warmer in the sky. It's so wonderful that I could cry...]]></entry>
-    <entry id="magician+str_bark_stress_irrational"><![CDATA[You can hear them, can't you? The moon rabbits.]]></entry>
-    <entry id="magician+str_bark_stress_irrational"><![CDATA[Even if there are flowers, they cannot be seen.]]></entry>
+    <entry id="magician+str_bark_stress_irrational"><![CDATA[Forget about that bum of a miko! All you need is me!]]></entry>
+    <entry id="magician+str_bark_stress_irrational"><![CDATA[Your admiration is just not enough]]></entry>
+    <entry id="magician+str_bark_stress_irrational"><![CDATA[More! Praise my heroism!]]></entry>
  
 	<!-- Irrational: Ignore -->
  
-    <entry id="magician+str_ignore_command_irrational"><![CDATA[More people have said that and been killed by me than there are thorium decay products.]]></entry>
-    <entry id="magician+str_ignore_command_irrational"><![CDATA[You sing unusual songs.]]></entry>
-    <entry id="magician+str_ignore_command_irrational"><![CDATA[(Humming)]]></entry>
+    <entry id="magician+str_ignore_command_irrational"><![CDATA[To act now would rob me of a dramatic finish]]></entry>
+    <entry id="magician+str_ignore_command_irrational"><![CDATA[The heroine always swoops in last minute]]></entry>
  
 	<!-- Irrational: Friendly fire -->
  
-    <entry id="magician+str_attack_friendly_irrational"><![CDATA[(Ah, I only meant that as a joke...)]]></entry>
-    <entry id="magician+str_attack_friendly_irrational"><![CDATA[Tonight's dinner shall be... You!]]></entry>	
+    <entry id="magician+str_attack_friendly_irrational"><![CDATA[Haha! Of course you would mod the game for someone as great as I!]]></entry>
  
 	<!-- Irrational: Block Meal -->
  
-    <entry id="magician+str_block_camping_meal_irrational"><![CDATA[It's still a bit early for a meal, isn't it?]]></entry>
-    <entry id="magician+str_block_camping_meal_irrational"><![CDATA[Humans taste not with their tongues, but with their minds.]]></entry>
+    <entry id="magician+str_block_camping_meal_irrational"><![CDATA[Food? No, I prefer japanese]]></entry>
+    <entry id="magician+str_block_camping_meal_irrational"><![CDATA[Quit botherin' me, I'm planning my great triumph]]></entry>
  
 	<!-- Irrational: Random -->
  
-    <entry id="magician+str_random_command_irrational"><![CDATA[You! You wish to harm the Mistress, don't you?!.]]></entry>
-    <entry id="magician+str_random_command_irrational"><![CDATA[If all that I do is fly in circles, I will never find my destination!]]></entry>
-    <entry id="magician+str_random_command_irrational"><![CDATA[Are you the cause of these flowers?!]]></entry>
+    <entry id="magician+str_random_command_irrational"><![CDATA[You don't give me orders, I'm the extermination expert here!]]></entry>
+    <entry id="magician+str_random_command_irrational"><![CDATA[I'm not just for show!]]></entry>
+    <entry id="magician+str_random_command_irrational"><![CDATA[I play the lead, I'm no one's second string]]></entry>
  
 	<!-- Irrational: Camp Stress -->
  
-    <entry id="magician+str_bark_stress_camp_irrational"><![CDATA[The carrot I found the other day was a rare one. When I uprooted it, it let out a sad cry.]]></entry>
-    <entry id="magician+str_bark_stress_camp_irrational"><![CDATA[Which of you shall be our Tea, this night?]]></entry>
-    <entry id="magician+str_bark_stress_camp_irrational"><![CDATA[(laughs) Mistress, did you see what- Oh...]]></entry>
+    <entry id="magician+str_bark_stress_camp_irrational"><![CDATA[I deserve it more than her, I deserve far more than you]]></entry>
+    <entry id="magician+str_bark_stress_camp_irrational"><![CDATA[They're saying I'm crazy]]></entry>
+    <entry id="magician+str_bark_stress_camp_irrational"><![CDATA[A true heroine never rests, we should be on the move]]></entry>
  
 	<!-- Irrational: Mark Self -->
  
-    <entry id="magician+str_mark_self_irrational"><![CDATA[I cannot allow you to see the Mistress!]]></entry>
-    <entry id="magician+str_mark_self_irrational"><![CDATA[Slow and predictable, thats all your attacks are.]]></entry>
+    <entry id="magician+str_mark_self_irrational"><![CDATA[Will you notice me now!?]]></entry>
+    <entry id="magician+str_mark_self_irrational"><![CDATA[This magician is anything but ordinary!]]></entry>
  
 	<!-- Irrational: Missed Self -->
  
-    <entry id="magician+str_comment_self_missed_irrational"><![CDATA[Ah, it's an illusion.]]></entry>
-    <entry id="magician+str_comment_self_missed_irrational"><![CDATA[GRAZE!!!!]]></entry>
+    <entry id="magician+str_comment_self_missed_irrational"><![CDATA[Yeah! Attack me! I'm who you have to worry about!]]></entry>
+    <entry id="magician+str_comment_self_missed_irrational"><![CDATA[I'm the real dodge expert, unlike that depressing old maid!]]></entry>
  
 	<!-- Irrational: Ally Attack Hit -->
  
-    <entry id="magician+str_comment_ally_attack_hit_irrational"><![CDATA[No! You trodded upon the flowers!]]></entry>
-    <entry id="magician+str_comment_ally_attack_hit_irrational"><![CDATA[Why must you make so much more work for me?!]]></entry>
+    <entry id="magician+str_comment_ally_attack_hit_irrational"><![CDATA[Hey, hey! That's nothing, look what I'm about to do!]]></entry>
+    <entry id="magician+str_comment_ally_attack_hit_irrational"><![CDATA[What?! Stop it! I can do better than that!]]></entry>
+ 
+	<!-- Irrational: Ally Attack Missed -->
+ 
+    <entry id="magician+str_comment_ally_attack_missed_irrational"><![CDATA[Hehe, typical of a side character]]></entry>
+    <entry id="magician+str_comment_ally_attack_missed_irrational"><![CDATA[I'll pick up that slack, ze]]></entry>	
  
 	<!-- Irrational: Ally Missed -->
  
-    <entry id="magician+str_comment_ally_attack_missed_irrational"><![CDATA[Please watch your step, you nearly crushed a flower.]]></entry>
-    <entry id="magician+str_comment_ally_attack_missed_irrational"><![CDATA[If you had stepped upon the flowers...(shivers)]]></entry>	
- 
-	<!-- Irrational: Ally Missed -->
- 
-    <entry id="magician+str_comment_ally_missed_irrational"><![CDATA[Would you two please take this else where?]]></entry>
-    <entry id="magician+str_comment_ally_missed_irrational"><![CDATA[I've dodged yet another pitiful attack!]]></entry>
+    <entry id="magician+str_comment_ally_missed_irrational"><![CDATA[I will pro- oh, they missed]]></entry>
+    <entry id="magician+str_comment_ally_missed_irrational"><![CDATA[I think I intimited them into missing!]]></entry>
  
 	<!-- Irrational: Block Move -->
  
-    <entry id="magician+str_block_move_irrational"><![CDATA[Hmm? I do not wish to depart yet.]]></entry>
-    <entry id="magician+str_block_move_irrational"><![CDATA[I'm sorry, but the Mistress is not accepting visitors.]]></entry>
+    <entry id="magician+str_block_move_irrational"><![CDATA[You're not taking the glory away from me!]]></entry>
+    <entry id="magician+str_block_move_irrational"><![CDATA[Everyone can get the best view of me here!]]></entry>
  
 	<!-- Irrational: Block Item -->
  
-    <entry id="magician+str_block_item_irrational"><![CDATA[(Throws it) Oh, wait..]]></entry>
-    <entry id="magician+str_block_item_irrational"><![CDATA[Thank you, but I have plenty.]]></entry>
+    <entry id="magician+str_block_item_irrational"><![CDATA[I don't need that, just watch!]]></entry>
+    <entry id="magician+str_block_item_irrational"><![CDATA[Don't mistake me for someone who needs donations]]></entry>
  
 	<!-- Irrational: Block Heal -->
  
-    <entry id="magician+str_block_heal_irrational"><![CDATA[(laughs softly) As if they landed any blows.]]></entry>
-    <entry id="magician+str_block_heal_irrational"><![CDATA[But the Mistress needs it more! Please heal her in my stead.]]></entry>
-    <entry id="magician+str_block_heal_irrational"><![CDATA[The librarian will take care of my wounds, please do not worry.]]></entry>
+    <entry id="magician+str_block_heal_irrational"><![CDATA[You think you'll get a share of my praise?]]></entry>
+    <entry id="magician+str_block_heal_irrational"><![CDATA[Healing? You think I'll lose don't you?!]]></entry>
  
 	<!-- Irrational: Block Buff -->
  
-    <entry id="magician+str_block_buff_irrational"><![CDATA[(Dodge!)]]></entry>
-    <entry id="magician+str_block_buff_irrational"><![CDATA[I refuse to gaze into your torch of madness.]]></entry>
-    <entry id="magician+str_block_buff_irrational"><![CDATA[Would you see yourself out?]]></entry>
+    <entry id="magician+str_block_buff_irrational"><![CDATA[I don't need a side kick!]]></entry>
+    <entry id="magician+str_block_buff_irrational"><![CDATA[Help me? I don't need anyone's help, ze]]></entry>
  
 	<!-- Irrational: Block Camp Skill Performer -->
  
-    <entry id="magician+str_block_camping_skill_performer_irrational"><![CDATA[Oh, today's red tea... Did it not please you?]]></entry>
-    <entry id="magician+str_block_camping_skill_performer_irrational"><![CDATA[I am sorry, but I must tend to the Mistress.]]></entry>
-    <entry id="magician+str_block_camping_skill_performer_irrational"><![CDATA[Please ask one of the other magicians, I am terribly busy.]]></entry>
+    <entry id="magician+str_block_camping_skill_performer_irrational"><![CDATA[Can't waste time patching up weaknesses]]></entry>
+    <entry id="magician+str_block_camping_skill_performer_irrational"><![CDATA[Why both, you still won't be as great as me]]></entry>
  
 	<!-- Irrational: Block Camp Skill -->
  
-    <entry id="magician+str_block_camping_skill_target_irrational"><![CDATA[Oh my, hold on, the tea is about to boil.]]></entry>
-    <entry id="magician+str_block_camping_skill_target_irrational"><![CDATA[I am terribly busy, please come back sooner.]]></entry>
+    <entry id="magician+str_block_camping_skill_target_irrational"><![CDATA[Your praise alone is enough]]></entry>
+    <entry id="magician+str_block_camping_skill_target_irrational"><![CDATA[I'm already perfect, ze]]></entry>
  
 	<!-- Irrational: Attack Self -->
  
-    <entry id="magician+str_attack_self_irrational"><![CDATA[Myself will do if none can be found.]]></entry>
-    <entry id="magician+str_attack_self_irrational"><![CDATA[Mistress, are you thirsty?]]></entry>
+    <entry id="magician+str_attack_self_irrational"><![CDATA[My spell! This doesn't happen to the heroine!]]></entry>
+    <entry id="magician+str_attack_self_irrational"><![CDATA[I, but, my spell failed. My spell isn't supposed to fail!]]></entry>
  
 	<!-- Irrational: Block Retreat -->
  
-    <entry id="magician+str_block_combat_retreat_irrational"><![CDATA[Such course of action is unbecoming.]]></entry>
-    <entry id="magician+str_block_combat_retreat_irrational"><![CDATA[I will not abandon the Mistress!]]></entry>
+    <entry id="magician+str_block_combat_retreat_irrational"><![CDATA[And look like a coward?]]></entry>
+    <entry id="magician+str_block_combat_retreat_irrational"><![CDATA[You're trying to make me look bad!]]></entry>
  
 	<!-- Irrational: Hit Self -->
  
-    <entry id="magician+str_comment_self_hit_irrational"><![CDATA[And who do you expect to clean this up?!]]></entry>
-    <entry id="magician+str_comment_self_hit_irrational"><![CDATA[Tis but a graze.]]></entry>
+    <entry id="magician+str_comment_self_hit_irrational"><![CDATA[So you're finally taking me serious]]></entry>
+    <entry id="magician+str_comment_self_hit_irrational"><![CDATA[But, I'm the protagonist...]]></entry>
  
 	<!-- Irrational: Ally Hit -->
  
-    <entry id="magician+str_comment_ally_hit_irrational"><![CDATA[You can drink their blood as much as you want!]]></entry>
-    <entry id="magician+str_comment_ally_hit_irrational"><![CDATA[You musn't let it spill.]]></entry>
+    <entry id="magician+str_comment_ally_hit_irrational"><![CDATA[Found the red shirt]]></entry>
+    <entry id="magician+str_comment_ally_hit_irrational"><![CDATA[I'd never have gotten hit by that!]]></entry>
  
 	<!-- Masochistic -->
- 
-    <entry id="magician+str_afflicted_masochistic"><![CDATA[Let the Sanzu grow ever wider!]]></entry>
-	<entry id="magician+str_afflicted_masochistic"><![CDATA[I awaken to a world of red!]]></entry>
-	<entry id="magician+str_afflicted_masochistic"><![CDATA[Purge this sinful scarlet, so I may return to who I used to be.]]></entry>
-	<entry id="magician+str_afflicted_masochistic"><![CDATA[My senses have bloomed and are twisting and turning.]]></entry>
-	<entry id="magician+str_afflicted_masochistic"><![CDATA[Every scar is yet more proof of my devotion.]]></entry>
+	
+    <entry id="magician+str_afflicted_masochistic"><![CDATA[So this is how it's gonna go, huh?]]></entry>
+	<entry id="magician+str_afflicted_masochistic"><![CDATA[Further I go into the night]]></entry>
+	<entry id="magician+str_afflicted_masochistic"><![CDATA[All I know now is the chemicals pulsating]]></entry>
+	<entry id="magician+str_afflicted_masochistic"><![CDATA[Maybe, covered in red, I can feel weightless too]]></entry>
  
 	<!-- Masochistic: Move Forward -->
- 
-    <entry id="magician+str_change_pos_fwd_masochistic"><![CDATA[Allow me to distract them, the rest of you should flee.]]></entry>
-    <entry id="magician+str_change_pos_fwd_masochistic"><![CDATA[Do not stand in the way of my devotion.]]></entry>
-    <entry id="magician+str_change_pos_fwd_masochistic"><![CDATA[I wish to bleed for the Mistress.]]></entry>
+	
+    <entry id="magician+str_change_pos_fwd_masochistic"><![CDATA[Come on, let me get closer]]></entry>
+    <entry id="magician+str_change_pos_fwd_masochistic"><![CDATA[Outta my way, this is my fight now]]></entry>
  
 	<!-- Masochistic: Stress  -->
  
-    <entry id="magician+str_bark_stress_masochistic"><![CDATA[Fiends, let us become a beautiful scarlet together.]]></entry>
-    <entry id="magician+str_bark_stress_masochistic"><![CDATA[Pain? Agony? Doesn't matter in such a place.]]></entry>
-    <entry id="magician+str_bark_stress_masochistic"><![CDATA[Strike me already, remind me of my humanity.]]></entry>
+    <entry id="magician+str_bark_stress_masochistic"><![CDATA[Send me into that eternal rest if you can!]]></entry>
+    <entry id="magician+str_bark_stress_masochistic"><![CDATA[Come on, come on! Don't make me wait!]]></entry>
  
 	<!-- Masochistic: Random -->
  
-    <entry id="magician+str_random_command_masochistic"><![CDATA[No wrong, no right. Just sick delight.]]></entry>
-    <entry id="magician+str_random_command_masochistic"><![CDATA[Knives will rain upon us both!]]></entry>
-    <entry id="magician+str_random_command_masochistic"><![CDATA[Bask in my bloody devotion!]]></entry>
+    <entry id="magician+str_random_command_masochistic"><![CDATA[Heh, I think I've got something better in mind]]></entry>
+    <entry id="magician+str_random_command_masochistic"><![CDATA[Pff, whatever. I know what I gotta do, ze]]></entry>
  
 	<!-- Masochistic: Block Meal -->
  
-    <entry id="magician+str_block_camping_meal_masochistic"><![CDATA[I couldn't eat another bite.]]></entry>
-    <entry id="magician+str_block_camping_meal_masochistic"><![CDATA[I seek other methods of fulfilment.]]></entry>
+    <entry id="magician+str_block_camping_meal_masochistic"><![CDATA[Get that out of my face]]></entry>
+    <entry id="magician+str_block_camping_meal_masochistic"><![CDATA[Nah, I don't think I need food anymore]]></entry>
  
 		<!-- Masochistic: Mark Self -->
- 
-    <entry id="magician+str_mark_self_masochistic"><![CDATA[Stain my body, twisted, beautifully, in scarlet.]]></entry>
-    <entry id="magician+str_mark_self_masochistic"><![CDATA[Do your worst, there is nothing I would not endure for her.]]></entry>
-    <entry id="magician+str_mark_self_masochistic"><![CDATA[The Mistress would be upset if I didn't waste your best efforts.]]></entry>
- 
+	
+    <entry id="magician+str_mark_self_masochistic"><![CDATA[If someone's not coming back, I don't care if it's me]]></entry>
+    <entry id="magician+str_mark_self_masochistic"><![CDATA[She's not here, but you guys are. It's the least I can do]]></entry>
+
 	<!-- Masochistic: Attack Self -->
  
-    <entry id="magician+str_attack_self_masochistic"><![CDATA[I slice the bread. And I feed myself again.]]></entry>
-    <entry id="magician+str_attack_self_masochistic"><![CDATA[I’ll decorate with the beautiful colour everyone hides within.]]></entry>
+    <entry id="magician+str_attack_self_masochistic"><![CDATA[When a spell fails, it reminds me I'm still human]]></entry>
+    <entry id="magician+str_attack_self_masochistic"><![CDATA[Arcane lacerations and chemical burns, they're better than any promise charm]]></entry>
  
 		<!-- Masochistic: Block Retreat -->
  
-    <entry id="magician+str_block_combat_retreat_masochistic"><![CDATA[Go ahead, leave, but I have no such plans.]]></entry>
-    <entry id="magician+str_block_combat_retreat_masochistic"><![CDATA[And dishonor the Mistress? (scoff)]]></entry>
+    <entry id="magician+str_block_combat_retreat_masochistic"><![CDATA[Lets burn out in a blaze of glory!]]></entry>
+    <entry id="magician+str_block_combat_retreat_masochistic"><![CDATA[The funs just begining!]]></entry>
  
 		<!-- Masochistic: Self Hit -->
  
-    <entry id="magician+str_comment_self_hit_masochistic"><![CDATA[You should thank me for this privilege.]]></entry>
-    <entry id="magician+str_comment_self_hit_masochistic"><![CDATA[I thought such horrors could hit harder than that.]]></entry>
+    <entry id="magician+str_comment_self_hit_masochistic"><![CDATA[Yeah, like that, show me what you're made of!]]></entry>
+    <entry id="magician+str_comment_self_hit_masochistic"><![CDATA[What, scared? You call that a hit?]]></entry>
  
 	<!-- Masochistic: Self Missed -->
  
-    <entry id="magician+str_comment_self_missed_masochistic"><![CDATA[Should have killed me, its my turn isn't it?]]></entry>
-    <entry id="magician+str_comment_self_missed_masochistic"><![CDATA[But I wasn't even moving.]]></entry>
- 
+    <entry id="magician+str_comment_self_missed_masochistic"><![CDATA[Really? I don't think there's an easier mode.]]></entry>
+    <entry id="magician+str_comment_self_missed_masochistic"><![CDATA[You need a gilded invitation or something?]]></entry>
+	
 	<!-- Masochistic: Ally Hit -->
- 
-    <entry id="magician+str_comment_ally_hit_masochistic"><![CDATA[I, for one, would like to give it a try.]]></entry>
-    <entry id="magician+str_comment_ally_hit_masochistic"><![CDATA[It wouldn’t hurt you to feel some pain from time to time would it?]]></entry>
- 
- 
- 
- 
+	
+    <entry id="magician+str_comment_ally_hit_masochistic"><![CDATA[Feel it burn up inside you!]]></entry>
+    <entry id="magician+str_comment_ally_hit_masochistic"><![CDATA[That pain is the spark of life!]]></entry>
  
 	<!-- Masochistic: Block Move -->
- 
-    <entry id="magician+str_block_move_masochistic"><![CDATA[Oh, but I'm in "Push Forward" mode right now.]]></entry>
-    <entry id="magician+str_block_move_masochistic"><![CDATA[Move aside? You'll have to make me.]]></entry>
+	
+    <entry id="magician+str_block_move_masochistic"><![CDATA[I like it here, back off]]></entry>
+    <entry id="magician+str_block_move_masochistic"><![CDATA[You're not getting me to move]]></entry>
  
 	<!-- Masochistic: Block Item -->
  
-    <entry id="magician+str_block_item_masochistic"><![CDATA[I can clean up after myself, thank you.]]></entry>
-    <entry id="magician+str_block_item_masochistic"><![CDATA[It can wait, the Mistress' honor is at stake.]]></entry>
+    <entry id="magician+str_block_item_masochistic"><![CDATA[Get that out of my face]]></entry>
+    <entry id="magician+str_block_item_masochistic"><![CDATA[I've got two just like it already]]></entry>
  
 	<!-- Masochistic: Block Heal -->
  
-    <entry id="magician+str_block_heal_masochistic"><![CDATA[Truly, they are more in need of mercy than myself.]]></entry>
-    <entry id="magician+str_block_heal_masochistic"><![CDATA[I am closer to her like this.]]></entry>
-    <entry id="magician+str_block_heal_masochistic"><![CDATA[None of that, the pain keeps me focused.]]></entry>
+    <entry id="magician+str_block_heal_masochistic"><![CDATA[I'm self medicated]]></entry>
+    <entry id="magician+str_block_heal_masochistic"><![CDATA[I'll take my chances]]></entry>
  
 	<!-- Masochistic: Block Buff -->
  
-    <entry id="magician+str_block_buff_masochistic"><![CDATA[This task is mine alone.]]></entry>
-    <entry id="magician+str_block_buff_masochistic"><![CDATA[To ease my burdens would be to admit defeat.]]></entry>
-    <entry id="magician+str_block_buff_masochistic"><![CDATA[Accepting aid would have bored the Mistress.]]></entry>
+    <entry id="magician+str_block_buff_masochistic"><![CDATA[And make this easier? Boring!]]></entry>
+    <entry id="magician+str_block_buff_masochistic"><![CDATA[Can't here you, not listening!]]></entry>
  
 	<!-- Masochistic: Block Camping Skill Performer -->
  
-    <entry id="magician+str_block_camping_skill_performer_masochistic"><![CDATA[Sure, if you don't mind poison in the tea.]]></entry>
-    <entry id="magician+str_block_camping_skill_performer_masochistic"><![CDATA[Leave me to my suffering and I'll leave you to yours.]]></entry>
-    <entry id="magician+str_block_camping_skill_performer_masochistic"><![CDATA[I have a better idea, spread your fingers out on this stump.]]></entry>
+    <entry id="magician+str_block_camping_skill_performer_masochistic"><![CDATA[Ugh! Can we just get moving again?]]></entry>
+    <entry id="magician+str_block_camping_skill_performer_masochistic"><![CDATA[Wasn't my idea to set up camp]]></entry>
  
 	<!-- Masochistic: Block Camping Skill -->
  
-    <entry id="magician+str_block_camping_skill_target_masochistic"><![CDATA[I'm having far too much fun.]]></entry>
-    <entry id="magician+str_block_camping_skill_target_masochistic"><![CDATA[She loved when I looked this way.]]></entry>
-    <entry id="magician+str_block_camping_skill_target_masochistic"><![CDATA[What do you plan to steal from me next?]]></entry>
+    <entry id="magician+str_block_camping_skill_target_masochistic"><![CDATA[This is why we're wasting time here?]]></entry>
+    <entry id="magician+str_block_camping_skill_target_masochistic"><![CDATA[I just want to get back in the fight already]]></entry>
  
 	<!-- Masochistic: Camp Stress -->
  
-    <entry id="magician+str_bark_stress_camp_masochistic"><![CDATA[The one who hurt me is only myself..]]></entry>
-    <entry id="magician+str_bark_stress_camp_masochistic"><![CDATA[I have no need for such a thing as a restful place.]]></entry>
-    <entry id="magician+str_bark_stress_camp_masochistic"><![CDATA[Mistress. Are you watching?]]></entry>
+    <entry id="magician+str_bark_stress_camp_masochistic"><![CDATA[Come on! We're just post poning the inevitable]]></entry>
+    <entry id="magician+str_bark_stress_camp_masochistic"><![CDATA[When you realize you can just stop sleeping all together, your mind just... psssh, yeah]]></entry>
  
 	<!-- Paranoid -->
- 
-    <entry id="magician+str_afflicted_paranoid"><![CDATA[I feel there's something extremely strange going on...]]></entry>
-	<entry id="magician+str_afflicted_paranoid"><![CDATA[There is another incident approaching...]]></entry>
-	<entry id="magician+str_afflicted_paranoid"><![CDATA[I shall cut down your shameless eyes!]]></entry>
-	<entry id="magician+str_afflicted_paranoid"><![CDATA[Enough of this troupe, I can only rely on the knife in my hand.]]></entry>
-	<entry id="magician+str_afflicted_paranoid"><![CDATA[Humans are a detestable lot..]]></entry>
+	
+    <entry id="magician+str_afflicted_paranoid"><![CDATA[It's treason then!]]></entry>
+	<entry id="magician+str_afflicted_paranoid"><![CDATA[Which of you is to blame for this incident?!]]></entry>
+	<entry id="magician+str_afflicted_paranoid"><![CDATA[I've got eyes on all of you now!]]></entry>
+	<entry id="magician+str_afflicted_paranoid"><![CDATA[I won't turn a blind eye any longer]]></entry>
+
  
 	<!-- Paranoid: Move Back -->
  
-    <entry id="magician+str_change_pos_back_paranoid"><![CDATA[Perhaps something suspicious can be found here.]]></entry>
-    <entry id="magician+str_change_pos_back_paranoid"><![CDATA[This is dangerous... I shall depart with all due haste.]]></entry>
-    <entry id="magician+str_change_pos_back_paranoid"><![CDATA[I will not be dying for your kind.]]></entry>
+    <entry id="magician+str_change_pos_back_paranoid"><![CDATA[Yeah, I don't think it's in my best interest to stay in the front]]></entry>
+    <entry id="magician+str_change_pos_back_paranoid"><![CDATA[I did my part, why are you hesitating to help?]]></entry>
  
 	<!-- Paranoid: Stress -->
  
-    <entry id="magician+str_bark_stress_paranoid"><![CDATA[This strange feeling. There must be someone else here.]]></entry>
-    <entry id="magician+str_bark_stress_paranoid"><![CDATA[There is always something far stronger behind the scenes.]]></entry>
-    <entry id="magician+str_bark_stress_paranoid"><![CDATA[(muttering)Should waste them all to be safe.]]></entry>
+    <entry id="magician+str_bark_stress_paranoid"><![CDATA[One of you is the culprit, plotting our demise]]></entry>
+    <entry id="magician+str_bark_stress_paranoid"><![CDATA[If I can't trust myself, how can I trust any of you?!]]></entry>
+
  
 	<!-- Paranoid: Ignore -->
  
-    <entry id="magician+str_ignore_command_paranoid"><![CDATA[Is that so?]]></entry>
-    <entry id="magician+str_ignore_command_paranoid"><![CDATA[And of course your plan is as flawless as the last.]]></entry>
-    <entry id="magician+str_ignore_command_paranoid"><![CDATA[(Stares)]]></entry>
+    <entry id="magician+str_ignore_command_paranoid"><![CDATA[(incoherent muttering)]]></entry>
+    <entry id="magician+str_ignore_command_paranoid"><![CDATA[And just walk into an obvious trap?]]></entry>
  
 	<!-- Paranoid: Random -->
  
-    <entry id="magician+str_random_command_paranoid"><![CDATA[Whatever, stop the bad things and lies, now.]]></entry>
-    <entry id="magician+str_random_command_paranoid"><![CDATA[I reject my humanity!]]></entry>
-    <entry id="magician+str_random_command_paranoid"><![CDATA[I don't know what's happening...but I'm very angry.]]></entry>
+    <entry id="magician+str_random_command_paranoid"><![CDATA[I know what I really should be concerned with]]></entry>
+    <entry id="magician+str_random_command_paranoid"><![CDATA[Does this put a wrench in your plans?]]></entry>
+
  
 	<!-- Paranoid: Friendly Fire -->
  
-    <entry id="magician+str_attack_friendly_paranoid"><![CDATA[I will not let you tell lies now.]]></entry>
-    <entry id="magician+str_attack_friendly_paranoid"><![CDATA[You won't be backstabbing me first.]]></entry>
+    <entry id="magician+str_attack_friendly_paranoid"><![CDATA[Have you been messing with the code?!]]></entry>
  
 	<!-- Paranoid: Block Meal -->
  
-    <entry id="magician+str_block_camping_meal_paranoid"><![CDATA[You wish to poison my tea as well?]]></entry>
-    <entry id="magician+str_block_camping_meal_paranoid"><![CDATA[I'd rather not share a meal with humans.]]></entry>
+    <entry id="magician+str_block_camping_meal_paranoid"><![CDATA[I didn't make it, why would I eat it]]></entry>
+    <entry id="magician+str_block_camping_meal_paranoid"><![CDATA[I'll stick to mushrooms]]></entry>
  
-		<!-- Paranoid: Camp Stress -->
+	<!-- Paranoid: Camp Stress -->
  
-    <entry id="magician+str_bark_stress_camp_paranoid"><![CDATA[...How can any one be so perfectly fine amidst this poison?]]></entry>
-    <entry id="magician+str_bark_stress_camp_paranoid"><![CDATA[Sleep well...]]></entry>
-    <entry id="magician+str_bark_stress_camp_paranoid"><![CDATA[My chances might fair better with them, than present company.]]></entry>
+    <entry id="magician+str_bark_stress_camp_paranoid"><![CDATA[Yeah, I'll take all of the night watches]]></entry>
+    <entry id="magician+str_bark_stress_camp_paranoid"><![CDATA[Don't think I'll turn my back so easily]]></entry>
+
  
-		<!-- Paranoid: Self Hit -->
+	<!-- Paranoid: Self Hit -->
  
-    <entry id="magician+str_comment_self_hit_paranoid"><![CDATA[Ah! You! Cease distracting me, or is that your plan?]]></entry>
-    <entry id="magician+str_comment_self_hit_paranoid"><![CDATA[I'll exterminate everyone here before they can finish me.]]></entry>
+    <entry id="magician+str_comment_self_hit_paranoid"><![CDATA[Who let that one through?!]]></entry>
+    <entry id="magician+str_comment_self_hit_paranoid"><![CDATA[There's no way I'd get hit unless someone's... cheating]]></entry>
  
-		<!-- Paranoid: Self Missed -->
+	<!-- Paranoid: Self Missed -->
  
-    <entry id="magician+str_comment_self_missed_paranoid"><![CDATA[They seek to box me in.]]></entry>
-    <entry id="magician+str_comment_self_missed_paranoid"><![CDATA[Would seem your plot to have me killed has failed.]]></entry>
+    <entry id="magician+str_comment_self_missed_paranoid"><![CDATA[A gaze, but you were hoping for something more, weren't you?]]></entry>
+    <entry id="magician+str_comment_self_missed_paranoid"><![CDATA[Points? I've got a few points for you dastardly folk]]></entry>
  
-		<!-- Paranoid: Ally attack Missed -->
+	<!-- Paranoid: Ally attack Missed -->
  
-    <entry id="magician+str_comment_ally_attack_missed_paranoid"><![CDATA[They say that if there's a bad smell, clean up its source. I'm good at cleaning.]]></entry>
-    <entry id="magician+str_comment_ally_attack_missed_paranoid"><![CDATA[Missing on purpose, or was it human incompitence?]]></entry>
+    <entry id="magician+str_comment_ally_attack_missed_paranoid"><![CDATA[Hey! What were you trying to do there?]]></entry>
+    <entry id="magician+str_comment_ally_attack_missed_paranoid"><![CDATA[You can't sell it at all!]]></entry>
  
-		<!-- Paranoid: Ally Hit -->
+	<!-- Paranoid: Ally Hit -->
  
-    <entry id="magician+str_comment_ally_hit_paranoid"><![CDATA[(laughs) Is something backfiring?]]></entry>
-    <entry id="magician+str_comment_ally_hit_paranoid"><![CDATA[Serves you right.]]></entry>
+    <entry id="magician+str_comment_ally_hit_paranoid"><![CDATA[Are you throwing?!]]></entry>
+    <entry id="magician+str_comment_ally_hit_paranoid"><![CDATA[Don't think this rules you out]]></entry>
  
 	<!-- Paranoid: Ally Missed -->
- 
-    <entry id="magician+str_comment_ally_missed_paranoid"><![CDATA[It's definitely you. I thought so from the beginning.]]></entry>
-    <entry id="magician+str_comment_ally_missed_paranoid"><![CDATA[Bribing them? Here I thought you looked too poor.]]></entry>
+	
+    <entry id="magician+str_comment_ally_missed_paranoid"><![CDATA[A convienent miss]]></entry>
+    <entry id="magician+str_comment_ally_missed_paranoid"><![CDATA[No way you messed that up, you tried to miss!]]></entry>
  
 	<!-- Paranoid: Block Move -->
  
-    <entry id="magician+str_block_move_paranoid"><![CDATA[I know there is a gap in their attack here, nice try.]]></entry>
-    <entry id="magician+str_block_move_paranoid"><![CDATA[We're allies of convenience, guess what this is not.]]></entry>
+    <entry id="magician+str_block_move_paranoid"><![CDATA[No way, I'm where I want to be]]></entry>
+    <entry id="magician+str_block_move_paranoid"><![CDATA[Yeah, I bet you want me to move there]]></entry>
  
 	<!-- Paranoid: Block Item -->
  
-    <entry id="magician+str_block_item_paranoid"><![CDATA[This is all your doing, isn't it?]]></entry>
-    <entry id="magician+str_block_item_paranoid"><![CDATA[Who would accept that?]]></entry>
+    <entry id="magician+str_block_item_paranoid"><![CDATA[How can I trust this is safe?]]></entry>
+    <entry id="magician+str_block_item_paranoid"><![CDATA[(sniff) Nice try, I don't think so]]></entry>
  
 	<!-- Paranoid: Block Heal -->
  
-    <entry id="magician+str_block_heal_paranoid"><![CDATA[Wait, you're very suspicious.]]></entry>
-    <entry id="magician+str_block_heal_paranoid"><![CDATA[That's too unrealistic even for a lie.]]></entry>
-    <entry id="magician+str_block_heal_paranoid"><![CDATA[It is just such statements that raise suspicion!]]></entry>
+    <entry id="magician+str_block_heal_paranoid"><![CDATA[I'd rather roll my save]]></entry>
+    <entry id="magician+str_block_heal_paranoid"><![CDATA[You'll have to catch me first]]></entry>
  
 	<!-- Paranoid: Block Buff -->
  
-    <entry id="magician+str_block_buff_paranoid"><![CDATA[What a childish lie.]]></entry>
-    <entry id="magician+str_block_buff_paranoid"><![CDATA[Are you sure you're not causing any mischief?]]></entry>
-    <entry id="magician+str_block_buff_paranoid"><![CDATA[I'll do well without sabotage, thank you.]]></entry>
+    <entry id="magician+str_block_buff_paranoid"><![CDATA[Eh? You're just trying to undermine me!]]></entry>
+    <entry id="magician+str_block_buff_paranoid"><![CDATA[I'll pass, there's no telling what you're planning]]></entry>
  
 		<!-- Paranoid: Block Camping Skill Performer -->
  
-    <entry id="magician+str_block_camping_skill_performer_paranoid"><![CDATA[Mingle with humans? I must decline.]]></entry>
-    <entry id="magician+str_block_camping_skill_performer_paranoid"><![CDATA[I don't think I want anything to do with you.]]></entry>
-    <entry id="magician+str_block_camping_skill_performer_paranoid"><![CDATA[I'll get to distracting myself right away.]]></entry>
+    <entry id="magician+str_block_camping_skill_performer_paranoid"><![CDATA[You want my secrets? You can have'em after I'm dead!]]></entry>
+    <entry id="magician+str_block_camping_skill_performer_paranoid"><![CDATA[These rituals are dangerous, you might disrupt it and then...]]></entry>
  
 		<!-- Paranoid: Block Camping Skill Target -->
  
-    <entry id="magician+str_block_camping_skill_target_paranoid"><![CDATA[You're always planning something bad, aren't you? Every day and night.]]></entry>
-    <entry id="magician+str_block_camping_skill_target_paranoid"><![CDATA[Anyone who plans something bad will also tell lies!]]></entry>
-    <entry id="magician+str_block_camping_skill_target_paranoid"><![CDATA[You think I can't feel your hate for me?]]></entry>
- 
+    <entry id="magician+str_block_camping_skill_target_paranoid"><![CDATA[You stay on your side of the log!]]></entry>
+    <entry id="magician+str_block_camping_skill_target_paranoid"><![CDATA[Unhand me!]]></entry>
+
 		<!-- Paranoid: Block Retreat -->
  
     <entry id="magician+str_block_combat_retreat_paranoid"><![CDATA[Is this incident your doing, perhaps?]]></entry>
-    <entry id="magician+str_block_combat_retreat_paranoid"><![CDATA[I didn't come here just to be sent back.]]></entry>
- 
-		<!-- Refracted --> 
-	<entry id="magician+str_afflicted_color_madness"><![CDATA[The patterns.. are so pretty!]]></entry>
- 
-		<!-- Refracted: Stress Camp --> 
-    <entry id="magician+str_bark_stress_camp_color_madness"><![CDATA[Patterns swirl, colors over taking the senses...]]></entry>
-    <entry id="magician+str_bark_stress_camp_color_madness"><![CDATA[Sleep? Yet I see them! Just beyond the boundries.]]></entry>
-    <entry id="magician+str_bark_stress_camp_color_madness"><![CDATA[The moon grieves, this night.]]></entry>
- 
-		<!-- Refracted: Bark Stress --> 
-    <entry id="magician+str_bark_stress_color_madness"><![CDATA[The eye, I see it too now.]]></entry>
-    <entry id="magician+str_bark_stress_color_madness"><![CDATA[DO NOT TOUCH THE EDGE!]]></entry>
-    <entry id="magician+str_bark_stress_color_madness"><![CDATA[Mirrors within mirrors!]]></entry>
- 
-		<!-- Refracted: Back --> 
-    <entry id="magician+str_change_pos_back_color_madness"><![CDATA[The pattern tightens around me!]]></entry>
-    <entry id="magician+str_change_pos_back_color_madness"><![CDATA[My rainbow misses something still...]]></entry>
-    <entry id="magician+str_change_pos_back_color_madness"><![CDATA[My senses are overwhelmed!]]></entry>
- 
-		<!-- Refracted: Forward --> 
-    <entry id="magician+str_change_pos_fwd_color_madness"><![CDATA[Where are you hiding?!]]></entry>
-    <entry id="magician+str_change_pos_fwd_color_madness"><![CDATA[The colors draw me in! See how they spin!]]></entry>
-    <entry id="magician+str_change_pos_fwd_color_madness"><![CDATA[Every shade draws near, yet not one can touch me.]]></entry>
- 
-		<!-- Refracted: Ignore --> 
-    <entry id="magician+str_ignore_command_color_madness"><![CDATA[The patterns are gathering, if I move...]]></entry>
-    <entry id="magician+str_ignore_command_color_madness"><![CDATA[White flowers... left and forgotten...]]></entry>
-    <entry id="magician+str_ignore_command_color_madness"><![CDATA[Colors form a path, I've no choice but to follow.]]></entry>
- 
-		<!-- Refracted: Attack Friendly --> 
-    <entry id="magician+str_attack_friendly_color_madness"><![CDATA[The madness is taking over...]]></entry>
-    <entry id="magician+str_attack_friendly_color_madness"><![CDATA[Who is it that reflects in your eyes?]]></entry>
-    <entry id="magician+str_attack_friendly_color_madness"><![CDATA[She calls to me, your colors must spill over!]]></entry>
- 
-		<!-- Refracted: Attack Self --> 
-    <entry id="magician+str_attack_self_color_madness"><![CDATA[Red. RED!]]></entry>
-    <entry id="magician+str_attack_self_color_madness"><![CDATA[My favorite shade of scarlet.]]></entry>
-    <entry id="magician+str_attack_self_color_madness"><![CDATA[I shine a gorgeous hue for her!]]></entry>
- 
-		<!-- Refracted: Mark Self --> 
-    <entry id="magician+str_mark_self_color_madness"><![CDATA[I scream out, yet she doesn't hear me.]]></entry>
-    <entry id="magician+str_mark_self_color_madness"><![CDATA[Make this match a good match for me.]]></entry>
-    <entry id="magician+str_mark_self_color_madness"><![CDATA[Can she see me now, as I see her?]]></entry>
- 
-		<!-- Refracted: Self Hit --> 
-    <entry id="magician+str_comment_self_hit_color_madness"><![CDATA[The second hand begins to move again...]]></entry>
-    <entry id="magician+str_comment_self_hit_color_madness"><![CDATA[A phantom breaks through the patterns!]]></entry>
-    <entry id="magician+str_comment_self_hit_color_madness"><![CDATA[Spiralling, spinning, the colors deceive me.]]></entry>
- 
-		<!-- Refracted: Ally Hit --> 
-    <entry id="magician+str_comment_ally_hit_color_madness"><![CDATA[Shine ever brighter so she may see us!]]></entry>
-    <entry id="magician+str_comment_ally_hit_color_madness"><![CDATA[The hour hand passes you by.]]></entry>
-    <entry id="magician+str_comment_ally_hit_color_madness"><![CDATA[Malicious patterns find their mark.]]></entry>
-    <entry id="magician+str_comment_ally_hit_color_madness"><![CDATA[A rondo of life, coming to its end.]]></entry>
- 
-		<!-- Refracted: Ally Attack Hit --> 
-    <entry id="magician+str_comment_ally_attack_hit_color_madness"><![CDATA[You strike whats before you, neglecting the patterns closing in!]]></entry>
-    <entry id="magician+str_comment_ally_attack_hit_color_madness"><![CDATA[Even now the colors form the only path we may take!]]></entry>
-    <entry id="magician+str_comment_ally_attack_hit_color_madness"><![CDATA[They're mine to offer up to her!]]></entry>
- 
-		<!-- Refracted: move --> 
-    <entry id="magician+str_comment_move_color_madness"><![CDATA[To see so much with these empty eyes...]]></entry>
-    <entry id="magician+str_comment_move_color_madness"><![CDATA[Bound in motion to the pattern's will.]]></entry>
-    <entry id="magician+str_comment_move_color_madness"><![CDATA[This is a place we can never leave.]]></entry>
- 
-		<!-- Refracted: Curio --> 
-    <entry id="magician+str_comment_curio_interaction_color_madness"><![CDATA[Any clue, any at all will do.]]></entry>
-    <entry id="magician+str_comment_curio_interaction_color_madness"><![CDATA[Where could she have gone?]]></entry>
-    <entry id="magician+str_comment_curio_interaction_color_madness"><![CDATA[Please, hide and seek is over now...]]></entry>
- 
-		<!-- Refracted: Trap --> 
-    <entry id="magician+str_comment_trap_triggered_color_madness"><![CDATA[Blinded, we suffer such a clumsy device.]]></entry>
-    <entry id="magician+str_comment_trap_triggered_color_madness"><![CDATA[Falling for such an obvious thing, pitiful]]></entry>
- 
-		<!-- Refracted: Block Meal --> 
-    <entry id="magician+str_block_camping_meal_color_madness"><![CDATA[I couldn't...]]></entry>
-    <entry id="magician+str_block_camping_meal_color_madness"><![CDATA[Not while they're watching.]]></entry>
-    <entry id="magician+str_block_camping_meal_color_madness"><![CDATA[It's not food that I see.]]></entry>
- 
-		<!-- Refracted: Heart Attack --> 
-    <entry id="magician+str_heart_attack_color_madness"><![CDATA[THE NIGHTMARE IS ENDLESS!!!]]></entry>
-    <entry id="magician+str_heart_attack_color_madness"><![CDATA[PLEASE HEAR ME!!!!]]></entry>
-    <entry id="magician+str_heart_attack_color_madness"><![CDATA[ALL UNWINDS!!!]]></entry>
- 
-		<!-- Refracted: Block Camp Target --> 
-    <entry id="magician+str_block_camping_skill_target_color_madness"><![CDATA[You're standing in my light.]]></entry>
-    <entry id="magician+str_block_camping_skill_target_color_madness"><![CDATA[Do not distract me, the patterns must always be watched.]]></entry>
-    <entry id="magician+str_block_camping_skill_target_color_madness"><![CDATA[If you haven't seen her, away with you.]]></entry>
- 
-		<!-- Refracted: block Camp Performer --> 
-    <entry id="magician+str_block_camping_skill_performer_color_madness"><![CDATA[No, I need my strength to spot her glow.]]></entry>
-    <entry id="magician+str_block_camping_skill_performer_color_madness"><![CDATA[All the colors have gathered, but one, it must be found.]]></entry>
-    <entry id="magician+str_block_camping_skill_performer_color_madness"><![CDATA[Flashing, darting, swarming, converging...]]></entry>
- 
-		<!-- Refracted: Block Heal --> 
-    <entry id="magician+str_block_heal_color_madness"><![CDATA[You'll only dull my glow.]]></entry>
-    <entry id="magician+str_block_heal_color_madness"><![CDATA[My wounds are a beacon.]]></entry>
-    <entry id="magician+str_block_heal_color_madness"><![CDATA[I guess I should praise you for what you do understand. This isn't one of them, however.]]></entry>
- 
-		<!-- Refracted: Block Buff --> 
-    <entry id="magician+str_block_buff_color_madness"><![CDATA[Your time would be better spent observing!]]></entry>
-    <entry id="magician+str_block_buff_color_madness"><![CDATA[And why do you deserve my attention?]]></entry>
-    <entry id="magician+str_block_buff_color_madness"><![CDATA[Oaf! You'll cross with the patterns!]]></entry>
- 
-		<!-- Refracted: Block Effect --> 
-    <entry id="magician+str_block_effect_color_madness"><![CDATA[I am as she desires.]]></entry>
-    <entry id="magician+str_block_effect_color_madness"><![CDATA[No more talk of this.]]></entry>
-    <entry id="magician+str_block_effect_color_madness"><![CDATA[My radiant pain is a signal in the darkness.]]></entry>
- 
-		<!-- Refracted: Consume Item --> 
-    <entry id="magician+str_consume_item_color_madness"><![CDATA[Crystals, where are they?! She desires them!]]></entry>
-    <entry id="magician+str_consume_item_color_madness"><![CDATA[It must be in here somewhere.. crystals will call to her.]]></entry>
- 
-		<!-- Refracted: Roster List --> 
-    <entry id="magician+str_roster_list_color_madness_bark"><![CDATA[Please, let me search for her.]]></entry>
-    <entry id="magician+str_roster_list_color_madness_bark"><![CDATA[What was once black has become a cacophony of hues.]]></entry>
+    <entry id="magician+str_block_combat_retreat_paranoid"><![CDATA[I didn't come here just to be sent back]]></entry>
  
 		<!-- Selfish -->
- 
-    <entry id="magician+str_afflicted_selfish"><![CDATA[I never had the choice of becoming your ally from the start.]]></entry>
-	<entry id="magician+str_afflicted_selfish"><![CDATA[Even shares, yet uneven burdens. How typical.]]></entry>
-	<entry id="magician+str_afflicted_selfish"><![CDATA[I'm here for the Mistress' sake, not yours.]]></entry>
-	<entry id="magician+str_afflicted_selfish"><![CDATA[Rest of you are closer to obstacles than allies.]]></entry>
-	<entry id="magician+str_afflicted_selfish"><![CDATA[Shouldn't the reward be per-kill?]]></entry>
+	
+    <entry id="magician+str_afflicted_selfish"><![CDATA[Back off! These kills are mine]]></entry>
+	<entry id="magician+str_afflicted_selfish"><![CDATA[I'm not here to be your heroine!]]></entry>
+	<entry id="magician+str_afflicted_selfish"><![CDATA[We're all here for ourselves, lets stop pretending we aren't]]></entry>
+	<entry id="magician+str_afflicted_selfish"><![CDATA[Do this, do that, is it not enough my back is strainin' under your weight?!]]></entry>
+
  
 		<!-- Selfish: Stress -->
  
-    <entry id="magician+str_bark_stress_selfish"><![CDATA[I feel like I'm just wasting my time here...]]></entry>
-    <entry id="magician+str_bark_stress_selfish"><![CDATA[Each of you need to learn their place.]]></entry>
-    <entry id="magician+str_bark_stress_selfish"><![CDATA[I fight for the Mistress, the rest of you are on your own.]]></entry>
+    <entry id="magician+str_bark_stress_selfish"><![CDATA[Come on, come on, get to me already!]]></entry>
+    <entry id="magician+str_bark_stress_selfish"><![CDATA[Okay, watch this. Maybe You'll learn somethin']]></entry>
+    <entry id="magician+str_bark_stress_selfish"><![CDATA[There better be a kill set up for me]]></entry>
  
 		<!-- Selfish: Move Forward -->
  
-    <entry id="magician+str_change_pos_fwd_selfish"><![CDATA[No longer will I allow anyone to get in my way.]]></entry>
-    <entry id="magician+str_change_pos_fwd_selfish"><![CDATA[Let me pass through, will you?!]]></entry>
-    <entry id="magician+str_change_pos_fwd_selfish"><![CDATA[Oh heroic meat-shield.. You're blocking all of my shots.]]></entry>
+    <entry id="magician+str_change_pos_fwd_selfish"><![CDATA[I got a better move to do next]]></entry>
+    <entry id="magician+str_change_pos_fwd_selfish"><![CDATA[Move it]]></entry>
  
 		<!-- Selfish: Move Back -->
  
-    <entry id="magician+str_change_pos_back_selfish"><![CDATA[(sighs) Be of use for once, would you?]]></entry>
-    <entry id="magician+str_change_pos_back_selfish"><![CDATA[Not worth wasting the life.]]></entry>
-    <entry id="magician+str_change_pos_back_selfish"><![CDATA[Don't give me that look, you should be used to this.]]></entry>
+    <entry id="magician+str_change_pos_back_selfish"><![CDATA[Someone else handle the front]]></entry>
+    <entry id="magician+str_change_pos_back_selfish"><![CDATA[I need a better view]]></entry>
  
 		<!-- Selfish: Ignore -->
  
-    <entry id="magician+str_ignore_command_selfish"><![CDATA[(Stares Coldly)]]></entry>
-    <entry id="magician+str_ignore_command_selfish"><![CDATA[Sure, I'll consider it.]]></entry>
-    <entry id="magician+str_ignore_command_selfish"><![CDATA[And end things so soon? I'm going for more points from the Mistress.]]></entry>
+    <entry id="magician+str_ignore_command_selfish"><![CDATA[Eh, they can clean up]]></entry>
+    <entry id="magician+str_ignore_command_selfish"><![CDATA[What? Now?]]></entry>
  
 		<!-- Selfish: Random Command -->
- 
-    <entry id="magician+str_random_command_selfish"><![CDATA[I said I don't care.]]></entry>
-    <entry id="magician+str_random_command_selfish"><![CDATA[Sadly, our plans do not coincide.]]></entry>
-    <entry id="magician+str_random_command_selfish"><![CDATA[Observe. Perfection and elegance.]]></entry>
+	
+    <entry id="magician+str_random_command_selfish"><![CDATA[Don't tell me how to do my job!]]></entry>
+    <entry id="magician+str_random_command_selfish"><![CDATA[Maybe the sun waits for you to tell'em what to do?]]></entry>
  
 		<!-- Selfish: Camp Stress -->
  
-    <entry id="magician+str_bark_stress_camp_selfish"><![CDATA[It would be amusing to see you prove I took anything.]]></entry>
-    <entry id="magician+str_bark_stress_camp_selfish"><![CDATA[The Mistress' need is greater, these precious things should go to me.]]></entry>
-    <entry id="magician+str_bark_stress_camp_selfish"><![CDATA[Me? The thief? How novel.]]></entry>
- 
+    <entry id="magician+str_bark_stress_camp_selfish"><![CDATA[No one go near my swag, I'm watchin' all of you]]></entry>
+    <entry id="magician+str_bark_stress_camp_selfish"><![CDATA[I'll poison anyone that gets too close, got it?]]></entry>
  
 		<!-- Selfish: Self Hit -->
  
-    <entry id="magician+str_comment_self_hit_selfish"><![CDATA[Absorbing blows is my job now, too?]]></entry>
-    <entry id="magician+str_comment_self_hit_selfish"><![CDATA[All of you are paying for that one.]]></entry>
+    <entry id="magician+str_comment_self_hit_selfish"><![CDATA[Someone guard me already!]]></entry>
+    <entry id="magician+str_comment_self_hit_selfish"><![CDATA[If you'd just give me the space I deserve...]]></entry>
  
 		<!-- Selfish: Ally Hit -->
  
-    <entry id="magician+str_comment_ally_attack_hit_selfish"><![CDATA[There's no need to be proud and noble at a time like this.]]></entry>
-    <entry id="magician+str_comment_ally_attack_hit_selfish"><![CDATA[I'll correct your swing for the next one too.]]></entry>
+    <entry id="magician+str_comment_ally_attack_hit_selfish"><![CDATA[Hey! Hey!! That's my kill!!!]]></entry>
+    <entry id="magician+str_comment_ally_attack_hit_selfish"><![CDATA[Stop KSing, you little leech!]]></entry>
  
 		<!-- Selfish: Ally Attack Missed -->
  
-    <entry id="magician+str_comment_ally_attack_missed_selfish"><![CDATA[If you're going to get in my way, atleast make it worth it to me.]]></entry>
-    <entry id="magician+str_comment_ally_attack_missed_selfish"><![CDATA[I'm convinced, you do deserve an equal share.]]></entry>
+    <entry id="magician+str_comment_ally_attack_missed_selfish"><![CDATA[That better not have been an attempt to take my kill]]></entry>
+    <entry id="magician+str_comment_ally_attack_missed_selfish"><![CDATA[Can't you set up kills correctly?]]></entry>
  
 		<!-- Selfish: Block Camping Skill Performer -->
  
-    <entry id="magician+str_block_camping_skill_performer_selfish"><![CDATA[Unfortunately for you, I have no intention to support dead weight of any kind.]]></entry>
-    <entry id="magician+str_block_camping_skill_performer_selfish"><![CDATA[I need to conserve myself for the Mistress.]]></entry>
-    <entry id="magician+str_block_camping_skill_performer_selfish"><![CDATA[Never was one for donations.]]></entry>
+    <entry id="magician+str_block_camping_skill_performer_selfish"><![CDATA[Every spell a bargain, but I don't think you got enough]]></entry>
+    <entry id="magician+str_block_camping_skill_performer_selfish"><![CDATA[The magic takes it's toll, yet where's mine?]]></entry>
+		
+		<!-- Refracted --> 
+		<!-- LEFT OFF -->
+	<entry id="magician+str_afflicted_color_madness"><![CDATA[Unlimited po~ower!]]></entry>
+	
+		<!-- Refracted: Stress Camp --> 
+    <entry id="magician+str_bark_stress_camp_color_madness"><![CDATA[Every minute we waste here is a power up wasted]]></entry>
+    <entry id="magician+str_bark_stress_camp_color_madness"><![CDATA[Time is wasting away, my potential can't be reached like this!]]></entry>
+	
+		<!-- Refracted: Bark Stress --> 
+    <entry id="magician+str_bark_stress_color_madness"><![CDATA[More kills! More power!]]></entry>
+    <entry id="magician+str_bark_stress_color_madness"><![CDATA[Everyone is a walking vessel of my power for me to reap!]]></entry>
+	
+		<!-- Refracted: Back --> 
+    <entry id="magician+str_change_pos_back_color_madness"><![CDATA[I need a perfect position]]></entry>
+    <entry id="magician+str_change_pos_back_color_madness"><![CDATA[I can do more from here than you, ze!]]></entry>
+	
+		<!-- Refracted: Forward --> 
+    <entry id="magician+str_change_pos_fwd_color_madness"><![CDATA[I can almost reach out for it...]]></entry>
+    <entry id="magician+str_change_pos_fwd_color_madness"><![CDATA[This feeling of power, it's drawing me in]]></entry>
+	
+		<!-- Refracted: Ignore --> 
+    <entry id="magician+str_ignore_command_color_madness"><![CDATA[Ah, I can feel it. This magic is paralyzing at times]]></entry>
+    <entry id="magician+str_ignore_command_color_madness"><![CDATA[I am feeling so numb. Have I gathered too much...]]></entry>
+	
+		<!-- Refracted: Attack Friendly --> 
+    <entry id="magician+str_attack_friendly_color_madness"><![CDATA[The infinite power of changing the game's files!!]]></entry>
+	
+		<!-- Refracted: Attack Self --> 
+    <entry id="magician+str_attack_self_color_madness"><![CDATA[It's so hard to control!]]></entry>
+    <entry id="magician+str_attack_self_color_madness"><![CDATA[My spell is overloading!!]]></entry>
+
+	
+		<!-- Refracted: Mark Self --> 
+    <entry id="magician+str_mark_self_color_madness"><![CDATA[You think you can take my power from me?!]]></entry>
+    <entry id="magician+str_mark_self_color_madness"><![CDATA[I'm unstoppable like this!]]></entry>
+	
+		<!-- Refracted: Self Hit --> 
+    <entry id="magician+str_comment_self_hit_color_madness"><![CDATA[I'll rip the power right out of you, ze!]]></entry>
+    <entry id="magician+str_comment_self_hit_color_madness"><![CDATA[No! My precious power!]]></entry>
+	
+		<!-- Refracted: Ally Hit --> 
+    <entry id="magician+str_comment_ally_hit_color_madness"><![CDATA[If you die who will be my meat shield?!]]></entry>
+    <entry id="magician+str_comment_ally_hit_color_madness"><![CDATA[Gah, if you let that happen again, I'll turn you into power myself!]]></entry>
+	
+		<!-- Refracted: Ally Attack Hit --> 
+    <entry id="magician+str_comment_ally_attack_hit_color_madness"><![CDATA[Back off! They're mine to kill!]]></entry>
+    <entry id="magician+str_comment_ally_attack_hit_color_madness"><![CDATA[That better have been meant to set up my spell]]></entry>
+	
+		<!-- Refracted: move --> 
+    <entry id="magician+str_comment_move_color_madness"><![CDATA[Hey wait, I'm feelin' dizzy...]]></entry>
+    <entry id="magician+str_comment_move_color_madness"><![CDATA[Ugh, why can't I see straight right now]]></entry>
+	
+		<!-- Refracted: Curio --> 
+    <entry id="magician+str_comment_curio_interaction_color_madness"><![CDATA[Perchance a mushroom?]]></entry>
+    <entry id="magician+str_comment_curio_interaction_color_madness"><![CDATA[Could power lurk even here?]]></entry>
+
+	
+		<!-- Refracted: Trap --> 
+    <entry id="magician+str_comment_trap_triggered_color_madness"><![CDATA[Ah! It seeks to rob me!]]></entry>
+    <entry id="magician+str_comment_trap_triggered_color_madness"><![CDATA[They fear me, so of course such lousy tactics are used]]></entry>
+	
+		<!-- Refracted: Block Meal --> 
+    <entry id="magician+str_block_camping_meal_color_madness"><![CDATA[I'll not need to eat with how things are going]]></entry>
+    <entry id="magician+str_block_camping_meal_color_madness"><![CDATA[It's not food that I'll be feasting on now]]></entry>
+	
+		<!-- Refracted: Heart Attack --> 
+    <entry id="magician+str_heart_attack_color_madness"><![CDATA[I'M STILL HUMAN?!]]></entry>
+	
+		<!-- Refracted: Block Camp Target --> 
+    <entry id="magician+str_block_camping_skill_target_color_madness"><![CDATA[That's beneath me now, ze]]></entry>
+    <entry id="magician+str_block_camping_skill_target_color_madness"><![CDATA[Eh? That's just a drop in the bucket compared to what I have]]></entry>
+	
+		<!-- Refracted: block Camp Performer --> 
+    <entry id="magician+str_block_camping_skill_performer_color_madness"><![CDATA[I'm sharin' my power with no one, ze]]></entry>
+    <entry id="magician+str_block_camping_skill_performer_color_madness"><![CDATA[You couldn't handle my strongest spells]]></entry>
+	
+		<!-- Refracted: Block Heal --> 
+    <entry id="magician+str_block_heal_color_madness"><![CDATA[Healing?! I'll just regenerate, ze]]></entry>
+    <entry id="magician+str_block_heal_color_madness"><![CDATA[Knock it off and set me up another kill!]]></entry>
+
+	
+		<!-- Refracted: Block Buff --> 
+    <entry id="magician+str_block_buff_color_madness"><![CDATA[Haha! That's cute]]></entry>
+    <entry id="magician+str_block_buff_color_madness"><![CDATA[Keep your advice to yourself, got it?]]></entry>
+	
+		<!-- Refracted: Block Effect --> 
+    <entry id="magician+str_block_effect_color_madness"><![CDATA[I'm not even sure what triggered this line!!]]></entry>
+	<entry id="magician+str_block_effect_color_madness"><![CDATA[Whatever it is you're tryin' to give me, I don't need it]]></entry>
+
+		<!-- Refracted: Consume Item --> 
+    <entry id="magician+str_consume_item_color_madness"><![CDATA[It's like bottled power....]]></entry>
+    <entry id="magician+str_consume_item_color_madness"><![CDATA[(snorts) Ahyeh. That's the stuff, ze]]></entry>
+	
+		<!-- Refracted: Roster List --> 
+    <entry id="magician+str_roster_list_color_madness_bark"><![CDATA[Unlimited power! (screeches)]]></entry>
+    <entry id="magician+str_roster_list_color_madness_bark"><![CDATA[Without spellcard rules, all power is collectable]]></entry>
  
- 
- 
+	<!-- Curio Strings -->
+
+	<entry id="magician+trigger_curio_quirk_compulsive"><![CDATA[I gotta, I gotta!]]></entry>
+    <entry id="magician+trigger_curio_quirk_compulsive"><![CDATA[I MUST know what this does]]></entry>
+    <entry id="magician+trigger_curio_quirk_compulsive"><![CDATA[Touchy touch!]]></entry>
+    <entry id="magician+trigger_curio_quirk_curious"><![CDATA[Hmm, strange little thing...]]></entry>
+    <entry id="magician+trigger_curio_quirk_curious"><![CDATA[I'll unlock it's sercets, ze]]></entry>
+    <entry id="magician+trigger_curio_quirk_curious"><![CDATA[Oh, you're interesting. Can I take it back with me?]]></entry>
+    <entry id="magician+trigger_curio_quirk_dark_temptation"><![CDATA[What dark magics lie in wait for me...]]></entry>
+    <entry id="magician+trigger_curio_quirk_guilty_conscience"><![CDATA[Would she even forgive me after all this...]]></entry>
+    <entry id="magician+trigger_curio_quirk_kleptomaniac"><![CDATA[Glittering gold, this treasure's for the bold]]></entry>
+    <entry id="magician+trigger_curio_quirk_bloodthirsty"><![CDATA[What a spectacle of violence...]]></entry>
+    <entry id="magician+trigger_curio_quirk_hieromania"><![CDATA[Is this what I must do?]]></entry>
+    <entry id="magician+trigger_curio_quirk_ablutomania"><![CDATA[The filth of this place is unreal]]></entry>
+    <entry id="magician+trigger_curio_quirk_dacnomania"><![CDATA[The magicaly challenged really know how to inflict death upon eachother]]></entry>
+    <entry id="magician+trigger_curio_quirk_egomania"><![CDATA[Ay, the prettiest in the mirror is me, ze]]></entry>
+    <entry id="magician+trigger_curio_quirk_hylomania"><![CDATA[I'm not going back empty handed, ze]]></entry>
+    <entry id="magician+trigger_curio_quirk_sitiomania"><![CDATA[I'll not eat grass like some shrine jockey!]]></entry>
+    <entry id="magician+trigger_curio_quirk_plutomania"><![CDATA[That sparkle, over there!]]></entry>
+    <entry id="magician+trigger_curio_quirk_necromania"><![CDATA[I should have taken up necromancy]]></entry>
+    <entry id="magician+trigger_curio_quirk_dipsomania"><![CDATA[C'mon, there's gotta be somethin' to drink down here]]></entry>
+    <entry id="magician+trigger_curio_quirk_paranormania"><![CDATA[Oh great spirits..., get the hell out]]></entry>
+    <entry id="magician+trigger_curio_quirk_hagiomania"><![CDATA[I feel a connection in this spot!]]></entry>
+    <entry id="magician+trigger_curio_quirk_demonomania"><![CDATA[The leyline must be channeled!]]></entry>
+    <entry id="magician+trigger_curio_quirk_tapeworm"><![CDATA[Why am I still so hungry!]]></entry>
+	
+    <entry id="magician+str_keep_loot_string"><![CDATA[You can have it back when I'm dead]]></entry>
+
+    <entry id="magician+trigger_curio_affliction_fearful"><![CDATA[Is this what we came for? Can we go now?!]]></entry>
+    <entry id="magician+trigger_curio_affliction_paranoid"><![CDATA[One of you would just stash it!]]></entry>
+    <entry id="magician+trigger_curio_affliction_masochistic"><![CDATA[I'll read the books]]></entry>
+    <entry id="magician+trigger_curio_affliction_abusive"><![CDATA[I doubt any of you can even read]]></entry>
+    <entry id="magician+trigger_curio_affliction_selfish"><![CDATA[Taking my kills..., probably take my loot, too]]></entry>
+    <entry id="magician+trigger_curio_affliction_depressed"><![CDATA[I don't deserve to find it]]></entry>
+    <entry id="magician+trigger_curio_affliction_irrational"><![CDATA[The ingredient I need, it might be here!]]></entry>
  
 	<!-- Virtuous -->
+	<entry id="magician+str_block_effect_vigorous"><![CDATA[Nice try, ze!]]></entry>
+    <entry id="magician+str_block_effect_powerful"><![CDATA[Nice try, ze!]]></entry>
+    <entry id="magician+str_block_effect_focused"><![CDATA[Nice try, ze!!]]></entry>
+    <entry id="magician+str_block_effect_courageous"><![CDATA[Nice try, ze!]]></entry>
+    <entry id="magician+str_block_effect_stalwart"><![CDATA[Nice try, ze!]]></entry>
+	
 	<!-- Courageous -->
  
-    <entry id="magician+str_virtued_courageous"><![CDATA[No matter what happens, there's always a path to follow.]]></entry>
-    <entry id="magician+str_virtued_courageous"><![CDATA[To become a foe of mine is no different than to abandon your life.]]></entry>
+    <entry id="magician+str_virtued_courageous"><![CDATA[No matter what happens, there's always a path to follow]]></entry>
+    <entry id="magician+str_virtued_courageous"><![CDATA[To become a foe of mine is no different than to abandon your life]]></entry>
  
 	<!-- Courageous: heal party -->
  
-    <entry id="magician+str_stress_heal_party_courageous"><![CDATA[I will help you no matter what the situation. Please rely on me.]]></entry>
-    <entry id="magician+str_stress_heal_party_courageous"><![CDATA[Come now, get back to work.]]></entry>
+    <entry id="magician+str_stress_heal_party_courageous"><![CDATA[I will help you no matter what the situation. Please rely on me]]></entry>
+    <entry id="magician+str_stress_heal_party_courageous"><![CDATA[Come now, get back to work]]></entry>
  
 	<!-- Focused -->
  
     <entry id="magician+str_virtued_focused"><![CDATA[Do you think you can escape from my knives?]]></entry>
-    <entry id="magician+str_virtued_focused"><![CDATA[I wish to test how keen the edge of this knife is.]]></entry>
+    <entry id="magician+str_virtued_focused"><![CDATA[I wish to test how keen the edge of this knife is]]></entry>
  
  
 	<!-- Focused: buff other -->
  
-    <entry id="magician+str_buff_random_party_member_focused"><![CDATA[This kind of barrier is simple to bypass.]]></entry>
-    <entry id="magician+str_buff_random_party_member_focused"><![CDATA[Now, let's finish this before dawn comes.]]></entry>
+    <entry id="magician+str_buff_random_party_member_focused"><![CDATA[This kind of barrier is simple to bypass]]></entry>
+    <entry id="magician+str_buff_random_party_member_focused"><![CDATA[Now, let's finish this before dawn comes]]></entry>
  
 	<!-- Powerful -->
  
-    <entry id="magician+str_virtued_powerful"><![CDATA[No one can escape my knives.]]></entry>
-    <entry id="magician+str_virtued_powerful"><![CDATA[Your blood will coat my knife.]]></entry>
+    <entry id="magician+str_virtued_powerful"><![CDATA[No one can escape my knives]]></entry>
+    <entry id="magician+str_virtued_powerful"><![CDATA[Your blood will coat my knife]]></entry>
  
 	<!-- Powerful: buff party -->
  
-    <entry id="magician+str_buff_party_powerful"><![CDATA[We have no more need for forbearance.]]></entry>
+    <entry id="magician+str_buff_party_powerful"><![CDATA[We have no more need for forbearance]]></entry>
     <entry id="magician+str_buff_party_powerful"><![CDATA[Would you like to test that claim that we're powerless?]]></entry>
  
 	<!-- Stalwart -->
  
-    <entry id="magician+str_virtued_stalwart"><![CDATA[I will let my blades dance for my Mistress.]]></entry>
-    <entry id="magician+str_virtued_stalwart"><![CDATA[Let's dye everything scarlet.]]></entry>
+    <entry id="magician+str_virtued_stalwart"><![CDATA[I will let my blades dance for my Mistress]]></entry>
+    <entry id="magician+str_virtued_stalwart"><![CDATA[Let's dye everything scarlet]]></entry>
  
 	<!-- stalwart: Heal Self -->
  
-    <entry id="magician+str_stress_heal_self_stalwart"><![CDATA[There’s nothing that will wound this body of mine.]]></entry>
+    <entry id="magician+str_stress_heal_self_stalwart"><![CDATA[There’s nothing that will wound this body of mine]]></entry>
     <entry id="magician+str_stress_heal_self_stalwart"><![CDATA[No matter how much it cuts, this blade does not grow dull!]]></entry>
  
 	<!-- Vigorous -->
@@ -1397,166 +1374,25 @@
  
 	<!-- Vigorous: Heal Self -->
  
-    <entry id="magician+str_heal_self_vigorous"><![CDATA[The phantom of knives is not so easily deterred.]]></entry>
-    <entry id="magician+str_heal_self_vigorous"><![CDATA[I feel not one whit of fatigue.]]></entry>
+    <entry id="magician+str_heal_self_vigorous"><![CDATA[The phantom of knives is not so easily deterred]]></entry>
+    <entry id="magician+str_heal_self_vigorous"><![CDATA[I feel not one whit of fatigue]]></entry>
  
  
  
 	<!-- Subtitles -->
-	<entry id="str_vo_town_recruit_magician_0"><![CDATA[Time has no dominion here.]]></entry>
-	<entry id="str_vo_town_event_bonus_recruit_magician"><![CDATA[Freed from the trappings of their humanity, they plied their terrible 
- trade anew.]]></entry>
-	<entry id="str_vo_town_idle_resolve_level_magician"><![CDATA[The gibbous moon revealed her inhuman desires in their stultifying hideousness.]]></entry>
+	<entry id="str_vo_town_recruit_magician_0"><![CDATA[]]></entry>
+	<entry id="str_vo_town_event_bonus_recruit_magician"><![CDATA[]]></entry>
+	<entry id="str_vo_town_idle_resolve_level_magician"><![CDATA[]]></entry>
  
 	<!-- Crimson Court Stuff -->
  
 	<!-- Prisoner -->
-	<entry id="magician+str_prisoner_help_me"><![CDATA[Well, this is compromising...]]></entry>
-    <entry id="magician+str_prisoner_rescue_thanks"><![CDATA[My thanks, allow me to help rid you of these blood suckers.]]></entry>
- 
-	<!-- Crimson Curse-->
-	<entry id="magician+str_change_pos_fwd_disease_vampire_blood_lust"><![CDATA[IT DRAWS ME CLOSER]]></entry>
-    <entry id="magician+str_change_pos_fwd_disease_vampire_crave"><![CDATA[It's intoxicating..]]></entry>
-    <entry id="magician+str_comment_ally_hit_disease_vampire_blood_lust"><![CDATA[WASTE NOT A DROP!]]></entry>
-    <entry id="magician+str_comment_ally_hit_disease_vampire_blood_lust"><![CDATA[(grunting) KEEP AWAY FROM ME!]]></entry>
-    <entry id="magician+str_comment_ally_hit_disease_vampire_blood_lust"><![CDATA[MESMERISING! GUSHING!]]></entry>
-    <entry id="magician+str_comment_ally_hit_disease_vampire_crave"><![CDATA[I can't look away.]]></entry>
-    <entry id="magician+str_comment_ally_hit_disease_vampire_crave"><![CDATA[Cover the wound, I can.. smell it.]]></entry>
-    <entry id="magician+str_comment_ally_hit_disease_vampire_crave"><![CDATA[(heavy breathing) Please, treat it quickly.]]></entry>
-    <entry id="magician+str_comment_curio_interaction_disease_vampire_crave"><![CDATA[Let me investigate this.]]></entry>
-    <entry id="magician+str_comment_curio_interaction_disease_vampire_crave"><![CDATA[Maybe there's.. hold a moment, everyone.]]></entry>
-    <entry id="magician+str_comment_curio_interaction_disease_vampire_wasting"><![CDATA[I can't fight it, please be in here...]]></entry>
-    <entry id="magician+str_comment_curio_interaction_disease_vampire_wasting"><![CDATA[Keep away from me, let me look for it in peace.]]></entry>
-    <entry id="magician+str_comment_trap_triggered_disease_vampire_crave"><![CDATA[I-I'm sorry, this isn't like me.]]></entry>
-    <entry id="magician+str_comment_trap_triggered_disease_vampire_crave"><![CDATA[How could I be so distracted...]]></entry>
-    <entry id="magician+str_comment_trap_triggered_disease_vampire_wasting"><![CDATA[And yet I subsist..]]></entry>
-    <entry id="magician+str_comment_trap_triggered_disease_vampire_wasting"><![CDATA[My balance is leaving me...]]></entry>
-	<entry id="magician+str_random_command_disease_vampire_blood_lust"><![CDATA[ENTHRALLING CRIMSON!]]></entry>
-    <entry id="magician+str_random_command_disease_vampire_blood_lust"><![CDATA[MY EYES, THEY SHINE LIKE HERS!]]></entry>
-    <entry id="magician+str_random_command_disease_vampire_blood_lust"><![CDATA[WHY CONTAIN IT?!]]></entry>
-	<entry id="magician+str_random_command_disease_vampire_blood_lust"><![CDATA[FOR THE MISTRESS, I CARVE THROUGH THEM ALL!]]></entry>
-	<entry id="magician+str_attack_self_disease_vampire_wasting"><![CDATA[My existance is a travesty....]]></entry>
-    <entry id="magician+str_attack_self_disease_vampire_wasting"><![CDATA[I thought myself unable to get any lower...]]></entry>
-    <entry id="magician+str_attack_self_disease_vampire_wasting"><![CDATA[Even the slighest relief...]]></entry>
-    <entry id="magician+str_block_move_disease_vampire_crave"><![CDATA[Don't come near me right now!]]></entry>
-    <entry id="magician+str_block_move_disease_vampire_crave"><![CDATA[Are you daft?! Stay back.]]></entry>
-    <entry id="magician+str_stress_heal_self_disease_vampire_blood_lust"><![CDATA[This feeling, so exhilarating!]]></entry>
-    <entry id="magician+str_stress_heal_self_disease_vampire_blood_lust"><![CDATA[Was this how she always felt?]]></entry>
-    <entry id="magician+str_stress_heal_self_disease_vampire_blood_lust"><![CDATA[I am in control of this...]]></entry>
-	<entry id="magician+quirk_evolution_death_disease_vampire_wasting"><![CDATA[She never wanted this for me!]]></entry>
-    <entry id="magician+quirk_transition_disease_vampire_blood_lust_to_disease_vampire_passive"><![CDATA[See? I'm in complete control.]]></entry>
-    <entry id="magician+quirk_transition_disease_vampire_crave_to_disease_vampire_blood_lust"><![CDATA[Such an intense rush! I could exterminate them all!]]></entry>
-    <entry id="magician+quirk_transition_disease_vampire_crave_to_disease_vampire_wasting"><![CDATA[The hunger gnaws at my mind!]]></entry>
-    <entry id="magician+quirk_transition_disease_vampire_passive_to_disease_vampire_crave"><![CDATA[The pangs are becoming difficult to subdue...]]></entry>
-    <entry id="magician+quirk_transition_disease_vampire_wasting_to_disease_vampire_passive"><![CDATA[This is a detestable way to live...]]></entry>
-	<entry id="magician+str_attack_friendly_disease_vampire_blood_lust"><![CDATA[Tonight's dinner, IS YOU!]]></entry>
-    <entry id="magician+str_attack_friendly_disease_vampire_blood_lust"><![CDATA[THESE FOUL IMPULSES!]]></entry>
-    <entry id="magician+str_attack_friendly_disease_vampire_crave"><![CDATA[You got to close! It's your own fault!]]></entry>
-    <entry id="magician+str_attack_friendly_disease_vampire_crave"><![CDATA[I'm trying to resists, but this scent!]]></entry>
-    <entry id="magician+str_attack_friendly_disease_vampire_wasting"><![CDATA[Don't just let me die like this!]]></entry>
-	<entry id="magician+str_bark_stress_disease_vampire_blood_lust"><![CDATA[BLEED! AND REVEL IN SCARLET!]]></entry>
-    <entry id="magician+str_bark_stress_disease_vampire_blood_lust"><![CDATA[THE LAST OF MY HUMANITY IS SHED AT LAST!]]></entry>
-    <entry id="magician+str_bark_stress_disease_vampire_blood_lust"><![CDATA[MY LIFE FOR THE MISTRESS!]]></entry>
-    <entry id="magician+str_bark_stress_disease_vampire_crave"><![CDATA[Control is waning...]]></entry>
-    <entry id="magician+str_bark_stress_disease_vampire_crave"><![CDATA[Cease taunting me with your wounds.]]></entry>
-    <entry id="magician+str_bark_stress_disease_vampire_wasting"><![CDATA[Maybe it better I waste away than feed...]]></entry>
-    <entry id="magician+str_bark_stress_disease_vampire_wasting"><![CDATA[Concentration is becoming.. taxing..]]></entry>
-    <entry id="magician+str_block_buff_disease_vampire_blood_lust"><![CDATA[DO NOT INTERFERE!]]></entry>
-    <entry id="magician+str_block_buff_disease_vampire_blood_lust"><![CDATA[I'VE REACHED A PEAK I NOT THOUGHT POSSIBLE!]]></entry>
-    <entry id="magician+str_block_buff_disease_vampire_blood_lust"><![CDATA[I AM ABOVE YOUR TRIVIALITIES!]]></entry>
-    <entry id="magician+str_block_buff_disease_vampire_crave"><![CDATA[Keep away, you idiot!]]></entry>
-    <entry id="magician+str_block_buff_disease_vampire_crave"><![CDATA[This won't help me maintain control!]]></entry>
-    <entry id="magician+str_block_buff_disease_vampire_wasting"><![CDATA[Let me give in or let me die, I care not for anything else.]]></entry>
-    <entry id="magician+str_block_buff_disease_vampire_wasting"><![CDATA[You're wasting your time.]]></entry>
-    <entry id="magician+str_block_camping_meal_disease_vampire_crave"><![CDATA[This curse has ruined my appetite.]]></entry>
-    <entry id="magician+str_block_camping_meal_disease_vampire_crave"><![CDATA[This hunger isn't satiated by simple food.]]></entry>
-    <entry id="magician+str_block_camping_meal_disease_vampire_wasting"><![CDATA[Don't get within arms reach....]]></entry>
-    <entry id="magician+str_block_camping_meal_disease_vampire_wasting"><![CDATA[You're mocking me...]]></entry>
-    <entry id="magician+str_block_combat_retreat_disease_vampire_blood_lust"><![CDATA[WHAT A FOOLISH ORDER!]]></entry>
-    <entry id="magician+str_block_combat_retreat_disease_vampire_blood_lust"><![CDATA[WHEN ALL THE WORLD IS RED? (laughs)]]></entry>
-    <entry id="magician+str_block_heal_disease_vampire_blood_lust"><![CDATA[I WILL TAKE WHAT I NEED FROM THEM!]]></entry>
-    <entry id="magician+str_block_heal_disease_vampire_blood_lust"><![CDATA[NONE WILL EVEN LAND A BLOW!]]></entry>
-    <entry id="magician+str_block_heal_disease_vampire_crave"><![CDATA[But can you cure me of this curse?!]]></entry>
-    <entry id="magician+str_block_heal_disease_vampire_wasting"><![CDATA[Pointless.]]></entry>
-    <entry id="magician+str_block_heal_disease_vampire_wasting"><![CDATA[What do you wager I will actually perish from?]]></entry>
-    <entry id="magician+str_block_move_disease_vampire_wasting"><![CDATA[Please, let me rest a little longer...]]></entry>
-    <entry id="magician+str_block_move_disease_vampire_wasting"><![CDATA[I haven't.. the energy, I'm sorry.]]></entry>
-	<entry id="magician+str_ignore_command_disease_vampire_blood_lust"><![CDATA[I AM TRYING TO REGAIN CONTROL!]]></entry>
-    <entry id="magician+str_ignore_command_disease_vampire_crave"><![CDATA[I.. can smell it inside them.]]></entry>
-    <entry id="magician+str_ignore_command_disease_vampire_crave"><![CDATA[(Focus.. focus..)]]></entry>
-    <entry id="magician+str_ignore_command_disease_vampire_wasting"><![CDATA[(Heavy laughter)]]></entry>
-    <entry id="magician+str_ignore_command_disease_vampire_wasting"><![CDATA[I can barely stand...]]></entry>
-	<entry id="magician+trigger_curio_quirk_disease_vampire_passive"><![CDATA[Could it be...?]]></entry>
-    <entry id="magician+trigger_curio_quirk_disease_vampire_crave"><![CDATA[Let me have a first glance.]]></entry>
-    <entry id="magician+trigger_curio_quirk_disease_vampire_wasting"><![CDATA[Maybe this will buy me time?]]></entry>
+	<entry id="magician+str_prisoner_help_me"><![CDATA[Hey there, I'm the Miko! Help me out!]]></entry>
+    <entry id="magician+str_prisoner_rescue_thanks"><![CDATA[Haha, great. You're not bad, kid]]></entry>
  
  
 	<!-- Monster Attacks -->
  
-		<!-- Baron -->
-	<entry id="magician+str_monster_attack_intro_change_to_curtain"><![CDATA[A show is it? I'm not opposed to a theatrical extermination.]]></entry>
-	<entry id="magician+str_monster_attack_intro_change_to_curtain_1-3"><![CDATA[You can't hide if I break them all.]]></entry>
-	<entry id="magician+str_monster_attack_intro_change_to_curtain_2-3"><![CDATA[Is this the only spellcard you have?]]></entry>
-	<entry id="magician+str_monster_attack_crowd_pleaser"><![CDATA[Disgusting parasite.]]></entry>
-	<entry id="magician+str_monster_attack_crowd_pleaser"><![CDATA[Your clumsy flailing won't save you.]]></entry>
-	<entry id="magician+str_monster_attack_crowd_pleaser"><![CDATA[I will be cutting that off.]]></entry>
-	<entry id="magician+str_monster_attack_baron_hunger"><![CDATA[Don't slow down now, the show's still going.]]></entry>
-	<entry id="magician+str_monster_attack_forced_enthusiasm"><![CDATA[I remain unimpressed.]]></entry>
-	<entry id="magician+str_monster_attack_forced_enthusiasm"><![CDATA[A fragile loyalty at best.]]></entry>
- 
-		<!-- Castellan(Invitation)/Steward -->
-	<entry id="magician+str_monster_attack_enraging_slight"><![CDATA[.....]]></entry>
-	<entry id="magician+str_monster_attack_enraging_slight"><![CDATA[Pathetic..]]></entry>
-	<entry id="magician+str_monster_attack_enraging_slight"><![CDATA[The next one is for you.]]></entry>
-	<entry id="magician+str_monster_attack_enraging_slight"><![CDATA[Vampiric philistine.]]></entry>
-	<entry id="magician+str_monster_attack_elusive_exit"><![CDATA[How did he get away?!]]></entry>
-	<entry id="magician+str_monster_attack_elusive_exit"><![CDATA[Time ha- HEY!]]></entry>
-	<entry id="magician+str_monster_attack_elusive_exit"><![CDATA[Stop that one!]]></entry>
- 
-		<!-- Countess -->
-	<entry id="magician+str_monster_attack_transform_to_weak"><![CDATA[Her facade wanes.]]></entry>
-	<entry id="magician+str_monster_attack_transform_to_weak"><![CDATA[The Mistress sends her regards.]]></entry>
-	<entry id="magician+str_monster_attack_transform_to_weak"><![CDATA[Shall I exterminate you now and spare you some indignity?]]></entry>
-	<entry id="magician+str_monster_attack_transform_to_weak"><![CDATA[Die, monster.]]></entry>
-	<entry id="magician+str_monster_attack_pheromonal_delirium"><![CDATA[You'll find I am an avid dance partner.]]></entry>
-	<entry id="magician+str_monster_attack_life_feeds_on_life"><![CDATA[How revolting...]]></entry>
-	<entry id="magician+str_monster_attack_life_feeds_on_life"><![CDATA[I see you're merely immitating class as well.]]></entry>
-	<entry id="magician+str_monster_attack_transform_to_berserk"><![CDATA[A disgusting imitation, hardly the mistress' equal]]></entry>
-	<entry id="magician+str_monster_attack_transform_to_berserk"><![CDATA[Her true form revealed, I always love this part.]]></entry>
-	<entry id="magician+str_monster_attack_transform_to_normal"><![CDATA[Only three? How dull.]]></entry>
-	<entry id="magician+str_monster_attack_claw_swipe_berserk"><![CDATA[You're getting clumsier, you know.]]></entry>
-	<entry id="magician+str_monster_attack_feed_berserk"><![CDATA[Ever the slave to your impulses.]]></entry>
-	<entry id="magician+str_monster_attack_feed_berserk"><![CDATA[No composure, even among company..]]></entry>
- 
- 
-		<!-- Fanatic -->
-	<entry id="magician+str_monster_attack_sentence_rendered"><![CDATA[I'll never forgive your kind.]]></entry>
-	<entry id="magician+str_monster_attack_sentence_rendered"><![CDATA[Ignorant and self righteous.]]></entry>
-	<entry id="magician+str_monster_attack_righteous_condemnation"><![CDATA[Repent yourself and I'll end this quickly.]]></entry>
-	<entry id="magician+str_monster_attack_righteous_condemnation"><![CDATA[A pure world calls for your exterimination as well.]]></entry>
-	<entry id="magician+str_monster_attack_holy_stake"><![CDATA[I aim for your heart as well.]]></entry>
-	<entry id="magician+str_monster_attack_holy_stake"><![CDATA[You are a disgrace to the profession.]]></entry>
-	<entry id="magician+str_prisoner_damage_pyre_full"><![CDATA[....]]></entry>
-    <entry id="magician+str_prisoner_damage_pyre_full"><![CDATA[I'll make your burning feel like an eternity!]]></entry>
-    <entry id="magician+str_prisoner_damage_pyre_full"><![CDATA[Cut me free!]]></entry>
-    <entry id="magician+str_prisoner_damage_pyre_full"><![CDATA[Let me finish him!]]></entry>
- 
- 
-		<!-- viscount -->
-	<entry id="magician+str_monster_attack_feed_on_emaciated"><![CDATA[Eliminate it's victims!]]></entry>
-	<entry id="magician+str_monster_attack_feed_on_emaciated"><![CDATA[Please, have some dignity.]]></entry>
-	<entry id="magician+str_monster_attack_feed_on_average"><![CDATA[Eliminate it's victims!]]></entry>
-	<entry id="magician+str_monster_attack_feed_on_average"><![CDATA[A last meal it would seem.]]></entry>
-	<entry id="magician+str_monster_attack_hungry_eyes"><![CDATA[A trap with no finesse.]]></entry>
-	<entry id="magician+str_monster_attack_hungry_eyes"><![CDATA[Shall I pluck them out?]]></entry>
-	<entry id="magician+str_monster_attack_feed_on_bloated"><![CDATA[Eliminate it's victims!]]></entry>
-	<entry id="magician+str_monster_attack_feed_on_bloated"><![CDATA[Such gluttony leaves you vulnerable.]]></entry>
- 
- 
-		<!-- the hunger -->
-	<entry id="magician+str_monster_attack_the_hunger_human"><![CDATA[You'll be returning that.]]></entry>
-	<entry id="magician+str_monster_attack_the_hunger_human"><![CDATA[Bloated and graceless.]]></entry>
-	<entry id="magician+str_monster_attack_the_hunger_human"><![CDATA[Desperatly it clings to life.]]></entry>
 
 
 	</language>

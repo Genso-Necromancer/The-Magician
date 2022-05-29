@@ -5,7 +5,6 @@
          "id" : "cc_magician",
          "buffs" : 
          [
-            "MG_CCSet_SPD",
 			"MG_CCSet_Virtue"
 			
          ]

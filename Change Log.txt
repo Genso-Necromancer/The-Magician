@@ -1,28 +1,25 @@
-=Ecological Bomb
-DMG penalty now -34%
-Single Target Blight now 2-4/3
+-CC Trinkets-
+Changed names of dolls, the following is their current stat block:
+[Every trigger gives Magcian +5% virtue for 4 rds and (will) summon a "doll". All buffs go away after battle]
+Persevering Doll
++3 SPD
+On Ranged: +10% Ranged DMG 3rd
+On Melee: +10% Melee DMG 3rd
+/
+Melancholic Doll
++15% Stress received
+On Friendly skill: Target:
++10% MaxHP 3rd, Cure Self
+On Kill: All Enemies: 140% +15% DMG Received
 
-=Crimson Court Set
-Added very the basic functionality of the two dolls
-Added the trinket art
-This is still far from a final version, and it's not entirely the first draft either
+Set:
++25% Virtue
 
-=Magic Missile
-Fixed the Dark Hakkero Curse having the wrong rule type and preventing the skill from working at the wrong times
-Added an FX for when MM gains damage on kill. Will fine tweak it's positioning once a combat animation has been made.
-Added an FX for when Magician reaches death's door and loses her power buffs
+-Powerful Drug-
+Fixed some underthe hood stuff that wasn't procing at the correct rate
 
-=Powerful Drug
-Removed situational Healing reduction
-Changed Healing rates to 2-2/2-3/3-3/3-4/4-4
-Added Mishap and Miracle system
->There is a 24% chance for a Mishap or Miracle, you cannot get both, but you can get neither
->Mishaps always inflict +100% Random Target chance(Attack&Friendly)
->Miracles always add the value of the heal low roll onto what you did roll
->Miracle bonuses are doubled when critting
->There's a few unmentioned quirks of the skill, but they're all intentional and part of the fun
-Added barks for when Magician get's a mishap on someone else, and different ones for when using it on herself
-There is support for, but not yet written, bark reactions from Maid and Miko when a mishap is inflicted upon them
-
-=Art
-Added Camping Sprite!
+-Barks-
+ALL affliction barks have been added
+Curious interaction barks have been added
+A few more miscellanious barks were added
+VIRTUE BARKS are still unfinished, I just wanted to get this update out a little sooner. So look forward to virtue barks in the next patch.
