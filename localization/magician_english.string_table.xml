@@ -143,13 +143,27 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_DMG_range_TT_1"><![CDATA[+10%% MAX DMG/-10%% MIN DMG]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_DMG_range_TT_3"><![CDATA[+15%% MAX DMG/-15%% MIN DMG]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_DMG_range_TT_5"><![CDATA[+20%% MAX DMG/-20%% MIN DMG]]></entry>
-			<!-- Trinkets -->
+			<!-- Trinkets Tool Tips-->
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_thief_bag_steal_tt"><![CDATA[On Melee Attack Hit: {colour_start|stealth}Steal{colour_end} some gold {colour_start|skill_unselectable}(20%%){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_manual_search_tt"><![CDATA[On Kill: Search for {colour_start|notable}Mushrooms{colour_end} {colour_start|skill_unselectable}(25%%){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_dhakkero_MSDebuff_TT"><![CDATA[On Master Spark Hit:{colour_start|debuff} Debuff Self:{colour_end} -50%% {colour_start|attacktype}Master Spark{colour_end} DMG {colour_start|skill_unselectable}(1 battle){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_MG_DH_MM_Power_Stop_TT"><![CDATA[{colour_start|stealth}Bewitchment:{colour_end} Magic Missile no longer gains DMG on kill]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_MG_SpaceDeleter_TT"><![CDATA[​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_MG_INV_SpaceDeleter_TT"><![CDATA[{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_com_ramptt"><![CDATA[On Attack: Increase trinket values by 20%%]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_com_selfmovett"><![CDATA[+10%% {colour_start|move}Move{colour_end} chance vs self]]></entry>
+		
+		<!-- Trinkets Titles -->
+		<entry id="str_inventory_title_trinketmagician_wand"><![CDATA[Apprentice Wand]]></entry>
+		<entry id="str_inventory_title_trinketmagician_manual"><![CDATA[Mushroom Manual]]></entry>
+		<entry id="str_inventory_title_trinketmagician_bag"><![CDATA[Borrower's Bag]]></entry>
+		<entry id="str_inventory_title_trinketmagician_mima"><![CDATA[Staff of Vengeful Spirits]]></entry>
+		<entry id="str_inventory_title_trinketmagician_darkhakkero_si"><![CDATA[Dark-Hakkero]]></entry>
+		<entry id="str_inventory_title_trinketcc_set_magician_melancholic_doll"><![CDATA[Persevering Doll]]></entry>
+		<entry id="str_inventory_title_trinketcc_set_magician_lonely_doll"><![CDATA[Melancholic Doll]]></entry>
+		<entry id="str_inventory_title_trinketcom_magician_stone"><![CDATA[Philosopher's Stone]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_com_trinket_title"><![CDATA[{colour_start|set_title}"It's not stealing if I made it better..."{colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+		<entry id="str_inventory_set_title_cc_magician"><![CDATA["..."]]></entry>
 		
 		
 				<!-- Camping -->
@@ -297,16 +311,7 @@
 		<entry id="town_event_title_first_magician"><![CDATA[Replace me!]]></entry>
 		<entry id="town_event_description_first_magician"><![CDATA[Replace me!]]></entry>
 		
-		<!-- Trinkets -->
-		<entry id="str_inventory_title_trinketmagician_wand"><![CDATA[Apprentice Wand]]></entry>
-		<entry id="str_inventory_title_trinketmagician_manual"><![CDATA[Mushroom Manual]]></entry>
-		<entry id="str_inventory_title_trinketmagician_bag"><![CDATA[Borrower's Bag]]></entry>
-		<entry id="str_inventory_title_trinketmagician_mima"><![CDATA[Staff of Vengeful Spirits]]></entry>
-		<entry id="str_inventory_title_trinketmagician_darkhakkero_si"><![CDATA[Dark-Hakkero]]></entry>
-		<entry id="str_inventory_title_trinketcc_set_magician_melancholic_doll"><![CDATA[Persevering Doll]]></entry>
-		<entry id="str_inventory_title_trinketcc_set_magician_lonely_doll"><![CDATA[Melancholic Dol]]></entry>
-
-		<entry id="str_inventory_set_title_cc_magician"><![CDATA["They looked so similar, I didn't realize..."]]></entry>
+		
 		
 <!-- Barks -->
 			<!-- COME FORTH -->
@@ -397,7 +402,7 @@
     <entry id="magician+str_bark_torch_1"><![CDATA[I can make this work, ze]]></entry>
     <entry id="magician+str_bark_torch_1"><![CDATA[Hey boss, the light]]></entry>
     <entry id="magician+str_bark_torch_2"><![CDATA[Wait, wait! I see a sparkle of something in the distance!]]></entry>
-    <entry id="magician+str_bark_torch_2"><![CDATA[What? Am I supposed to use my spells to see where I'm going?]]></entry>
+    <entry id="magician+str_bark_torch_2"><![CDATA[I can do just fine in any darkness.]]></entry>
 	<entry id="magician+str_bark_torch_2"><![CDATA[More treasure right?]]></entry>
  
 	<!-- Taking Damage/DoTs -->
@@ -1187,7 +1192,7 @@
     <entry id="magician+str_block_camping_skill_performer_selfish"><![CDATA[The magic takes it's toll, yet where's mine?]]></entry>
 		
 		<!-- Refracted --> 
-		<!-- LEFT OFF -->
+		
 	<entry id="magician+str_afflicted_color_madness"><![CDATA[Unlimited po~ower!]]></entry>
 	
 		<!-- Refracted: Stress Camp --> 
@@ -1327,40 +1332,58 @@
     <entry id="magician+str_block_effect_stalwart"><![CDATA[Nice try, ze!]]></entry>
 	
 	<!-- Courageous -->
- 
-    <entry id="magician+str_virtued_courageous"><![CDATA[No matter what happens, there's always a path to follow]]></entry>
-    <entry id="magician+str_virtued_courageous"><![CDATA[To become a foe of mine is no different than to abandon your life]]></entry>
+
+    <entry id="magician+str_virtued_courageous"><![CDATA[This won't go as you expected, ze]]></entry>
+    <entry id="magician+str_virtued_courageous"><![CDATA[What's with that look? You thought I would cower? Shrink away? Hah!]]></entry>
+	<entry id="magician+str_virtued_courageous"><![CDATA[Who decided we should fear what we don't understand?!]]></entry>
  
 	<!-- Courageous: heal party -->
  
-    <entry id="magician+str_stress_heal_party_courageous"><![CDATA[I will help you no matter what the situation. Please rely on me]]></entry>
-    <entry id="magician+str_stress_heal_party_courageous"><![CDATA[Come now, get back to work]]></entry>
+    <entry id="magician+str_stress_heal_party_courageous"><![CDATA[Pull yourself up, ze! No one else will do it for you!]]></entry>
+    <entry id="magician+str_stress_heal_party_courageous"><![CDATA[Even just a spark can light a great fire!]]></entry>
+	<entry id="magician+str_stress_heal_party_courageous"><![CDATA[Today will be tomorrow soon enough, keep it together!]]></entry>
+	<entry id="magician+str_stress_heal_party_courageous"><![CDATA[We're not bound by terror!]]></entry>
+	<entry id="magician+str_stress_heal_party_courageous"><![CDATA[I'll ride into the abyss, there's nothing within which to stop me!]]></entry>
+	<entry id="magician+str_stress_heal_party_courageous"><![CDATA[There's no time to second guess yourself. You got yourself this far, right?!]]></entry>
+	<entry id="magician+str_stress_heal_party_courageous"><![CDATA[Faster! Faster! We'll spark and burn them down, ze]]></entry>
  
 	<!-- Focused -->
- 
-    <entry id="magician+str_virtued_focused"><![CDATA[Do you think you can escape from my knives?]]></entry>
-    <entry id="magician+str_virtued_focused"><![CDATA[I wish to test how keen the edge of this knife is]]></entry>
+  <!-- Left off -->
+    <entry id="magician+str_virtued_focused"><![CDATA[Eternal night suits me just fine, ze]]></entry>
+    <entry id="magician+str_virtued_focused"><![CDATA[There's no holding back, you've really got my attention now]]></entry>
+	<entry id="magician+str_virtued_focused"><![CDATA[]]></entry>
  
  
 	<!-- Focused: buff other -->
- 
-    <entry id="magician+str_buff_random_party_member_focused"><![CDATA[This kind of barrier is simple to bypass]]></entry>
-    <entry id="magician+str_buff_random_party_member_focused"><![CDATA[Now, let's finish this before dawn comes]]></entry>
+
+    <entry id="magician+str_buff_random_party_member_focused"><![CDATA[This one's on me, lad!]]></entry>
+	<entry id="magician+str_buff_random_party_member_focused"><![CDATA[]]></entry>
+    <entry id="magician+str_buff_random_party_member_focused"><![CDATA[]]></entry>
+	<entry id="magician+str_buff_random_party_member_focused"><![CDATA[]]></entry>
+    <entry id="magician+str_buff_random_party_member_focused"><![CDATA[]]></entry>
+	<entry id="magician+str_buff_random_party_member_focused"><![CDATA[]]></entry>
+    <entry id="magician+str_buff_random_party_member_focused"><![CDATA[]]></entry>
  
 	<!-- Powerful -->
  
-    <entry id="magician+str_virtued_powerful"><![CDATA[No one can escape my knives]]></entry>
-    <entry id="magician+str_virtued_powerful"><![CDATA[Your blood will coat my knife]]></entry>
+    <entry id="magician+str_virtued_powerful"><![CDATA[]]></entry>
+	<entry id="magician+str_virtued_powerful"><![CDATA[]]></entry>
+    <entry id="magician+str_virtued_powerful"><![CDATA[I'll be your last opponent, so shut up and come at me!]]></entry>
  
 	<!-- Powerful: buff party -->
  
-    <entry id="magician+str_buff_party_powerful"><![CDATA[We have no more need for forbearance]]></entry>
-    <entry id="magician+str_buff_party_powerful"><![CDATA[Would you like to test that claim that we're powerless?]]></entry>
+    <entry id="magician+str_buff_party_powerful"><![CDATA[]]></entry>
+	<entry id="magician+str_buff_party_powerful"><![CDATA[]]></entry>
+    <entry id="magician+str_buff_party_powerful"><![CDATA[]]></entry>
+	<entry id="magician+str_buff_party_powerful"><![CDATA[]]></entry>
+	<entry id="magician+str_buff_party_powerful"><![CDATA[]]></entry>
+	<entry id="magician+str_buff_party_powerful"><![CDATA[]]></entry>
+	<entry id="magician+str_buff_party_powerful"><![CDATA[]]></entry>
  
 	<!-- Stalwart -->
  
-    <entry id="magician+str_virtued_stalwart"><![CDATA[I will let my blades dance for my Mistress]]></entry>
-    <entry id="magician+str_virtued_stalwart"><![CDATA[Let's dye everything scarlet]]></entry>
+    <entry id="magician+str_virtued_stalwart"><![CDATA[]]></entry>
+    <entry id="magician+str_virtued_stalwart"><![CDATA[]]></entry>
  
 	<!-- stalwart: Heal Self -->
  

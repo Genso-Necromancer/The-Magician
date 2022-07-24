@@ -381,6 +381,9 @@ effect: .name "MG Friendly Doll Buff" .target "target" .chance 100% .duration 3 
 //Kill "Summon"
 effect: .name "MG Kill Doll Buff" .target "target" .chance 140% .duration 3 .buff_ids "magician_ADoll_Kill_DMGRe" .on_hit true .on_miss false .queue true .has_description true
 
+///Philsopher's Stone///
+effect: .name "MG Stat Ramp" .target "performer" .chance 100% .duration 10 .buff_ids "MG_COM_DMGH_PERC" "MG_COM_DMGL_PERC" "MG_COM_BLIGHT_BUFF_PERC" "MG_COM_MOVESELF_REV_PERC" "MG_COM_MOVESELF_MS_PERC" .on_hit true .on_miss true .apply_once true .has_description false .buff_is_clear_debuff_valid false
+
 ////Bomb System////
 //Bomb TT
 effect: .name "Is Bomb MG TT" .target "performer" .skill_instant true .buff_ids "magician_is_bomb_TT" .on_hit false .on_miss true .apply_once true .queue true

@@ -556,6 +556,236 @@
             "float" : 0,
             "string" : ""
          }
+      },
+	  {
+         "id" : "MG_COM_BLIGHT_BUFF",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_COM_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount": 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_COM_DMGL",
+         "stat_type":"combat_stat_multiply",
+         "stat_sub_type":"damage_low",
+         "amount": 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_COM_MOVESELF_REV",
+         "stat_type":"move_chance",
+         "stat_sub_type":"",
+         "amount": 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stardust_reverie"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "MG_COM_MOVESELF_MS",
+         "stat_type":"move_chance",
+         "stat_sub_type":"",
+         "amount": 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "master_spark"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "MG_COM_STRESS",
+         "stat_type":"stress_dmg_received_percent",
+         "stat_sub_type":"",
+         "amount": 0.10,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_COM_BLIGHT_BUFF_PERC",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_COM_DMGH_PERC",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount": 0.03,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_COM_DMGL_PERC",
+         "stat_type":"combat_stat_multiply",
+         "stat_sub_type":"damage_low",
+         "amount": 0.03,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_COM_MOVESELF_REV_PERC",
+         "stat_type":"move_chance",
+         "stat_sub_type":"",
+         "amount": 0.02,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stardust_reverie"
+         }
+      },
+	  {
+         "id" : "MG_COM_MOVESELF_MS_PERC",
+         "stat_type":"move_chance",
+         "stat_sub_type":"",
+         "amount": 0.02,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "master_spark"
+         }
+      },
+	  {
+         "id" : "MG_COM_STRESS_PERC",
+         "stat_type":"stress_dmg_received_percent",
+         "stat_sub_type":"",
+         "amount": 0.02,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_ADoll_HP",
+         "stat_type":"combat_stat_multiply",
+         "stat_sub_type":"max_hp",
+         "amount": 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_ADoll_Dodge",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_Doll_Stress",
+         "stat_type":"stress_dmg_received_percent",
+         "stat_sub_type":"",
+         "amount": 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_MDoll_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount": 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MG_MDoll_DMGL",
+         "stat_type":"combat_stat_multiply",
+         "stat_sub_type":"damage_low",
+         "amount": 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
       }
 	  
 	  

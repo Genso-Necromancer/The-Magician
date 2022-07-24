@@ -1,0 +1,20 @@
+
+magician.sprite.ecologicalbomb.png
+size: 913,784
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ecological bomb base
+  rotate: true
+  xy: 2, 2
+  size: 780, 845
+  orig: 780, 845
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 849, 425
+  size: 357, 62
+  orig: 357, 62
+  offset: 0, 0
+  index: -1

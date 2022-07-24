@@ -926,7 +926,47 @@
             "string" : ""
          },
 		 "has_description": true
+      },
+	  {
+         "id" : "mg_com_trinket_title",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_com_trinket_title",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "mg_com_ramptt",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_com_ramptt",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "mg_com_selfmovett",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_com_selfmovett",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
       }
+	  
 	  
 	  
 	  

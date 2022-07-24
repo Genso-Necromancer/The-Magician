@@ -1,25 +1,26 @@
--CC Trinkets-
-Changed names of dolls, the following is their current stat block:
-[Every trigger gives Magcian +5% virtue for 4 rds and (will) summon a "doll". All buffs go away after battle]
-Persevering Doll
-+3 SPD
-On Ranged: +10% Ranged DMG 3rd
-On Melee: +10% Melee DMG 3rd
-/
-Melancholic Doll
-+15% Stress received
-On Friendly skill: Target:
-+10% MaxHP 3rd, Cure Self
-On Kill: All Enemies: 140% +15% DMG Received
+-Trinkets-
+Added the new FX when using a bomb item(not the counting one yet, waiting for her combat/idle/walk to be finished)
+Added COM Trinket
+=
++15% DMG
++10% Blight Chance
++10% Move Chance vs self
++10% Stress
+Attack: increase trinket values by 20%
+=
+Updated CC Trinkets
+=Persevering
++10% DMG
++7% Stress
+Attack Hit: +5% Virtue Chance
+=Melancholic
++15% HP
++5 Dodge
++7% Stress
+Friendly Skill: Cure Self, +5% Virtue Chance
+=Set
++25% Virtue Chance
+=
+Added Virtue Barks
+Added Sprite, Targ FX and Perf FX for Ecological Bomb
 
-Set:
-+25% Virtue
-
--Powerful Drug-
-Fixed some underthe hood stuff that wasn't procing at the correct rate
-
--Barks-
-ALL affliction barks have been added
-Curious interaction barks have been added
-A few more miscellanious barks were added
-VIRTUE BARKS are still unfinished, I just wanted to get this update out a little sooner. So look forward to virtue barks in the next patch.

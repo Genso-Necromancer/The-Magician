@@ -29,7 +29,6 @@ Modded files...
 
 heroes/magician/magician_A/anim/magician.sprite.afflicted.png
 heroes/magician/magician_A/anim/magician.sprite.attack_dragon.png
-heroes/magician/magician_A/anim/magician.sprite.attack_ecological.png
 heroes/magician/magician_A/anim/magician.sprite.attack_laser.png
 heroes/magician/magician_A/anim/magician.sprite.attack_magicmissile.png
 heroes/magician/magician_A/anim/magician.sprite.attack_masterspark.png
@@ -38,6 +37,7 @@ heroes/magician/magician_A/anim/magician.sprite.attack_upsweep.png
 heroes/magician/magician_A/anim/magician.sprite.camp.png
 heroes/magician/magician_A/anim/magician.sprite.combat.png
 heroes/magician/magician_A/anim/magician.sprite.defend.png
+heroes/magician/magician_A/anim/magician.sprite.ecologicalbomb.png
 heroes/magician/magician_A/anim/magician.sprite.heroic.png
 heroes/magician/magician_A/anim/magician.sprite.idle.png
 heroes/magician/magician_A/anim/magician.sprite.investigate.png
@@ -71,6 +71,8 @@ heroes/magician/anim/magician.sprite.combat.atlas
 heroes/magician/anim/magician.sprite.combat.skel
 heroes/magician/anim/magician.sprite.defend.atlas
 heroes/magician/anim/magician.sprite.defend.skel
+heroes/magician/anim/magician.sprite.ecologicalbomb.atlas
+heroes/magician/anim/magician.sprite.ecologicalbomb.skel
 heroes/magician/anim/magician.sprite.heroic.atlas
 heroes/magician/anim/magician.sprite.heroic.skel
 heroes/magician/anim/magician.sprite.idle.atlas
@@ -79,6 +81,12 @@ heroes/magician/anim/magician.sprite.investigate.atlas
 heroes/magician/anim/magician.sprite.investigate.skel
 heroes/magician/anim/magician.sprite.walk.atlas
 heroes/magician/anim/magician.sprite.walk.skel
+heroes/magician/fx/magician.sprite.EBPrfFX.atlas
+heroes/magician/fx/magician.sprite.EBPrfFX.png
+heroes/magician/fx/magician.sprite.EBPrfFX.skel
+heroes/magician/fx/magician.sprite.EBTarFX.atlas
+heroes/magician/fx/magician.sprite.EBTarFX.png
+heroes/magician/fx/magician.sprite.EBTarFX.skel
 heroes/magician/fx/magician.sprite.MG_thief_FX.atlas
 heroes/magician/fx/magician.sprite.MG_thief_FX.png
 heroes/magician/fx/magician.sprite.MG_thief_FX.skel
@@ -180,9 +188,9 @@ panels/icons_equip/supply/inv_supply+magician_sturdyshroom_3.png
 panels/icons_equip/supply/inv_supply+magician_sturdyshroom_5.png
 panels/icons_equip/trinket/inv_trinket+cc_set_magician_lonely_doll.png
 panels/icons_equip/trinket/inv_trinket+cc_set_magician_melancholic_doll.png
+panels/icons_equip/trinket/inv_trinket+com_magician_stone.png
 panels/icons_equip/trinket/inv_trinket+magician_bag.png
 panels/icons_equip/trinket/inv_trinket+magician_darkhakkero_si.png
-panels/icons_equip/trinket/inv_trinket+magician_herbal.png
 panels/icons_equip/trinket/inv_trinket+magician_manual.png
 panels/icons_equip/trinket/inv_trinket+magician_mima.png
 panels/icons_equip/trinket/inv_trinket+magician_wand.png

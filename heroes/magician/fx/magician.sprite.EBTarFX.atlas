@@ -1,0 +1,27 @@
+
+magician.sprite.EBTarFX.png
+size: 694,457
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bombCloud
+  rotate: true
+  xy: 2, 17
+  size: 438, 534
+  orig: 438, 534
+  offset: 0, 0
+  index: -1
+funny skull
+  rotate: false
+  xy: 538, 225
+  size: 154, 230
+  orig: 154, 230
+  offset: 0, 0
+  index: -1
+funny skullglow
+  rotate: false
+  xy: 538, 2
+  size: 147, 221
+  orig: 147, 221
+  offset: 0, 0
+  index: -1
