@@ -32,7 +32,7 @@ heroes/magician/magician_A/anim/magician.sprite.attack_dragon.png
 heroes/magician/magician_A/anim/magician.sprite.attack_laser.png
 heroes/magician/magician_A/anim/magician.sprite.attack_magicmissile.png
 heroes/magician/magician_A/anim/magician.sprite.attack_masterspark.png
-heroes/magician/magician_A/anim/magician.sprite.attack_reverie.png
+heroes/magician/magician_A/anim/magician.sprite.attack_stardust.png
 heroes/magician/magician_A/anim/magician.sprite.attack_upsweep.png
 heroes/magician/magician_A/anim/magician.sprite.camp.png
 heroes/magician/magician_A/anim/magician.sprite.combat.png
@@ -42,9 +42,8 @@ heroes/magician/magician_A/anim/magician.sprite.heroic.png
 heroes/magician/magician_A/anim/magician.sprite.idle.png
 heroes/magician/magician_A/anim/magician.sprite.investigate.png
 heroes/magician/magician_A/anim/magician.sprite.walk.png
-campaign/town/town_event/town_event.image_bonus_recruit_maid.png
 campaign/town/town_event/town_event.image_first_magician.png
-campaign/town/town_event/town_event.image_idle_resolve_level_maid.png
+campaign/town/town_event/town_event.image_magician_loot_heist.png
 heroes/magician/anim/magician.sprite.afflicted.atlas
 heroes/magician/anim/magician.sprite.afflicted.skel
 heroes/magician/anim/magician.sprite.attack_dragon.atlas
@@ -57,10 +56,10 @@ heroes/magician/anim/magician.sprite.attack_magicmissile.atlas
 heroes/magician/anim/magician.sprite.attack_magicmissile.skel
 heroes/magician/anim/magician.sprite.attack_masterspark.atlas
 heroes/magician/anim/magician.sprite.attack_masterspark.skel
-heroes/magician/anim/magician.sprite.attack_reverie.atlas
-heroes/magician/anim/magician.sprite.attack_reverie.skel
 heroes/magician/anim/magician.sprite.attack_spark.atlas
 heroes/magician/anim/magician.sprite.attack_spark.skel
+heroes/magician/anim/magician.sprite.attack_stardust.atlas
+heroes/magician/anim/magician.sprite.attack_stardust.skel
 heroes/magician/anim/magician.sprite.attack_sweep.atlas
 heroes/magician/anim/magician.sprite.attack_sweep.skel
 heroes/magician/anim/magician.sprite.attack_upsweep.atlas

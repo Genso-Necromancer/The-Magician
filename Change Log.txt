@@ -1,26 +1,11 @@
--Trinkets-
-Added the new FX when using a bomb item(not the counting one yet, waiting for her combat/idle/walk to be finished)
-Added COM Trinket
-=
-+15% DMG
-+10% Blight Chance
-+10% Move Chance vs self
-+10% Stress
-Attack: increase trinket values by 20%
-=
-Updated CC Trinkets
-=Persevering
-+10% DMG
-+7% Stress
-Attack Hit: +5% Virtue Chance
-=Melancholic
-+15% HP
-+5 Dodge
-+7% Stress
-Friendly Skill: Cure Self, +5% Virtue Chance
-=Set
-+25% Virtue Chance
-=
-Added Virtue Barks
-Added Sprite, Targ FX and Perf FX for Ecological Bomb
+Magician
+-Skills-
+Added Stardust Reverie Sprite
 
+-Events-
+Added a new event, "Casing the Joint".
+At 5% Proc chance and a 10 week cooldown, Marisa... acquires a full stack of each heirloom for the player.
+Art and Strings are both complete!
+
+-Strings-
+Added the proof read strings, curtosey of Mrglglglglglgl

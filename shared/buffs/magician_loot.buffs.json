@@ -2,279 +2,66 @@
    "buffs":
    [
         
-	  {
-         "id" : "magician_MAA_plansDMGH",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_MAA_plansDMGL",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_MAA_plansPROT",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "protection_rating",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_HOUND_treat_PartySurprise",
-         "stat_type" : "party_surprise_chance",
-         "stat_sub_type" : "",
-         "amount" : -0.20,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_HOUND_treat_MonsterSurprise",
-         "stat_type" : "monsters_surprise_chance",
-         "stat_sub_type" : "",
-         "amount" : 0.20,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_PLAGUE_antivenom_HR",
-         "stat_type" : "hp_heal_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.33,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	   {
-         "id" : "magician_GRAVE_dmgH",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.20,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_GRAVE_dmgL",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.20,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_GRAVE_CRIT",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.04,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_MAID_SR",
-         "stat_type" : "stress_dmg_received_percent",
-         "stat_sub_type" : "",
-         "amount" : -0.20,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_MAID_Secret_Buff",
-         "stat_type" : "stress_dmg_received_percent",
-         "stat_sub_type" : "",
-         "amount" : -0.20,
-         "remove_if_not_active" : true,
-         "rule_type" : "is_vampire",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_HELLION_Crit_Buff",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.10,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_ETERNAL_Blight_Buff",
-         "stat_type" : "poison_chance",
-         "stat_sub_type" : "",
-         "amount" : 0.10,
-         "remove_if_not_active" : false,
-         "rule_type" : "has_item_id",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "magician_ETERNAL_urn"
-         }
-      },
-	  {
-         "id" : "magician_HERALD_HP_Buff",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "max_hp",
-         "amount" : 0.20,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_HERALD_ref_Buff",
-         "stat_type" : "damage_reflect_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.30,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_PRACTITIONER_CRITPROT_Buff",
-         "stat_type" : "crit_received_chance",
-         "stat_sub_type" : "",
-         "amount" : -0.10,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_PRACTITIONER_Disease_Buff",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "disease",
-         "amount" : 0.20,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_DEFENSE_CRITAV",
-         "stat_type" : "crit_received_chance",
-         "stat_sub_type" : "",
-         "amount" : -0.05,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_SUPPORT_TORCH",
-         "stat_type" : "torchlight_burn_percent",
-         "stat_sub_type" : "",
-         "amount" : -0.2,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_SUPPORT_SCOUT",
-         "stat_type" : "scouting_chance",
-         "stat_sub_type" : "",
-         "amount" : 0.1,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "magician_SUPPORT_PARTY_SURPRISE",
-         "stat_type" : "party_surprise_chance",
-         "stat_sub_type" : "",
-         "amount" : -0.2,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      }
+		{
+			"id": "MG_BookHeist_EXP_S",
+			"stat_type": "resolve_xp_bonus_percent",
+			"stat_sub_type": "",
+			"amount": 0.25,
+			"duration_type": "quest_end",
+			"duration": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "MG_BookHeist_EXP_M",
+			"stat_type": "resolve_xp_bonus_percent",
+			"stat_sub_type": "",
+			"amount": 0.50,
+			"duration_type": "quest_end",
+			"duration": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "MG_BookHeist_EXP_L",
+			"stat_type": "resolve_xp_bonus_percent",
+			"stat_sub_type": "",
+			"amount": 0.75,
+			"duration_type": "quest_end",
+			"duration": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "MG_BookHeist_EXP_XL",
+			"stat_type": "resolve_xp_bonus_percent",
+			"stat_sub_type": "",
+			"amount": 1.0,
+			"duration_type": "quest_end",
+			"duration": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		}
 	  
 	  
 	  

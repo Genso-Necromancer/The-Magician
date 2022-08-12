@@ -8,21 +8,61 @@
             "is_unique" : true,
             "priority":"higher",            
             "requirements": {
-                "minimum_week": 2,
+                "minimum_week": 4,
                 "dead_heroes": 0,
                 "hero_level_counts": [],
                 "upgrades_purchased": [],
                 "trinket_storage_count": 0
             },
             "town_ambience_paramater_ids": [],
-            "tone": "neutral",
+            "tone": "good",
+            "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+               {
+                    "type": "bonus_recruit",
+                    "string_data": "magician",
+                    "number_data": 1.0
+                }
+            ]
+        },
+        {
+            "id": "magician_loot_heist",
+            "base_chance": 5.0,
+            "per_not_rolled_additional_chance": 0.0,
+            "cooldown": 10,
+            "is_unique": false,
+            "requirements": {
+                "minimum_week": 5,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "good",
             "sprite": "",
             "sprite_attachment": "",
             "data": [
                 {
-                    "type": "bonus_recruit",
-                    "string_data": "magician",
-                    "number_data": 1.0
+                    "type": "bonus_currency",
+                    "string_data": "portrait",
+                    "number_data": 3.0
+                },
+				{
+                    "type": "bonus_currency",
+                    "string_data": "bust",
+                    "number_data": 6.0
+                },
+				{
+                    "type": "bonus_currency",
+                    "string_data": "deed",
+                    "number_data": 6.0
+                },
+				{
+                    "type": "bonus_currency",
+                    "string_data": "crest",
+                    "number_data": 12.0
                 }
             ]
         }
