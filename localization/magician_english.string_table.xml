@@ -14,7 +14,7 @@
 		<!-- Skills -->
 
 		<entry id="combat_skill_name_magician_ecological_bomb"><![CDATA[Ecological Bomb]]></entry>
-		<entry id="combat_skill_name_magician_up_sweep"><![CDATA[Up Sweep]]></entry>
+		<entry id="combat_skill_name_magician_up_sweep"><![CDATA[Stardust Missile]]></entry>
     	<entry id="combat_skill_name_magician_stardust_reverie"><![CDATA[Stardust Reverie]]></entry>
     	<entry id="combat_skill_name_magician_master_spark"><![CDATA[Master Spark]]></entry>
     	<entry id="combat_skill_name_magician_magic_absorb"><![CDATA[Magic Absorber]]></entry>
@@ -22,7 +22,7 @@
 		<entry id="combat_skill_name_magician_illusion_laser"><![CDATA[Powerful Drug]]></entry>
     	<entry id="combat_skill_name_magician_move"><![CDATA[Move]]></entry>
    		<entry id="upgrade_tree_name_magician.ecological_bomb"><![CDATA[Ecological Bomb]]></entry>
-		<entry id="upgrade_tree_name_magician.up_sweep"><![CDATA[Up Sweep]]></entry>
+		<entry id="upgrade_tree_name_magician.up_sweep"><![CDATA[Stardust Missile]]></entry>
     	<entry id="upgrade_tree_name_magician.stardust_reverie"><![CDATA[Stardust Reverie]]></entry>
     	<entry id="upgrade_tree_name_magician.master_spark"><![CDATA[Master Spark]]></entry>
     	<entry id="upgrade_tree_name_magician.magic_absorb"><![CDATA[Magic Absorber]]></entry>
@@ -78,13 +78,18 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_ms_damage_tt3"><![CDATA[{colour_start|move}Rank{colour_end} DMG: +25/+5/-15/-35%% vs rank 1/2/3/4]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_ms_damage_tt4"><![CDATA[{colour_start|move}Rank{colour_end} DMG: +28/+8/-13/-33%% vs rank 1/2/3/4]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_ms_damage_tt5"><![CDATA[{colour_start|move}Rank{colour_end} DMG: +30/+10/-10/-30%% vs rank 1/2/3/4]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_overwhelm_tt"><![CDATA[{colour_start|debuff}Mishap:{colour_end} {colour_start|move}Knockback{colour_end} 3]]></entry>
 				<!-- Reverie -->
 		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt2"><![CDATA[+5%% DMG per {colour_start|move}Rank{colour_end} from Target]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_sr_recoil_tt"><![CDATA[{colour_start|afflicted}Recoil: {colour_end} -%d HP]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_sr_recoil_tt"><![CDATA[{colour_start|debuff}Mishap:{colour_end} -%d HP]]></entry>
 				<!-- Magic Missile -->
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_nomiss_tt"><![CDATA[Cannot {colour_start|afflicted}Miss{colour_end}/{colour_start|notable}CRIT{colour_end}/DMG Corpse]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_tt"><![CDATA[{colour_start|buff}On-Kill:{colour_end} +%d%% DMG {colour_start|skill_unselectable}(Quest){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_DD_tt"><![CDATA[Buffs lost upon {colour_start|afflicted}Death's Door{colour_end}!]]></entry>
+				<!-- Stardust Missile -->
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_sm_dmgtta"><![CDATA[{colour_start|notable}Magic Missile{colour_end}/ {colour_start|notable}Powerful Drug{colour_end}/ {colour_start|notable}Magic Absorber{colour_end}:]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_sm_dmgttb"><![CDATA[{colour_start|buff}Buff{colour_end} {colour_start|notable}Stardust Missile{colour_end}: +%d%% DMG {colour_start|skill_unselectable}(4rds){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_sm_dmgttc"><![CDATA[On Use: {colour_start|debuff}Exhaust{colour_end} {colour_start|notable}Stardust Missile{colour_end} Buffs]]></entry>
 				<!-- Magic Absorber -->
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_MA_RipCount_tt"><![CDATA[{colour_start|debuff}Riposte{colour_end} charges: 3]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_riposte_effect_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
@@ -350,9 +355,6 @@ When we looked at the ruins, we marked the danger of that height.]]></entry>
  
 	<!-- Miscellaneous Barks -->
 	
-		<!-- She would be annoying without this. Leave This Blank. -->
-	<entry id="magician+str_combat_knockback"><![CDATA[]]></entry>
-	
 		<!-- Magician Limit --> 
 	<entry id="str_incompatible_party_member_magician_limit"><![CDATA[Woah, wait! This magic's too unstable for that!]]></entry>
 	<entry id="str_incompatible_party_member_magician_limit"><![CDATA[If you're me, then who am I?]]></entry>
@@ -461,14 +463,14 @@ When we looked at the ruins, we marked the danger of that height.]]></entry>
 	<entry id="str_mishap"><![CDATA[]]></entry>
 	<entry id="str_mishap_react"><![CDATA[]]></entry>
 	
-		<!-- Mishap Barks -->
+		<!-- Mishap Barks: These are triggered by everyone EXCEPT the target of the mishap. Intended just for Marisa to use. -->
 	<entry id="magician+str_mishap"><![CDATA[Wait, don't- oh... never mind]]></entry>
 	<entry id="magician+str_mishap"><![CDATA[These mushrooms all look the same, okay?!]]></entry>
 	<entry id="magician+str_mishap"><![CDATA[I swear this has never happened to me before!]]></entry>
 	<entry id="magician+str_mishap"><![CDATA[That's a perfectly normal reaction!]]></entry>
 	<entry id="magician+str_mishap"><![CDATA[You're fine! It'll go away in a second, ze!]]></entry>
 	
-		<!-- Mishap Reaction Barks -->
+		<!-- Mishap Barks: Only the TARGET of a mishap says these -->
 		<!-- left off -->
 	<entry id="magician+str_mishap_react"><![CDATA[]]></entry>
 	<entry id="magician+str_mishap_react"><![CDATA[]]></entry>

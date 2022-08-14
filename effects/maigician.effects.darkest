@@ -73,11 +73,21 @@ effect: .name "MG MM Kill TT5" .target "performer" .skill_instant true .buff_ids
 
 
 ////Up-Sweep
-effect: .name "MG US Push 1" .target "target"  .push 2 .chance 100%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-effect: .name "MG US Push 2" .target "target"  .push 2 .chance 110%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-effect: .name "MG US Push 3" .target "target"  .push 2 .chance 120%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-effect: .name "MG US Push 4" .target "target"  .push 2 .chance 130%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-effect: .name "MG US Push 5" .target "target"  .push 2 .chance 140%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+//effect: .name "MG US Push 1" .target "target"  .push 2 .chance 100%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+//effect: .name "MG US Push 2" .target "target"  .push 2 .chance 110%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+//effect: .name "MG US Push 3" .target "target"  .push 2 .chance 120%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+//effect: .name "MG US Push 4" .target "target"  .push 2 .chance 130%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+//effect: .name "MG US Push 5" .target "target"  .push 2 .chance 140%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+
+//Stardust Missile
+//Buff
+effect: .name "MG SM Buff" .target "performer" .chance 100% .duration 4 .buff_ids "MG_SM_DMG_H" "MG_SM_DMG_L" .on_hit true .on_miss true .has_description false .buff_source_type bsrc_stun
+//steal
+effect: .name "MG SM Steal" .target "performer" .chance 100% .apply_with_result true .steal_buff_source_type bsrc_stun .on_hit true .on_miss true .has_description false
+//TT
+effect: .name "MG SM TT" .target "performer" .skill_instant true .buff_ids "mg_sm_dmgttA" "mg_sm_dmgttB" "mg_sm_dmgttC" .on_hit false .on_miss true .apply_once true
+
+
 
 /////Powerful Drug//////
 //Cure
@@ -213,21 +223,9 @@ effect: .name "Sonic Broom 3" .target "performer" .chance 60% .health_damage 6 .
 effect: .name "Sonic Broom 4" .target "performer" .chance 60% .health_damage 6 .on_hit true .on_miss true .queue true .has_description false
 effect: .name "Sonic Broom 5" .target "performer" .chance 60% .health_damage 7 .on_hit true .on_miss true .queue true .has_description false
 
-effect: .name "MG TEST" .target "performer" .chance 100% .health_damage 90 .on_hit true .on_miss true .queue true .has_description false
-//Recoil Knock-Back
-effect: .name "MG Backdraft 1" .target "performer" .shuffletarget .chance 60% .on_hit true .on_miss true .can_apply_on_death true
-effect: .name "MG Backdraft 2" .target "performer" .shuffletarget .chance 70% .on_hit true .on_miss true .can_apply_on_death true
-effect: .name "MG Backdraft 3" .target "performer" .shuffletarget .chance 80% .on_hit true .on_miss true .can_apply_on_death true
-effect: .name "MG Backdraft 4" .target "performer" .shuffletarget .chance 90% .on_hit true .on_miss true .can_apply_on_death true
-effect: .name "MG Backdraft 5" .target "performer" .shuffletarget .chance 100% .on_hit true .on_miss true .can_apply_on_death true
 
-// 0: 20%
-// 1: 30%
-// 2: 40%
-// 3: 50%
-// 4: 60%
-// 5: 70%
-// 6: 80%
+
+
 
 
 
@@ -246,11 +244,25 @@ effect: .name "MG Per Turn" .target "performer" .chance 100% .duration 1 .buff_i
 //Vs Bigger enemies
 effect: .name "MG Surface Area" .target "performer" .chance 100% .skill_instant true .buff_ids  "MG_MS_large_DMGH" "MG_MS_large_DMGL" .on_hit true .on_miss false
 //Knock Back
-effect: .name "MG Overwhelm 1" .target "performer" .push 3 .chance 130% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
-effect: .name "MG Overwhelm 2" .target "performer" .push 3 .chance 140% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
-effect: .name "MG Overwhelm 3" .target "performer" .push 3 .chance 150% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
-effect: .name "MG Overwhelm 4" .target "performer" .push 3 .chance 160% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
-effect: .name "MG Overwhelm 5" .target "performer" .push 3 .chance 180% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
+effect: .name "MG Overwhelm 1" .target "performer" .push 3 .chance 50% .on_hit true .on_miss true .apply_once true .can_apply_on_death true .has_description false .apply_with_result true
+effect: .name "MG Overwhelm 2" .target "performer" .push 3 .chance 60% .on_hit true .on_miss true .apply_once true .can_apply_on_death true .has_description false .apply_with_result true
+effect: .name "MG Overwhelm 3" .target "performer" .push 3 .chance 70% .on_hit true .on_miss true .apply_once true .can_apply_on_death true .has_description false .apply_with_result true
+effect: .name "MG Overwhelm 4" .target "performer" .push 3 .chance 80% .on_hit true .on_miss true .apply_once true .can_apply_on_death true .has_description false .apply_with_result true
+effect: .name "MG Overwhelm 5" .target "performer" .push 3 .chance 90% .on_hit true .on_miss true .apply_once true .can_apply_on_death true .has_description false .apply_with_result true
+//TT
+effect: .name "MG MS Overwhelm TT1" .target "performer" .chance 50% .duration 1 .buff_ids "magician_overwhelm_TT" .on_hit false .on_miss false .has_description true
+effect: .name "MG MS Overwhelm TT2" .target "performer" .chance 60% .duration 1 .buff_ids "magician_overwhelm_TT" .on_hit false .on_miss false .has_description true
+effect: .name "MG MS Overwhelm TT3" .target "performer" .chance 70% .duration 1 .buff_ids "magician_overwhelm_TT" .on_hit false .on_miss false .has_description true
+effect: .name "MG MS Overwhelm TT4" .target "performer" .chance 80% .duration 1 .buff_ids "magician_overwhelm_TT" .on_hit false .on_miss false .has_description true
+effect: .name "MG MS Overwhelm TT5" .target "performer" .chance 90% .duration 1 .buff_ids "magician_overwhelm_TT" .on_hit false .on_miss false .has_description true
+
+// 0: 20%
+// 1: 30%
+// 2: 40%
+// 3: 50%
+// 4: 60%
+// 5: 70%
+// 6: 80%
 
 //MS DMG Tool Tip
 effect: .name "MS DMG TT1" .target "performer" .skill_instant true .buff_ids "magician_spark_damage_TT1" .on_hit false .on_miss true .apply_once true
