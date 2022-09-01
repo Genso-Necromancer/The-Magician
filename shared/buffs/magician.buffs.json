@@ -670,10 +670,11 @@
       },
 	  {
          "id" : "MG_SM_DMG_H",
-         "stat_type" : "combat_stat_add",
+         "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : 0.2,
          "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
          "rule_type" : "skill",
          "is_false_rule" : false,
          "rule_data" : {
@@ -683,7 +684,7 @@
       },
 	  {
          "id" : "MG_SM_DMG_L",
-         "stat_type" : "combat_stat_add",
+         "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : 0.2,
          "remove_if_not_active" : false,

@@ -1,0 +1,62 @@
+
+magician.sprite.pd_target_fx.png
+size: 2649,322
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+exclaim
+  rotate: false
+  xy: 2613, 133
+  size: 34, 187
+  orig: 34, 187
+  offset: 0, 0
+  index: -1
+heal swirl #1
+  rotate: true
+  xy: 2, 2
+  size: 318, 371
+  orig: 318, 371
+  offset: 0, 0
+  index: -1
+heal swirl #2
+  rotate: true
+  xy: 375, 2
+  size: 318, 371
+  orig: 318, 371
+  offset: 0, 0
+  index: -1
+heal swirl #3
+  rotate: true
+  xy: 748, 2
+  size: 318, 371
+  orig: 318, 371
+  offset: 0, 0
+  index: -1
+heal swirl #4
+  rotate: true
+  xy: 1121, 2
+  size: 318, 371
+  orig: 318, 371
+  offset: 0, 0
+  index: -1
+heal swirl #5
+  rotate: true
+  xy: 1494, 2
+  size: 318, 371
+  orig: 318, 371
+  offset: 0, 0
+  index: -1
+heal swirl #6
+  rotate: true
+  xy: 1867, 2
+  size: 318, 371
+  orig: 318, 371
+  offset: 0, 0
+  index: -1
+heal swirl #7
+  rotate: true
+  xy: 2240, 2
+  size: 318, 371
+  orig: 318, 371
+  offset: 0, 0
+  index: -1

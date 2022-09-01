@@ -1,0 +1,55 @@
+
+magician.sprite.PD_Prf_FX.png
+size: 1013,379
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloud #1
+  rotate: true
+  xy: 532, 2
+  size: 157, 131
+  orig: 157, 131
+  offset: 0, 0
+  index: -1
+cloud #2
+  rotate: false
+  xy: 804, 44
+  size: 118, 145
+  orig: 118, 145
+  offset: 0, 0
+  index: -1
+cloud #3
+  rotate: false
+  xy: 665, 13
+  size: 137, 146
+  orig: 137, 146
+  offset: 0, 0
+  index: -1
+debuff q #1
+  rotate: false
+  xy: 722, 191
+  size: 176, 186
+  orig: 176, 186
+  offset: 0, 0
+  index: -1
+heal q #1
+  rotate: false
+  xy: 532, 161
+  size: 188, 216
+  orig: 188, 216
+  offset: 0, 0
+  index: -1
+highlight
+  rotate: true
+  xy: 2, 13
+  size: 364, 528
+  orig: 364, 528
+  offset: 0, 0
+  index: -1
+stree q #1
+  rotate: false
+  xy: 900, 199
+  size: 111, 178
+  orig: 111, 178
+  offset: 0, 0
+  index: -1

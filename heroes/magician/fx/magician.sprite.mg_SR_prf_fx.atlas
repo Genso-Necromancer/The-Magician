@@ -1,0 +1,41 @@
+
+magician.sprite.mg_SR_prf_fx.png
+size: 3063,577
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blurr
+  rotate: true
+  xy: 734, 68
+  size: 507, 625
+  orig: 507, 625
+  offset: 0, 0
+  index: -1
+glow
+  rotate: true
+  xy: 2011, 35
+  size: 540, 585
+  orig: 540, 585
+  offset: 0, 0
+  index: -1
+highlight
+  rotate: false
+  xy: 2598, 14
+  size: 463, 561
+  orig: 463, 561
+  offset: 0, 0
+  index: -1
+hit_splat
+  rotate: false
+  xy: 1361, 101
+  size: 648, 474
+  orig: 648, 474
+  offset: 0, 0
+  index: -1
+impact
+  rotate: false
+  xy: 2, 2
+  size: 730, 573
+  orig: 730, 573
+  offset: 0, 0
+  index: -1

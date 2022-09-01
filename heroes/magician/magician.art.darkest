@@ -14,11 +14,11 @@ armour: .name "magician_armour_4" .icon "eqp_armour_4.png"
 
 combat_skill: .id "ecological_bomb" .icon "five" .anim "ecologicalbomb" .fx "EBPrfFX" .targfx "EBTarFX" .condensed_tooltip_stats true .area_pos_offset 150 0
 combat_skill: .id "up_sweep" .icon "two" .anim "attack_upsweep" .condensed_tooltip_stats true .condensed_tooltip_effects_per_line 1
-combat_skill: .id "stardust_reverie" .icon "three" .anim "attack_stardust" .condensed_tooltip_stats true .condensed_tooltip_effects true
+combat_skill: .id "stardust_reverie" .icon "three" .anim "attack_stardust" .fx "mg_SR_prf_fx" .condensed_tooltip_stats true .condensed_tooltip_effects true
 combat_skill: .id "master_spark" .icon "four" .anim "attack_masterspark" .fx "masterspark_FX" .condensed_tooltip_stats true .target_area_pos_offset -125 0 .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "magic_absorb" .icon "six" .anim "ecologicalbomb" .condensed_tooltip_effects false
 combat_skill: .id "magic_missile" .icon "one" .anim "attack_magicmissile" .fx "mg_mm_perf_fx" .targheadfx "mg_mm_targ_fx" .area_pos_offset 250 0 .target_area_pos_offset 125 0 
-combat_skill: .id "illusion_laser" .icon "seven" .anim "attack_magicmissile"
+combat_skill: .id "illusion_laser" .icon "seven" .anim "powerfuldrug" .fx "PD_Prf_FX" .targfx "pd_target_fx"
 
 combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
 riposte_skill: .id "riposte1" .anim "attack_magicmissile"

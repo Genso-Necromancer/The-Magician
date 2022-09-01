@@ -60,7 +60,7 @@
 		<entry id="str_spellcard"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_is_bomb_tt"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_stardust_reverie"><![CDATA[Stardust Reverie]]></entry>
-		<entry id="buff_rule_data_tooltip_up_sweep"><![CDATA[Upsweep]]></entry>
+		<entry id="buff_rule_data_tooltip_up_sweep"><![CDATA[Stardust Missile]]></entry>
 		<entry id="buff_rule_data_tooltip_master_spark"><![CDATA[Master Spark]]></entry>
 		
 			<!-- Counters -->

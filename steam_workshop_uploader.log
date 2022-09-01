@@ -28,8 +28,6 @@ C:/Program Files (x86)/Steam/steamapps/common/DarkestDungeon/mods/MarisaModWIP/o
 Modded files...
 
 heroes/magician/magician_A/anim/magician.sprite.afflicted.png
-heroes/magician/magician_A/anim/magician.sprite.attack_dragon.png
-heroes/magician/magician_A/anim/magician.sprite.attack_laser.png
 heroes/magician/magician_A/anim/magician.sprite.attack_magicmissile.png
 heroes/magician/magician_A/anim/magician.sprite.attack_masterspark.png
 heroes/magician/magician_A/anim/magician.sprite.attack_stardust.png
@@ -41,27 +39,18 @@ heroes/magician/magician_A/anim/magician.sprite.ecologicalbomb.png
 heroes/magician/magician_A/anim/magician.sprite.heroic.png
 heroes/magician/magician_A/anim/magician.sprite.idle.png
 heroes/magician/magician_A/anim/magician.sprite.investigate.png
+heroes/magician/magician_A/anim/magician.sprite.powerfuldrug.png
 heroes/magician/magician_A/anim/magician.sprite.walk.png
 campaign/town/town_event/town_event.image_first_magician.png
 campaign/town/town_event/town_event.image_magician_loot_heist.png
 heroes/magician/anim/magician.sprite.afflicted.atlas
 heroes/magician/anim/magician.sprite.afflicted.skel
-heroes/magician/anim/magician.sprite.attack_dragon.atlas
-heroes/magician/anim/magician.sprite.attack_dragon.skel
-heroes/magician/anim/magician.sprite.attack_ecological.atlas
-heroes/magician/anim/magician.sprite.attack_ecological.skel
-heroes/magician/anim/magician.sprite.attack_laser.atlas
-heroes/magician/anim/magician.sprite.attack_laser.skel
 heroes/magician/anim/magician.sprite.attack_magicmissile.atlas
 heroes/magician/anim/magician.sprite.attack_magicmissile.skel
 heroes/magician/anim/magician.sprite.attack_masterspark.atlas
 heroes/magician/anim/magician.sprite.attack_masterspark.skel
-heroes/magician/anim/magician.sprite.attack_spark.atlas
-heroes/magician/anim/magician.sprite.attack_spark.skel
 heroes/magician/anim/magician.sprite.attack_stardust.atlas
 heroes/magician/anim/magician.sprite.attack_stardust.skel
-heroes/magician/anim/magician.sprite.attack_sweep.atlas
-heroes/magician/anim/magician.sprite.attack_sweep.skel
 heroes/magician/anim/magician.sprite.attack_upsweep.atlas
 heroes/magician/anim/magician.sprite.attack_upsweep.skel
 heroes/magician/anim/magician.sprite.camp.atlas
@@ -78,6 +67,8 @@ heroes/magician/anim/magician.sprite.idle.atlas
 heroes/magician/anim/magician.sprite.idle.skel
 heroes/magician/anim/magician.sprite.investigate.atlas
 heroes/magician/anim/magician.sprite.investigate.skel
+heroes/magician/anim/magician.sprite.powerfuldrug.atlas
+heroes/magician/anim/magician.sprite.powerfuldrug.skel
 heroes/magician/anim/magician.sprite.walk.atlas
 heroes/magician/anim/magician.sprite.walk.skel
 heroes/magician/fx/magician.sprite.EBPrfFX.atlas
@@ -89,6 +80,9 @@ heroes/magician/fx/magician.sprite.EBTarFX.skel
 heroes/magician/fx/magician.sprite.MG_thief_FX.atlas
 heroes/magician/fx/magician.sprite.MG_thief_FX.png
 heroes/magician/fx/magician.sprite.MG_thief_FX.skel
+heroes/magician/fx/magician.sprite.PD_Prf_FX.atlas
+heroes/magician/fx/magician.sprite.PD_Prf_FX.png
+heroes/magician/fx/magician.sprite.PD_Prf_FX.skel
 heroes/magician/fx/magician.sprite.TNec_RipTrac_FX.atlas
 heroes/magician/fx/magician.sprite.TNec_RipTrac_FX.png
 heroes/magician/fx/magician.sprite.TNec_RipTrac_FX.skel
@@ -101,6 +95,9 @@ heroes/magician/fx/magician.sprite.TNec_RipTrac_FX3.skel
 heroes/magician/fx/magician.sprite.masterspark_FX.atlas
 heroes/magician/fx/magician.sprite.masterspark_FX.png
 heroes/magician/fx/magician.sprite.masterspark_FX.skel
+heroes/magician/fx/magician.sprite.mg_SR_prf_fx.atlas
+heroes/magician/fx/magician.sprite.mg_SR_prf_fx.png
+heroes/magician/fx/magician.sprite.mg_SR_prf_fx.skel
 heroes/magician/fx/magician.sprite.mg_blank1.atlas
 heroes/magician/fx/magician.sprite.mg_blank1.png
 heroes/magician/fx/magician.sprite.mg_blank1.skel
@@ -116,6 +113,9 @@ heroes/magician/fx/magician.sprite.mg_power_gain.skel
 heroes/magician/fx/magician.sprite.mg_power_loss.atlas
 heroes/magician/fx/magician.sprite.mg_power_loss.png
 heroes/magician/fx/magician.sprite.mg_power_loss.skel
+heroes/magician/fx/magician.sprite.pd_target_fx.atlas
+heroes/magician/fx/magician.sprite.pd_target_fx.png
+heroes/magician/fx/magician.sprite.pd_target_fx.skel
 heroes/magician/fx/missile hit.png
 heroes/magician/icons_equip/eqp_armour_0.png
 heroes/magician/icons_equip/eqp_armour_1.png
@@ -218,7 +218,6 @@ heroes/magician/magician.ability.two.png
 heroes/magician/magician.art.darkest
 heroes/magician/magician.info.darkest
 heroes/magician/magician_guild_header.png
-heroes/magician/magicianbackup.infobackup
 raid/actor_dot/magician.actor_dot.json
 raid/camping/magician.camping_skills.json
 shared/buffs/magician.buffs.json

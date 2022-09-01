@@ -1,20 +1,20 @@
 
-magician.sprite.attack_ecological.png
-size: 557,374
+magician.sprite.powerfuldrug.png
+size: 1026,664
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-attack_ecological
+powerfuldrug
   rotate: true
   xy: 2, 2
-  size: 370, 488
-  orig: 370, 488
+  size: 660, 958
+  orig: 660, 958
   offset: 0, 0
   index: -1
 shadow
   rotate: true
-  xy: 492, 15
-  size: 357, 63
-  orig: 357, 63
+  xy: 962, 305
+  size: 357, 62
+  orig: 357, 62
   offset: 0, 0
   index: -1

@@ -1,11 +1,11 @@
-extra_stack_limit: .id magician_junk1	.type "gem"		.id "ruby"				.amount 1
-extra_stack_limit: .id magician_junk2	.type "gem"		.id "sapphire"			.amount 1
-extra_stack_limit: .id magician_junk3	.type "gem"		.id "emerald"			.amount 1
-extra_stack_limit: .id magician_junk4	.type "gem"		.id "onyx"				.amount 1
-extra_stack_limit: .id magician_junk5	.type "gem"		.id "jade"				.amount 1
-extra_stack_limit: .id magician_junk6	.type "gem"		.id "citrine"			.amount 1
-extra_stack_limit: .id magician_junk7	.type "gem"		.id "trapezohedron"		.amount 1
+extra_stack_limit: .id magician_junk1	.item_type gem		.id "ruby"				.amount 1
+extra_stack_limit: .id magician_junk2	.item_type gem		.id "sapphire"			.amount 1
+extra_stack_limit: .id magician_junk3	.item_type gem		.id "emerald"			.amount 1
+extra_stack_limit: .id magician_junk4	.item_type gem		.id "onyx"				.amount 1
+extra_stack_limit: .id magician_junk5	.item_type gem		.id "jade"				.amount 1
+extra_stack_limit: .id magician_junk6	.item_type gem		.id "citrine"			.amount 1
+extra_stack_limit: .id magician_junk7	.item_type gem		.id "trapezohedron"		.amount 1
 
-extra_stack_limit: .id magician_junk8	.type "gem"		.id "woodcarving"		.amount 1
-extra_stack_limit: .id magician_junk9	.type "gem"		.id "mon"				.amount 1
-extra_stack_limit: .id magician_junk10	.type "gem"		.id "koban2"			.amount 1
+extra_stack_limit: .id magician_junk8	.item_type gem		.id "woodcarving"		.amount 1
+extra_stack_limit: .id magician_junk9	.item_type gem		.id "mon"				.amount 1
+extra_stack_limit: .id magician_junk10	.item_type gem		.id "koban2"			.amount 1
