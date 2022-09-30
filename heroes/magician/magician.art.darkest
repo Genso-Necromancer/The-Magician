@@ -21,7 +21,7 @@ combat_skill: .id "magic_missile" .icon "one" .anim "attack_magicmissile" .fx "m
 combat_skill: .id "illusion_laser" .icon "seven" .anim "powerfuldrug" .fx "PD_Prf_FX" .targfx "pd_target_fx"
 
 combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
-riposte_skill: .id "riposte1" .anim "attack_magicmissile"
+riposte_skill: .id "riposte1" .anim "attack_upsweep"
 
 act_out_display: .attack_friendly_anim "attack_upsweep" .attack_friendly_sfx "attack_upsweep"
 

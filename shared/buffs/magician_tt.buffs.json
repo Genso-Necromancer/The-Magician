@@ -1006,10 +1006,10 @@
          }
       },
 	  {
-         "id" : "magician_overwhelm_TT",
+         "id" : "magician_overwhelm_TT1",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "mg_overwhelm_tt",
-         "amount" : -0.07,
+         "amount" : -0.5,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -1018,6 +1018,88 @@
             "string" : ""
          },
 		 "has_description" : true
+      },
+	  {
+         "id" : "magician_overwhelm_TT2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_overwhelm_tt",
+         "amount" : -0.6,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "magician_overwhelm_TT3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_overwhelm_tt",
+         "amount" : -0.7,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "magician_overwhelm_TT4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_overwhelm_tt",
+         "amount" : -0.8,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "magician_overwhelm_TT5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_overwhelm_tt",
+         "amount" : -0.9,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "mg_deleter1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_deleter1",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "mg_deleterPos",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "mg_deleter1",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
       }
 	  
 	  

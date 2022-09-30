@@ -1,6 +1,10 @@
 //Magician On-Crit Effect
 effect: .name "Magician On-Crit" .target "performer" .chance 100% .duration 2 .buff_source_type bsrc_crit .buff_ids "magician_when_crit_Buff_Dodge" .on_hit true .on_miss false .queue false .apply_once true
 
+//TT Cleanup
+effect: .name "MG Delete1" .target "performer" .skill_instant true .buff_ids "mg_deleter1" .on_hit true .on_miss false
+effect: .name "MG DeleteBuff" .target "performer" .chance 100% .buff_source_type bsrc_notspecified .buff_ids "mg_deleter1" .on_hit false .on_miss false
+effect: .name "MG DeletePos" .target "performer" .chance 100% .buff_source_type bsrc_notspecified .buff_ids "mg_deleterPos" .on_hit false .on_miss false
 
 
 
@@ -73,11 +77,11 @@ effect: .name "MG MM Kill TT5" .target "performer" .skill_instant true .buff_ids
 
 
 ////Up-Sweep
-//effect: .name "MG US Push 1" .target "target"  .push 2 .chance 100%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-//effect: .name "MG US Push 2" .target "target"  .push 2 .chance 110%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-//effect: .name "MG US Push 3" .target "target"  .push 2 .chance 120%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-//effect: .name "MG US Push 4" .target "target"  .push 2 .chance 130%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
-//effect: .name "MG US Push 5" .target "target"  .push 2 .chance 140%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+effect: .name "MG US Push 1" .target "target"  .push 2 .chance 100%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+effect: .name "MG US Push 2" .target "target"  .push 2 .chance 110%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+effect: .name "MG US Push 3" .target "target"  .push 2 .chance 120%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+effect: .name "MG US Push 4" .target "target"  .push 2 .chance 130%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
+effect: .name "MG US Push 5" .target "target"  .push 2 .chance 140%  .on_hit true .on_miss false .apply_once false .can_apply_on_death true
 
 //Stardust Missile
 //Buff
@@ -207,11 +211,11 @@ effect: .name "MG EB Splash TT5" .target "performer" .skill_instant true .buff_i
 ////Star Dust Reverie
 //Tool Tip
 effect: .name "MG SR DMG TT" .target "performer" .skill_instant true .buff_ids "magician_stardust_damage_TT2" .on_hit false .on_miss false
-effect: .name "MG SR Recoil TT1" .target "performer" .chance 60% .duration 1 .buff_ids "magician_recoil_damage_TT1" .on_hit false .on_miss false .has_description true
-effect: .name "MG SR Recoil TT2" .target "performer" .chance 60% .duration 1 .buff_ids "magician_recoil_damage_TT2" .on_hit false .on_miss false .has_description true
-effect: .name "MG SR Recoil TT3" .target "performer" .chance 60% .duration 1 .buff_ids "magician_recoil_damage_TT3" .on_hit false .on_miss false .has_description true
-effect: .name "MG SR Recoil TT4" .target "performer" .chance 60% .duration 1 .buff_ids "magician_recoil_damage_TT4" .on_hit false .on_miss false .has_description true
-effect: .name "MG SR Recoil TT5" .target "performer" .chance 60% .duration 1 .buff_ids "magician_recoil_damage_TT5" .on_hit false .on_miss false .has_description true
+effect: .name "MG SR Recoil TT1" .target "performer" .chance 100% .duration 1 .buff_ids "magician_recoil_damage_TT1" .on_hit false .on_miss false .has_description true
+effect: .name "MG SR Recoil TT2" .target "performer" .chance 100% .duration 1 .buff_ids "magician_recoil_damage_TT2" .on_hit false .on_miss false .has_description true
+effect: .name "MG SR Recoil TT3" .target "performer" .chance 100% .duration 1 .buff_ids "magician_recoil_damage_TT3" .on_hit false .on_miss false .has_description true
+effect: .name "MG SR Recoil TT4" .target "performer" .chance 100% .duration 1 .buff_ids "magician_recoil_damage_TT4" .on_hit false .on_miss false .has_description true
+effect: .name "MG SR Recoil TT5" .target "performer" .chance 100% .duration 1 .buff_ids "magician_recoil_damage_TT5" .on_hit false .on_miss false .has_description true
 
 //Distance Buff
 effect: .name "MG SR DMG BUFF" .target "performer" .skill_instant true .buff_ids "magician_SR_DMG_Buff_R4_H" "magician_SR_DMG_Buff_R4_L" "magician_SR_DMG_Buff_R3_H" "magician_SR_DMG_Buff_R3_L" .on_hit true .on_miss false .has_description false
@@ -250,11 +254,11 @@ effect: .name "MG Overwhelm 3" .target "performer" .push 3 .chance 70% .on_hit t
 effect: .name "MG Overwhelm 4" .target "performer" .push 3 .chance 80% .on_hit true .on_miss true .apply_once true .can_apply_on_death true .has_description false .apply_with_result true
 effect: .name "MG Overwhelm 5" .target "performer" .push 3 .chance 90% .on_hit true .on_miss true .apply_once true .can_apply_on_death true .has_description false .apply_with_result true
 //TT
-effect: .name "MG MS Overwhelm TT1" .target "performer" .chance 50% .duration 1 .buff_ids "magician_overwhelm_TT" .on_hit false .on_miss false .has_description true
-effect: .name "MG MS Overwhelm TT2" .target "performer" .chance 60% .duration 1 .buff_ids "magician_overwhelm_TT" .on_hit false .on_miss false .has_description true
-effect: .name "MG MS Overwhelm TT3" .target "performer" .chance 70% .duration 1 .buff_ids "magician_overwhelm_TT" .on_hit false .on_miss false .has_description true
-effect: .name "MG MS Overwhelm TT4" .target "performer" .chance 80% .duration 1 .buff_ids "magician_overwhelm_TT" .on_hit false .on_miss false .has_description true
-effect: .name "MG MS Overwhelm TT5" .target "performer" .chance 90% .duration 1 .buff_ids "magician_overwhelm_TT" .on_hit false .on_miss false .has_description true
+effect: .name "MG MS Overwhelm TT1" .target "performer" .chance 100% .duration 1 .buff_ids "magician_overwhelm_TT1" .on_hit false .on_miss false .has_description true
+effect: .name "MG MS Overwhelm TT2" .target "performer" .chance 100% .duration 1 .buff_ids "magician_overwhelm_TT2" .on_hit false .on_miss false .has_description true
+effect: .name "MG MS Overwhelm TT3" .target "performer" .chance 100% .duration 1 .buff_ids "magician_overwhelm_TT3" .on_hit false .on_miss false .has_description true
+effect: .name "MG MS Overwhelm TT4" .target "performer" .chance 100% .duration 1 .buff_ids "magician_overwhelm_TT4" .on_hit false .on_miss false .has_description true
+effect: .name "MG MS Overwhelm TT5" .target "performer" .chance 100% .duration 1 .buff_ids "magician_overwhelm_TT5" .on_hit false .on_miss false .has_description true
 
 // 0: 20%
 // 1: 30%
@@ -283,30 +287,30 @@ effect: .name "MG Riposte Steal" .target "performer" .chance 100% .steal_buff_so
 
 ///The Riposte itself
 effect: .name "MG Riposte R1" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .has_description true .riposte_effect .has_description false
-effect: .name "MG Riposte R2" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add 5% .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .has_description true .riposte_effect .has_description false
-effect: .name "MG Riposte R3" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add 10% .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .has_description true .riposte_effect .has_description false
-effect: .name "MG Riposte R4" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add 15% .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .has_description true .riposte_effect .has_description false
-effect: .name "MG Riposte R5" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add 20% .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .has_description true .riposte_effect .has_description false
+effect: .name "MG Riposte R2" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add 5%  .damage_low_multiply -50% .damage_high_multiply -50% .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .has_description true .riposte_effect .has_description false
+effect: .name "MG Riposte R3" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add 10% .damage_low_multiply -50% .damage_high_multiply -50% .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .has_description true .riposte_effect .has_description false
+effect: .name "MG Riposte R4" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add 15% .damage_low_multiply -50% .damage_high_multiply -50% .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .has_description true .riposte_effect .has_description false
+effect: .name "MG Riposte R5" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add 20% .damage_low_multiply -50% .damage_high_multiply -50% .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .has_description true .riposte_effect .has_description false
 
 ///Riposte Chain
 //First Riposte
-effect: .name "MG Riposte Drain and Gain Chain R1 T1" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG MA DR TT 1" "MG_MA_Riposte_Steal" "MG_MA_Riposte_Count_2_T1" "MG_MA_Riposte_R1" "MG_MA_Riposte_Chain_R1_T2" "MG_MA_Riposte_Drain_1" "MG_MA_Riposte_Gain_1" .on_hit true .on_miss true .queue true .has_description false
-effect: .name "MG Riposte Drain and Gain Chain R2 T1" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG MA DR TT 2" "MG_MA_Riposte_Steal" "MG_MA_Riposte_Count_2_T1" "MG_MA_Riposte_R2" "MG_MA_Riposte_Chain_R2_T2" "MG_MA_Riposte_Drain_2" "MG_MA_Riposte_Gain_2" .on_hit true .on_miss true .queue true .has_description false
-effect: .name "MG Riposte Drain and Gain Chain R3 T1" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG MA DR TT 3" "MG_MA_Riposte_Steal" "MG_MA_Riposte_Count_2_T1" "MG_MA_Riposte_R3" "MG_MA_Riposte_Chain_R3_T2" "MG_MA_Riposte_Drain_3" "MG_MA_Riposte_Gain_3" .on_hit true .on_miss true .queue true .has_description false
-effect: .name "MG Riposte Drain and Gain Chain R4 T1" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG MA DR TT 4" "MG_MA_Riposte_Steal" "MG_MA_Riposte_Count_2_T1" "MG_MA_Riposte_R4" "MG_MA_Riposte_Chain_R4_T2" "MG_MA_Riposte_Drain_4" "MG_MA_Riposte_Gain_4" .on_hit true .on_miss true .queue true .has_description false
-effect: .name "MG Riposte Drain and Gain Chain R5 T1" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG MA DR TT 5" "MG_MA_Riposte_Steal" "MG_MA_Riposte_Count_2_T1" "MG_MA_Riposte_R5" "MG_MA_Riposte_Chain_R5_T2" "MG_MA_Riposte_Drain_5" "MG_MA_Riposte_Gain_5" .on_hit true .on_miss true .queue true .has_description false
+effect: .name "MG Riposte Drain and Gain Chain R1 T1" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG_MA_Riposte_Drain_1" "MG_MA_Riposte_Gain_1" "MG_MA_Riposte_Steal" "MG_MA_Riposte_Count_2_T1" "MG_MA_Riposte_R1" "MG_MA_Riposte_Chain_R1_T2" .on_hit true .on_miss true .queue true .has_description false
+effect: .name "MG Riposte Drain and Gain Chain R2 T1" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG_MA_Riposte_Drain_2" "MG_MA_Riposte_Gain_2" "MG_MA_Riposte_Steal" "MG_MA_Riposte_Count_2_T1" "MG_MA_Riposte_R2" "MG_MA_Riposte_Chain_R2_T2" .on_hit true .on_miss true .queue true .has_description false
+effect: .name "MG Riposte Drain and Gain Chain R3 T1" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG_MA_Riposte_Drain_3" "MG_MA_Riposte_Gain_3" "MG_MA_Riposte_Steal" "MG_MA_Riposte_Count_2_T1" "MG_MA_Riposte_R3" "MG_MA_Riposte_Chain_R3_T2" .on_hit true .on_miss true .queue true .has_description false
+effect: .name "MG Riposte Drain and Gain Chain R4 T1" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG_MA_Riposte_Drain_4" "MG_MA_Riposte_Gain_4" "MG_MA_Riposte_Steal" "MG_MA_Riposte_Count_2_T1" "MG_MA_Riposte_R4" "MG_MA_Riposte_Chain_R4_T2" .on_hit true .on_miss true .queue true .has_description false
+effect: .name "MG Riposte Drain and Gain Chain R5 T1" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG_MA_Riposte_Drain_5" "MG_MA_Riposte_Gain_5" "MG_MA_Riposte_Steal" "MG_MA_Riposte_Count_2_T1" "MG_MA_Riposte_R5" "MG_MA_Riposte_Chain_R5_T2" .on_hit true .on_miss true .queue true .has_description false
 //Second Riposte
-effect: .name "MG Riposte Drain and Gain Chain R1 T2" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG MA DR TT 1" "MG_MA_Riposte_Steal" "MG_MA_Riposte_Count_1_T2" "MG_MA_Riposte_R1" "MG Riposte Drain and Gain Chain R1 T3" "MG_MA_Riposte_Drain_1" "MG_MA_Riposte_Gain_1" .on_hit true .on_miss true .queue true
-effect: .name "MG Riposte Drain and Gain Chain R2 T2" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG MA DR TT 2" "MG_MA_Riposte_Steal" "MG_MA_Riposte_Count_1_T2" "MG_MA_Riposte_R2" "MG Riposte Drain and Gain Chain R1 T3" "MG_MA_Riposte_Drain_2" "MG_MA_Riposte_Gain_2" .on_hit true .on_miss true .queue true
-effect: .name "MG Riposte Drain and Gain Chain R3 T2" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG MA DR TT 3" "MG_MA_Riposte_Steal" "MG_MA_Riposte_Count_1_T2" "MG_MA_Riposte_R3" "MG Riposte Drain and Gain Chain R1 T3" "MG_MA_Riposte_Drain_3" "MG_MA_Riposte_Gain_3" .on_hit true .on_miss true .queue true
-effect: .name "MG Riposte Drain and Gain Chain R4 T2" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG MA DR TT 4" "MG_MA_Riposte_Steal" "MG_MA_Riposte_Count_1_T2" "MG_MA_Riposte_R4" "MG Riposte Drain and Gain Chain R1 T3" "MG_MA_Riposte_Drain_4" "MG_MA_Riposte_Gain_4" .on_hit true .on_miss true .queue true
-effect: .name "MG Riposte Drain and Gain Chain R5 T2" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG MA DR TT 5" "MG_MA_Riposte_Steal" "MG_MA_Riposte_Count_1_T2" "MG_MA_Riposte_R5" "MG Riposte Drain and Gain Chain R1 T3" "MG_MA_Riposte_Drain_5" "MG_MA_Riposte_Gain_5" .on_hit true .on_miss true .queue true
+effect: .name "MG Riposte Drain and Gain Chain R1 T2" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG_MA_Riposte_Drain_1" "MG_MA_Riposte_Gain_1" "MG_MA_Riposte_Steal" "MG_MA_Riposte_Count_1_T2" "MG_MA_Riposte_R1" "MG Riposte Drain and Gain Chain R1 T3" .on_hit true .on_miss true .queue true
+effect: .name "MG Riposte Drain and Gain Chain R2 T2" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG_MA_Riposte_Drain_2" "MG_MA_Riposte_Gain_2" "MG_MA_Riposte_Steal" "MG_MA_Riposte_Count_1_T2" "MG_MA_Riposte_R2" "MG Riposte Drain and Gain Chain R1 T3" .on_hit true .on_miss true .queue true
+effect: .name "MG Riposte Drain and Gain Chain R3 T2" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG_MA_Riposte_Drain_3" "MG_MA_Riposte_Gain_3" "MG_MA_Riposte_Steal" "MG_MA_Riposte_Count_1_T2" "MG_MA_Riposte_R3" "MG Riposte Drain and Gain Chain R1 T3" .on_hit true .on_miss true .queue true
+effect: .name "MG Riposte Drain and Gain Chain R4 T2" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG_MA_Riposte_Drain_4" "MG_MA_Riposte_Gain_4" "MG_MA_Riposte_Steal" "MG_MA_Riposte_Count_1_T2" "MG_MA_Riposte_R4" "MG Riposte Drain and Gain Chain R1 T3" .on_hit true .on_miss true .queue true
+effect: .name "MG Riposte Drain and Gain Chain R5 T2" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG_MA_Riposte_Drain_5" "MG_MA_Riposte_Gain_5" "MG_MA_Riposte_Steal" "MG_MA_Riposte_Count_1_T2" "MG_MA_Riposte_R5" "MG Riposte Drain and Gain Chain R1 T3" .on_hit true .on_miss true .queue true
 //Third Riposte
-effect: .name "MG Riposte Drain and Gain Chain R1 T3" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG_MA_Riposte_Steal" "MG_MA_Riposte_Drain_1" "MG_MA_Riposte_Gain_1" .on_hit true .on_miss true .queue true
-effect: .name "MG Riposte Drain and Gain Chain R2 T3" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG_MA_Riposte_Steal" "MG_MA_Riposte_Drain_2" "MG_MA_Riposte_Gain_2" .on_hit true ..on_miss true .queue true
-effect: .name "MG Riposte Drain and Gain Chain R3 T3" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG_MA_Riposte_Steal" "MG_MA_Riposte_Drain_3" "MG_MA_Riposte_Gain_3" .on_hit true .on_miss true .queue true
-effect: .name "MG Riposte Drain and Gain Chain R4 T3" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG_MA_Riposte_Steal" "MG_MA_Riposte_Drain_4" "MG_MA_Riposte_Gain_4" .on_hit true .on_miss true .queue true
-effect: .name "MG Riposte Drain and Gain Chain R5 T3" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG_MA_Riposte_Steal" "MG_MA_Riposte_Drain_5" "MG_MA_Riposte_Gain_5" .on_hit true .on_miss true .queue true
+effect: .name "MG Riposte Drain and Gain Chain R1 T3" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG_MA_Riposte_Drain_1" "MG_MA_Riposte_Gain_1" "MG_MA_Riposte_Steal" .on_hit true .on_miss true .queue true
+effect: .name "MG Riposte Drain and Gain Chain R2 T3" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG_MA_Riposte_Drain_2" "MG_MA_Riposte_Gain_2" "MG_MA_Riposte_Steal" .on_hit true .on_miss true .queue true
+effect: .name "MG Riposte Drain and Gain Chain R3 T3" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG_MA_Riposte_Drain_3" "MG_MA_Riposte_Gain_3" "MG_MA_Riposte_Steal" .on_hit true .on_miss true .queue true
+effect: .name "MG Riposte Drain and Gain Chain R4 T3" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG_MA_Riposte_Drain_4" "MG_MA_Riposte_Gain_4" "MG_MA_Riposte_Steal" .on_hit true .on_miss true .queue true
+effect: .name "MG Riposte Drain and Gain Chain R5 T3" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end .buff_ids "MG_MA_Riposte_Drain_5" "MG_MA_Riposte_Gain_5" "MG_MA_Riposte_Steal" .on_hit true .on_miss true .queue true
 
 //Initially placed visual indicator of ripostes left
 effect: .name "MG Riposte Count 3" .target "performer" .chance 100% .riposte 1 .buff_source_type bsrc_riposte .buff_ids "MG_MA_Count_fx_3" "MG_MA_Count_fx_2" "MG_MA_Count_fx_1" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .has_description false .queue true
@@ -329,11 +333,11 @@ effect: .name "MG MA Gain 4" .target "performer" .chance 600% .duration 1 .buff_
 effect: .name "MG MA Gain 5" .target "performer" .chance 600% .duration 1 .buff_ids "MG_MA_DMG_Gain_H5" "MG_MA_DMG_Gain_L5" .on_hit true .on_miss false
 
 //Tool Tips
-effect: .name "MG MA TT 1" .target "performer" .skill_instant true .buff_ids "mg_ma_riposte_effect_1" "mg_ma_riposte_onhit_1" "magician_MA_RipCount_TT" .on_hit false .on_miss false .has_description true
-effect: .name "MG MA TT 2" .target "performer" .skill_instant true .buff_ids "mg_ma_riposte_effect_2" "mg_ma_riposte_onhit_2" "magician_MA_RipCount_TT" .on_hit false .on_miss false .has_description true
-effect: .name "MG MA TT 3" .target "performer" .skill_instant true .buff_ids "mg_ma_riposte_effect_3" "mg_ma_riposte_onhit_3" "magician_MA_RipCount_TT" .on_hit false .on_miss false .has_description true
-effect: .name "MG MA TT 4" .target "performer" .skill_instant true .buff_ids "mg_ma_riposte_effect_4" "mg_ma_riposte_onhit_4" "magician_MA_RipCount_TT" .on_hit false .on_miss false .has_description true
-effect: .name "MG MA TT 5" .target "performer" .skill_instant true .buff_ids "mg_ma_riposte_effect_5" "mg_ma_riposte_onhit_5" "magician_MA_RipCount_TT" .on_hit false .on_miss false .has_description true
+effect: .name "MG MA TT 1" .target "performer" .chance 100% .buff_source_type bsrc_notspecified .buff_ids "mg_ma_riposte_effect_1" "mg_ma_riposte_onhit_1" "magician_MA_RipCount_TT" .on_hit false .on_miss false .has_description true
+effect: .name "MG MA TT 2" .target "performer" .chance 100% .buff_source_type bsrc_notspecified .buff_ids "mg_ma_riposte_effect_2" "mg_ma_riposte_onhit_2" "magician_MA_RipCount_TT" .on_hit false .on_miss false .has_description true
+effect: .name "MG MA TT 3" .target "performer" .chance 100% .buff_source_type bsrc_notspecified .buff_ids "mg_ma_riposte_effect_3" "mg_ma_riposte_onhit_3" "magician_MA_RipCount_TT" .on_hit false .on_miss false .has_description true
+effect: .name "MG MA TT 4" .target "performer" .chance 100% .buff_source_type bsrc_notspecified .buff_ids "mg_ma_riposte_effect_4" "mg_ma_riposte_onhit_4" "magician_MA_RipCount_TT" .on_hit false .on_miss false .has_description true
+effect: .name "MG MA TT 5" .target "performer" .chance 100% .buff_source_type bsrc_notspecified .buff_ids "mg_ma_riposte_effect_5" "mg_ma_riposte_onhit_5" "magician_MA_RipCount_TT" .on_hit false .on_miss false .has_description true
 
 
 
@@ -407,17 +411,30 @@ effect: .name "Cooldown MG" .target "performer"  .chance 100% .duration -1 .buff
 effect: .name "MG Fake Daze" .target "performer" .chance 0% .daze 1 .on_hit false .on_miss false .apply_once true .queue true .has_description false
 
 //Bomb Item
-effect: .name "magician_bomb" .target "performer"  .item 1 .chance 100% .duration -1 .buff_ids "magician_bomb_elixer" "magician_bomb_count_elixir" .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .queue true .has_description false
+effect: .name "magician_bomb" .target "performer" .set_mode mg_bomb1 .chance 100% .duration -1 .buff_ids "magician_bomb_use" "magician_bomb_elixer_1" "magician_bomb_elixer_2" "magician_bomb_elixer_3" .buff_source_type bsrc_flashback_start .buff_is_clear_debuff_valid false .on_hit true .on_miss true .has_description false
 
+effect: .name "mg_camp_0"  .target "target" .chance 100% .duration -1 .buff_ids "magician_bomb_camp_4" .buff_source_type bsrc_flashback_start .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "mg_camp_1"  .target "target" .chance 100% .duration -1 .healstress 5 .buff_ids "magician_bomb_camp_5" "mg_drunkTT" "magician_drunk_random" "magician_drunk_stress" "magician_drunk_DMH" "magician_drunk_DMGL" .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true
+effect: .name "mg_camp_2"  .target "target" .chance 100% .duration -1 .buff_ids "magician_bomb_camp_6" .buff_source_type bsrc_flashback_start .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "mg_camp_3"  .target "target" .chance 100% .duration -1 .stress 5 .buff_ids "magician_bomb_camp_7" "magician_drunk_random" "magician_drunk_stress" "magician_drunk_DMH" "magician_drunk_DMGL" .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true
+effect: .name "mg_camp_4"  .target "target" .chance 100% .duration -1 .buff_ids "magician_bomb_camp_8" .buff_source_type bsrc_flashback_start .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "mg_camp_5"  .target "target" .chance 100% .duration -1 .stress 10 .buff_ids "magician_bomb_camp_9" "magician_drunk_random" "magician_drunk_stress" "magician_drunk_DMH" "magician_drunk_DMGL" .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true
+effect: .name "mg_camp_6"  .target "target" .chance 100% .stress 20 .buff_source_type bsrc_flashback_start .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true
 
-effect: .name "mg_camp_0"  .target "target" .chance 100% .duration -1 .buff_ids "magician_bomb_tincture" "magician_bomb_count_tincture" .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .has_description false
-
-effect: .name "mg_camp_1"  .target "target" .chance 100%  .duration -1 .buff_ids "magician_bomb_tincture" "magician_bomb_count_tincture" .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .has_description false
-
-effect: .name "mg_camp_2"  .target "target" .chance 100% .duration -1 .buff_ids "magician_bomb_tincture" "magician_bomb_count_tincture" .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .has_description false
 
 //Bomb Counter
-effect: .name "magician bomb count skill" .target "performer"  .chance 100% .duration -1 .buff_ids "magician_bomb_count_skill"  .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .queue true .has_description false
+//effect: .name "magician bomb count skill" .target "performer"  .chance 100% .duration -1 .buff_ids "magician_bomb_count_skill"  .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .queue true .has_description false
+
+//Mode Shifters
+effect: .name "Magician Bomb2" .target "performer" .set_mode Mg_bomb2 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "Magician_bomb_used_1" .chance 100% .on_hit true .on_miss false .queue true .has_description false .apply_once true
+effect: .name "Magician Bomb3" .target "performer" .set_mode Mg_bomb3 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "Magician_bomb_used_2" .chance 100% .on_hit true .on_miss false .queue true .has_description false .apply_once true
+effect: .name "Magician Extra4" .target "performer" .set_mode Mg_extra4 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "Magician_bomb_used_3" .chance 100% .on_hit true .on_miss false .queue true .has_description false .apply_once true
+effect: .name "Magician Extra5" .target "performer" .set_mode Mg_extra5 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "Magician_bomb_used_4" .chance 100% .on_hit true .on_miss false .queue true .has_description false .apply_once true
+effect: .name "Magician Extra6" .target "performer" .set_mode Mg_extra6 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "Magician_bomb_used_5" .chance 100% .on_hit true .on_miss false .queue true .has_description false .apply_once true
+effect: .name "Magician Extra7" .target "performer" .set_mode Mg_extra7 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "Magician_bomb_used_6" .chance 100% .on_hit true .on_miss false .queue true .has_description false .apply_once true
+effect: .name "Magician Extra8" .target "performer" .set_mode Mg_extra8 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "Magician_bomb_used_7" .chance 100% .on_hit true .on_miss false .queue true .has_description false .apply_once true
+effect: .name "Magician Extra9" .target "performer" .set_mode Mg_extra9 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "Magician_bomb_used_8" .chance 100% .on_hit true .on_miss false .queue true .has_description false .apply_once true
+effect: .name "Magician NoBomb" .target "performer" .set_mode Mg_nobomb .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "Magician_bomb_used_9" .chance 100% .on_hit true .on_miss false .queue true .has_description false .apply_once true
 
 ////Funny Mushrooms
 

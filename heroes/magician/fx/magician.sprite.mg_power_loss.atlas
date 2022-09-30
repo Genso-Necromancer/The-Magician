@@ -1,26 +1,19 @@
 
 magician.sprite.mg_power_loss.png
-size: 537,197
+size: 459,157
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Power Loss Glow 1
-  rotate: false
-  xy: 2, 2
-  size: 193, 193
-  orig: 193, 193
-  offset: 0, 0
-  index: -1
-Power Loss Glow 2
-  rotate: false
-  xy: 197, 2
-  size: 193, 193
-  orig: 193, 193
+power loss arrow
+  rotate: true
+  xy: 2, 31
+  size: 124, 310
+  orig: 124, 310
   offset: 0, 0
   index: -1
 power_item
   rotate: false
-  xy: 392, 42
+  xy: 314, 2
   size: 143, 153
   orig: 143, 153
   offset: 0, 0

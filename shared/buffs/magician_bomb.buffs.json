@@ -1,120 +1,12 @@
 {
    "buffs":
    [
-        
-	  {
-         "id" : "magician_is_bomb_TT",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "miko_is_bomb_tt",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-          "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-             "string" : "mg_rule_mode"
-         }
-      },
-	  {
-         "id" : "magician_bomb_count_skill",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "magician_bomb_count_used",
-         "amount" : -0.01,
-         "remove_if_not_active" : false,
-		  "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-             "string" : "mg_rule_mode"
-         }
-      },
-	  {
-         "id" : "magician_bomb_count_elixir",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "magician_bomb_count_limit",
-         "amount" : -0.03,
-         "remove_if_not_active" : false,
-          "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-             "string" : "mg_rule_mode"
-         }
-      },
-	  {
-         "id" : "magician_bomb_count_tincture",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "magician_bomb_count_limit",
-         "amount" : -0.01,
-         "remove_if_not_active" : false,
-          "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-             "string" : "mg_rule_mode"
-         }
-      },
-      {
-         "id" : "magician_no_bombs",
-         "stat_type" : "disable_combat_skill_attribute",
-         "stat_sub_type" : "daze",
-         "amount" : 1,
-         "remove_if_not_active" : false,
-         "rule_type" : "has_item_id",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "magician_bomb"
-         },
-		 "has_description": false
-      },
-      {
+      
+	{
          "id" : "magician_bomb_use",
          "stat_type" : "disable_combat_skill_attribute",
          "stat_sub_type" : "daze",
          "amount" : 0.25,
-         "remove_if_not_active" : false,
-          "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-             "string" : "mg_rule_mode"
-         },
-		 "has_description": false
-      },
-      {
-         "id" : "magician_bomb_tincture",
-         "stat_type" : "disable_combat_skill_attribute",
-         "stat_sub_type" : "daze",
-         "amount" : -0.25,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "mg_rule_mode"
-         },
-		 "has_description": false
-      },
-      {
-         "id" : "magician_bomb_elixer",
-         "stat_type" : "disable_combat_skill_attribute",
-         "stat_sub_type" : "daze",
-         "amount" : -0.50,
-         "remove_if_not_active" : false,
-          "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-             "string" : "mg_rule_mode"
-         },
-		 "has_description": false
-      },
-      {
-         "id" : "magician_no_bombs",
-         "stat_type" : "disable_combat_skill_attribute",
-         "stat_sub_type" : "daze",
-         "amount" : 10,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -123,9 +15,329 @@
             "string" : ""
          },
 		 "has_description": false
-      }
-	  
-	  
-	  
+     },
+     {
+         "id" : "magician_bomb_elixer_1",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false,
+         "fx" : "MGFXbomb1"
+     },
+     {
+         "id" : "magician_bomb_elixer_2",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false,
+         "fx" : "MGFXbomb2"
+     },
+     {
+         "id" : "magician_bomb_elixer_3",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false,
+         "fx" : "MGFXbomb3"
+     },
+     {
+         "id" : "magician_bomb_camp_4",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false,
+         "fx" : "MGFXbomb4"
+     },
+     {
+         "id" : "magician_bomb_camp_5",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false,
+         "fx" : "MGFXbomb5"
+     },
+     {
+         "id" : "magician_bomb_camp_6",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false,
+         "fx" : "MGFXbomb6"
+     },
+     {
+         "id" : "magician_bomb_camp_7",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false,
+         "fx" : "MGFXbomb7"
+     },
+     {
+         "id" : "magician_bomb_camp_8",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false,
+         "fx" : "MGFXbomb8"
+     },
+     {
+         "id" : "magician_bomb_camp_9",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false,
+         "fx" : "MGFXbomb9"
+     },
+     {
+         "id" : "magician_bomb_used_1",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false,
+         "fx" : "MGFXused1"
+     },
+     {
+         "id" : "magician_bomb_used_2",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false,
+         "fx" : "MGFXused2"
+     },
+     {
+         "id" : "magician_bomb_used_3",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false,
+         "fx" : "MGFXused3"
+     },
+     {
+         "id" : "magician_bomb_used_4",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false,
+         "fx" : "MGFXused4"
+     },
+     {
+         "id" : "magician_bomb_used_5",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false,
+         "fx" : "MGFXused5"
+     },
+     {
+         "id" : "magician_bomb_used_6",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false,
+         "fx" : "MGFXused6"
+     },
+     {
+         "id" : "magician_bomb_used_7",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false,
+         "fx" : "MGFXused7"
+     },
+     {
+         "id" : "magician_bomb_used_8",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false,
+         "fx" : "MGFXused8"
+     },
+     {
+         "id" : "magician_bomb_used_9",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false,
+         "fx" : "MGFXused9"
+     },
+     {
+         "id" : "magician_drunk_stress",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+     },
+     {
+         "id" : "magician_drunk_random",
+         "stat_type" : "random_target_attack_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+     },
+     {
+         "id" : "magician_drunk_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+     },
+     {
+         "id" : "magician_drunk_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+     }
+   
    ]
 }  

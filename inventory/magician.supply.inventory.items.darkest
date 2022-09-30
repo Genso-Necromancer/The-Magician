@@ -1,5 +1,5 @@
-inventory_item: .type "supply"		.id "magician_bomb"			    		.base_stack_limit 1		.purchase_gold_value 0	.sell_gold_value 0
-inventory_item: .type "supply"		.id "magician_bomb_camp"			    .base_stack_limit 1		.purchase_gold_value 0	.sell_gold_value 0 .sequential_use_effects mg_camp_0 mg_camp_1 mg_camp_3 .wait_for_item_use_to_finish true
+inventory_item: .type "supply"		.id "magician_bomb"			    .base_stack_limit 1		.purchase_gold_value 0	.sell_gold_value 0
+inventory_item: .type "supply"		.id "magician_bomb_camp"		.base_stack_limit 1		.purchase_gold_value 0	.sell_gold_value 0 .sequential_use_effects mg_camp_0 mg_camp_1 mg_camp_2 mg_camp_3 mg_camp_4 mg_camp_5 mg_camp_6 .wait_for_item_use_to_finish true
 
 inventory_item: .type "supply"		.id "magician_healshroom_1"		 		.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250
 inventory_item: .type "supply"		.id "magician_razorshroom_1"			.base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 250

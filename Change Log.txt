@@ -1,14 +1,11 @@
-Magician
--Item Cap-
-Fixed? the gem cap increase. Syntax error.
+-Change Log-
+Added Combat Animation
+Added a new animation for when "Power" is gained and lost
+Converted to the new Spellcard tracking system
+Cleaned up tool tips to accomodate the new system
 
--Stardust Reverie-
-Added Reverie's FX
-
--Powerful Drug-
-Added Target and Performer FX
-
--Stardust Missile-
-Fixed a mistake where the buff from other skills were "addings" instead of "multiplying"
-Caught the last mentions of "up-sweep" instead of "Stardust Missile"
-
+Stardust Reverie
+	Added a chance of Knock Back 2 vs target
+	
+Magic Absorber
+	Fixed Damage drain effect when Riposting

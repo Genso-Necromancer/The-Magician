@@ -1,13 +1,27 @@
 
 magician.sprite.mg_power_gain.png
-size: 572,113
+size: 537,197
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-power_trail
+Power Loss Glow 1
   rotate: false
   xy: 2, 2
-  size: 568, 109
-  orig: 568, 109
+  size: 193, 193
+  orig: 193, 193
+  offset: 0, 0
+  index: -1
+Power Loss Glow 2
+  rotate: false
+  xy: 197, 2
+  size: 193, 193
+  orig: 193, 193
+  offset: 0, 0
+  index: -1
+power_item
+  rotate: false
+  xy: 392, 42
+  size: 143, 153
+  orig: 143, 153
   offset: 0, 0
   index: -1

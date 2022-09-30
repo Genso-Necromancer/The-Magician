@@ -11,141 +11,159 @@ armour: .name "magician_armour_2" .def 15% .prot 0 .hp 35 .spd 0 .upgradeRequire
 armour: .name "magician_armour_3" .def 20% .prot 0 .hp 40 .spd 0 .upgradeRequirementCode 2
 armour: .name "magician_armour_4" .def 25% .prot 0 .hp 45 .spd 0 .upgradeRequirementCode 3
 
-combat_skill: .id "magic_missile" .level 0 .type "ranged" .atk 0% .dmg -31% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode .effect "MG MM Trait TT" "MG MM Kill TT2" "MG Anti-Corpse" "MG Anti-Corpse DMG" "MG Hakkero Check" "MG Still Alive Resistance" "MG Power Buff Summon 2" .generation_guaranteed true
-combat_skill: .id "magic_missile" .level 1 .type "ranged" .atk 0% .dmg -29% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode .effect "MG MM Trait TT" "MG MM Kill TT2" "MG Anti-Corpse" "MG Anti-Corpse DMG" "MG Hakkero Check" "MG Still Alive Resistance" "MG Power Buff Summon 2" .generation_guaranteed true
-combat_skill: .id "magic_missile" .level 2 .type "ranged" .atk 0% .dmg -26% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode .effect "MG MM Trait TT" "MG MM Kill TT2" "MG Anti-Corpse" "MG Anti-Corpse DMG" "MG Hakkero Check" "MG Still Alive Resistance" "MG Power Buff Summon 2" .generation_guaranteed true
-combat_skill: .id "magic_missile" .level 3 .type "ranged" .atk 0% .dmg -23% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode .effect "MG MM Trait TT" "MG MM Kill TT2" "MG Anti-Corpse" "MG Anti-Corpse DMG" "MG Hakkero Check" "MG Still Alive Resistance" "MG Power Buff Summon 2" .generation_guaranteed true
-combat_skill: .id "magic_missile" .level 4 .type "ranged" .atk 0% .dmg -20% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode .effect "MG MM Trait TT" "MG MM Kill TT2" "MG Anti-Corpse" "MG Anti-Corpse DMG" "MG Hakkero Check" "MG Still Alive Resistance" "MG Power Buff Summon 2" .generation_guaranteed true 
+combat_skill: .id "magic_missile" .level 0 .type "ranged" .atk 0% .dmg -31% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .effect "MG MM Trait TT" "MG MM Kill TT2" "MG Anti-Corpse" "MG Anti-Corpse DMG" "MG Hakkero Check" "MG Still Alive Resistance" "MG Power Buff Summon 2" .generation_guaranteed true
+combat_skill: .id "magic_missile" .level 1 .type "ranged" .atk 0% .dmg -29% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .effect "MG MM Trait TT" "MG MM Kill TT2" "MG Anti-Corpse" "MG Anti-Corpse DMG" "MG Hakkero Check" "MG Still Alive Resistance" "MG Power Buff Summon 2" .generation_guaranteed true
+combat_skill: .id "magic_missile" .level 2 .type "ranged" .atk 0% .dmg -26% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .effect "MG MM Trait TT" "MG MM Kill TT2" "MG Anti-Corpse" "MG Anti-Corpse DMG" "MG Hakkero Check" "MG Still Alive Resistance" "MG Power Buff Summon 2" .generation_guaranteed true
+combat_skill: .id "magic_missile" .level 3 .type "ranged" .atk 0% .dmg -23% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .effect "MG MM Trait TT" "MG MM Kill TT2" "MG Anti-Corpse" "MG Anti-Corpse DMG" "MG Hakkero Check" "MG Still Alive Resistance" "MG Power Buff Summon 2" .generation_guaranteed true
+combat_skill: .id "magic_missile" .level 4 .type "ranged" .atk 0% .dmg -20% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .effect "MG MM Trait TT" "MG MM Kill TT2" "MG Anti-Corpse" "MG Anti-Corpse DMG" "MG Hakkero Check" "MG Still Alive Resistance" "MG Power Buff Summon 2" .generation_guaranteed true 
 
-combat_skill: .id "magic_missile" .level 0 .type "ranged" .atk 0% .dmg -31% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode .effect "MG SM Buff" .generation_guaranteed true
-combat_skill: .id "magic_missile" .level 1 .type "ranged" .atk 0% .dmg -29% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode .effect "MG SM Buff" .generation_guaranteed true
-combat_skill: .id "magic_missile" .level 2 .type "ranged" .atk 0% .dmg -26% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode .effect "MG SM Buff" .generation_guaranteed true
-combat_skill: .id "magic_missile" .level 3 .type "ranged" .atk 0% .dmg -23% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode .effect "MG SM Buff" .generation_guaranteed true
-combat_skill: .id "magic_missile" .level 4 .type "ranged" .atk 0% .dmg -20% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .valid_modes mg_rule_mode .effect "MG SM Buff" .generation_guaranteed true 
+combat_skill: .id "magic_missile" .level 0 .type "ranged" .atk 0% .dmg -31% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .effect "MG SM Buff" .generation_guaranteed true
+combat_skill: .id "magic_missile" .level 1 .type "ranged" .atk 0% .dmg -29% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .effect "MG SM Buff" .generation_guaranteed true
+combat_skill: .id "magic_missile" .level 2 .type "ranged" .atk 0% .dmg -26% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .effect "MG SM Buff" .generation_guaranteed true
+combat_skill: .id "magic_missile" .level 3 .type "ranged" .atk 0% .dmg -23% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .effect "MG SM Buff" .generation_guaranteed true
+combat_skill: .id "magic_missile" .level 4 .type "ranged" .atk 0% .dmg -20% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .effect "MG SM Buff" .generation_guaranteed true 
 
-
-combat_skill: .id "up_sweep" .level 0 .type "ranged" .atk 90%  .dmg 0% .crit 0% .move 0 1 .launch 432 .target 123 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG SM TT" .is_stall_invalidating true
-combat_skill: .id "up_sweep" .level 1 .type "ranged" .atk 95%  .dmg 0% .crit 1% .move 0 1 .launch 432 .target 123 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG SM TT" .is_stall_invalidating true
-combat_skill: .id "up_sweep" .level 2 .type "ranged" .atk 100% .dmg 0% .crit 2% .move 0 1 .launch 432 .target 123 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG SM TT" .is_stall_invalidating true
-combat_skill: .id "up_sweep" .level 3 .type "ranged" .atk 105% .dmg 0% .crit 3% .move 0 1 .launch 432 .target 123 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG SM TT" .is_stall_invalidating true
-combat_skill: .id "up_sweep" .level 4 .type "ranged" .atk 110% .dmg 0% .crit 4% .move 0 1 .launch 432 .target 123 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG SM TT" .is_stall_invalidating true
-
-combat_skill: .id "stardust_reverie" .level 0 .type "melee" .atk 85%  .dmg 0% .crit 5% .move 0 3 .launch 43 .target 1234 .rank_damage_modifiers 0.15 0.1 0.5 0.0 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG SR DMG TT" "MG SR DMG BUFF" "MG SR Recoil TT1" "Sonic Broom 1"
-combat_skill: .id "stardust_reverie" .level 1 .type "melee" .atk 90%  .dmg 0% .crit 6% .move 0 3 .launch 43 .target 1234 .rank_damage_modifiers 0.15 0.1 0.5 0.0 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG SR DMG TT" "MG SR DMG BUFF" "MG SR Recoil TT2" "Sonic Broom 2"
-combat_skill: .id "stardust_reverie" .level 2 .type "melee" .atk 95%  .dmg 0% .crit 7% .move 0 3 .launch 43 .target 1234 .rank_damage_modifiers 0.15 0.1 0.5 0.0 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG SR DMG TT" "MG SR DMG BUFF" "MG SR Recoil TT3" "Sonic Broom 3"
-combat_skill: .id "stardust_reverie" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8% .move 0 3 .launch 43 .target 1234 .rank_damage_modifiers 0.15 0.1 0.5 0.0 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG SR DMG TT" "MG SR DMG BUFF" "MG SR Recoil TT4" "Sonic Broom 4"
-combat_skill: .id "stardust_reverie" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .move 0 3 .launch 43 .target 1234 .rank_damage_modifiers 0.15 0.1 0.5 0.0 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG SR DMG TT" "MG SR DMG BUFF" "Sonic Broom 5" "MG SR Recoil TT5"
-
-combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -34% .crit 2% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 1" "MG EB Corpse Kill" "MG SM Buff"
-combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -34% .crit 3% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 2" "MG EB Corpse Kill" "MG SM Buff"
-combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 100% .dmg -34% .crit 4% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 3" "MG EB Corpse Kill" "MG SM Buff"
-combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -34% .crit 5% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 4" "MG EB Corpse Kill" "MG SM Buff"
-combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -34% .crit 6% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "Eco Toxin 5" "MG EB Corpse Kill" "MG SM Buff"
-
-combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -34% .crit 2% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Check" "MG R3 Stop 1" "MG R4 BR"
-combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -34% .crit 3% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Check" "MG R3 Stop 1" "MG R4 BR"
-combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 100% .dmg -34% .crit 4% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Check" "MG R3 Stop 1" "MG R4 BR"
-combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -34% .crit 5% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Check" "MG R3 Stop 1" "MG R4 BR"
-combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -34% .crit 6% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Check" "MG R3 Stop 1" "MG R4 BR"
-
-combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -34% .crit 2% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2" "MG R1 BR" "Eco Contagion 1" "MG R1 BR R"
-combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -34% .crit 3% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2" "MG R1 BR" "Eco Contagion 2" "MG R1 BR R"
-combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 100% .dmg -34% .crit 4% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2" "MG R1 BR" "Eco Contagion 3" "MG R1 BR R"
-combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -34% .crit 5% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2" "MG R1 BR" "Eco Contagion 4" "MG R1 BR R"
-combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -34% .crit 6% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2" "MG R1 BR" "Eco Contagion 5" "MG R1 BR R"
-
-combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -34% .crit 2% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2 R" "MG R4 BR R" "MG R3 Stop 1 R" "MG R3 Check R"
-combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -34% .crit 3% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2 R" "MG R4 BR R" "MG R3 Stop 1 R" "MG R3 Check R"
-combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 100% .dmg -34% .crit 4% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2 R" "MG R4 BR R" "MG R3 Stop 1 R" "MG R3 Check R"
-combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -34% .crit 5% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2 R" "MG R4 BR R" "MG R3 Stop 1 R" "MG R3 Check R"
-combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -34% .crit 6% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG R3 Stop 2 R" "MG R4 BR R" "MG R3 Stop 1 R" "MG R3 Check R"
-
-combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -34% .crit 2% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG EB Splash TT1"
-combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -34% .crit 3% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG EB Splash TT2"
-combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 100% .dmg -34% .crit 4% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG EB Splash TT3"
-combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -34% .crit 5% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG EB Splash TT4"
-combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -34% .crit 6% .move 1 0 .launch 21 .target 23 .is_crit_valid true .valid_modes mg_rule_mode  .effect "MG EB Splash TT5"
-
-combat_skill: .id "illusion_laser" .level 0 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG PD Heal TT1" "MG Cure" "MG PD Miracle TT2" "MG PD Mihap TT" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 1 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG PD Heal TT2" "MG Cure" "MG PD Miracle TT2" "MG PD Mihap TT" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 2 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG PD Heal TT3" "MG Cure" "MG PD Miracle TT3" "MG PD Mihap TT" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 3 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG PD Heal TT4" "MG Cure" "MG PD Miracle TT3" "MG PD Mihap TT" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 4 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG PD Heal TT5" "MG Cure" "MG PD Miracle TT4" "MG PD Mihap TT" .is_stall_invalidating false
-
-combat_skill: .id "illusion_laser" .level 0 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG MIRACLE 2" "MG MIRACLE INTO MISHAP 2" "MG MISHAP" "MG Mishap Oops" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 1 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG HEAL -1 A" "MG HEAL +1 A" "MG MIRACLE 2" "MG HEAL -1 B" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 2 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG MIRACLE 3" "MG MIRACLE INTO MISHAP 3" "MG MISHAP" "MG Mishap Oops" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 3 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG HEAL -1 A" "MG HEAL +1 A" "MG MIRACLE 3" "MG HEAL -1 B" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 4 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG MIRACLE 4" "MG MIRACLE INTO MISHAP 4" "MG MISHAP" "MG Mishap Oops" .is_stall_invalidating false
-
-combat_skill: .id "illusion_laser" .level 0 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Mishap Reaction" "MG Heal 2" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 1 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG HEAL +1 B" "MG MIRACLE INTO MISHAP 2" "MG MISHAP" "MG Mishap Oops" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 2 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Mishap Reaction" "MG Heal 3" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 3 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG HEAL +1 B" "MG MIRACLE INTO MISHAP 3" "MG MISHAP" "MG Mishap Oops" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 4 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect  "MG Mishap Reaction" "MG Heal 4" .is_stall_invalidating false
-
-combat_skill: .id "illusion_laser" .level 0 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 1 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Mishap Reaction" "MG HEAL -1 C" "MG Heal 3" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 2 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 3 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Mishap Reaction" "MG HEAL -1 C" "MG Heal 4" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 4 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect .is_stall_invalidating false
-
-combat_skill: .id "illusion_laser" .level 0 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Great Success" "MG Stress Block" "MG Messed Up Again" "MG Stress Revert" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 1 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Great Success" "MG Stress Block" "MG Messed Up Again" "MG Stress Revert" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 2 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Great Success" "MG Stress Block" "MG Messed Up Again" "MG Stress Revert" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 3 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Great Success" "MG Stress Block" "MG Messed Up Again" "MG Stress Revert" .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 4 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect "MG Great Success" "MG Stress Block" "MG Messed Up Again" "MG Stress Revert" .is_stall_invalidating false
-
-combat_skill: .id "illusion_laser" .level 0 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 1 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 2 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 3 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 4 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect .is_stall_invalidating false
-
-combat_skill: .id "illusion_laser" .level 0 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 1 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 2 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 3 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect .is_stall_invalidating false
-combat_skill: .id "illusion_laser" .level 4 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .valid_modes mg_rule_mode .effect .is_stall_invalidating false
+combat_skill: .id "magic_missile" .level 0 .type "ranged" .atk 0% .dmg -31% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .effect "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" .generation_guaranteed true
+combat_skill: .id "magic_missile" .level 1 .type "ranged" .atk 0% .dmg -29% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .effect "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" .generation_guaranteed true
+combat_skill: .id "magic_missile" .level 2 .type "ranged" .atk 0% .dmg -26% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .effect "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" .generation_guaranteed true
+combat_skill: .id "magic_missile" .level 3 .type "ranged" .atk 0% .dmg -23% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .effect "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" .generation_guaranteed true
+combat_skill: .id "magic_missile" .level 4 .type "ranged" .atk 0% .dmg -20% .crit 0% .launch 32 .target 1234 .is_crit_valid false .can_miss false .effect "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" .generation_guaranteed true 
 
 
-combat_skill: .id "master_spark" .level 0 .type "spellcard" .atk 120% .dmg 0% .crit 5% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.4 -0.2 0.0 0.2 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect "MS DMG TT1" "MG Surface Area" "MG Overwhelm 1" "Cooldown MG"  "magician bomb count skill" "MG Self Mark" "MG Self Block" "MG Fake Daze" "Magician Chuuni Bullshit" "Magician Chuuni Bullshit Reaction"
-combat_skill: .id "master_spark" .level 1 .type "spellcard" .atk 125% .dmg 0% .crit 6% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.375 -0.175 0.0225 0.225 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect "MS DMG TT2" "MG Surface Area" "MG Overwhelm 2" "Cooldown MG"  "magician bomb count skill" "MG Self Mark" "MG Self Block" "MG Fake Daze" "Magician Chuuni Bullshit" "Magician Chuuni Bullshit Reaction"
-combat_skill: .id "master_spark" .level 2 .type "spellcard" .atk 130% .dmg 0% .crit 7% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.35 -0.15 0.05 0.25 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect "MS DMG TT3" "MG Surface Area" "MG Overwhelm 3" "Cooldown MG"  "magician bomb count skill" "MG Self Mark" "MG Self Block" "MG Fake Daze" "Magician Chuuni Bullshit" "Magician Chuuni Bullshit Reaction"
-combat_skill: .id "master_spark" .level 3 .type "spellcard" .atk 135% .dmg 0% .crit 8% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.325 -0.125 0.075 0.275 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect "MS DMG TT4" "MG Surface Area" "MG Overwhelm 4" "Cooldown MG"  "magician bomb count skill" "MG Self Mark" "MG Self Block" "MG Fake Daze" "Magician Chuuni Bullshit" "Magician Chuuni Bullshit Reaction"
-combat_skill: .id "master_spark" .level 4 .type "spellcard" .atk 140% .dmg 0% .crit 9% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.3 -0.1 0.1 0.3 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect "MS DMG TT5" "MG Surface Area" "MG Overwhelm 5" "Cooldown MG"  "magician bomb count skill" "MG Self Mark" "MG Self Block" "MG Fake Daze" "Magician Chuuni Bullshit" "Magician Chuuni Bullshit Reaction"
+combat_skill: .id "up_sweep" .level 0 .type "ranged" .atk 90%  .dmg 0% .crit 0% .move 0 1 .launch 432 .target 123 .is_crit_valid true  .effect "MG SM TT" .is_stall_invalidating true
+combat_skill: .id "up_sweep" .level 1 .type "ranged" .atk 95%  .dmg 0% .crit 1% .move 0 1 .launch 432 .target 123 .is_crit_valid true  .effect "MG SM TT" .is_stall_invalidating true
+combat_skill: .id "up_sweep" .level 2 .type "ranged" .atk 100% .dmg 0% .crit 2% .move 0 1 .launch 432 .target 123 .is_crit_valid true  .effect "MG SM TT" .is_stall_invalidating true
+combat_skill: .id "up_sweep" .level 3 .type "ranged" .atk 105% .dmg 0% .crit 3% .move 0 1 .launch 432 .target 123 .is_crit_valid true  .effect "MG SM TT" .is_stall_invalidating true
+combat_skill: .id "up_sweep" .level 4 .type "ranged" .atk 110% .dmg 0% .crit 4% .move 0 1 .launch 432 .target 123 .is_crit_valid true  .effect "MG SM TT" .is_stall_invalidating true
 
-combat_skill: .id "master_spark" .level 0 .type "spellcard" .atk 120% .dmg 0% .crit 5% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.4 -0.2 0.0 0.2 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect "MG MS Overwhelm TT1"
-combat_skill: .id "master_spark" .level 1 .type "spellcard" .atk 125% .dmg 0% .crit 6% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.375 -0.175 0.0225 0.225 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect "MG MS Overwhelm TT2"
-combat_skill: .id "master_spark" .level 2 .type "spellcard" .atk 130% .dmg 0% .crit 7% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.35 -0.15 0.05 0.25 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect "MG MS Overwhelm TT3"
-combat_skill: .id "master_spark" .level 3 .type "spellcard" .atk 135% .dmg 0% .crit 8% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.325 -0.125 0.075 0.275 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect "MG MS Overwhelm TT4"
-combat_skill: .id "master_spark" .level 4 .type "spellcard" .atk 140% .dmg 0% .crit 9% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.3 -0.1 0.1 0.3 .ignore_protection true .is_crit_valid true .valid_modes mg_rule_mode .effect "MG MS Overwhelm TT5"
+combat_skill: .id "up_sweep" .level 0 .type "ranged" .atk 90%  .dmg 0% .crit 0% .move 0 1 .launch 432 .target 123 .is_crit_valid true  .effect "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" .is_stall_invalidating true
+combat_skill: .id "up_sweep" .level 1 .type "ranged" .atk 95%  .dmg 0% .crit 1% .move 0 1 .launch 432 .target 123 .is_crit_valid true  .effect "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" .is_stall_invalidating true
+combat_skill: .id "up_sweep" .level 2 .type "ranged" .atk 100% .dmg 0% .crit 2% .move 0 1 .launch 432 .target 123 .is_crit_valid true  .effect "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" .is_stall_invalidating true
+combat_skill: .id "up_sweep" .level 3 .type "ranged" .atk 105% .dmg 0% .crit 3% .move 0 1 .launch 432 .target 123 .is_crit_valid true  .effect "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" .is_stall_invalidating true
+combat_skill: .id "up_sweep" .level 4 .type "ranged" .atk 110% .dmg 0% .crit 4% .move 0 1 .launch 432 .target 123 .is_crit_valid true  .effect "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" .is_stall_invalidating true
 
-combat_skill: .id "magic_absorb" .level 0 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "Is Bomb MG TT" "Cooldown MG" "magician bomb count skill" "MG Self Mark" .is_stall_invalidating false
-combat_skill: .id "magic_absorb" .level 1 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "Is Bomb MG TT" "Cooldown MG" "magician bomb count skill" "MG Self Mark" .is_stall_invalidating false
-combat_skill: .id "magic_absorb" .level 2 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "Is Bomb MG TT" "Cooldown MG" "magician bomb count skill" "MG Self Mark" .is_stall_invalidating false
-combat_skill: .id "magic_absorb" .level 3 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "Is Bomb MG TT" "Cooldown MG" "magician bomb count skill" "MG Self Mark" .is_stall_invalidating false
-combat_skill: .id "magic_absorb" .level 4 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "Is Bomb MG TT" "Cooldown MG" "magician bomb count skill" "MG Self Mark" .is_stall_invalidating false
+combat_skill: .id "stardust_reverie" .level 0 .type "melee" .atk 85%  .dmg 0% .crit 5% .move 0 3 .launch 43 .target 1234 .rank_damage_modifiers 0.15 0.1 0.5 0.0 .is_crit_valid true .effect "MG SR DMG TT" "MG SR DMG BUFF" "MG US Push 1" "MG SR Recoil TT1" "Sonic Broom 1"
+combat_skill: .id "stardust_reverie" .level 1 .type "melee" .atk 90%  .dmg 0% .crit 6% .move 0 3 .launch 43 .target 1234 .rank_damage_modifiers 0.15 0.1 0.5 0.0 .is_crit_valid true .effect "MG SR DMG TT" "MG SR DMG BUFF" "MG US Push 2" "MG SR Recoil TT2" "Sonic Broom 2"
+combat_skill: .id "stardust_reverie" .level 2 .type "melee" .atk 95%  .dmg 0% .crit 7% .move 0 3 .launch 43 .target 1234 .rank_damage_modifiers 0.15 0.1 0.5 0.0 .is_crit_valid true .effect "MG SR DMG TT" "MG SR DMG BUFF" "MG US Push 3" "MG SR Recoil TT3" "Sonic Broom 3"
+combat_skill: .id "stardust_reverie" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8% .move 0 3 .launch 43 .target 1234 .rank_damage_modifiers 0.15 0.1 0.5 0.0 .is_crit_valid true .effect "MG SR DMG TT" "MG SR DMG BUFF" "MG US Push 4" "MG SR Recoil TT4" "Sonic Broom 4"
+combat_skill: .id "stardust_reverie" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .move 0 3 .launch 43 .target 1234 .rank_damage_modifiers 0.15 0.1 0.5 0.0 .is_crit_valid true .effect "MG SR DMG TT" "MG SR DMG BUFF" "MG US Push 5" "Sonic Broom 5" "MG SR Recoil TT5"
 
-combat_skill: .id "magic_absorb" .level 0 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Self Block" "MG Riposte Steal" "MG Fake Daze" .is_stall_invalidating false
-combat_skill: .id "magic_absorb" .level 1 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Self Block" "MG Riposte Steal" "MG Fake Daze" .is_stall_invalidating false
-combat_skill: .id "magic_absorb" .level 2 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Self Block" "MG Riposte Steal" "MG Fake Daze" .is_stall_invalidating false
-combat_skill: .id "magic_absorb" .level 3 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Self Block" "MG Riposte Steal" "MG Fake Daze" .is_stall_invalidating false
-combat_skill: .id "magic_absorb" .level 4 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Self Block" "MG Riposte Steal" "MG Fake Daze" .is_stall_invalidating false
+combat_skill: .id "stardust_reverie" .level 0 .type "melee" .atk 85%  .dmg 0% .crit 5% .move 0 3 .launch 43 .target 1234 .rank_damage_modifiers 0.15 0.1 0.5 0.0 .is_crit_valid true .effect "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff"
+combat_skill: .id "stardust_reverie" .level 1 .type "melee" .atk 90%  .dmg 0% .crit 6% .move 0 3 .launch 43 .target 1234 .rank_damage_modifiers 0.15 0.1 0.5 0.0 .is_crit_valid true .effect "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff"
+combat_skill: .id "stardust_reverie" .level 2 .type "melee" .atk 95%  .dmg 0% .crit 7% .move 0 3 .launch 43 .target 1234 .rank_damage_modifiers 0.15 0.1 0.5 0.0 .is_crit_valid true .effect "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff"
+combat_skill: .id "stardust_reverie" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8% .move 0 3 .launch 43 .target 1234 .rank_damage_modifiers 0.15 0.1 0.5 0.0 .is_crit_valid true .effect "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff"
+combat_skill: .id "stardust_reverie" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .move 0 3 .launch 43 .target 1234 .rank_damage_modifiers 0.15 0.1 0.5 0.0 .is_crit_valid true .effect "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff"
 
-combat_skill: .id "magic_absorb" .level 0 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Riposte R1" "MG MA TT 1" "MG Riposte Count 3" "MG Riposte Drain and Gain Chain R1 T1" .is_stall_invalidating false
-combat_skill: .id "magic_absorb" .level 1 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Riposte R2" "MG MA TT 2" "MG Riposte Count 3" "MG Riposte Drain and Gain Chain R2 T1" .is_stall_invalidating false
-combat_skill: .id "magic_absorb" .level 2 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Riposte R3" "MG MA TT 3" "MG Riposte Count 3" "MG Riposte Drain and Gain Chain R3 T1" .is_stall_invalidating false
-combat_skill: .id "magic_absorb" .level 3 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Riposte R4" "MG MA TT 4" "MG Riposte Count 3" "MG Riposte Drain and Gain Chain R4 T1" .is_stall_invalidating false
-combat_skill: .id "magic_absorb" .level 4 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG Riposte R5" "MG MA TT 5" "MG Riposte Count 3" "MG Riposte Drain and Gain Chain R5 T1" .is_stall_invalidating false
+combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -34% .crit 2% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "Eco Toxin 1" "MG EB Corpse Kill" "MG SM Buff"
+combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -34% .crit 3% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "Eco Toxin 2" "MG EB Corpse Kill" "MG SM Buff"
+combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 100% .dmg -34% .crit 4% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "Eco Toxin 3" "MG EB Corpse Kill" "MG SM Buff"
+combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -34% .crit 5% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "Eco Toxin 4" "MG EB Corpse Kill" "MG SM Buff"
+combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -34% .crit 6% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "Eco Toxin 5" "MG EB Corpse Kill" "MG SM Buff"
 
-combat_skill: .id "magic_absorb" .level 0 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG SM Buff" .is_stall_invalidating false
-combat_skill: .id "magic_absorb" .level 1 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG SM Buff" .is_stall_invalidating false
-combat_skill: .id "magic_absorb" .level 2 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG SM Buff" .is_stall_invalidating false
-combat_skill: .id "magic_absorb" .level 3 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG SM Buff" .is_stall_invalidating false
-combat_skill: .id "magic_absorb" .level 4 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_rule_mode .effect "MG SM Buff" .is_stall_invalidating false
+combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -34% .crit 2% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "MG R3 Check" "MG R3 Stop 1" "MG R4 BR"
+combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -34% .crit 3% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "MG R3 Check" "MG R3 Stop 1" "MG R4 BR"
+combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 100% .dmg -34% .crit 4% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "MG R3 Check" "MG R3 Stop 1" "MG R4 BR"
+combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -34% .crit 5% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "MG R3 Check" "MG R3 Stop 1" "MG R4 BR"
+combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -34% .crit 6% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "MG R3 Check" "MG R3 Stop 1" "MG R4 BR"
 
-riposte_skill: .id "riposte1" .level 0 .type "ranged" .atk 95% .dmg -50% .crit 0% .launch 1234 .target 1234 .is_crit_valid True
+combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -34% .crit 2% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "MG R3 Stop 2" "MG R1 BR" "Eco Contagion 1" "MG R1 BR R"
+combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -34% .crit 3% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "MG R3 Stop 2" "MG R1 BR" "Eco Contagion 2" "MG R1 BR R"
+combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 100% .dmg -34% .crit 4% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "MG R3 Stop 2" "MG R1 BR" "Eco Contagion 3" "MG R1 BR R"
+combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -34% .crit 5% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "MG R3 Stop 2" "MG R1 BR" "Eco Contagion 4" "MG R1 BR R"
+combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -34% .crit 6% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "MG R3 Stop 2" "MG R1 BR" "Eco Contagion 5" "MG R1 BR R"
+
+combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -34% .crit 2% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "MG R3 Stop 2 R" "MG R4 BR R" "MG R3 Stop 1 R" "MG R3 Check R"
+combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -34% .crit 3% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "MG R3 Stop 2 R" "MG R4 BR R" "MG R3 Stop 1 R" "MG R3 Check R"
+combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 100% .dmg -34% .crit 4% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "MG R3 Stop 2 R" "MG R4 BR R" "MG R3 Stop 1 R" "MG R3 Check R"
+combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -34% .crit 5% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "MG R3 Stop 2 R" "MG R4 BR R" "MG R3 Stop 1 R" "MG R3 Check R"
+combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -34% .crit 6% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "MG R3 Stop 2 R" "MG R4 BR R" "MG R3 Stop 1 R" "MG R3 Check R"
+
+combat_skill: .id "ecological_bomb" .level 0 .type "ranged" .atk 90%  .dmg -34% .crit 2% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "MG EB Splash TT1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1"
+combat_skill: .id "ecological_bomb" .level 1 .type "ranged" .atk 95%  .dmg -34% .crit 3% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "MG EB Splash TT2" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1"
+combat_skill: .id "ecological_bomb" .level 2 .type "ranged" .atk 100% .dmg -34% .crit 4% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "MG EB Splash TT3" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1"
+combat_skill: .id "ecological_bomb" .level 3 .type "ranged" .atk 105% .dmg -34% .crit 5% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "MG EB Splash TT4" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1"
+combat_skill: .id "ecological_bomb" .level 4 .type "ranged" .atk 110% .dmg -34% .crit 6% .move 1 0 .launch 21 .target 23 .is_crit_valid true  .effect "MG EB Splash TT5" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1"
+
+combat_skill: .id "illusion_laser" .level 0 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG PD Heal TT1" "MG Cure" "MG PD Miracle TT2" "MG PD Mihap TT" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 1 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG PD Heal TT2" "MG Cure" "MG PD Miracle TT2" "MG PD Mihap TT" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 2 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG PD Heal TT3" "MG Cure" "MG PD Miracle TT3" "MG PD Mihap TT" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 3 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG PD Heal TT4" "MG Cure" "MG PD Miracle TT3" "MG PD Mihap TT" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 4 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG PD Heal TT5" "MG Cure" "MG PD Miracle TT4" "MG PD Mihap TT" .is_stall_invalidating false
+
+combat_skill: .id "illusion_laser" .level 0 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG MIRACLE 2" "MG MIRACLE INTO MISHAP 2" "MG MISHAP" "MG Mishap Oops" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 1 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG HEAL -1 A" "MG HEAL +1 A" "MG MIRACLE 2" "MG HEAL -1 B" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 2 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG MIRACLE 3" "MG MIRACLE INTO MISHAP 3" "MG MISHAP" "MG Mishap Oops" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 3 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG HEAL -1 A" "MG HEAL +1 A" "MG MIRACLE 3" "MG HEAL -1 B" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 4 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG MIRACLE 4" "MG MIRACLE INTO MISHAP 4" "MG MISHAP" "MG Mishap Oops" .is_stall_invalidating false
+
+combat_skill: .id "illusion_laser" .level 0 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG Mishap Reaction" "MG Heal 2" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 1 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG HEAL +1 B" "MG MIRACLE INTO MISHAP 2" "MG MISHAP" "MG Mishap Oops" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 2 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG Mishap Reaction" "MG Heal 3" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 3 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG HEAL +1 B" "MG MIRACLE INTO MISHAP 3" "MG MISHAP" "MG Mishap Oops" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 4 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect  "MG Mishap Reaction" "MG Heal 4" .is_stall_invalidating false
+
+combat_skill: .id "illusion_laser" .level 0 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 1 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG Mishap Reaction" "MG HEAL -1 C" "MG Heal 3" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 2 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 3 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG Mishap Reaction" "MG HEAL -1 C" "MG Heal 4" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 4 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect .is_stall_invalidating false
+
+combat_skill: .id "illusion_laser" .level 0 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG Great Success" "MG Stress Block" "MG Messed Up Again" "MG Stress Revert" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 1 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG Great Success" "MG Stress Block" "MG Messed Up Again" "MG Stress Revert" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 2 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG Great Success" "MG Stress Block" "MG Messed Up Again" "MG Stress Revert" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 3 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG Great Success" "MG Stress Block" "MG Messed Up Again" "MG Stress Revert" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 4 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG Great Success" "MG Stress Block" "MG Messed Up Again" "MG Stress Revert" .is_stall_invalidating false
+
+combat_skill: .id "illusion_laser" .level 0 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 1 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 2 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 3 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" .is_stall_invalidating false
+combat_skill: .id "illusion_laser" .level 4 .heal 0 0 .launch 32 .target @1234 .is_crit_valid true .effect "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" "MG Delete1" .is_stall_invalidating false
+
+combat_skill: .id "master_spark" .level 0 .type "spellcard" .atk 120% .dmg 0% .crit 5% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.4 -0.2 0.0 0.2 .ignore_protection true .is_crit_valid true .valid_modes mg_bomb1 mg_bomb2 mg_bomb3 .effect "MS DMG TT1" "MG Surface Area" "MG Overwhelm 1" "Cooldown MG"  "MG Self Mark" "MG Self Block" "MG Fake Daze" "Magician Chuuni Bullshit" "Magician Chuuni Bullshit Reaction" .mg_bomb1_effects "Magician Bomb2" .mg_bomb2_effects "Magician Bomb3" .mg_bomb3_effects "Magician Extra4"
+combat_skill: .id "master_spark" .level 1 .type "spellcard" .atk 125% .dmg 0% .crit 6% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.375 -0.175 0.0225 0.225 .ignore_protection true .is_crit_valid true .valid_modes mg_bomb1 mg_bomb2 mg_bomb3 .effect "MS DMG TT2" "MG Surface Area" "MG Overwhelm 2" "Cooldown MG"  "MG Self Mark" "MG Self Block" "MG Fake Daze" "Magician Chuuni Bullshit" "Magician Chuuni Bullshit Reaction" .mg_bomb1_effects "Magician Bomb2" .mg_bomb2_effects "Magician Bomb3" .mg_bomb3_effects "Magician Extra4"
+combat_skill: .id "master_spark" .level 2 .type "spellcard" .atk 130% .dmg 0% .crit 7% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.35 -0.15 0.05 0.25 .ignore_protection true .is_crit_valid true .valid_modes mg_bomb1 mg_bomb2 mg_bomb3 .effect "MS DMG TT3" "MG Surface Area" "MG Overwhelm 3" "Cooldown MG"  "MG Self Mark" "MG Self Block" "MG Fake Daze" "Magician Chuuni Bullshit" "Magician Chuuni Bullshit Reaction" .mg_bomb1_effects "Magician Bomb2" .mg_bomb2_effects "Magician Bomb3" .mg_bomb3_effects "Magician Extra4"
+combat_skill: .id "master_spark" .level 3 .type "spellcard" .atk 135% .dmg 0% .crit 8% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.325 -0.125 0.075 0.275 .ignore_protection true .is_crit_valid true .valid_modes mg_bomb1 mg_bomb2 mg_bomb3 .effect "MS DMG TT4" "MG Surface Area" "MG Overwhelm 4" "Cooldown MG"  "MG Self Mark" "MG Self Block" "MG Fake Daze" "Magician Chuuni Bullshit" "Magician Chuuni Bullshit Reaction" .mg_bomb1_effects "Magician Bomb2" .mg_bomb2_effects "Magician Bomb3" .mg_bomb3_effects "Magician Extra4"
+combat_skill: .id "master_spark" .level 4 .type "spellcard" .atk 140% .dmg 0% .crit 9% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.3 -0.1 0.1 0.3 .ignore_protection true .is_crit_valid true .valid_modes mg_bomb1 mg_bomb2 mg_bomb3 .effect "MS DMG TT5" "MG Surface Area" "MG Overwhelm 5" "Cooldown MG"  "MG Self Mark" "MG Self Block" "MG Fake Daze" "Magician Chuuni Bullshit" "Magician Chuuni Bullshit Reaction" .mg_bomb1_effects "Magician Bomb2" .mg_bomb2_effects "Magician Bomb3" .mg_bomb3_effects "Magician Extra4"
+
+combat_skill: .id "master_spark" .level 0 .type "spellcard" .atk 120% .dmg 0% .crit 5% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.4 -0.2 0.0 0.2 .ignore_protection true .is_crit_valid true .valid_modes mg_extra4 mg_extra5 mg_extra6 .effect "MG MS Overwhelm TT1" .mg_extra4_effects "Magician Extra5" .mg_extra5_effects "Magician Extra6" .mg_extra6_effects "Magician Extra7"
+combat_skill: .id "master_spark" .level 1 .type "spellcard" .atk 125% .dmg 0% .crit 6% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.375 -0.175 0.0225 0.225 .ignore_protection true .is_crit_valid true .valid_modes mg_extra4 mg_extra5 mg_extra6 .effect "MG MS Overwhelm TT2" .mg_extra4_effects "Magician Extra5" .mg_extra5_effects "Magician Extra6" .mg_extra6_effects "Magician Extra7"
+combat_skill: .id "master_spark" .level 2 .type "spellcard" .atk 130% .dmg 0% .crit 7% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.35 -0.15 0.05 0.25 .ignore_protection true .is_crit_valid true .valid_modes mg_extra4 mg_extra5 mg_extra6 .effect "MG MS Overwhelm TT3" .mg_extra4_effects "Magician Extra5" .mg_extra5_effects "Magician Extra6" .mg_extra6_effects "Magician Extra7"
+combat_skill: .id "master_spark" .level 3 .type "spellcard" .atk 135% .dmg 0% .crit 8% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.325 -0.125 0.075 0.275 .ignore_protection true .is_crit_valid true .valid_modes mg_extra4 mg_extra5 mg_extra6 .effect "MG MS Overwhelm TT4" .mg_extra4_effects "Magician Extra5" .mg_extra5_effects "Magician Extra6" .mg_extra6_effects "Magician Extra7"
+combat_skill: .id "master_spark" .level 4 .type "spellcard" .atk 140% .dmg 0% .crit 9% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.3 -0.1 0.1 0.3 .ignore_protection true .is_crit_valid true .valid_modes mg_extra4 mg_extra5 mg_extra6 .effect "MG MS Overwhelm TT5" .mg_extra4_effects "Magician Extra5" .mg_extra5_effects "Magician Extra6" .mg_extra6_effects "Magician Extra7"
+
+combat_skill: .id "master_spark" .level 0 .type "spellcard" .atk 120% .dmg 0% .crit 5% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.4 -0.2 0.0 0.2 .ignore_protection true .is_crit_valid true .valid_modes mg_extra7 mg_extra8 mg_extra9 .effect "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" .mg_extra7_effects "Magician Extra8" .mg_extra8_effects "Magician Extra9"
+combat_skill: .id "master_spark" .level 1 .type "spellcard" .atk 125% .dmg 0% .crit 6% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.375 -0.175 0.0225 0.225 .ignore_protection true .is_crit_valid true .valid_modes mg_extra7 mg_extra8 mg_extra9 .effect "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" .mg_extra7_effects "Magician Extra8" .mg_extra8_effects "Magician Extra9"
+combat_skill: .id "master_spark" .level 2 .type "spellcard" .atk 130% .dmg 0% .crit 7% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.35 -0.15 0.05 0.25 .ignore_protection true .is_crit_valid true .valid_modes mg_extra7 mg_extra8 mg_extra9 .effect "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" .mg_extra7_effects "Magician Extra8" .mg_extra8_effects "Magician Extra9"
+combat_skill: .id "master_spark" .level 3 .type "spellcard" .atk 135% .dmg 0% .crit 8% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.325 -0.125 0.075 0.275 .ignore_protection true .is_crit_valid true .valid_modes mg_extra7 mg_extra8 mg_extra9 .effect "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" .mg_extra7_effects "Magician Extra8" .mg_extra8_effects "Magician Extra9"
+combat_skill: .id "master_spark" .level 4 .type "spellcard" .atk 140% .dmg 0% .crit 9% .move 1 0 .launch 1 .target ~1234 .rank_damage_modifiers -0.3 -0.1 0.1 0.3 .ignore_protection true .is_crit_valid true .valid_modes mg_extra7 mg_extra8 mg_extra9 .effect "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" "MG DeleteBuff" .mg_extra7_effects "Magician Extra8" .mg_extra8_effects "Magician Extra9"
+
+combat_skill: .id "magic_absorb" .level 0 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_bomb1 mg_bomb2 mg_bomb3 .effect "Is Bomb MG TT" "Cooldown MG" "MG Self Mark" .mg_bomb1_effects "Magician Bomb2" .mg_bomb2_effects "Magician Bomb3" .mg_bomb3_effects "Magician Extra4" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 1 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_bomb1 mg_bomb2 mg_bomb3 .effect "Is Bomb MG TT" "Cooldown MG" "MG Self Mark" .mg_bomb1_effects "Magician Bomb2" .mg_bomb2_effects "Magician Bomb3" .mg_bomb3_effects "Magician Extra4" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 2 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_bomb1 mg_bomb2 mg_bomb3 .effect "Is Bomb MG TT" "Cooldown MG" "MG Self Mark" .mg_bomb1_effects "Magician Bomb2" .mg_bomb2_effects "Magician Bomb3" .mg_bomb3_effects "Magician Extra4" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 3 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_bomb1 mg_bomb2 mg_bomb3 .effect "Is Bomb MG TT" "Cooldown MG" "MG Self Mark" .mg_bomb1_effects "Magician Bomb2" .mg_bomb2_effects "Magician Bomb3" .mg_bomb3_effects "Magician Extra4" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 4 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_bomb1 mg_bomb2 mg_bomb3 .effect "Is Bomb MG TT" "Cooldown MG" "MG Self Mark" .mg_bomb1_effects "Magician Bomb2" .mg_bomb2_effects "Magician Bomb3" .mg_bomb3_effects "Magician Extra4" .is_stall_invalidating false
+
+combat_skill: .id "magic_absorb" .level 0 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_extra4 mg_extra5 mg_extra6 .effect "MG Self Block" "MG Riposte Steal" "MG Fake Daze" "MG SM Buff" .mg_extra4_effects "Magician Extra5" .mg_extra5_effects "Magician Extra6" .mg_extra6_effects "Magician Extra7" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 1 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_extra4 mg_extra5 mg_extra6 .effect "MG Self Block" "MG Riposte Steal" "MG Fake Daze" "MG SM Buff" .mg_extra4_effects "Magician Extra5" .mg_extra5_effects "Magician Extra6" .mg_extra6_effects "Magician Extra7" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 2 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_extra4 mg_extra5 mg_extra6 .effect "MG Self Block" "MG Riposte Steal" "MG Fake Daze" "MG SM Buff" .mg_extra4_effects "Magician Extra5" .mg_extra5_effects "Magician Extra6" .mg_extra6_effects "Magician Extra7" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 3 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_extra4 mg_extra5 mg_extra6 .effect "MG Self Block" "MG Riposte Steal" "MG Fake Daze" "MG SM Buff" .mg_extra4_effects "Magician Extra5" .mg_extra5_effects "Magician Extra6" .mg_extra6_effects "Magician Extra7" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 4 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_extra4 mg_extra5 mg_extra6 .effect "MG Self Block" "MG Riposte Steal" "MG Fake Daze" "MG SM Buff" .mg_extra4_effects "Magician Extra5" .mg_extra5_effects "Magician Extra6" .mg_extra6_effects "Magician Extra7" .is_stall_invalidating false
+
+combat_skill: .id "magic_absorb" .level 0 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_extra7 mg_extra8 .effect "MG Riposte R1" "MG MA TT 1" "MG Riposte Count 3" "MG Riposte Drain and Gain Chain R1 T1" .mg_extra7_effects "Magician Extra8" .mg_extra8_effects "Magician Extra9" .mg_extra9_effects "Magician NoBomb" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 1 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_extra7 mg_extra8 .effect "MG Riposte R2" "MG MA TT 2" "MG Riposte Count 3" "MG Riposte Drain and Gain Chain R2 T1" .mg_extra7_effects "Magician Extra8" .mg_extra8_effects "Magician Extra9" .mg_extra9_effects "Magician NoBomb" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 2 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_extra7 mg_extra8 .effect "MG Riposte R3" "MG MA TT 3" "MG Riposte Count 3" "MG Riposte Drain and Gain Chain R3 T1" .mg_extra7_effects "Magician Extra8" .mg_extra8_effects "Magician Extra9" .mg_extra9_effects "Magician NoBomb" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 3 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_extra7 mg_extra8 .effect "MG Riposte R4" "MG MA TT 4" "MG Riposte Count 3" "MG Riposte Drain and Gain Chain R4 T1" .mg_extra7_effects "Magician Extra8" .mg_extra8_effects "Magician Extra9" .mg_extra9_effects "Magician NoBomb" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 4 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_extra7 mg_extra8 .effect "MG Riposte R5" "MG MA TT 5" "MG Riposte Count 3" "MG Riposte Drain and Gain Chain R5 T1" .mg_extra7_effects "Magician Extra8" .mg_extra8_effects "Magician Extra9" .mg_extra9_effects "Magician NoBomb" .is_stall_invalidating false
+
+combat_skill: .id "magic_absorb" .level 0 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_extra9 .effect "MG DeletePos" "MG DeletePos" "MG DeletePos" "MG DeletePos" "MG DeletePos" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 1 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_extra9 .effect "MG DeletePos" "MG DeletePos" "MG DeletePos" "MG DeletePos" "MG DeletePos" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 2 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_extra9 .effect "MG DeletePos" "MG DeletePos" "MG DeletePos" "MG DeletePos" "MG DeletePos" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 3 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_extra9 .effect "MG DeletePos" "MG DeletePos" "MG DeletePos" "MG DeletePos" "MG DeletePos" .is_stall_invalidating false
+combat_skill: .id "magic_absorb" .level 4 .type "spellcard" .launch 4321 .target .is_crit_valid false .valid_modes mg_extra9 .effect "MG DeletePos" "MG DeletePos" "MG DeletePos" "MG DeletePos" "MG DeletePos" .is_stall_invalidating false
+
+
+riposte_skill: .id "riposte1" .level 0 .type "ranged" .atk 95% .dmg 0% .crit 0% .launch 1234 .target 1234 .is_crit_valid True
 
 combat_move_skill: .id "move" .level 0 .type "move" .move 2 2 .launch 4321
 
@@ -155,7 +173,16 @@ tag: .id "library"
 tag: .id "magician"
 tag: .id "touhou"
 
-mode: .id mg_rule_mode .is_raid_default true
+mode: .id mg_nobomb .is_raid_default true
+mode: .id mg_extra9 .is_raid_default true
+mode: .id mg_extra8 .is_raid_default true
+mode: .id mg_extra7 .is_raid_default true
+mode: .id mg_extra6 .is_raid_default true
+mode: .id mg_extra5 .is_raid_default true
+mode: .id mg_extra4 .is_raid_default true
+mode: .id mg_bomb3 .is_raid_default true
+mode: .id mg_bomb2 .is_raid_default true
+mode: .id mg_bomb1 .is_raid_default true
 
 extra_curio_loot: .code "MARI_MUSHROOMS" .count 1
 extra_battle_loot: .code "MARI_MUSHROOMS" .count 1

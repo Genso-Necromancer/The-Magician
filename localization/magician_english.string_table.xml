@@ -51,10 +51,19 @@
     	<entry id="upgrade_tree_name_magician.armour"><![CDATA[Witch's Gown]]></entry>
 		
 		<!-- Tool Tips -->
+			<!-- O SPACE CHARACTERS & MODES -->
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_deleter1"><![CDATA[{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+		<entry id="str_skill_mode_info_mg_nobomb"><![CDATA[]]></entry>
+		<entry id="str_skill_mode_info_mg_bomb1"><![CDATA[]]></entry>
+		<entry id="str_skill_mode_info_mg_bomb2"><![CDATA[]]></entry>
+		<entry id="str_skill_mode_info_mg_bomb3"><![CDATA[]]></entry>
+		<entry id="str_skill_mode_info_mg_extra4"><![CDATA[]]></entry>
+		<entry id="str_skill_mode_info_mg_extra5"><![CDATA[]]></entry>
+		<entry id="str_skill_mode_info_mg_extra6"><![CDATA[]]></entry>
+		<entry id="str_skill_mode_info_mg_extra7"><![CDATA[]]></entry>
+		<entry id="str_skill_mode_info_mg_extra8"><![CDATA[]]></entry>
+		<entry id="str_skill_mode_info_mg_extra9"><![CDATA[]]></entry>
 		
-			<!--Modes-->
-		<entry id="str_skill_mode_info_mg_rule_mode"><![CDATA[]]></entry>
-		<entry id="buff_rule_data_tooltip_mg_rule_mode"><![CDATA[The Magician]]></entry>
 		
 			<!-- Names -->
 		<entry id="str_spellcard"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
@@ -67,10 +76,6 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_bomb_count_limit"><![CDATA[{colour_start|attacktype}Spell Card{colour_end} Limit!: {colour_start|notable}%d{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_bomb_count_used"><![CDATA[{colour_start|attacktype}Spell Card{colour_end} Used!: {colour_start|notable}%d{colour_end}]]></entry>
 		
-			<!-- Buffs -->
-		<entry id="buff_stat_tooltip_upgrade_discount_magician_treats_buff_tt"><![CDATA[-20%% Party Surprise Chance
-		+20%% Monster Surprise Chance]]></entry>
-		
 			<!-- Skill Mechanics -->
 				<!-- Master Spark -->
 		<entry id="buff_stat_tooltip_upgrade_discount_ms_damage_tt1"><![CDATA[{colour_start|move}Rank{colour_end} DMG: +20/0/-20/-40%% vs rank 1/2/3/4]]></entry>
@@ -78,20 +83,20 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_ms_damage_tt3"><![CDATA[{colour_start|move}Rank{colour_end} DMG: +25/+5/-15/-35%% vs rank 1/2/3/4]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_ms_damage_tt4"><![CDATA[{colour_start|move}Rank{colour_end} DMG: +28/+8/-13/-33%% vs rank 1/2/3/4]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_ms_damage_tt5"><![CDATA[{colour_start|move}Rank{colour_end} DMG: +30/+10/-10/-30%% vs rank 1/2/3/4]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_overwhelm_tt"><![CDATA[{colour_start|debuff}Mishap:{colour_end} {colour_start|move}Knockback{colour_end} 3]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_overwhelm_tt"><![CDATA[{colour_start|debuff}Mishap:{colour_end} {colour_start|move}Knockback{colour_end} 3 {colour_start|skill_unselectable}(%d%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 				<!-- Reverie -->
 		<entry id="buff_stat_tooltip_upgrade_discount_sr_damage_tt2"><![CDATA[+5%% DMG per {colour_start|move}Rank{colour_end} from Target]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_sr_recoil_tt"><![CDATA[{colour_start|debuff}Mishap:{colour_end} -%d HP]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_sr_recoil_tt"><![CDATA[{colour_start|debuff}Mishap: {colour_end}-%d HP {colour_start|skill_unselectable}(60%% chance){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 				<!-- Magic Missile -->
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_nomiss_tt"><![CDATA[Cannot {colour_start|afflicted}Miss{colour_end}/{colour_start|notable}CRIT{colour_end}/DMG Corpse]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_tt"><![CDATA[{colour_start|buff}On-Kill:{colour_end} +%d%% DMG {colour_start|skill_unselectable}(Quest){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_DD_tt"><![CDATA[Buffs lost upon {colour_start|afflicted}Death's Door{colour_end}!]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_mm_buff_DD_tt"><![CDATA[Buffs lost upon {colour_start|afflicted}Death's Door{colour_end}!{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 				<!-- Stardust Missile -->
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_sm_dmgtta"><![CDATA[{colour_start|notable}Magic Missile{colour_end}/ {colour_start|notable}Powerful Drug{colour_end}/ {colour_start|notable}Magic Absorber{colour_end}:]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_sm_dmgttb"><![CDATA[{colour_start|buff}Buff{colour_end} {colour_start|notable}Stardust Missile{colour_end}: +%d%% DMG {colour_start|skill_unselectable}(4rds){colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_sm_dmgttc"><![CDATA[On Use: {colour_start|debuff}Exhaust{colour_end} {colour_start|notable}Stardust Missile{colour_end} Buffs]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_sm_dmgttc"><![CDATA[On Use: {colour_start|debuff}Exhaust{colour_end} {colour_start|notable}Stardust Missile{colour_end} Buff{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 				<!-- Magic Absorber -->
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_MA_RipCount_tt"><![CDATA[{colour_start|debuff}Riposte{colour_end} charges: 3]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_MA_RipCount_tt"><![CDATA[{colour_start|debuff}Ripostes{colour_end}: 3{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_riposte_effect_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
 		{colour_start|skill_unselectable}(DMG -50%%){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_ma_riposte_effect_2"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
@@ -115,34 +120,34 @@
 				<!-- Ecological Bomb -->
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_corpse_kill_tt"><![CDATA[Clear Target Corpse]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt1"><![CDATA[ {colour_start|MGsplash}Contagion:{colour_end}
-		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (90%% Base){colour_end} 
-		1 pts/rd for 3rds]]></entry>
+		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (90%% base){colour_end} 
+		1 pts/rd for 3rd{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt2"><![CDATA[ {colour_start|MGsplash}Contagion:{colour_end}
-		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (100%% Base){colour_end} 
-		2 pts/rd for 3rds]]></entry>
+		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (100%% base){colour_end} 
+		2 pts/rd for 3rd{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt3"><![CDATA[ {colour_start|MGsplash}Contagion:{colour_end}
-		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (110%% Base){colour_end} 
-		2 pts/rd for 3rds]]></entry>
+		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (110%% base){colour_end} 
+		2 pts/rd for 3rd{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt4"><![CDATA[ {colour_start|MGsplash}Contagion:{colour_end}
-		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (120%% Base){colour_end} 
-		3 pts/rd for 3rds]]></entry>
+		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (120%% base){colour_end} 
+		3 pts/rd for 3rd{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt5"><![CDATA[ {colour_start|MGsplash}Contagion:{colour_end}
-		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (130%% Base){colour_end} 
-		3 pts/rd for 3rds]]></entry>
-				<!-- Powerful Drug {colour_start|skill_unselectable}(X%% Base){colour_end}-->
+		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (130%% base){colour_end} 
+		3 pts/rd for 3rd{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+				<!-- Powerful Drug {colour_start|skill_unselectable}(X%% base){colour_end}-->
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_pd_Heal_tt1"><![CDATA[ {colour_start|healhp}Heal{colour_end} 2-2]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_pd_Heal_tt2"><![CDATA[ {colour_start|healhp}Heal{colour_end} 2-3]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_pd_Heal_tt3"><![CDATA[ {colour_start|healhp}Heal{colour_end} 3-3]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_pd_Heal_tt4"><![CDATA[ {colour_start|healhp}Heal{colour_end} 3-4]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_pd_Heal_tt5"><![CDATA[ {colour_start|healhp}Heal{colour_end} 4-4]]></entry>
 		
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_pd_miracle_tt"><![CDATA[ {colour_start|buff}Miracle:{colour_end} {colour_start|skill_unselectable}(12%% Chance){colour_end}
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_pd_miracle_tt"><![CDATA[ {colour_start|buff}Miracle:{colour_end} {colour_start|skill_unselectable}(12%% chance){colour_end}
 		+%d {colour_start|healhp}Healing{colour_end}
 		OR]]></entry>
 		
 		
-		<entry id="buff_stat_tooltip_upgrade_discount_mg_pd_mishap_tt"><![CDATA[ {colour_start|debuff}Mishap:{colour_end}  {colour_start|skill_unselectable}(12%% Chance){colour_end}
-		Target: 100%% Random Target Chance]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_mg_pd_mishap_tt"><![CDATA[ {colour_start|debuff}Mishap:{colour_end}  {colour_start|skill_unselectable}(12%% chance){colour_end}
+		Target: 100%% Random Target{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 		
 			<!-- Mushroom Tool Tips-->
 		<entry id="buff_stat_tooltip_upgrade_discount_magician_DMG_range_TT_1"><![CDATA[+10%% MAX DMG/-10%% MIN DMG]]></entry>
@@ -180,103 +185,100 @@
 		
 		<!-- Bombs -->
 		<entry id="str_inventory_title_supplymagician_bomb"><![CDATA[Magician Bomb Elixir]]></entry>
-		<entry id="str_inventory_description_supplymagician_bomb"><![CDATA[Drink to {colour_start|notable}set{colour_end} your {colour_start|attacktype}Spell Card{colour_end} limit to {colour_start|notable}3{colour_end}! {colour_start|skill_unselectable}Dislcaimer: Has no effect on non-magicians.{colour_end}]]></entry>
+		<entry id="str_inventory_description_supplymagician_bomb"><![CDATA[Drink to enable {colour_start|notable}Spellcards{colour_end} and gain {colour_start|notable}3{colour_end} uses! {colour_start|skill_unselectable}Prefered brew of the Magician, only usable with her!{colour_end}]]></entry>
 		
 		<entry id="str_inventory_title_supplymagician_bomb_camp"><![CDATA[Magician Bomb Tincture]]></entry>
-		<entry id="str_inventory_description_supplymagician_bomb_camp"><![CDATA[{colour_start|notable}Increases{colour_end} your {colour_start|attacktype}Spell Card{colour_end} limit by {colour_start|notable}1{colour_end}! {colour_start|skill_unselectable}Dislcaimer: Has no effect on non-magicians.{colour_end}]]></entry>
-		
-		
-		
+		<entry id="str_inventory_description_supplymagician_bomb_camp"><![CDATA[Increase your {colour_start|attacktype}Spell Card{colour_end} uses by {colour_start|notable}1{colour_end}! {colour_start|skill_unselectable}Disclaimer: Excessive drinking is bad for your health!{colour_end}]]></entry>
 		
 		<!-- Mushroom-->
-		<entry id="str_inventory_title_supplymagician_healshroom_1"><![CDATA[Hourai Green-button]]></entry>
+		<entry id="str_inventory_title_supplymagician_healshroom_1"><![CDATA[Hourai Green-button 1]]></entry>
 		<entry id="str_inventory_description_supplymagician_healshroom_1"><![CDATA[{colour_start|healhp}Heal{colour_end}: 2
 		{colour_start|healhp}Regen{colour_end} 2/1
 		{colour_start|skill_unselectable}"Does not actually make you immortal!"{colour_end}]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_healshroom_3"><![CDATA[Hourai Green-button]]></entry>
+		<entry id="str_inventory_title_supplymagician_healshroom_3"><![CDATA[Hourai Green-button 2]]></entry>
 		<entry id="str_inventory_description_supplymagician_healshroom_3"><![CDATA[{colour_start|healhp}Heal{colour_end}: 2
 		{colour_start|healhp}Regen{colour_end} 2/2
 		{colour_start|skill_unselectable}1 Battle{colour_end}:
 		+5% MAXHP
 		{colour_start|skill_unselectable}"Does not actually make you immortal!"{colour_end}]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_healshroom_5"><![CDATA[Hourai Green-button]]></entry>
+		<entry id="str_inventory_title_supplymagician_healshroom_5"><![CDATA[Hourai Green-button 3]]></entry>
 		<entry id="str_inventory_description_supplymagician_healshroom_5"><![CDATA[{colour_start|healhp}Heal{colour_end}: 2
 		{colour_start|healhp}Regen{colour_end} 2/3
 		{colour_start|skill_unselectable}1 Battle{colour_end}:
 		+15% MAXHP
 		{colour_start|skill_unselectable}"Does not actually make you immortal!"{colour_end}]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_curseshroom_1"><![CDATA[Mishaguji's Bane]]></entry>
+		<entry id="str_inventory_title_supplymagician_curseshroom_1"><![CDATA[Mishaguji's Bane 1]]></entry>
 		<entry id="str_inventory_description_supplymagician_curseshroom_1"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end}/{colour_start|debuff}Debuff{colour_end}
 		{colour_start|skill_unselectable}1 Battle{colour_end}:
 		+10% {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end}/{colour_start|debuff}Debuff{colour_end} Resist
 		{colour_start|skill_unselectable}"If it tastes foul, it means it's workin'"{colour_end}]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_curseshroom_3"><![CDATA[Mishaguji's Bane]]></entry>
+		<entry id="str_inventory_title_supplymagician_curseshroom_3"><![CDATA[Mishaguji's Bane 2]]></entry>
 		<entry id="str_inventory_description_supplymagician_curseshroom_3"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end}/{colour_start|debuff}Debuff{colour_end}
 		{colour_start|skill_unselectable}1 Battle{colour_end}:
 		+15% {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end}/{colour_start|debuff}Debuff{colour_end} Resist
 		{colour_start|skill_unselectable}"If it tastes foul, it means it's workin'"{colour_end}]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_curseshroom_5"><![CDATA[Mishaguji's Bane]]></entry>
+		<entry id="str_inventory_title_supplymagician_curseshroom_5"><![CDATA[Mishaguji's Bane 3]]></entry>
 		<entry id="str_inventory_description_supplymagician_curseshroom_5"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end}/{colour_start|debuff}Debuff{colour_end}
 		{colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end}/{colour_start|skill_unselectable}1 Battle{colour_end}:
 		+20% {colour_start|debuff}Debuff{colour_end} Resist
 		{colour_start|skill_unselectable}"If it tastes foul, it means it's workin'"{colour_end}]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_horrorshroom_1"><![CDATA[Lumen Parasol]]></entry>
+		<entry id="str_inventory_title_supplymagician_horrorshroom_1"><![CDATA[Lumen Parasol 1]]></entry>
 		<entry id="str_inventory_description_supplymagician_horrorshroom_1"><![CDATA[Cure {colour_start|stress}Horror{colour_end}
 		{colour_start|stress}Stress{colour_end} -7
 		{colour_start|skill_unselectable}"Can't help but smile back at 'em!"{colour_end}]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_horrorshroom_3"><![CDATA[Lumen Parasol]]></entry>
+		<entry id="str_inventory_title_supplymagician_horrorshroom_3"><![CDATA[Lumen Parasol 2]]></entry>
 		<entry id="str_inventory_description_supplymagician_horrorshroom_3"><![CDATA[Cure {colour_start|stress}Horror{colour_end}
 		{colour_start|stress}Stress{colour_end} -10
 		{colour_start|skill_unselectable}"Can't help but smile back at 'em!"{colour_end}]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_horrorshroom_5"><![CDATA[Lumen Parasol]]></entry>
+		<entry id="str_inventory_title_supplymagician_horrorshroom_5"><![CDATA[Lumen Parasol 3]]></entry>
 		<entry id="str_inventory_description_supplymagician_horrorshroom_5"><![CDATA[Cure {colour_start|stress}Horror{colour_end}
 		{colour_start|stress}Stress{colour_end} -15
 		{colour_start|skill_unselectable}"Can't help but smile back at 'em!"{colour_end}]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_razorshroom_1"><![CDATA[Oni's Horn]]></entry>
+		<entry id="str_inventory_title_supplymagician_razorshroom_1"><![CDATA[Oni's Horn 1]]></entry>
 		<entry id="str_inventory_description_supplymagician_razorshroom_1"><![CDATA[{colour_start|skill_unselectable}1 Battle{colour_end}:
 		+15% Armor Piercing
 		+10% MAX DMG
 		-10% MIN DMG
 		{colour_start|skill_unselectable}"Chew thoroughly"{colour_end}]]></entry>		
 		
-		<entry id="str_inventory_title_supplymagician_razorshroom_3"><![CDATA[Oni's Horn]]></entry>
+		<entry id="str_inventory_title_supplymagician_razorshroom_3"><![CDATA[Oni's Horn 2]]></entry>
 		<entry id="str_inventory_description_supplymagician_razorshroom_3"><![CDATA[{colour_start|skill_unselectable}1 Battle{colour_end}:
 		+15% Armor Piercing
 		+15% MAX DMG
 		-15% MIN DMG
 		{colour_start|skill_unselectable}"Chew thoroughly"{colour_end}]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_razorshroom_5"><![CDATA[Oni's Horn]]></entry>
+		<entry id="str_inventory_title_supplymagician_razorshroom_5"><![CDATA[Oni's Horn 3]]></entry>
 		<entry id="str_inventory_description_supplymagician_razorshroom_5"><![CDATA[{colour_start|skill_unselectable}1 Battle{colour_end}:
 		+15% Armor Piercing
 		+20% MAX DMG
 		-20% MIN DMG
 		{colour_start|skill_unselectable}"Chew thoroughly"{colour_end}]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_shadowshroom_1"><![CDATA[Inky Night Sparrow]]></entry>
+		<entry id="str_inventory_title_supplymagician_shadowshroom_1"><![CDATA[Inky Night Sparrow 1]]></entry>
 		<entry id="str_inventory_description_supplymagician_shadowshroom_1"><![CDATA[{colour_start|skill_unselectable}1 Battle{colour_end}:
 		+5 ACC
 		+5 DODGE
 		+10% DMG Received
 		{colour_start|skill_unselectable}"Purple isn't exactly the stealthiest"{colour_end}]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_shadowshroom_3"><![CDATA[Inky Night Sparrow]]></entry>
+		<entry id="str_inventory_title_supplymagician_shadowshroom_3"><![CDATA[Inky Night Sparrow 2]]></entry>
 		<entry id="str_inventory_description_supplymagician_shadowshroom_3"><![CDATA[{colour_start|skill_unselectable}1 Battle{colour_end}:
 		+10 ACC
 		+10 DODGE
 		+10% DMG Received
 		{colour_start|skill_unselectable}"Purple isn't exactly the stealthiest"{colour_end}]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_shadowshroom_5"><![CDATA[Inky Night Sparrow]]></entry>
+		<entry id="str_inventory_title_supplymagician_shadowshroom_5"><![CDATA[Inky Night Sparrow 3]]></entry>
 		<entry id="str_inventory_description_supplymagician_shadowshroom_5"><![CDATA[{colour_start|stealth}Stealth{colour_end}
 		{colour_start|skill_unselectable}1 Battle{colour_end}:
 		+15 ACC
@@ -284,7 +286,7 @@
 		+10% DMG Received
 		{colour_start|skill_unselectable}"Purple isn't exactly the stealthiest"{colour_end}]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_sturdyshroom_1"><![CDATA[Haniwa Agaricus]]></entry>
+		<entry id="str_inventory_title_supplymagician_sturdyshroom_1"><![CDATA[Haniwa Agaricus 1]]></entry>
 		<entry id="str_inventory_description_supplymagician_sturdyshroom_1"><![CDATA[{colour_start|skill_unselectable}1 Battle{colour_end}:
 		+5% PROT
 		+10% {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end}/
@@ -293,7 +295,7 @@
 		-10 DODGE
 		{colour_start|skill_unselectable}"Goes crunch so you don't"{colour_end}]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_sturdyshroom_3"><![CDATA[Haniwa Agaricus]]></entry>
+		<entry id="str_inventory_title_supplymagician_sturdyshroom_3"><![CDATA[Haniwa Agaricus 2]]></entry>
 		<entry id="str_inventory_description_supplymagician_sturdyshroom_3"><![CDATA[{colour_start|skill_unselectable}1 Battle{colour_end}:
 		+10% PROT
 		+15% {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end}/
@@ -302,7 +304,7 @@
 		-10 DODGE
 		{colour_start|skill_unselectable}"Goes crunch so you don't"{colour_end}]]></entry>
 		
-		<entry id="str_inventory_title_supplymagician_sturdyshroom_5"><![CDATA[Haniwa Agaricus]]></entry>
+		<entry id="str_inventory_title_supplymagician_sturdyshroom_5"><![CDATA[Haniwa Agaricus 3]]></entry>
 		<entry id="str_inventory_description_supplymagician_sturdyshroom_5"><![CDATA[{colour_start|skill_unselectable}1 Battle{colour_end}:
 		+15% PROT
 		+20% {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end}/
@@ -469,23 +471,7 @@ When we looked at the ruins, we marked the danger of that height.]]></entry>
 	<entry id="magician+str_mishap"><![CDATA[I swear this has never happened to me before!]]></entry>
 	<entry id="magician+str_mishap"><![CDATA[That's a perfectly normal reaction!]]></entry>
 	<entry id="magician+str_mishap"><![CDATA[You're fine! It'll go away in a second, ze!]]></entry>
-	
-		<!-- Mishap Barks: Only the TARGET of a mishap says these -->
-		<!-- left off -->
-	<entry id="magician+str_mishap_react"><![CDATA[]]></entry>
-	<entry id="magician+str_mishap_react"><![CDATA[]]></entry>
-	<entry id="magician+str_mishap_react"><![CDATA[]]></entry>
-	<entry id="magician+str_mishap_react"><![CDATA[]]></entry>
-	
-	<entry id="miko+str_mishap_react"><![CDATA[]]></entry>
-	<entry id="miko+str_mishap_react"><![CDATA[]]></entry>
-	<entry id="miko+str_mishap_react"><![CDATA[]]></entry>
-	<entry id="miko+str_mishap_react"><![CDATA[]]></entry>
-	
-	<entry id="maid+str_mishap_react"><![CDATA[]]></entry>
-	<entry id="maid+str_mishap_react"><![CDATA[]]></entry>
-	<entry id="maid+str_mishap_react"><![CDATA[]]></entry>
-	<entry id="maid+str_mishap_react"><![CDATA[]]></entry>
+
 	
 		<!-- magician's Chuuni Bullshit -->
 	<entry id="magician+str_master_spark"><![CDATA[Maaaaster Spark!]]></entry>
@@ -507,11 +493,11 @@ When we looked at the ruins, we marked the danger of that height.]]></entry>
 	<entry id="magician+str_the_world_react"><![CDATA[(Eh? Did you do something?)]]></entry>
 	<entry id="magician+str_the_world_react"><![CDATA[(I'm surprised you didn't blink out of here, heh.)]]></entry>
 			<!--Tenshi-->
-	<entry id="magician+str_tenshi_ult_spellcard_react"><![CDATA[Some weather we're having, eh?]]></entry>
-	<entry id="magician+str_tenshi_ult_spellcard_react"><![CDATA[I'll show you how to really spark a fire, ze]]></entry>
-	<entry id="magician+str_tenshi_ult_spellcard_react"><![CDATA[Heh, earthquakes are just side-effects to me]]></entry>
-	<entry id="magician+str_tenshi_ult_spellcard_react"><![CDATA[s-s-stop th-that shaking, I'm getting earth sick]]></entry>
-	<entry id="magician+str_tenshi_ult_spellcard_react"><![CDATA[Great celestial power, uses it to throw rocks, I dig it]]></entry>
+	<entry id="magician+str_tenshi_earthquake_spellcard_react"><![CDATA[Some weather we're having, eh?]]></entry>
+	<entry id="magician+str_tenshi_earthquake_spellcard_react"><![CDATA[I'll show you how to really spark a fire, ze]]></entry>
+	<entry id="magician+str_tenshi_earthquake_spellcard_react"><![CDATA[Heh, earthquakes are just side-effects to me]]></entry>
+	<entry id="magician+str_tenshi_earthquake_spellcard_react"><![CDATA[S-s-stop th-that shaking, I'm getting earth-sick]]></entry>
+	<entry id="magician+str_tenshi_earthquake_spellcard_react"><![CDATA[Great celestial power, uses it to throw rocks, I dig it]]></entry>
 
 			<!-- Tenshi 2 -->
 			

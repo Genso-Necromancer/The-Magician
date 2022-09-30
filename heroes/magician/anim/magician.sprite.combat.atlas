@@ -1,20 +1,328 @@
 
 magician.sprite.combat.png
-size: 354,546
+size: 2412,545
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-combat
+BELT_1
   rotate: false
-  xy: 2, 2
-  size: 285, 542
-  orig: 285, 542
+  xy: 1815, 109
+  size: 133, 165
+  orig: 133, 165
   offset: 0, 0
   index: -1
-shadow
+BELT_2
   rotate: true
-  xy: 289, 187
-  size: 357, 63
-  orig: 357, 63
+  xy: 2236, 7
+  size: 141, 54
+  orig: 141, 54
+  offset: 0, 0
+  index: -1
+BROOMHANDLE
+  rotate: false
+  xy: 1285, 276
+  size: 781, 267
+  orig: 781, 267
+  offset: 0, 0
+  index: -1
+BROOM_BOTTOM
+  rotate: true
+  xy: 798, 3
+  size: 211, 188
+  orig: 211, 188
+  offset: 0, 0
+  index: -1
+BROOM_TOP
+  rotate: false
+  xy: 1950, 115
+  size: 154, 159
+  orig: 154, 159
+  offset: 0, 0
+  index: -1
+CAPE_SHOULDER
+  rotate: true
+  xy: 2287, 152
+  size: 87, 73
+  orig: 87, 73
+  offset: 0, 0
+  index: -1
+CHAIN
+  rotate: true
+  xy: 1285, 240
+  size: 34, 169
+  orig: 34, 169
+  offset: 0, 0
+  index: -1
+CROSS
+  rotate: true
+  xy: 1355, 170
+  size: 68, 96
+  orig: 68, 96
+  offset: 0, 0
+  index: -1
+EAR
+  rotate: true
+  xy: 2277, 296
+  size: 35, 48
+  orig: 35, 48
+  offset: 0, 0
+  index: -1
+HAIR_BACK
+  rotate: false
+  xy: 692, 216
+  size: 267, 327
+  orig: 267, 327
+  offset: 0, 0
+  index: -1
+HAIR_BANGS
+  rotate: false
+  xy: 1692, 9
+  size: 116, 79
+  orig: 116, 79
+  offset: 0, 0
+  index: -1
+HAIR_FRINGE
+  rotate: false
+  xy: 424, 5
+  size: 52, 179
+  orig: 52, 179
+  offset: 0, 0
+  index: -1
+HAIR_PONYTAIL
+  rotate: false
+  xy: 1707, 101
+  size: 106, 173
+  orig: 106, 173
+  offset: 0, 0
+  index: -1
+HAT_1
+  rotate: true
+  xy: 961, 232
+  size: 311, 163
+  orig: 311, 163
+  offset: 0, 0
+  index: -1
+HAT_2
+  rotate: true
+  xy: 1126, 240
+  size: 303, 157
+  orig: 303, 157
+  offset: 0, 0
+  index: -1
+HEAD
+  rotate: false
+  xy: 2280, 333
+  size: 125, 143
+  orig: 125, 143
+  offset: 0, 0
+  index: -1
+HIPS
+  rotate: true
+  xy: 2171, 150
+  size: 143, 114
+  orig: 143, 114
+  offset: 0, 0
+  index: -1
+LEFTARM_HAND_LOWER
+  rotate: false
+  xy: 2007, 13
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+LEFTARM_HAND_UPPER
+  rotate: true
+  xy: 2362, 167
+  size: 72, 46
+  orig: 72, 46
+  offset: 0, 0
+  index: -1
+LEFTARM_LOWER
+  rotate: true
+  xy: 2280, 478
+  size: 65, 130
+  orig: 65, 130
+  offset: 0, 0
+  index: -1
+LEFTARM_UPPER
+  rotate: true
+  xy: 1595, 90
+  size: 184, 110
+  orig: 184, 110
+  offset: 0, 0
+  index: -1
+LEFTLEG_HEEL
+  rotate: true
+  xy: 1355, 81
+  size: 87, 92
+  orig: 87, 92
+  offset: 0, 0
+  index: -1
+LEFTLEG_LOWER
+  rotate: false
+  xy: 1259, 4
+  size: 94, 234
+  orig: 94, 234
+  offset: 0, 0
+  index: -1
+LEFTLEG_TOE
+  rotate: true
+  xy: 1643, 7
+  size: 81, 47
+  orig: 81, 47
+  offset: 0, 0
+  index: -1
+LEFTLEG_UPPER
+  rotate: false
+  xy: 667, 4
+  size: 129, 207
+  orig: 129, 207
+  offset: 0, 0
+  index: -1
+MID_TORSO
+  rotate: false
+  xy: 2109, 4
+  size: 125, 130
+  orig: 125, 130
+  offset: 0, 0
+  index: -1
+NECK
+  rotate: false
+  xy: 2068, 285
+  size: 48, 100
+  orig: 48, 100
+  offset: 0, 0
+  index: -1
+RIGHTARM_HAND
+  rotate: true
+  xy: 2118, 295
+  size: 90, 118
+  orig: 90, 118
+  offset: 0, 0
+  index: -1
+RIGHTARM_LOWER
+  rotate: true
+  xy: 1932, 2
+  size: 105, 73
+  orig: 105, 73
+  offset: 0, 0
+  index: -1
+RIGHTARM_UPPER
+  rotate: false
+  xy: 2142, 398
+  size: 136, 145
+  orig: 136, 145
+  offset: 0, 0
+  index: -1
+RIGHTLEG_HEEL
+  rotate: true
+  xy: 1355, 3
+  size: 76, 83
+  orig: 76, 83
+  offset: 0, 0
+  index: -1
+RIGHTLEG_LOWER
+  rotate: false
+  xy: 1456, 19
+  size: 137, 255
+  orig: 137, 255
+  offset: 0, 0
+  index: -1
+RIGHTLEG_TOE
+  rotate: false
+  xy: 2292, 36
+  size: 87, 51
+  orig: 87, 51
+  offset: 0, 0
+  index: -1
+RIGHTLEG_UPPER
+  rotate: false
+  xy: 988, 7
+  size: 126, 223
+  orig: 126, 223
+  offset: 0, 0
+  index: -1
+SCARF
+  rotate: false
+  xy: 1810, 8
+  size: 120, 91
+  orig: 120, 91
+  offset: 0, 0
+  index: -1
+SCARF2
+  rotate: false
+  xy: 2068, 387
+  size: 72, 156
+  orig: 72, 156
+  offset: 0, 0
+  index: -1
+SHIRT_1
+  rotate: false
+  xy: 2106, 136
+  size: 63, 147
+  orig: 63, 147
+  offset: 0, 0
+  index: -1
+SHIRT_THING_1
+  rotate: true
+  xy: 1595, 3
+  size: 85, 46
+  orig: 85, 46
+  offset: 0, 0
+  index: -1
+SHIRT_THING_2
+  rotate: true
+  xy: 2238, 307
+  size: 89, 37
+  orig: 89, 37
+  offset: 0, 0
+  index: -1
+SKIRT_LOWER
+  rotate: true
+  xy: 488, 213
+  size: 330, 202
+  orig: 330, 202
+  offset: 0, 0
+  index: -1
+SKIRT_THING_1
+  rotate: false
+  xy: 2292, 89
+  size: 87, 61
+  orig: 87, 61
+  offset: 0, 0
+  index: -1
+SKIRT_THING_2
+  rotate: false
+  xy: 2292, 241
+  size: 117, 53
+  orig: 117, 53
+  offset: 0, 0
+  index: -1
+SKIRT_UPPER
+  rotate: true
+  xy: 1116, 33
+  size: 197, 141
+  orig: 197, 141
+  offset: 0, 0
+  index: -1
+UPPER_TORSO
+  rotate: true
+  xy: 478, 6
+  size: 178, 187
+  orig: 178, 187
+  offset: 0, 0
+  index: -1
+cape
+  rotate: false
+  xy: 2, 2
+  size: 420, 541
+  orig: 420, 541
+  offset: 0, 0
+  index: -1
+sakuya_combat_shadow
+  rotate: true
+  xy: 424, 186
+  size: 357, 62
+  orig: 357, 62
   offset: 0, 0
   index: -1
