@@ -672,7 +672,7 @@
          "id" : "MG_SM_DMG_H",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.2,
+         "amount" : 0.1,
          "remove_if_not_active" : false,
 		 "remove_on_battle_complete" : true,
          "rule_type" : "skill",
@@ -686,7 +686,7 @@
          "id" : "MG_SM_DMG_L",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.2,
+         "amount" : 0.1,
          "remove_if_not_active" : false,
 		 "remove_on_battle_complete" : true,
          "rule_type" : "skill",
@@ -695,6 +695,21 @@
             "float" : 0,
             "string" : "up_sweep"
          }
+      },
+	  {
+         "id" : "MG_congagion_check",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : -5,
+         "remove_if_not_active" : false,
+		 "duration" : 1,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "poisoned"
+         },
+		 "has_description": false
       }
 	  
 	  

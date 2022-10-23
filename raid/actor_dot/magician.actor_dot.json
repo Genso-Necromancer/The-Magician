@@ -2,37 +2,101 @@
     "entries":
     [
         {
-            "id": "mg_blank1",
-            "update_duration_type": "after_turn_attack_kill",
+            "id": "mg_contagion1",
+            "update_duration_type": "after_turn_attack",
             "duration_elements": 
             [
-                {
-                    "completion_chance": 0,
-                    "completion_effects":
-                    [],
-                    "increment_effects":
-                    ["MG Power Buff 1"]
-				},
-				{
-                    "completion_chance": 0,
-                    "completion_effects":
-                    [],
-                    "increment_effects":
-                    ["MG Power Buff 1"]
-				},
-				{
-                    "completion_chance": 0,
-                    "completion_effects":
-                    [],
-                    "increment_effects":
-                    ["MG Power Buff 1"]
-				},
+                
 				{
                     "completion_chance": 1,
                     "completion_effects":
-                    ["MG Power Buff 1"],
+                    [
+						"Contagion Check", "Eco Contagion 1", "MG contagion 1"
+					],
                     "increment_effects":
-                    []
+					[
+					 
+					]
+
+                }
+            ]
+        },
+		{
+            "id": "mg_contagion2",
+            "update_duration_type": "after_turn_attack",
+            "duration_elements": 
+            [
+                
+				{
+                    "completion_chance": 1,
+                    "completion_effects":
+                    [
+						"Contagion Check", "Eco Contagion 2", "MG contagion 2"
+					],
+                    "increment_effects":
+					[
+					 
+					]
+
+                }
+            ]
+        },
+		{
+            "id": "mg_contagion3",
+            "update_duration_type": "after_turn_attack",
+            "duration_elements": 
+            [
+                
+				{
+                    "completion_chance": 1,
+                    "completion_effects":
+                    [
+						"Contagion Check", "Eco Contagion 3", "MG contagion 3"
+					],
+                    "increment_effects":
+					[
+					 
+					]
+
+                }
+            ]
+        },
+		{
+            "id": "mg_contagion4",
+            "update_duration_type": "after_turn_attack",
+            "duration_elements": 
+            [
+                
+				{
+                    "completion_chance": 1,
+                    "completion_effects":
+                    [
+						"Contagion Check", "Eco Contagion 4", "MG contagion 4"
+					],
+                    "increment_effects":
+					[
+					 
+					]
+
+                }
+            ]
+        },
+		{
+            "id": "mg_contagion5",
+            "update_duration_type": "after_turn_attack",
+            "duration_elements": 
+            [
+                
+				{
+                    "completion_chance": 1,
+                    "completion_effects":
+                    [
+						"Contagion Check", "Eco Contagion 5", "MG contagion 5"
+					],
+                    "increment_effects":
+					[
+					 
+					]
 
                 }
             ]

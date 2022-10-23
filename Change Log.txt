@@ -1,11 +1,3 @@
 -Change Log-
-Added Combat Animation
-Added a new animation for when "Power" is gained and lost
-Converted to the new Spellcard tracking system
-Cleaned up tool tips to accomodate the new system
-
-Stardust Reverie
-	Added a chance of Knock Back 2 vs target
-	
-Magic Absorber
-	Fixed Damage drain effect when Riposting
+Fixed Bomb tracker sprites. Had a capitalization mistake in the buff names
+Reduced Stardust Missile's DMG buffs from 20%, to 10%. On paper it made sense, but in practice it was far too strong.

@@ -159,47 +159,63 @@ effect: .name "Eco Toxin 3" .target "target"  .chance 120%  .dotPoison 3 .durati
 effect: .name "Eco Toxin 4" .target "target"  .chance 130%  .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
 effect: .name "Eco Toxin 5" .target "target"  .chance 140%  .dotPoison 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true
 
-//Step 0: Remove corpse if target is a corpse. This does not "fix" original issue of if PoS3 is targeted and it is killed/a corpse not triggering the sorting logic. Instead of a "bug" resulting in the opposite outcome than the player intended, the player knows targeting a corpse removes it, so isn't expecting to get the Target Blight, is still blighting the targets they expected contagion to hit, and is still getting up to 3 targets blighted as usual. This works because PoS4 is the default protected PoS, but when the corpse is removed the target is PoS4 has shifted forward, invalidating the protection. Very simple and easy.
-effect: .name "MG EB Corpse Kill" .target "target" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss false .queue true .can_apply_on_death true .has_description false
 
-//Step 1: Pings the target to ask if it's in PoS3, Go to Step 2
-effect: .name "MG R3 Check" .target "target" .chance 9999% .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_R3_Check" .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Contagion Check" .target "performer"  .chance 999%  .buff_ids "MG_congagion_check" .buff_source_type bsrc_flashback_start .on_hit true .on_miss true .can_apply_on_death true .queue true
 
-//Step 2: This causes the target to verify if it is in PoS3 or not. If it is, skip to Step 4. If it's not, go to Step 3
-effect: .name "MG R3 Stop 1" .target "target" .chance -500% .swap_source_and_target true .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_R3_Stop_1" .on_hit true .on_miss false .queue true .has_description false
+effect: .name "MG contagion 1" .target "target" .chance 100% .actor_dot mg_contagion1 .on_hit true .on_miss false .queue true
+effect: .name "MG contagion 2" .target "target" .chance 100% .actor_dot mg_contagion2 .on_hit true .on_miss false .queue true
+effect: .name "MG contagion 3" .target "target" .chance 100% .actor_dot mg_contagion3 .on_hit true .on_miss false .queue true
+effect: .name "MG contagion 4" .target "target" .chance 100% .actor_dot mg_contagion4 .on_hit true .on_miss false .queue true
+effect: .name "MG contagion 5" .target "target" .chance 100% .actor_dot mg_contagion5 .on_hit true .on_miss false .queue true
 
-//Step 3: Protects PoS4, Skip to Step 6
-effect: .name "MG R4 BR" .target "target_group" .chance 500% .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_R4_BR" .on_hit true .on_miss false .queue true .has_description false 
+effect: .name "Eco Contagion 1" .target "performer_group_other" .chance  90% .dotPoison 1 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true .has_description false 
+effect: .name "Eco Contagion 2" .target "performer_group_other" .chance 100% .dotPoison 1 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true .has_description false 
+effect: .name "Eco Contagion 3" .target "performer_group_other" .chance 110% .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true .has_description false 
+effect: .name "Eco Contagion 4" .target "performer_group_other" .chance 120% .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true .has_description false 
+effect: .name "Eco Contagion 5" .target "performer_group_other" .chance 130% .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true .has_description false 
 
-//Step 4: Enables Step 5 and Step 7, go to Step 5
-effect: .name "MG R3 Stop 2" .target "target" .chance -500% .swap_source_and_target true .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_R3_Stop_2" .on_hit true .on_miss false .queue true .has_description false
+//[ OLD CONTAGION SYSTEM
+//Step 0: Remove corpse if target is a corpse. This does not "fix" original issue of if PoS3 is targeted and it is killed/a corpse not triggering the sorting logic. Instead of a "bug" resulting in the opposite outcome than the player intended, the player knows targeting a corpse removes it, so isn't expecting to get the Target Blight, is still blighting the targets they expected contagion to hit, and is still getting up to 3 targets blighted as usual. This works because PoS4 is the default protected PoS, but when the corpse is removed the target is PoS4 has shifted forward, invalidating the protection. Very simple and easy. //]
+//[ effect: .name "MG EB Corpse Kill" .target "target" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss false .queue true .can_apply_on_death true .has_description false //]
 
-//Step 5: Protects PoS1, go to Step 6
-effect: .name "MG R1 BR" .target "target_group" .chance -500% .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_R1_BR" .on_hit true .on_miss false .queue true .has_description false
+//[ //Step 1: Pings the target to ask if it's in PoS3, Go to Step 2 //]
+//[ effect: .name "MG R3 Check" .target "target" .chance 9999% .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_R3_Check" .on_hit true .on_miss false .queue true .has_description false //]
 
-//Step 6: Rolls for Contagion Blight. Go to Step 7 if Target was in PoS3, if not, skip to Step 9
-effect: .name "Eco Contagion 1" .target "target_group_other" .chance  90% .dotPoison 1 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true .has_description false
-effect: .name "Eco Contagion 2" .target "target_group_other" .chance 100% .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true .has_description false
-effect: .name "Eco Contagion 3" .target "target_group_other" .chance 110% .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true .has_description false
-effect: .name "Eco Contagion 4" .target "target_group_other" .chance 120% .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true .has_description false
-effect: .name "Eco Contagion 5" .target "target_group_other" .chance 130% .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true .has_description false
+//[ //Step 2: This causes the target to verify if it is in PoS3 or not. If it is, skip to Step 4. If it's not, go to Step 3 //]
+//[ effect: .name "MG R3 Stop 1" .target "target" .chance -500% .swap_source_and_target true .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_R3_Stop_1" .on_hit true .on_miss false .queue true .has_description false //]
 
-//Step 7: Removes PoS1's protection, Go to Step 8
-effect: .name "MG R1 BR R" .target "target_group" .chance -500% .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_R1_BR_R" .on_hit true .on_miss false .queue true .has_description false
+//[ //Step 3: Protects PoS4, Skip to Step 6 //]
+//[ effect: .name "MG R4 BR" .target "target_group" .chance 500% .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_R4_BR" .on_hit true .on_miss false .queue true .has_description false  //]
 
-//Step 8: Disables Step 9, Skip to Step 10
-effect: .name "MG R3 Stop 2 R" .target "target" .chance -500% .swap_source_and_target true .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_R3_Stop_2_R" .on_hit true .on_miss false .queue true .has_description false
+//[ //Step 4: Enables Step 5 and Step 7, go to Step 5 //]
+//[ effect: .name "MG R3 Stop 2" .target "target" .chance -500% .swap_source_and_target true .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_R3_Stop_2" .on_hit true .on_miss false .queue true .has_description false //]
 
-//Step 9: Removes PoS4's protection, skip to STep 11
-effect: .name "MG R4 BR R" .target "target_group" .chance 500% .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_R4_BR_R" .on_hit true .on_miss false .queue true .has_description false
+//[ //Step 5: Protects PoS1, go to Step 6 //]
+//[ effect: .name "MG R1 BR" .target "target_group" .chance -500% .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_R1_BR" .on_hit true .on_miss false .queue true .has_description false //]
 
-//Step 10: Fully Equalizes Marisa's status so that when this is all other, any trinkets involving debuffs still function like none of this fucking happened. Go to Step 11
-effect: .name "MG R3 Stop 1 R" .target "target" .chance -500% .swap_source_and_target true .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_R3_Stop_1_R" .on_hit true .on_miss false .queue true .has_description false
+//[ //Step 6: Rolls for Contagion Blight. Go to Step 7 if Target was in PoS3, if not, skip to Step 9 //]
+//[ effect: .name "Eco Contagion 1" .target "target_group_other" .chance  90% .dotPoison 1 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true .has_description false //]
+//[ effect: .name "Eco Contagion 2" .target "target_group_other" .chance 100% .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true .has_description false //]
+//[ effect: .name "Eco Contagion 3" .target "target_group_other" .chance 110% .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true .has_description false //]
+//[ effect: .name "Eco Contagion 4" .target "target_group_other" .chance 120% .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true .has_description false //]
+//[ effect: .name "Eco Contagion 5" .target "target_group_other" .chance 0% .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .queue true .has_description false //]
 
-//Step 11: Equalizes the target's status as buffs won't just "fall off" after Marisa's turn ends. Thanks for comign folks.
-effect: .name "MG R3 Check R" .target "target" .chance 9999% .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_R3_Check_2" .on_hit true .on_miss false .queue true .has_description false
+//[ //Step 7: Removes PoS1's protection, Go to Step 8 //]
+//[ effect: .name "MG R1 BR R" .target "target_group" .chance -500% .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_R1_BR_R" .on_hit true .on_miss false .queue true .has_description false //]
 
-//Marisa's Buffs from Step 2 will tick-off as her turn ends. Thus no need to reverse them.
+//[ //Step 8: Disables Step 9, Skip to Step 10 //]
+//[ effect: .name "MG R3 Stop 2 R" .target "target" .chance -500% .swap_source_and_target true .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_R3_Stop_2_R" .on_hit true .on_miss false .queue true .has_description false //]
+
+//[ //Step 9: Removes PoS4's protection, skip to STep 11 //]
+//[ effect: .name "MG R4 BR R" .target "target_group" .chance 500% .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_R4_BR_R" .on_hit true .on_miss false .queue true .has_description false //]
+
+//[ //Step 10: Fully Equalizes Marisa's status so that when this is all other, any trinkets involving debuffs still function like none of this fucking happened. Go to Step 11 //]
+//[ effect: .name "MG R3 Stop 1 R" .target "target" .chance -500% .swap_source_and_target true .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_R3_Stop_1_R" .on_hit true .on_miss false .queue true .has_description false //]
+
+//[ //Step 11: Equalizes the target's status as buffs won't just "fall off" after Marisa's turn ends. Thanks for comign folks. //]
+//[ effect: .name "MG R3 Check R" .target "target" .chance 9999% .duration 1 .buff_source_type bsrc_notspecified .buff_ids "magician_EB_R3_Check_2" .on_hit true .on_miss false .queue true .has_description false //]
+
+//[ //Marisa's Buffs from Step 2 will tick-off as her turn ends. Thus no need to reverse them. //]
 
 //The Tool Tips that explain the skill to the player
 effect: .name "MG EB Splash TT1" .target "performer" .skill_instant true .buff_ids "magician_EB_CORPSE_KILL_TT" "magician_EB_SPLASH_TT1" .on_hit false .on_miss true
@@ -426,15 +442,15 @@ effect: .name "mg_camp_6"  .target "target" .chance 100% .stress 20 .buff_source
 //effect: .name "magician bomb count skill" .target "performer"  .chance 100% .duration -1 .buff_ids "magician_bomb_count_skill"  .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .queue true .has_description false
 
 //Mode Shifters
-effect: .name "Magician Bomb2" .target "performer" .set_mode Mg_bomb2 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "Magician_bomb_used_1" .chance 100% .on_hit true .on_miss false .queue true .has_description false .apply_once true
-effect: .name "Magician Bomb3" .target "performer" .set_mode Mg_bomb3 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "Magician_bomb_used_2" .chance 100% .on_hit true .on_miss false .queue true .has_description false .apply_once true
-effect: .name "Magician Extra4" .target "performer" .set_mode Mg_extra4 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "Magician_bomb_used_3" .chance 100% .on_hit true .on_miss false .queue true .has_description false .apply_once true
-effect: .name "Magician Extra5" .target "performer" .set_mode Mg_extra5 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "Magician_bomb_used_4" .chance 100% .on_hit true .on_miss false .queue true .has_description false .apply_once true
-effect: .name "Magician Extra6" .target "performer" .set_mode Mg_extra6 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "Magician_bomb_used_5" .chance 100% .on_hit true .on_miss false .queue true .has_description false .apply_once true
-effect: .name "Magician Extra7" .target "performer" .set_mode Mg_extra7 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "Magician_bomb_used_6" .chance 100% .on_hit true .on_miss false .queue true .has_description false .apply_once true
-effect: .name "Magician Extra8" .target "performer" .set_mode Mg_extra8 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "Magician_bomb_used_7" .chance 100% .on_hit true .on_miss false .queue true .has_description false .apply_once true
-effect: .name "Magician Extra9" .target "performer" .set_mode Mg_extra9 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "Magician_bomb_used_8" .chance 100% .on_hit true .on_miss false .queue true .has_description false .apply_once true
-effect: .name "Magician NoBomb" .target "performer" .set_mode Mg_nobomb .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "Magician_bomb_used_9" .chance 100% .on_hit true .on_miss false .queue true .has_description false .apply_once true
+effect: .name "Magician Bomb2" .target "performer" .set_mode mg_bomb2 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "magician_bomb_used_1" .chance 100% .on_hit true .on_miss true .queue true .has_description false .apply_once true .buff_is_clear_debuff_valid false
+effect: .name "Magician Bomb3" .target "performer" .set_mode mg_bomb3 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "magician_bomb_used_2" .chance 100% .on_hit true .on_miss true .queue true .has_description false .apply_once true .buff_is_clear_debuff_valid false
+effect: .name "Magician Extra4" .target "performer" .set_mode mg_extra4 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "magician_bomb_used_3" .chance 100% .on_hit true .on_miss true .queue true .has_description false .apply_once true .buff_is_clear_debuff_valid false
+effect: .name "Magician Extra5" .target "performer" .set_mode mg_extra5 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "magician_bomb_used_4" .chance 100% .on_hit true .on_miss true .queue true .has_description false .apply_once true .buff_is_clear_debuff_valid false
+effect: .name "Magician Extra6" .target "performer" .set_mode mg_extra6 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "magician_bomb_used_5" .chance 100% .on_hit true .on_miss true .queue true .has_description false .apply_once true .buff_is_clear_debuff_valid false
+effect: .name "Magician Extra7" .target "performer" .set_mode mg_extra7 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "magician_bomb_used_6" .chance 100% .on_hit true .on_miss true .queue true .has_description false .apply_once true .buff_is_clear_debuff_valid false
+effect: .name "Magician Extra8" .target "performer" .set_mode mg_extra8 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "magician_bomb_used_7" .chance 100% .on_hit true .on_miss true .queue true .has_description false .apply_once true .buff_is_clear_debuff_valid false
+effect: .name "Magician Extra9" .target "performer" .set_mode mg_extra9 .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "magician_bomb_used_8" .chance 100% .on_hit true .on_miss true .queue true .has_description false .apply_once true .buff_is_clear_debuff_valid false
+effect: .name "Magician NoBomb" .target "performer" .set_mode mg_nobomb .duration -1 .buff_source_type bsrc_flashback_start .buff_ids "magician_bomb_used_9" .chance 100% .on_hit true .on_miss true .queue true .has_description false .apply_once true .buff_is_clear_debuff_valid false
 
 ////Funny Mushrooms
 

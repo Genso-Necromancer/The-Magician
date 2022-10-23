@@ -48,7 +48,7 @@
     	<entry id="magician_armour_2"><![CDATA[Witching Gown]]></entry>
     	<entry id="magician_armour_3"><![CDATA[Hunter's Garb]]></entry>
     	<entry id="magician_armour_4"><![CDATA["Star Wizard"]]></entry>
-    	<entry id="upgrade_tree_name_magician.armour"><![CDATA[Witch's Gown]]></entry>
+    	<entry id="upgrade_tree_name_magician.armour"><![CDATA[Hat & Dress]]></entry>
 		
 		<!-- Tool Tips -->
 			<!-- O SPACE CHARACTERS & MODES -->
@@ -124,16 +124,16 @@
 		1 pts/rd for 3rd{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt2"><![CDATA[ {colour_start|MGsplash}Contagion:{colour_end}
 		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (100%% base){colour_end} 
-		2 pts/rd for 3rd{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+		1 pts/rd for 3rd{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt3"><![CDATA[ {colour_start|MGsplash}Contagion:{colour_end}
 		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (110%% base){colour_end} 
 		2 pts/rd for 3rd{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt4"><![CDATA[ {colour_start|MGsplash}Contagion:{colour_end}
 		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (120%% base){colour_end} 
-		3 pts/rd for 3rd{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+		2 pts/rd for 3rd{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_eb_splash_tt5"><![CDATA[ {colour_start|MGsplash}Contagion:{colour_end}
 		{colour_start|blight}Blight{colour_end}{colour_start|skill_unselectable} (130%% base){colour_end} 
-		3 pts/rd for 3rd{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+		2 pts/rd for 3rd{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 				<!-- Powerful Drug {colour_start|skill_unselectable}(X%% base){colour_end}-->
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_pd_Heal_tt1"><![CDATA[ {colour_start|healhp}Heal{colour_end} 2-2]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_mg_pd_Heal_tt2"><![CDATA[ {colour_start|healhp}Heal{colour_end} 2-3]]></entry>
@@ -190,7 +190,7 @@
 		<entry id="str_inventory_title_supplymagician_bomb_camp"><![CDATA[Magician Bomb Tincture]]></entry>
 		<entry id="str_inventory_description_supplymagician_bomb_camp"><![CDATA[Increase your {colour_start|attacktype}Spell Card{colour_end} uses by {colour_start|notable}1{colour_end}! {colour_start|skill_unselectable}Disclaimer: Excessive drinking is bad for your health!{colour_end}]]></entry>
 		
-		<!-- Mushroom-->
+		<!-- Mushrooms -->
 		<entry id="str_inventory_title_supplymagician_healshroom_1"><![CDATA[Hourai Green-button 1]]></entry>
 		<entry id="str_inventory_description_supplymagician_healshroom_1"><![CDATA[{colour_start|healhp}Heal{colour_end}: 2
 		{colour_start|healhp}Regen{colour_end} 2/1

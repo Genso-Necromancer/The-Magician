@@ -1,20 +1,20 @@
 
 magician.sprite.investigate.png
-size: 361,279
+size: 762,575
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-investigate
+inspect
   rotate: true
-  xy: 2, 67
-  size: 210, 350
-  orig: 210, 350
+  xy: 2, 2
+  size: 571, 694
+  orig: 571, 694
   offset: 0, 0
   index: -1
 shadow
-  rotate: false
-  xy: 2, 2
-  size: 357, 63
-  orig: 357, 63
+  rotate: true
+  xy: 698, 216
+  size: 357, 62
+  orig: 357, 62
   offset: 0, 0
   index: -1
