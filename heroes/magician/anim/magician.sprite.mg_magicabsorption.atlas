@@ -1,0 +1,20 @@
+
+magician.sprite.mg_magicabsorption.png
+size: 975,650
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+magicabsorption
+  rotate: true
+  xy: 2, 2
+  size: 646, 907
+  orig: 646, 907
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 911, 291
+  size: 357, 62
+  orig: 357, 62
+  offset: 0, 0
+  index: -1

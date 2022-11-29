@@ -1,0 +1,20 @@
+
+magician.sprite.mg_riposteFX.png
+size: 1324,733
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+magic
+  rotate: false
+  xy: 941, 2
+  size: 381, 729
+  orig: 381, 729
+  offset: 0, 0
+  index: -1
+magic.png copy
+  rotate: true
+  xy: 2, 82
+  size: 649, 937
+  orig: 649, 937
+  offset: 0, 0
+  index: -1

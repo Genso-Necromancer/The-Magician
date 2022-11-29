@@ -1,0 +1,20 @@
+
+magician.sprite.mg_stardustmissile.png
+size: 971,515
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: true
+  xy: 907, 156
+  size: 357, 62
+  orig: 357, 62
+  offset: 0, 0
+  index: -1
+stardustmissile
+  rotate: false
+  xy: 2, 2
+  size: 903, 511
+  orig: 903, 511
+  offset: 0, 0
+  index: -1

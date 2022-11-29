@@ -1,0 +1,20 @@
+
+magician.sprite.mg_contagion1.png
+size: 374,191
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aura
+  rotate: true
+  xy: 2, 2
+  size: 187, 305
+  orig: 187, 305
+  offset: 0, 0
+  index: -1
+increment
+  rotate: false
+  xy: 309, 89
+  size: 63, 100
+  orig: 63, 100
+  offset: 0, 0
+  index: -1

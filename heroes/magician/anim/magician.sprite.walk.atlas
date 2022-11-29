@@ -1,34 +1,321 @@
 
 magician.sprite.walk.png
-size: 1570,572
+size: 2856,491
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-body
+belt_1
   rotate: false
+  xy: 396, 2
+  size: 133, 69
+  orig: 133, 69
+  offset: 0, 0
+  index: -1
+belt_2
+  rotate: true
   xy: 2, 2
-  size: 720, 568
-  orig: 720, 568
+  size: 157, 139
+  orig: 157, 139
   offset: 0, 0
   index: -1
-left leg
-  rotate: true
-  xy: 1446, 379
-  size: 191, 122
-  orig: 191, 122
+broom_bristle_bottom
+  rotate: false
+  xy: 1885, 107
+  size: 191, 178
+  orig: 191, 178
   offset: 0, 0
   index: -1
-right leg
+broom_bristle_top
   rotate: true
-  xy: 1446, 186
-  size: 191, 122
-  orig: 191, 122
+  xy: 2078, 92
+  size: 196, 198
+  orig: 196, 198
+  offset: 0, 0
+  index: -1
+broom_chains
+  rotate: true
+  xy: 2640, 74
+  size: 29, 140
+  orig: 29, 140
+  offset: 0, 0
+  index: -1
+broom_cross
+  rotate: false
+  xy: 2272, 2
+  size: 49, 65
+  orig: 49, 65
+  offset: 0, 0
+  index: -1
+broom_handle
+  rotate: false
+  xy: 2, 161
+  size: 793, 328
+  orig: 793, 328
+  offset: 0, 0
+  index: -1
+cape
+  rotate: true
+  xy: 797, 4
+  size: 485, 583
+  orig: 485, 583
+  offset: 0, 0
+  index: -1
+chest
+  rotate: true
+  xy: 2278, 69
+  size: 168, 192
+  orig: 168, 192
+  offset: 0, 0
+  index: -1
+ear
+  rotate: false
+  xy: 2278, 240
+  size: 33, 48
+  orig: 33, 48
+  offset: 0, 0
+  index: -1
+hair_back
+  rotate: false
+  xy: 1382, 157
+  size: 273, 332
+  orig: 273, 332
+  offset: 0, 0
+  index: -1
+hair_bangs
+  rotate: true
+  xy: 1761, 12
+  size: 122, 75
+  orig: 122, 75
+  offset: 0, 0
+  index: -1
+hair_fringe
+  rotate: true
+  xy: 1657, 136
+  size: 37, 158
+  orig: 37, 158
+  offset: 0, 0
+  index: -1
+hair_ponytail
+  rotate: true
+  xy: 603, 81
+  size: 78, 188
+  orig: 78, 188
+  offset: 0, 0
+  index: -1
+hat_1
+  rotate: false
+  xy: 1657, 287
+  size: 339, 202
+  orig: 339, 202
+  offset: 0, 0
+  index: -1
+hat_2
+  rotate: false
+  xy: 1998, 290
+  size: 334, 199
+  orig: 334, 199
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2566, 279
+  size: 112, 146
+  orig: 112, 146
+  offset: 0, 0
+  index: -1
+hips
+  rotate: false
+  xy: 1632, 24
+  size: 127, 110
+  orig: 127, 110
+  offset: 0, 0
+  index: -1
+leftarm_hand
+  rotate: true
+  xy: 2173, 3
+  size: 87, 97
+  orig: 87, 97
+  offset: 0, 0
+  index: -1
+leftarm_lower
+  rotate: false
+  xy: 1838, 18
+  size: 116, 87
+  orig: 116, 87
+  offset: 0, 0
+  index: -1
+leftarm_upper
+  rotate: true
+  xy: 2693, 343
+  size: 146, 161
+  orig: 146, 161
+  offset: 0, 0
+  index: -1
+leftleg_foot
+  rotate: false
+  xy: 716, 25
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+leftleg_heel
+  rotate: true
+  xy: 2069, 4
+  size: 86, 102
+  orig: 86, 102
+  offset: 0, 0
+  index: -1
+leftleg_lower
+  rotate: true
+  xy: 1382, 26
+  size: 129, 248
+  orig: 129, 248
+  offset: 0, 0
+  index: -1
+leftleg_toes
+  rotate: false
+  xy: 2782, 65
+  size: 59, 46
+  orig: 59, 46
+  offset: 0, 0
+  index: -1
+leftleg_upper
+  rotate: true
+  xy: 1657, 175
+  size: 110, 226
+  orig: 110, 226
+  offset: 0, 0
+  index: -1
+neck
+  rotate: true
+  xy: 2323, 24
+  size: 43, 104
+  orig: 43, 104
+  offset: 0, 0
+  index: -1
+rightarm_fingers
+  rotate: false
+  xy: 2778, 113
+  size: 71, 53
+  orig: 71, 53
+  offset: 0, 0
+  index: -1
+rightarm_lower
+  rotate: true
+  xy: 143, 2
+  size: 56, 131
+  orig: 56, 131
+  offset: 0, 0
+  index: -1
+rightarm_palm
+  rotate: false
+  xy: 2502, 4
+  size: 85, 54
+  orig: 85, 54
+  offset: 0, 0
+  index: -1
+rightarm_upper
+  rotate: false
+  xy: 2640, 105
+  size: 136, 151
+  orig: 136, 151
+  offset: 0, 0
+  index: -1
+rightleg_foot
+  rotate: false
+  xy: 2429, 2
+  size: 71, 56
+  orig: 71, 56
+  offset: 0, 0
+  index: -1
+rightleg_heel
+  rotate: true
+  xy: 612, 5
+  size: 74, 102
+  orig: 74, 102
+  offset: 0, 0
+  index: -1
+rightleg_lower
+  rotate: true
+  xy: 143, 60
+  size: 99, 251
+  orig: 99, 251
+  offset: 0, 0
+  index: -1
+rightleg_toes
+  rotate: false
+  xy: 531, 18
+  size: 79, 53
+  orig: 79, 53
+  offset: 0, 0
+  index: -1
+rightleg_upper
+  rotate: true
+  xy: 396, 73
+  size: 86, 205
+  orig: 86, 205
+  offset: 0, 0
+  index: -1
+scarf
+  rotate: false
+  xy: 1956, 22
+  size: 111, 83
+  orig: 111, 83
   offset: 0, 0
   index: -1
 shadow
   rotate: false
-  xy: 724, 2
-  size: 720, 568
-  orig: 720, 568
+  xy: 2334, 427
+  size: 357, 62
+  orig: 357, 62
+  offset: 0, 0
+  index: -1
+shirt_1
+  rotate: true
+  xy: 2680, 258
+  size: 83, 158
+  orig: 83, 158
+  offset: 0, 0
+  index: -1
+shirtthing_1
+  rotate: false
+  xy: 2589, 10
+  size: 80, 30
+  orig: 80, 30
+  offset: 0, 0
+  index: -1
+shirtthing_2
+  rotate: false
+  xy: 2640, 42
+  size: 84, 30
+  orig: 84, 30
+  offset: 0, 0
+  index: -1
+skirt_lower
+  rotate: false
+  xy: 2334, 239
+  size: 230, 186
+  orig: 230, 186
+  offset: 0, 0
+  index: -1
+skirt_upper
+  rotate: true
+  xy: 2472, 60
+  size: 177, 166
+  orig: 177, 166
+  offset: 0, 0
+  index: -1
+skirtthing_1
+  rotate: false
+  xy: 2778, 168
+  size: 76, 88
+  orig: 76, 88
+  offset: 0, 0
+  index: -1
+skirtthing_2
+  rotate: true
+  xy: 276, 2
+  size: 56, 91
+  orig: 56, 91
   offset: 0, 0
   index: -1

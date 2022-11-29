@@ -1,0 +1,62 @@
+
+magician.sprite.mg_magicabsorptionFX.png
+size: 1876,336
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Shine1
+  rotate: true
+  xy: 1707, 187
+  size: 147, 167
+  orig: 147, 167
+  offset: 0, 0
+  index: -1
+Shine2
+  rotate: true
+  xy: 1707, 38
+  size: 147, 167
+  orig: 147, 167
+  offset: 0, 0
+  index: -1
+big swirl
+  rotate: true
+  xy: 1364, 35
+  size: 299, 178
+  orig: 299, 178
+  offset: 0, 0
+  index: -1
+flicker
+  rotate: true
+  xy: 2, 12
+  size: 322, 452
+  orig: 322, 452
+  offset: 0, 0
+  index: -1
+glow
+  rotate: true
+  xy: 456, 12
+  size: 322, 452
+  orig: 322, 452
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 910, 12
+  size: 322, 452
+  orig: 322, 452
+  offset: 0, 0
+  index: -1
+split
+  rotate: true
+  xy: 1544, 63
+  size: 271, 161
+  orig: 271, 161
+  offset: 0, 0
+  index: -1
+swirl
+  rotate: true
+  xy: 1544, 2
+  size: 59, 57
+  orig: 59, 57
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+magician.sprite.mg_smPrfFx.png
+size: 1330,220
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blurr
+  rotate: false
+  xy: 518, 2
+  size: 467, 216
+  orig: 467, 216
+  offset: 0, 0
+  index: -1
+blurr2
+  rotate: false
+  xy: 2, 6
+  size: 514, 212
+  orig: 514, 212
+  offset: 0, 0
+  index: -1
+star missile
+  rotate: false
+  xy: 987, 93
+  size: 341, 125
+  orig: 341, 125
+  offset: 0, 0
+  index: -1

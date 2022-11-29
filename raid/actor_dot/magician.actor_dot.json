@@ -8,10 +8,46 @@
             [
                 
 				{
+                    "completion_chance": 0,
+                    "completion_effects":
+                    [
+						"Eco Contagion 1"
+					],
+                    "increment_effects":
+					[
+					 
+					]
+
+                },
+				{
+                    "completion_chance": 0,
+                    "completion_effects":
+                    [
+						"Eco Contagion 1"
+					],
+                    "increment_effects":
+					[
+					 
+					]
+
+                },
+				{
+                    "completion_chance": 0,
+                    "completion_effects":
+                    [
+						"Eco Contagion 1"
+					],
+                    "increment_effects":
+					[
+					 
+					]
+
+                },
+				{
                     "completion_chance": 1,
                     "completion_effects":
                     [
-						"Contagion Check", "Eco Contagion 1", "MG contagion 1"
+						"Eco Contagion 1"
 					],
                     "increment_effects":
 					[
@@ -28,10 +64,46 @@
             [
                 
 				{
+                    "completion_chance": 0,
+                    "completion_effects":
+                    [
+						"Eco Contagion 2"
+					],
+                    "increment_effects":
+					[
+					 
+					]
+
+                },
+				{
+                    "completion_chance": 0,
+                    "completion_effects":
+                    [
+						"Eco Contagion 2"
+					],
+                    "increment_effects":
+					[
+					 
+					]
+
+                },
+				{
+                    "completion_chance": 0,
+                    "completion_effects":
+                    [
+						"Eco Contagion 2"
+					],
+                    "increment_effects":
+					[
+					 
+					]
+
+                },
+				{
                     "completion_chance": 1,
                     "completion_effects":
                     [
-						"Contagion Check", "Eco Contagion 2", "MG contagion 2"
+						"Eco Contagion 2"
 					],
                     "increment_effects":
 					[
@@ -48,10 +120,46 @@
             [
                 
 				{
+                    "completion_chance": 0,
+                    "completion_effects":
+                    [
+						"Eco Contagion 3"
+					],
+                    "increment_effects":
+					[
+					 
+					]
+
+                },
+				{
+                    "completion_chance": 0,
+                    "completion_effects":
+                    [
+						"Eco Contagion 3"
+					],
+                    "increment_effects":
+					[
+					 
+					]
+
+                },
+				{
+                    "completion_chance": 0,
+                    "completion_effects":
+                    [
+						"Eco Contagion 3"
+					],
+                    "increment_effects":
+					[
+					 
+					]
+
+                },
+				{
                     "completion_chance": 1,
                     "completion_effects":
                     [
-						"Contagion Check", "Eco Contagion 3", "MG contagion 3"
+						"Eco Contagion 3"
 					],
                     "increment_effects":
 					[
@@ -68,10 +176,46 @@
             [
                 
 				{
+                    "completion_chance": 0,
+                    "completion_effects":
+                    [
+						"Eco Contagion 4"
+					],
+                    "increment_effects":
+					[
+					 
+					]
+
+                },
+				{
+                    "completion_chance": 0,
+                    "completion_effects":
+                    [
+						"Eco Contagion 4"
+					],
+                    "increment_effects":
+					[
+					 
+					]
+
+                },
+				{
+                    "completion_chance": 0,
+                    "completion_effects":
+                    [
+						"Eco Contagion 4"
+					],
+                    "increment_effects":
+					[
+					 
+					]
+
+                },
+				{
                     "completion_chance": 1,
                     "completion_effects":
                     [
-						"Contagion Check", "Eco Contagion 4", "MG contagion 4"
+						"Eco Contagion 4"
 					],
                     "increment_effects":
 					[
@@ -88,10 +232,46 @@
             [
                 
 				{
+                    "completion_chance": 0,
+                    "completion_effects":
+                    [
+						"Eco Contagion 5"
+					],
+                    "increment_effects":
+					[
+					 
+					]
+
+                },
+				{
+                    "completion_chance": 0,
+                    "completion_effects":
+                    [
+						"Eco Contagion 5"
+					],
+                    "increment_effects":
+					[
+					 
+					]
+
+                },
+				{
+                    "completion_chance": 0,
+                    "completion_effects":
+                    [
+						"Eco Contagion 5"
+					],
+                    "increment_effects":
+					[
+					 
+					]
+
+                },
+				{
                     "completion_chance": 1,
                     "completion_effects":
                     [
-						"Contagion Check", "Eco Contagion 5", "MG contagion 5"
+						"Eco Contagion 5"
 					],
                     "increment_effects":
 					[

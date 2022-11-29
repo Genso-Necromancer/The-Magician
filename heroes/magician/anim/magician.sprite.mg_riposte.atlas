@@ -1,0 +1,20 @@
+
+magician.sprite.mg_riposte.png
+size: 1130,775
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+riposte_nomag
+  rotate: true
+  xy: 2, 2
+  size: 771, 1062
+  orig: 771, 1062
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1066, 416
+  size: 357, 62
+  orig: 357, 62
+  offset: 0, 0
+  index: -1
